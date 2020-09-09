@@ -329,6 +329,10 @@
                     {
                         "name": "Mr. Pokémon",
                         "item_count": 1
+                    },
+					{
+                        "name": "Pokedex",
+                        "hosted_item": "pokedex"
                     }
                 ],
                 "map_locations": [
