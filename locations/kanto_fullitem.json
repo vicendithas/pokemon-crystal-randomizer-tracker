@@ -1,0 +1,551 @@
+[
+    {
+        "name": "Kanto Region",
+        "chest_unopened_img": "images/chests/default_unopened.png",
+        "chest_opened_img": "images/chests/default_opened.png",
+        "children": [
+            {
+                "name": "Celadon City",
+				"access_rules": ["@kanto_access"],
+                "sections": [
+                    {
+                        "name": "Gym Leader TM",
+                        "access_rules": ["@canUseCut"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Gym - Erika",
+                        "access_rules": ["@canUseCut"],
+                        "hosted_item": "erika"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "johto_kanto",
+                        "x": 2202,
+                        "y": 536,
+                    }
+                ]
+            },
+            {
+                "name": "Cerulean City",
+				"access_rules": ["@kanto_access"],
+                "sections": [
+                    {
+                        "name": "Rocket Member",
+                        "access_rules": ["power_plant_manager"],
+                        "item_count": 1,
+                    },                       
+                    {
+                        "name": "Gym - Misty",
+                        "access_rules": ["power_plant_manager, talk_misty"],
+                        "hosted_item": "misty"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "johto_kanto",
+                        "x": 2452,
+                        "y": 370,
+                    }
+                ]
+            },
+            {
+                "name": "Fuschia City",
+				"access_rules": ["@kanto_access"],
+                "sections": [
+                    {
+                        "name": "Gym Leader TM",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Gym - Janine",
+                        "hosted_item": "janine"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "johto_kanto",
+                        "x": 2370,
+                        "y": 1036,
+                    }
+                ]
+            },
+            {
+                "name": "Pewter City",
+                "access_rules": ["snorlax,@canUseCut", "@canUseSurf,@canUseWaterfall,$haveEightBadges,snorlax,[backward_kanto]"],
+                "sections": [
+                    {
+                        "name": "Old Man",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Gym - Brock",
+                        "hosted_item": "brock"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "johto_kanto",
+                        "x": 1956,
+                        "y": 370,
+                    }
+                ]
+            },
+            {
+                "name": "Rock Tunnel",
+                "access_rules": ["@kanto_access, [@canUseFlash]"],
+                "sections": [
+                    {
+                        "name": "1F Ground",
+                        "clear_as_group": false,
+                        "item_count": 2
+                    },
+                    {
+                        "name": "B1F Ground",
+                        "clear_as_group": false,
+                        "item_count": 3
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "johto_kanto",
+                        "x": 2784,
+                        "y": 370
+                    }
+                ]
+            },
+            {
+                "name": "Power Plant",
+                "access_rules": [ "@kanto_access, @canUseCut, @canUseSurf", "@kanto_access, [@canUseFlash], @canUseSurf"],
+                "sections": [
+                    {
+                        "name": "Talk To Manager",
+                        "hosted_item": "power_plant_manager"
+                    },
+                    {
+                        "name": "Fix Power Plant",
+                        "access_rules": ["machine_part"],
+                        "hosted_item": "fix_power_plant"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "johto_kanto",
+                        "x": 2784,
+                        "y": 454,
+                    }
+                ]
+            },
+            {
+                "name": "Route 12",
+				"access_rules": ["@kanto_access"],
+                "sections": [
+                    {
+                        "name": "Fisherman",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "First Ground Item",
+                        "access_rules": ["@canUseCut"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Second Ground Item",
+                        "access_rules": ["@canUseCut, @canUseSurf"],
+                        "item_count": 1
+                    }  
+                ],
+                "map_locations": [
+                    {
+                        "map": "johto_kanto",
+                        "x": 2784,
+                        "y": 704,
+                    }
+                ]
+            },
+            {
+                "name": "Route 15",
+				"access_rules": ["@kanto_access"],
+                "sections": [
+                    {
+                        "name": "Ground Item",
+                        "access_rules": ["@canUseCut"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "johto_kanto",
+                        "x": 2618,
+                        "y": 1036
+                    }
+                ]
+            },
+            {
+                "name": "Route 25",
+				"access_rules": ["@kanto_access"],
+                "sections": [
+                    {
+                        "name": "Ground Item",
+                        "access_rules": ["@canUseCut"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Defeat All Trainers",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Speak To Misty",
+                        "access_rules": ["power_plant_manager"],
+                        "hosted_item": "talk_misty"
+                    }  
+                ],
+                "map_locations": [
+                    {
+                        "map": "johto_kanto",
+                        "x": 2452,
+                        "y": 204
+                    }
+                ]
+            },
+            {
+                "name": "Route 4",
+				"access_rules": ["@Pewter City"],
+                "sections": [
+                    {
+                        "name": "Ground Item",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "johto_kanto",
+                        "x": 2317,
+                        "y": 370
+                    }
+                ]
+            },
+            {
+                "name": "Route 2",
+				"access_rules": ["snorlax"],
+                "sections": [
+                    {
+                        "name": "Outside The Cave",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "House Item",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Cut Locked Item",
+                        "access_rules": ["@canUseCut"],
+                        "item_count": 1
+                    },
+                    {   
+                        "name": "After The Bushes",
+                        "access_rules": ["@canUseCut", "$haveEightBadges, @canUseWaterfall, [backward_kanto]"],
+                        "clear_as_group": false,
+                        "item_count": 2
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "johto_kanto",
+                        "x": 1956,
+                        "y": 455
+                    }
+                ]
+            },
+            {
+                "name": "Route 5",
+				"access_rules": ["@kanto_access"],
+                "sections": [
+                    {
+                        "name": "House Item",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "johto_kanto",
+                        "x": 2452,
+                        "y": 454	
+                    }
+                ]
+            },
+            {
+                "name": "Route 28",
+                "access_rules": ["oak"],
+                "sections": [
+                    {
+                        "name": "House Item",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "johto_kanto",
+                        "x": 1540,
+                        "y": 536	
+                    }
+                ]
+            },
+            {
+                "name": "Saffron City",
+				"access_rules": ["@kanto_access"],
+                "sections": [
+                    {
+                        "name": "Silph Co. Guard",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "TM Gift",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Fighting Dojo",
+                        "item_count": 1
+                    },	
+                    {
+                        "name": "Copycat Girl",
+                        "access_rules": ["lost_item"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Gym - Sabrina",
+                        "hosted_item": "sabrina"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "johto_kanto",
+                        "x": 2452,
+                        "y": 536,
+                    }
+                ]
+            },
+            {
+                "name": "Vermilion City",
+				"access_rules": ["@kanto_access"],
+                "sections": [
+                    {
+                        "name": "Pokémon Fan Club Chairman",
+                        "item_count": 1,
+                    },
+                    {
+                        "name": "Pokémon Fan Doll",
+                        "access_rules": ["fix_power_plant"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Gym - Lt. Surge",
+                        "access_rules": ["@canUseCut", "@canUseSurf"],
+                        "hosted_item": "lt-surge"
+                    },
+                    {
+                        "name": "Wake Up Snorlax",
+                        "access_rules": ["expansion_card"],
+                        "hosted_item": "snorlax"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "johto_kanto",
+                        "x": 2452,
+                        "y": 704,
+                    }
+                ]
+            },
+            {
+                "name": "Lavender Town",
+				"access_rules": ["@kanto_access"],
+                "sections": [
+                    {
+                        "name": "Expansion Card",
+                        "access_rules": ["fix_power_plant, radio_card"],
+                        "hosted_item": "expansion_card"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "johto_kanto",
+                        "x": 2784,
+                        "y": 536,
+                    }
+                ]
+            },
+            {
+                "name": "Cinnabar Island",
+                "access_rules": ["@Pewter City"],
+                "sections": [
+                    {
+                        "name": "Talk to Blue",
+                        "hosted_item": "talk_blue"
+                    },
+                ],
+                "map_locations": [
+                    {
+                        "map": "johto_kanto",
+                        "x": 1956,
+                        "y": 1202,
+                    }
+                ]
+            },
+            {
+                "name": "Seafoam Island Cave",
+                "access_rules": ["@Pewter City"],
+                "sections": [
+                    {
+                        "name": "Gym - Blaine",
+                        "hosted_item": "blaine"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "johto_kanto",
+                        "x": 2117,
+                        "y": 1202,
+                    }
+                ]
+            },
+            {
+                "name": "Pallet Town",
+                "access_rules": ["@Pewter City"],
+                "sections": [
+                    {
+                        "name": "Talk To Oak",
+						"access_rules": ["$haveAllBadges"],
+                        "hosted_item": "oak"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "johto_kanto",
+                        "x": 1954,
+                        "y": 953
+                    }
+                ]
+            },
+            {
+                "name": "Viridian City",
+				"access_rules": ["@Pewter City"],
+                "sections": [
+                    {
+                        "name": "TM Gift",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Gym - Blue",
+                        "access_rules": ["talk_blue"],
+                        "hosted_item": "blue"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "johto_kanto",
+                        "x": 1956,
+                        "y": 622,
+                    }
+                ]
+            },
+            {
+                "name": "Tohjo Falls",
+                "access_rules": ["@canUseSurf"],
+                "sections": [
+                    {
+                        "name": "Inside The Falls",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "johto_kanto",
+                        "x": 1540,
+                        "y": 868,
+                    }
+                ]
+            },
+            {
+                "name": "Route 27",
+                "sections": [
+                    {
+                        "name": "Before The Waterfall",
+                        "access_rules": ["@canUseSurf"],
+                        "item_count": 1
+                    },                    
+                    {
+                        "name": "After The Waterfall",
+                        "access_rules": ["@canUseSurf, @canUseWaterfall, @canUseWhirlpool", "@canUseSurf, @canUseWhirlpool, @canuseCut, snorlax"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "johto_kanto",
+                        "x": 1700,
+                        "y": 868,
+                    }
+                ]
+            },
+            {
+                "name": "Route 26",
+                "access_rules": ["@canUseSurf, @canUseWaterfall", "@canuseCut, snorlax"],
+                "sections": [
+                    {
+                        "name": "Ground Item",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "johto_kanto",
+                        "x": 1700,
+                        "y": 622
+                    }
+                ]
+            },
+            {
+                "name": "Victory Road",
+                "access_rules": ["@canUseSurf, @canUseWaterfall, $haveEightBadges", "@canUseCut, snorlax"],
+                "sections": [
+                    {
+                        "name": "1F Ground",
+                        "clear_as_group": false,
+                        "item_count": 2
+                    },
+                    {
+                        "name": "2F Ground",
+                        "clear_as_group": false,
+                        "item_count": 3
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "johto_kanto",
+                        "x": 1700,
+                        "y": 370
+                    }
+                ]
+            },
+			{
+				"name": "Indigo Plateau",
+				"access_rules": ["@Pewter City", "$haveEightBadges,@canUseSurf,@canUseWaterfall"],
+				"sections": [
+					{
+						"name": "Pokémon League",
+						"hosted_item": "elite_four"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "johto_kanto",
+						"x": 1704,
+						"y": 204,
+					}
+				]
+			}
+		]
+    }    
+]

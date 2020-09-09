@@ -1,0 +1,16 @@
+﻿{
+    "name": "Pokémon Crystal Randomizer Tracker by Vicendithas",
+    "game_name": "Pokémon Crystal",
+    "platform": "gb",
+    "package_version": "1.0.0",
+    "package_uid": "pokemon_crystal_randomizer_vicendithas",
+    "author": "Vicendithas",
+    "variants": {
+        "keyitem": {
+            "display_name": "Key Item and Badge Randomizer"
+        },
+        "fullitem": {
+            "display_name": "Full Item and Badge Randomizer"
+        }
+    }
+}

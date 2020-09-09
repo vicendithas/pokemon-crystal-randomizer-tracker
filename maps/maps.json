@@ -1,0 +1,26 @@
+﻿[
+    {
+        "name": "johto_kanto",
+		"location_size": 80,
+		"location_border_thickness": 5,
+        "img": "images/maps/johto_kanto.png"
+    },
+	{
+        "name": "rock_tunnel",
+		"location_size": 80,
+		"location_border_thickness": 5,
+        "img": "images/maps/rock_tunnel.png"
+    },
+	{
+        "name": "mt_silver",
+		"location_size": 80,
+		"location_border_thickness": 5,
+        "img": "images/maps/mt_silver.png"
+    },
+		{
+        "name": "dark_cave",
+		"location_size": 80,
+		"location_border_thickness": 5,
+        "img": "images/maps/dark_cave.png"
+    }
+]

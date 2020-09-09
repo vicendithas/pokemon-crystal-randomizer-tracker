@@ -1,0 +1,122 @@
+{
+    "tracker_items": {
+        "type": "array",
+        "orientation": "horizontal",
+        "content": [
+            {
+                "type": "itemgrid",
+                "h_alignment": "left",
+                "item_margin": "1,2",
+                "rows": [
+					[
+                        "pokedex",
+                        "phone_card",
+                        "map_card",
+                        "radio_card",
+                        "expansion_card",
+						"", "", ""
+                    ],
+                    [
+                        "old_rod",
+                        "good_rod",
+                        "super_rod",
+                        "bicycle",
+                        "ss_ticket",
+                        "pass",
+						"", ""
+                    ],
+                    [
+                        "squirt_bottle",
+                        "secret_potion",
+                        "card_key",
+                        "machine_part",
+						"basement_key",
+                        "lost_item",
+						"water_stone",
+						""
+                    ],
+                    [
+                        "mystery_egg",
+                        "coin_case",
+                        "blue_card",
+                        "item_finder",
+                        "red_scale",
+                        "clear_bell",
+                        "silver_wing",
+						""
+                    ],
+                    [
+                        "hm01",
+                        "hm02",
+                        "hm03",
+                        "hm04",
+                        "hm05",
+                        "hm06",
+                        "hm07",
+						"tm08"
+                    ],
+                    [
+                        "zephyr_badge",
+                        "hive_badge",
+                        "plain_badge",
+                        "fog_badge",
+                        "storm_badge",
+                        "mineral_badge",
+                        "glacier_badge",
+                        "rising_badge"
+                    ],
+                    [
+                        "boulder_badge",
+                        "cascade_badge",
+                        "thunder_badge",
+                        "rainbow_badge",
+                        "soul_badge",
+                        "marsh_badge",
+                        "volcano_badge",
+                        "earth_badge"
+                    ]
+                ]
+            },
+            {
+                "type": "itemgrid",
+                "v_alignment": "top",
+                "item_margin": "1,2",
+                "rows": [
+					[ "backward_kanto" ],
+                    [ "team_rocket_badges" ],
+                    [ "team_rocket" ],
+                    [ "elite_four" ],
+					[ "red" ],
+					[ "go" ]
+                ]
+            }
+        ]
+    },
+    "tracker_capture_badge": {
+        "type": "itemgrid",
+        "h_alignment": "center",
+        "item_margin": "1,2",
+        "rows": [
+            [
+                "zephyr_badge",
+                "hive_badge",
+                "plain_badge",
+                "fog_badge",
+                "storm_badge",
+                "mineral_badge",
+                "glacier_badge",
+                "rising_badge"
+            ],
+            [
+                "boulder_badge",
+                "cascade_badge",
+                "thunder_badge",
+                "rainbow_badge",
+                "soul_badge",
+                "marsh_badge",
+                "volcano_badge",
+                "earth_badge"
+            ]
+        ]
+    }
+}

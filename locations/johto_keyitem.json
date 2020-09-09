@@ -1,0 +1,431 @@
+[
+    {
+        "name": "Johto Region",
+        "chest_unopened_img": "images/chests/default_unopened.png",
+        "chest_opened_img": "images/chests/default_opened.png",
+        "children": [
+            {
+                "name": "Azalea Town",
+                "sections": [
+                    {
+                        "name": "Gym - Bugsy",
+						"access_rules": ["rocketgrunt"],
+                        "hosted_item": "bugsy"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "johto_kanto",
+                        "x": 620,
+                        "y": 1118
+                    }
+                ]
+            },
+            {
+                "name": "Blackthorn City",
+                "access_rules": ["@Ecruteak City,@canUseStrength,$canFightTeamRocket"],
+                "sections": [
+                    {
+                        "name": "Gym - Clair",
+                        "access_rules": ["team_rocket"],
+                        "hosted_item": "clair"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "johto_kanto",
+                        "x": 1285,
+                        "y": 286
+                    }
+                ]
+            },
+            {
+                "name": "Cianwood City",
+                "access_rules": ["@Ecruteak City,@canUseSurf"],
+                "sections": [
+                    {
+                        "name": "Pharmacy",
+                        "access_rules": ["talk_jasmine"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Chuck's Wife",
+                        "access_rules": ["chuck"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Gym - Chuck",
+                        "access_rules": ["@canUseStrength"],
+                        "hosted_item": "chuck"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "johto_kanto",
+                        "x": 116,
+                        "y": 868
+                    }
+                ]
+            },
+            {
+                "name": "Ecruteak City",
+                "access_rules": ["squirt_bottle","pass,ss_ticket,partyegg"],
+                "sections": [
+                    {
+                        "name": "House",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Kimono Girls",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Gym - Morty",
+                        "hosted_item": "morty"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "johto_kanto",
+                        "x": 616,
+                        "y": 286
+                    }
+                ]
+            },
+            {
+                "name": "Goldenrod",
+                "access_rules": ["squirt_bottle", "partyegg"],
+                "children": [
+                    {
+                        "name": "Goldenrod City",
+                        "sections": [                           
+                            {
+                                "name": "Bike Shop",
+                                "item_count": 1
+                            },
+                            {
+                                "name": "Flower Shop",
+                                "access_rules": ["plain_badge"],
+                                "item_count": 1
+                            },
+                            {
+                                "name": "Gym - Whitney",
+                                "hosted_item": "whitney"
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "johto_kanto",
+                                "x": 454,
+                                "y": 788
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Goldenrod Radio Tower",
+                        "sections": [
+                            {   
+                                "name": "Radio Card",
+                                "hosted_item": "radio_card"
+                            },
+                            {
+                                "name": "Buena",
+                                "item_count": 1
+                            },
+                            {
+                                "name": "False Director",
+                                "access_rules": ["$canFightTeamRocket"],
+                                "item_count": 1
+                            },
+                            {
+                                "name": "Defeat Team Rocket",
+                                "access_rules": ["$canFightTeamRocket,card_key"],
+                                "hosted_item": "team_rocket"
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "johto_kanto",
+                                "x": 384,
+                                "y": 788
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Goldenrod Underground",
+                        "sections": [
+                            {
+                                "name": "Shops",
+                                "item_count": 1
+                            },
+                            {
+                                "name": "Save The Director",
+                                "access_rules": ["basement_key"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "johto_kanto",
+                                "x": 422,
+                                "y": 722
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Ice Path",
+                "access_rules": ["@Ecruteak City, $canFightTeamRocket"],
+                "sections": [
+                    {
+                        "name": "Entrance",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "johto_kanto",
+                        "x": 1205,
+                        "y": 206
+                    }
+                ]
+            },
+            {
+                "name": "Ilex Forest",
+                "sections": [
+                    {
+                        "name": "Retrieve Farfetch'd",
+                        "access_rules": ["rocketgrunt"], 
+                        "hosted_item": "farfetch'd"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "johto_kanto",
+                        "x": 454,
+                        "y": 1118
+                    }
+                ]
+            },
+            {
+                "name": "Lake of Rage",
+                "access_rules": ["@Ecruteak City"],
+                "sections": [
+                    {
+                        "name": "Red Gyarados",
+                        "access_rules": ["@canUseSurf"],
+                        "hosted_item": "red_gyarados"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "johto_kanto",
+                        "x": 1035,
+                        "y": 126
+                    }
+                ]
+            },
+            {
+                "name": "Mahogany Town",
+                "access_rules": ["@Ecruteak City"],
+                "sections": [
+                    {
+                        "name": "Defeat The Electrodes",
+                        "access_rules": ["red_gyarados"],
+                        "hosted_item": "electrode"
+                    },
+                    {
+                        "name": "Gym - Pryce",
+                        "access_rules": ["electrode"],
+                        "hosted_item": "pryce"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "johto_kanto",
+                        "x": 1035,
+                        "y": 286
+                    }
+                ]
+            },
+            {
+                "name": "Mt. Silver",
+                "access_rules": ["oak"],
+                "sections": [
+                    {
+                        "name": "Red",
+                        "access_rules": ["elite_four"],
+                        "hosted_item": "red"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "johto_kanto",
+                        "x": 1450,
+                        "y": 536
+                    }
+                ]
+            },
+            {
+                "name": "New Bark Town",
+                "sections": [
+					{
+                        "name": "Phone Card",
+                        "hosted_item": "phone_card"
+                    },
+                    {
+                        "name": "Defeat Elite Four",
+                        "access_rules": ["elite_four"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "johto_kanto",
+                        "x": 1365,
+                        "y": 868
+                    }
+                ]
+            },
+            {
+                "name": "Olivine City",
+                "access_rules": ["@Ecruteak City"],
+                "sections": [
+                    {
+                        "name": "Fisherman",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Cafe",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Lighthouse - Talk to Jasmine",
+                        "hosted_item": "talk_jasmine"
+                    },
+					{
+                        "name": "Lighthouse - Return Secretpotion",
+						"access_rules": ["secret_potion"],
+                        "hosted_item": "return_potion"
+                    },
+                    {
+                        "name": "Gym - Jasmine",
+                        "access_rules": ["return_potion"],
+                        "hosted_item": "jasmine"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "johto_kanto",
+                        "x": 285,
+                        "y": 456
+                    }
+                ]
+            },
+            {
+                "name": "Route 30",
+                "sections": [
+                    {
+                        "name": "Mr. Pokémon",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "johto_kanto",
+                        "x": 948,
+                        "y": 656
+                    }
+                ]
+            },
+            {
+                "name": "Route 32",
+                "access_rules": ["squirt_bottle", "partyegg"],     
+                "sections": [                       
+                    {    
+                        "name": "Pokémon Center",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "johto_kanto",
+                        "x": 784,
+                        "y": 788
+                    }
+                ]
+            },
+            {
+                "name": "Violet City",
+                "sections": [
+                    {
+                        "name": "Gym - Falkner",
+                        "hosted_item": "falkner"
+                    },
+                    {
+                        "name": "Receive Egg From Aid",
+                        "access_rules": ["falkner"],
+                        "hosted_item": "partyegg"
+                    }   
+                ],
+                "map_locations": [
+                    {
+                        "map": "johto_kanto",
+                        "x": 784,
+                        "y": 456
+                    }
+                ]
+            },
+            {
+                "name": "Sprout Tower",
+                "sections": [
+                    {
+                        "name": "Defeat The Elder",
+                        "item_count": 1
+                    }                            
+                ],
+                "map_locations": [
+                    {
+                        "map": "johto_kanto",
+                        "x": 784,
+                        "y": 371
+                    }
+                ]
+            },
+            {
+                "name": "Cherrygrove City",
+                "sections": [
+                    {
+                        "name": "Map Card",
+                        "hosted_item": "map_card"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "johto_kanto",
+                        "x": 948,
+                        "y": 868
+                    }
+                ]
+            },
+            {
+                "name": "Slowpoke Well",
+                "access_rules": ["squirt_bottle", "partyegg"], 
+                "sections": [
+                    {
+                        "name": "Defeat Team Rocket",
+                        "hosted_item": "rocketgrunt"
+                    },
+                ],
+                "map_locations": [
+                    {
+                        "map": "johto_kanto",
+                        "x": 650,
+                        "y": 1040
+                    }
+                ]
+            }
+        ]
+    }
+]

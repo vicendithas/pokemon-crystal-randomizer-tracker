@@ -1,0 +1,545 @@
+[
+    {
+        "name": "PokeDex",
+        "type": "toggle",
+        "img": "images/items/pokedex.png",
+        "codes": "pokedex"
+    },
+	{
+        "name": "Phone Card",
+        "type": "toggle",
+        "img": "images/items/phone_card.png",
+        "codes": "phone_card"
+    },
+	{
+        "name": "Map Card",
+        "type": "toggle",
+        "img": "images/items/map_card.png",
+        "codes": "map_card"
+    },
+	{
+        "name": "Radio Card",
+        "type": "toggle",
+        "img": "images/items/radio_card.png",
+        "codes": "radio_card"
+    },
+	{
+        "name": "Expansion Card",
+        "type": "toggle",
+        "img": "images/items/expansion_card.png",
+        "codes": "expansion_card"
+    },
+	{
+        "name": "Old Rod",
+        "type": "toggle",
+        "img": "images/items/old_rod.png",
+        "codes": "old_rod"
+    },
+	{
+        "name": "Good Rod",
+        "type": "toggle",
+        "img": "images/items/good_rod.png",
+        "codes": "good_rod"
+    },
+	{
+        "name": "Super Rod",
+        "type": "toggle",
+        "img": "images/items/super_rod.png",
+        "codes": "super_rod"
+    },
+	{
+        "name": "Bicycle",
+        "type": "toggle",
+        "img": "images/items/bicycle.png",
+        "codes": "bicycle"
+    },
+	{
+        "name": "S.S. Ticket",
+        "type": "toggle",
+        "img": "images/items/ss_ticket.png",
+        "codes": "ss_ticket"
+    },
+	{
+        "name": "Pass",
+        "type": "toggle",
+        "img": "images/items/pass.png",
+        "codes": "pass"
+    },
+	{
+        "name": "Squirt Bottle",
+        "type": "toggle",
+        "img": "images/items/squirt_bottle.png",
+        "codes": "squirt_bottle"
+    },
+	{
+        "name": "Secret Potion",
+        "type": "toggle",
+        "img": "images/items/secret_potion.png",
+        "codes": "secret_potion"
+    },
+	{
+        "name": "Basement Key",
+        "type": "toggle",
+        "img": "images/items/basement_key.png",
+        "codes": "basement_key"
+    },
+	{
+        "name": "Card Key",
+        "type": "toggle",
+        "img": "images/items/card_key.png",
+        "codes": "card_key"
+    },
+	{
+        "name": "Machine Part",
+        "type": "toggle",
+        "img": "images/items/machine_part.png",
+        "codes": "machine_part"
+    },
+	{
+        "name": "Lost Item",
+        "type": "toggle",
+        "img": "images/items/lost_item.png",
+        "codes": "lost_item"
+    },
+	{
+        "name": "Water Stone",
+        "type": "toggle",
+        "img": "images/items/water_stone.png",
+        "codes": "water_stone"
+    },
+	{
+        "name": "Mystery Egg",
+        "type": "toggle",
+        "img": "images/items/mystery_egg.png",
+        "codes": "mystery_egg"
+    },
+	{
+        "name": "Coin Case",
+        "type": "toggle",
+        "img": "images/items/coin_case.png",
+        "codes": "coin_case"
+    },
+    {
+        "name": "Blue Card",
+        "type": "toggle",
+        "img": "images/items/blue_card.png",
+        "codes": "blue_card"
+    },
+	{
+        "name": "Itemfinder",
+        "type": "toggle",
+        "img": "images/items/item_finder.png",
+        "codes": "item_finder"
+    },
+	{
+        "name": "Red Scale",
+        "type": "toggle",
+        "img": "images/items/red_scale.png",
+        "codes": "red_scale"
+    },
+    {
+        "name": "Clear Bell",
+        "type": "toggle",
+        "img": "images/items/clear_bell.png",
+        "codes": "clear_bell"
+    },
+    {
+        "name": "Silver Wing",
+        "type": "toggle",
+        "img": "images/items/silver_wing.png",
+        "codes": "silver_wing"
+    },
+    {
+        "name": "HM01 Cut",
+        "type": "toggle",
+        "img": "images/items/hm01.png",
+        "codes": "hm01"
+    },
+    {
+        "name": "HM02 Fly",
+        "type": "toggle",
+        "img": "images/items/hm02.png",
+        "codes": "hm02"
+    },
+    {
+        "name": "HM03 Surf",
+        "type": "toggle",
+        "img": "images/items/hm03.png",
+        "codes": "hm03"
+    },
+    {
+        "name": "HM04 Strength",
+        "type": "toggle",
+        "img": "images/items/hm04.png",
+        "codes": "hm04"
+    },
+    {
+        "name": "HM05 Flash",
+        "type": "toggle",
+        "img": "images/items/hm05.png",
+        "codes": "hm05"
+    },
+    {
+        "name": "HM06 Whirlpool",
+        "type": "toggle",
+        "img": "images/items/hm06.png",
+        "codes": "hm06"
+    },
+    {
+        "name": "HM07 Waterfall",
+        "type": "toggle",
+        "img": "images/items/hm07.png",
+        "codes": "hm07"
+    },
+	{
+        "name": "TM08 Rock Smash",
+        "type": "toggle",
+        "img": "images/items/tm08.png",
+        "codes": "tm08"
+    },
+	    {
+        "name": "Zephyr Badge",
+        "type": "toggle",
+        "img": "images/badges/zephyr_badge.png",
+        "codes": "zephyr_badge,badge"
+    },
+    {
+        "name": "Hive Badge",
+        "type": "toggle",
+        "img": "images/badges/hive_badge.png",
+        "codes": "hive_badge,badge"
+    },
+    {
+        "name": "Plain Badge",
+        "type": "toggle",
+        "img": "images/badges/plain_badge.png",
+        "codes": "plain_badge,badge"
+    },
+    {
+        "name": "Fog Badge",
+        "type": "toggle",
+        "img": "images/badges/fog_badge.png",
+        "codes": "fog_badge,badge"
+    },
+    {
+        "name": "Storm Badge",
+        "type": "toggle",
+        "img": "images/badges/storm_badge.png",
+        "codes": "storm_badge,badge"
+    },
+    {
+        "name": "Mineral Badge",
+        "type": "toggle",
+        "img": "images/badges/mineral_badge.png",
+        "codes": "mineral_badge,badge"
+    },
+    {
+        "name": "Glacier Badge",
+        "type": "toggle",
+        "img": "images/badges/glacier_badge.png",
+        "codes": "glacier_badge,badge"
+    },
+    {
+        "name": "Rising Badge",
+        "type": "toggle",
+        "img": "images/badges/rising_badge.png",
+        "codes": "rising_badge,badge"
+    },
+    {
+        "name": "Boulder Badge",
+        "type": "toggle",
+        "img": "images/badges/boulder_badge.png",
+        "codes": "boulder_badge,badge"
+    },
+    {
+        "name": "Cascade Badge",
+        "type": "toggle",
+        "img": "images/badges/cascade_badge.png",
+        "codes": "cascade_badge,badge"
+    },
+    {
+        "name": "Thunder Badge",
+        "type": "toggle",
+        "img": "images/badges/thunder_badge.png",
+        "codes": "thunder_badge,badge"
+    },
+    {
+        "name": "Rainbow Badge",
+        "type": "toggle",
+        "img": "images/badges/rainbow_badge.png",
+        "codes": "rainbow_badge,badge"
+    },
+    {
+        "name": "Soul Badge",
+        "type": "toggle",
+        "img": "images/badges/soul_badge.png",
+        "codes": "soul_badge,badge"
+    },
+    {
+        "name": "Marsh Badge",
+        "type": "toggle",
+        "img": "images/badges/marsh_badge.png",
+        "codes": "marsh_badge,badge"
+    },
+    {
+        "name": "Volcano Badge",
+        "type": "toggle",
+        "img": "images/badges/volcano_badge.png",
+        "codes": "volcano_badge,badge"
+    },
+    {
+        "name": "Earth Badge",
+        "type": "toggle",
+        "img": "images/badges/earth_badge.png",
+        "codes": "earth_badge,badge"
+    },
+	{
+        "name": "Backward Kanto",
+        "type": "toggle",
+        "img": "images/other/backward_kanto.png",
+        "disabled_img": "images/other/backward_kanto_no.png",
+        "disabled_img_mods": "brightness|1",
+        "codes": "backward_kanto"
+    },	
+	{
+        "name": "Team Rocket Required Badges",
+        "type": "consumable",
+        "img": "images/other/team_rocket.png",
+        "codes": "team_rocket_badges",
+        "swap_actions" :true,
+        "max_quantity": 7,
+        "min_quantity": 4,
+        "increment": 3,
+        "initial_quantity": 7
+    },
+    {
+        "name": "Defeat Team Rocket",
+        "type": "toggle",
+        "img": "images/other/team_rocket_defeated.png",
+        "disabled_img": "images/other/team_rocket.png",
+        "disabled_img_mods": "brightness|1",
+        "codes": "team_rocket"
+    },
+    {
+        "name": "Elite Four",
+        "type": "toggle",
+        "img": "images/other/trophy.png",
+        "codes": "elite_four"
+    },
+    {
+        "name": "Red",
+        "type": "toggle",
+        "img": "images/other/red.png",
+        "codes": "red"
+    },
+    {
+        "name": "GO MODE",
+        "type": "toggle",
+        "img": "images/other/go.png",
+        "codes": "go"
+    },
+	{
+        "name": "Rock Smash Guy",
+        "type": "toggle",
+        "img": "images/other/power_plant_manager.png",
+        "codes": "rocksmashguy"
+    },
+    {
+        "name": "Pick Up Kenya",
+        "type": "toggle",
+        "img": "images/other/farfetch'd.png",
+        "codes": "kenya"
+    },
+    {
+        "name": "Deliver Mail",
+        "type": "toggle",
+        "img": "images/other/power_plant_manager.png",
+        "codes": "mail"
+    },
+	{
+        "name": "Defeat Team Rocket",
+        "type": "toggle",
+        "img": "images/other/rocketgrunt.png",
+        "codes": "rocketgrunt"
+    },
+    {
+        "name": "Retrieve Farfetch'd",
+        "type": "toggle",
+        "img": "images/other/farfetch'd.png",
+        "codes": "farfetch'd"
+    },
+    {
+        "name": "Defeat The Electrodes",
+        "type": "toggle",
+        "img": "images/other/electrode.png",
+        "codes": "electrode"
+    },
+	{
+        "name": "Squirt The Tree",
+        "type": "toggle",
+        "img": "images/other/sudowoodo.png",
+        "codes": "sudowoodo"
+    },
+    {
+        "name": "Talk To Oak",
+        "type": "toggle",
+        "img": "images/other/oak.png",
+        "codes": "oak"
+    },
+    {
+        "name": "Elm",
+        "type": "toggle",
+        "img": "images/other/elm.png",
+        "codes": "Elm"
+    },
+    {
+        "name": "Party Egg",
+        "type": "toggle",
+        "img": "images/items/mystery_egg.png",
+        "codes": "partyegg"
+    },
+	{
+        "name": "Snorlax",
+        "type": "toggle",
+        "img": "images/other/snorlax.png",
+        "codes": "snorlax"
+    },
+    {
+        "name": "Talk to Jasmine",
+        "type": "toggle",
+        "img": "images/gyms/jasmine.png",
+        "codes": "talk_jasmine"
+    },
+	{
+        "name": "Return Secretpotion",
+        "type": "toggle",
+        "img": "images/items/secret_potion.png",
+        "codes": "return_potion"
+    },
+    {
+        "name": "Talk to Blue",
+        "type": "toggle",
+        "img": "images/gyms/blue.png",
+        "codes": "talk_blue"
+    },
+	{
+        "name": "Talk to Misty",
+        "type": "toggle",
+        "img": "images/gyms/misty.png",
+        "codes": "talk_misty"
+    },
+    {
+        "name": "Talk to Power Plant Manager",
+        "type": "toggle",
+        "img": "images/other/power_plant_manager.png",
+        "codes": "power_plant_manager"
+    },
+    {
+        "name": "Fix Power Plant",
+        "type": "toggle",
+        "img": "images/other/fix_power_plant.png",
+        "codes": "fix_power_plant"
+    },
+	{
+        "name": "Red Gyarados",
+        "type": "toggle",
+        "img": "images/other/red_gyarados.png",
+        "codes": "red_gyarados"
+    },
+	{
+        "name": "Falkner",
+        "type": "toggle",
+        "img": "images/gyms/falkner.png",
+        "codes": "falkner"
+    },
+	{
+        "name": "Bugsy",
+        "type": "toggle",
+        "img": "images/gyms/bugsy.png",
+        "codes": "bugsy"
+    },
+	{
+        "name": "Whitney",
+        "type": "toggle",
+        "img": "images/gyms/whitney.png",
+        "codes": "whitney"
+    },
+	{
+        "name": "Morty",
+        "type": "toggle",
+        "img": "images/gyms/morty.png",
+        "codes": "morty"
+    },
+	{
+        "name": "Jasmine",
+        "type": "toggle",
+        "img": "images/gyms/jasmine.png",
+        "codes": "jasmine"
+    },
+	{
+        "name": "Chuck",
+        "type": "toggle",
+        "img": "images/gyms/chuck.png",
+        "codes": "chuck"
+    },
+	{
+        "name": "Pryce",
+        "type": "toggle",
+        "img": "images/gyms/pryce.png",
+        "codes": "pryce"
+    },
+	{
+        "name": "Clair",
+        "type": "toggle",
+        "img": "images/gyms/clair.png",
+        "codes": "clair"
+    },
+	{
+        "name": "Brock",
+        "type": "toggle",
+        "img": "images/gyms/brock.png",
+        "codes": "brock"
+    },
+	{
+        "name": "Misty",
+        "type": "toggle",
+        "img": "images/gyms/misty.png",
+        "codes": "misty"
+    },
+	{
+        "name": "Lt. Surge",
+        "type": "toggle",
+        "img": "images/gyms/lt-surge.png",
+        "codes": "lt-surge"
+    },
+	{
+        "name": "Erika",
+        "type": "toggle",
+        "img": "images/gyms/erika.png",
+        "codes": "erika"
+    },
+	{
+        "name": "Janine",
+        "type": "toggle",
+        "img": "images/gyms/janine.png",
+        "codes": "janine"
+    },
+	{
+        "name": "Sabrina",
+        "type": "toggle",
+        "img": "images/gyms/sabrina.png",
+        "codes": "sabrina"
+    },
+	{
+        "name": "Blaine",
+        "type": "toggle",
+        "img": "images/gyms/blaine.png",
+        "codes": "blaine"
+    },
+	{
+        "name": "Blue",
+        "type": "toggle",
+        "img": "images/gyms/blue.png",
+        "codes": "blue"
+    }
+]

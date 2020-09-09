@@ -1,0 +1,30 @@
+[
+    {
+        "name": "canUseCut",
+        "access_rules": ["hm01,hive_badge"]
+    },
+    {
+        "name": "canUseSurf",
+        "access_rules": ["hm03,fog_badge"]
+    },
+    {
+        "name": "canUseStrength",
+        "access_rules": ["hm04,plain_badge"]
+    },
+    {
+        "name": "canUseFlash",
+        "access_rules": ["hm05,zephyr_badge"]
+    },
+    {
+        "name": "canUseWhirlpool",
+        "access_rules": ["hm06,glacier_badge"]
+    },
+    {
+        "name": "canUseWaterfall",
+        "access_rules": ["hm07,rising_badge"]
+    },
+	{
+        "name": "kanto_access",
+        "access_rules": ["@Goldenrod City, pass", "@Olivine City, ss_ticket"]
+    }	
+]
