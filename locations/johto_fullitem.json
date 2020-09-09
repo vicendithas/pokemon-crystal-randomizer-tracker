@@ -597,7 +597,7 @@
 					{
                         "name": "Pokedex",
                         "hosted_item": "pokedex"
-                    }
+                    },
                     {   
                         "name": "Hand In Red Scale",
                         "access_rules": ["red_scale"],
