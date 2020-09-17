@@ -303,7 +303,7 @@
                         "name": "2F",
                         "access_rules": ["@canUseSurf, @canUseWaterfall"],
                         "clear_as_group": false,
-                        "item_count": 5
+                        "item_count": 6
                     },
                     {
                         "name": "B1F Front",
@@ -321,7 +321,7 @@
                         "name": "B2F",
                         "access_rules": ["@canUseSurf"],
                         "clear_as_group": false,
-                        "item_count": 6
+                        "item_count": 5
                     }
                 ],
                 "map_locations": [
