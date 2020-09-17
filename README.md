@@ -1,6 +1,6 @@
 # EmoTracker pack for Pokémon Crystal Randomizers
 
-Based heavily on the trackers by StormRider and DillonIsMyName, modified by Vicendithas
+Based on the tracker by StormRider, modified by DillonIsMyName and Vicendithas
 
 It's an EmoTracker pack with map for\
 [goldenrules's Pokémon Crystal Key Item Randomizer](http://crystal-key-item-randomizer.herokuapp.com/index.html) and [ERC's Pokémon Crystal Item Randomizer](https://github.com/erudnick-cohen/Pokemon-Crystal-Item-Randomizer)
@@ -35,7 +35,7 @@ Add maps of Mt. Mortar and Whirl Islands\
 Add logic for the Pokedex/Pokegear/Pokegear cards for Crystal Speedchoice v7 when the randomizers are updated to support it
 
 ## Thanks
-StormRider and DillonIsMyName for the original trackers that I heavily modified for my preferences\
+StormRider for the original tracker\
 Pret whose combined efforts on Pokemon disassembly have made these kinds of randomizer possible\
 Dabomstew for the Universal Pokemon Randomizer and the Crystal Speedchoice projects that make randomization and speedrunning easier\
-Pokemon Randomizer community for welcoming me as I joined the community
+Pokemon Randomizer community
