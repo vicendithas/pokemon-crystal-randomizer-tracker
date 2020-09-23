@@ -17,10 +17,22 @@
 		"location_border_thickness": 5,
         "img": "images/maps/mt_silver.png"
     },
-		{
+	{
         "name": "dark_cave",
 		"location_size": 80,
 		"location_border_thickness": 5,
         "img": "images/maps/dark_cave.png"
+    },
+	{
+        "name": "mt_mortar",
+		"location_size": 80,
+		"location_border_thickness": 5,
+        "img": "images/maps/mt_mortar.png"
+    },
+	{
+        "name": "whirl_islands",
+		"location_size": 80,
+		"location_border_thickness": 5,
+        "img": "images/maps/whirl_islands.png"
     }
 ]

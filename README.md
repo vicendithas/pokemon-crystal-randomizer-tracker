@@ -31,7 +31,6 @@ Feel free to report them by opening an issue on
 [the GitHub repository](https://github.com/Vicendithas/pokemon-crystal-randomizer-tracker).
 
 ## TO DO
-Add maps of Mt. Mortar and Whirl Islands\
 Add logic for the Pokedex/Pokegear/Pokegear cards for Crystal Speedchoice v7 when the randomizers are updated to support it
 
 ## Thanks

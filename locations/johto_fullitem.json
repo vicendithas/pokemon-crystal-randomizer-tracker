@@ -300,25 +300,25 @@
                         "item_count": 2
                     },
                     {
-                        "name": "2F",
+                        "name": "2F (Waterfall)",
                         "access_rules": ["@canUseSurf, @canUseWaterfall"],
                         "clear_as_group": false,
                         "item_count": 6
                     },
                     {
-                        "name": "B1F Front",
+                        "name": "1F Front (Strength)",
                         "access_rules": ["@canUseStrength", "@canUseSurf, @canUseWaterfall"],
                         "clear_as_group": false,
                         "item_count": 4
                     },
                     {
-                        "name": "B1F Back",
+                        "name": "1F Back (Waterfall)",
                         "access_rules": ["@canUseSurf, @canUseWaterfall"],
                         "clear_as_group": false,
                         "item_count": 3
                     },
                     {
-                        "name": "B2F",
+                        "name": "B1F (Mid Entrance)",
                         "access_rules": ["@canUseSurf"],
                         "clear_as_group": false,
                         "item_count": 5
@@ -1036,7 +1036,7 @@
                         "item_count": 5
                     },
                     {
-                        "name": "Up The Ladder From Main Room",
+                        "name": "Down The Ladder From Main Room",
                         "clear_as_group": false,
                         "item_count": 2
                     }

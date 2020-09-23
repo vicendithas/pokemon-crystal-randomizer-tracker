@@ -53,6 +53,24 @@
 					  }
 					},
 					{
+					  "title": "Dark Cave",
+					  "content": {
+						"type": "map",
+						"maps": [
+							"dark_cave"
+						]
+					  }
+					},
+					{
+					  "title": "Mt. Mortar",
+					  "content": {
+						"type": "map",
+						"maps": [
+							"mt_mortar"
+						]
+					  }
+					},
+					{
 					  "title": "Rock Tunnel",
 					  "content": {
 						"type": "map",
@@ -62,20 +80,20 @@
 					  }
 					},
 					{
+					  "title": "Whirl Islands",
+					  "content": {
+						"type": "map",
+						"maps": [
+							"whirl_islands"
+						]
+					  }
+					},
+					{
 					  "title": "Mt. Silver",
 					  "content": {
 						"type": "map",
 						"maps": [
 							"mt_silver"
-						]
-					  }
-					},
-					{
-					  "title": "Dark Cave",
-					  "content": {
-						"type": "map",
-						"maps": [
-							"dark_cave"
 						]
 					  }
 					}
