@@ -24,10 +24,16 @@
         "img": "images/maps/dark_cave.png"
     },
 	{
-        "name": "mt_mortar",
+        "name": "mt_mortar1",
 		"location_size": 80,
 		"location_border_thickness": 5,
-        "img": "images/maps/mt_mortar.png"
+        "img": "images/maps/mt_mortar1.png"
+    },
+	{
+        "name": "mt_mortar2",
+		"location_size": 80,
+		"location_border_thickness": 5,
+        "img": "images/maps/mt_mortar2.png"
     },
 	{
         "name": "whirl_islands",

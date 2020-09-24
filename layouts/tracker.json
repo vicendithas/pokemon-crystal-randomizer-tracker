@@ -1,4 +1,33 @@
 {
+	"mt_mortar": {
+        "type": "container",
+        "background": "#877373",
+        "content": [
+            {
+			  "type": "tabbed",
+			  "tabs": [
+				{
+				  "title": "Entrance and 2F",
+				  "content": {
+					"type": "map",
+					"maps": [
+						"mt_mortar1"
+					]
+				  }
+				},
+				{
+				  "title": "1F and B1F",
+				  "content": {
+					"type": "map",
+					"maps": [
+						"mt_mortar2"
+					]
+				  }
+				}
+			  ]
+			}
+        ]
+    },
     "tracker_default": {
         "type": "container",
         "background": "#877373",
@@ -64,10 +93,8 @@
 					{
 					  "title": "Mt. Mortar",
 					  "content": {
-						"type": "map",
-						"maps": [
-							"mt_mortar"
-						]
+						"type": "layout",
+						"key": "mt_mortar"
 					  }
 					},
 					{
