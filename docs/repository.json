@@ -1,33 +1,33 @@
 {
-  "name": "Pokémon Crystal Randomizer Tracker by Vicendithas and DillonIsMyName",
-  "packages": [
+	"name": "Pokémon Crystal Item Randomizer by Vicendithas and DillonIsMyName",
+	"packages": [
     {
-      "name": "Pokémon Crystal Randomizer Tracker",
-      "author": "DillonIsMyName and Vicendithas",
-      "game_name": "Pokémon Crystal",
-      "flags": [
-        "map",
-        "pins"
-      ],
-      "version": "1.1.0",
-      "uid": "pokemon_crystal_randomizer_dillon_vicendithas",
-      "link": "https://github.com/vicendithas/pokemon-crystal-randomizer-tracker/releases/download/v1.1.0/pokemon-crystal-randomizer-dillon-vicendithas.zip",
-	  "documentation_url": "https://github.com/vicendithas/pokemon-crystal-randomizer-tracker/blob/master/README.md",
-      "variants": [
-        {
-          "name": "Full Item and Badge Randomizer",
-          "flags": [
-            "map",
-            "pins"
-          ]
-        },
-        {
-          "name": "Key Item and Badge Randomizer",
-          "flags": [
-            "map",
-            "pins"
-          ]
-        }
+		"name": "Pokémon Crystal Item Randomizer",
+		"author": "DillonIsMyName, Vicendithas",
+		"game_name": "Pokémon Crystal",
+		"flags": [
+			"map",
+			"pins"
+		],
+		"version": "1.1.0",
+		"uid": "pokemon_crystal_randomizer_dillon_vicendithas",
+		"link": "https://github.com/vicendithas/pokemon-crystal-randomizer-tracker/releases/download/v1.1.0/pokemon-crystal-randomizer-dillon-vicendithas.zip",
+		"documentation_url": "https://github.com/vicendithas/pokemon-crystal-randomizer-tracker/blob/master/README.md",
+		"variants": [
+		{
+			"name": "Full Item and Badge Randomizer",
+			"flags": [
+				"map",
+				"pins"
+			]
+		},
+		{
+			"name": "Key Item and Badge Randomizer",
+			"flags": [
+				"map",
+				"pins"
+			]
+		}
       ]
     }
   ]
