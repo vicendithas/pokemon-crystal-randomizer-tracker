@@ -6,10 +6,10 @@
         "codes": "pokedex"
     },
 	{
-        "name": "Phone Card",
+        "name": "PokeGear",
         "type": "toggle",
-        "img": "images/items/phone_card.png",
-        "codes": "phone_card"
+        "img": "images/items/pokegear.png",
+        "codes": "pokegear"
     },
 	{
         "name": "Map Card",
@@ -148,6 +148,12 @@
         "type": "toggle",
         "img": "images/items/silver_wing.png",
         "codes": "silver_wing"
+    },
+	{
+        "name": "Rainbow Wing",
+        "type": "toggle",
+        "img": "images/items/rainbow_wing.png",
+        "codes": "rainbow_wing"
     },
     {
         "name": "HM01 Cut",
@@ -294,31 +300,30 @@
         "codes": "earth_badge,badge"
     },
 	{
-        "name": "Backward Kanto",
-        "type": "toggle",
-        "img": "images/other/backward_kanto.png",
-        "disabled_img": "images/other/backward_kanto_no.png",
-        "disabled_img_mods": "brightness|1",
-        "codes": "backward_kanto"
-    },	
-	{
         "name": "Team Rocket Required Badges",
         "type": "consumable",
         "img": "images/other/team_rocket.png",
-        "codes": "team_rocket_badges",
         "swap_actions" :true,
         "max_quantity": 7,
         "min_quantity": 4,
         "increment": 3,
-        "initial_quantity": 7
+        "initial_quantity": 7,
+		"codes": "team_rocket_badges"
     },
     {
         "name": "Defeat Team Rocket",
-        "type": "toggle",
-        "img": "images/other/team_rocket_defeated.png",
-        "disabled_img": "images/other/team_rocket.png",
-        "disabled_img_mods": "brightness|1",
-        "codes": "team_rocket"
+        "type": "progressive",
+		"allow_disabled": "false",
+		"stages": [
+			{
+				"img": "images/other/team_rocket.png"
+			},
+			{
+				"img": "images/other/team_rocket.png",
+				"img_mods": "overlay|images/other/no.png",
+				"codes": "team_rocket"
+			}
+		]
     },
     {
         "name": "Elite Four",
@@ -416,6 +421,12 @@
         "img": "images/items/secret_potion.png",
         "codes": "return_potion"
     },
+	{
+        "name": "Pass Clair Test",
+        "type": "toggle",
+        "img": "images/gyms/clair.png",
+        "codes": "clair_test"
+    },
     {
         "name": "Talk to Blue",
         "type": "toggle",
@@ -445,6 +456,12 @@
         "type": "toggle",
         "img": "images/other/red_gyarados.png",
         "codes": "red_gyarados"
+    },
+	{
+        "name": "Ho-oh",
+        "type": "toggle",
+        "img": "images/other/ho-oh.png",
+        "codes": "ho-oh"
     },
 	{
         "name": "Falkner",
@@ -541,5 +558,68 @@
         "type": "toggle",
         "img": "images/gyms/blue.png",
         "codes": "blue"
+    },
+	{
+        "name": "Ilex Cut Tree",
+        "type": "toggle",
+        "img": "images/other/cut_tree.png",
+        "disabled_img_mods": "overlay|images/other/no.png",
+        "codes": "cut_tree"
+    },
+	{
+        "name": "Vanilla Clair",
+        "type": "toggle",
+        "img": "images/other/vanilla_clair.png",
+        "disabled_img_mods": "overlay|images/other/no.png",
+        "codes": "vanilla_clair"
+    },	
+	{
+        "name": "Backward Kanto",
+        "type": "toggle",
+        "img": "images/other/backward_kanto.png",
+        "disabled_img_mods": "overlay|images/other/no.png",
+        "codes": "backward_kanto"
+    },
+	{
+        "name": "Elite Four Required",
+        "type": "toggle",
+        "img": "images/other/trophy.png",
+        "disabled_img_mods": "overlay|images/other/no.png",
+        "codes": "elite_four_req"
+    },
+	{
+        "name": "Random PokeGear",
+        "type": "toggle",
+        "img": "images/items/pokegear.png",
+        "disabled_img_mods": "overlay|images/other/no.png",
+        "codes": "random_pokegear"
+    },
+	{
+        "name": "Random PokeDex",
+        "type": "toggle",
+        "img": "images/items/pokedex.png",
+        "disabled_img_mods": "overlay|images/other/no.png",
+        "codes": "random_pokedex"
+    },
+	{
+        "name": "Random Radio Cards",
+        "type": "toggle",
+        "img": "images/items/radio_card.png",
+        "disabled_img_mods": "overlay|images/other/no.png",
+        "codes": "random_radio"
+    },
+	{
+        "name": "Random Map Card",
+        "type": "toggle",
+        "img": "images/items/map_card.png",
+        "disabled_img_mods": "overlay|images/other/no.png",
+        "codes": "random_map"
+    },
+	{
+        "name": "Tin Tower",
+        "type": "toggle",
+        "img": "images/other/tin_tower.png",
+        "disabled_img_mods": "overlay|images/other/no.png",
+        "codes": "tin_tower"
     }
 ]

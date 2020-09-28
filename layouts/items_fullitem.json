@@ -10,11 +10,11 @@
                 "rows": [
 					[
                         "pokedex",
-                        "phone_card",
+						"pokegear",
                         "map_card",
                         "radio_card",
                         "expansion_card",
-						"", "", ""
+						"", "", "", ""
                     ],
                     [
                         "old_rod",
@@ -23,7 +23,7 @@
                         "bicycle",
                         "ss_ticket",
                         "pass",
-						"", ""
+						"", "", ""
                     ],
                     [
                         "squirt_bottle",
@@ -33,7 +33,7 @@
 						"basement_key",
                         "lost_item",
 						"water_stone",
-						""
+						"", ""
                     ],
                     [
                         "mystery_egg",
@@ -43,6 +43,7 @@
                         "red_scale",
                         "clear_bell",
                         "silver_wing",
+						"rainbow_wing",
 						""
                     ],
                     [
@@ -53,7 +54,8 @@
                         "hm05",
                         "hm06",
                         "hm07",
-						"tm08"
+						"tm08",
+						""
                     ],
                     [
                         "zephyr_badge",
@@ -63,7 +65,8 @@
                         "storm_badge",
                         "mineral_badge",
                         "glacier_badge",
-                        "rising_badge"
+                        "rising_badge",
+						""
                     ],
                     [
                         "boulder_badge",
@@ -73,7 +76,30 @@
                         "soul_badge",
                         "marsh_badge",
                         "volcano_badge",
-                        "earth_badge"
+                        "earth_badge",
+						""
+                    ],
+					[
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+						""
+                    ],
+					[
+                        "cut_tree",
+                        "vanilla_clair",
+                        "elite_four_req",
+                        "backward_kanto",
+                        "random_pokedex",
+                        "random_pokegear",
+                        "random_radio",
+						"random_map",
+                        "tin_tower"
                     ]
                 ]
             },
@@ -82,12 +108,13 @@
                 "v_alignment": "top",
                 "item_margin": "1,2",
                 "rows": [
-					[ "backward_kanto" ],
-                    [ "team_rocket_badges" ],
-                    [ "team_rocket" ],
-                    [ "elite_four" ],
+					[ "" ],
+					[ "" ],
+					[ "" ],
+					[ "team_rocket" ],
+					[ "elite_four" ],
 					[ "red" ],
-					[ "go" ]
+                    [ "go" ]
                 ]
             }
         ]

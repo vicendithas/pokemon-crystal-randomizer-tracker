@@ -123,6 +123,15 @@
 							"mt_silver"
 						]
 					  }
+					},
+					{
+					  "title": "Tin Tower",
+					  "content": {
+						"type": "map",
+						"maps": [
+							"tin_tower"
+						]
+					  }
 					}
 				  ]
 				}

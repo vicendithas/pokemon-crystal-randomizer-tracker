@@ -245,7 +245,7 @@
                     },
                     {   
                         "name": "After The Bushes",
-                        "access_rules": ["@canUseCut", "$haveEightBadges, @canUseWaterfall, [backward_kanto]"],
+                        "access_rules": ["@canUseCut", "$haveEightBadges, @canUseSurf, @canUseWaterfall, [backward_kanto]"],
                         "clear_as_group": false,
                         "item_count": 2
                     }
@@ -346,7 +346,7 @@
                     },
                     {
                         "name": "Wake Up Snorlax",
-                        "access_rules": ["expansion_card"],
+                        "access_rules": ["pokegear,radio_card,expansion_card"],
                         "hosted_item": "snorlax"
                     }
                 ],
@@ -364,8 +364,15 @@
                 "sections": [
                     {
                         "name": "Expansion Card",
-                        "access_rules": ["fix_power_plant, radio_card"],
+						"visibility_rules": ["$noRandomRadio"],
+                        "access_rules": ["fix_power_plant"],
                         "hosted_item": "expansion_card"
+                    },
+					{
+                        "name": "Expansion Card",
+						"visibility_rules": ["random_radio"],
+                        "access_rules": ["fix_power_plant"],
+                        "item_count": 1
                     }
                 ],
                 "map_locations": [

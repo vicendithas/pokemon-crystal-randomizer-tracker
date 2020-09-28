@@ -40,5 +40,11 @@
 		"location_size": 80,
 		"location_border_thickness": 5,
         "img": "images/maps/whirl_islands.png"
+    },
+	{
+        "name": "tin_tower",
+		"location_size": 80,
+		"location_border_thickness": 5,
+        "img": "images/maps/tin_tower.png"
     }
 ]

@@ -1,5 +1,22 @@
 # Changelog
 
+## 1.2.0
+Real Director now properly requires 7 badges (this was a change from speedchoice v6 to v7 to reflect vanilla behavior)\
+Olivine Lighthouse has been split into a separate location\
+Elite 4 requirement to fight Red now has a toggle (as was previously implemented in the randomizer, but not in the tracker)\
+Added a bunch of new supported features for Full Item Randomizer:\
+The Cut tree in Ilex Forest option\
+Vanilla Clair option\
+Random Pokegear, Pokedex, Map Card, and Radio Card options\
+Tin Tower and Ho-oh chamber option (including sub-map for Tin Tower)
+
+## 1.1.0
+Mt. Mortar sub-map has been split into two sections for easier visibility
+
+## 1.0.3
+Added sub-maps for Mt. Mortar and Whirl Islands as well as redoing the existing Dark Cave and Rock Tunnel maps\
+Some item locations and names have also been fixed
+
 ## 1.0.2
 Fixed some item counts and inaccurate sub-maps\
 Resolved license issue with StormRider's original pack
