@@ -1,6 +1,7 @@
 # Changelog
 
 ## 1.2.0
+Overhauled several images and added Pack Documentation support\
 Real Director now properly requires 7 badges (this was a change from speedchoice v6 to v7 to reflect vanilla behavior)\
 Olivine Lighthouse has been split into a separate location\
 Elite 4 requirement to fight Red now has a toggle (as was previously implemented in the randomizer, but not in the tracker)\

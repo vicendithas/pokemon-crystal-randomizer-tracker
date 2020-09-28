@@ -40,15 +40,12 @@ If the option is crossed out, it is disabled and not part of the logic of the tr
 6. ![Random Pokegear](images/items/pokegear.png "Random Pokegear") The PokeGear is randomized and added to the item pool.
 7. ![Random Radio Cards](images/items/radio_card.png "Random Radio Cards") The Radio Card and Expansion Card are randomized and added to the item pool.
 8. ![Random Map Card](images/items/map_card.png "Random Map Card") The Map Card is randomized and added to the item pool.
-9. ![Tin Tower and Ho-oh Chamber](images/other/tin_tower.png "Tin Tower and Ho-oh Chamber") The Rainbow Wing is randomized and added to the item pool, and Tin Tower and the Ho-oh Treasure Room are in logic.
+9. ![Tin Tower and Ho-oh Chamber](images/other/tin_tower.png "Tin Tower and Ho-oh Chamber") The Rainbow Wing is randomized and added to the item pool. Tin Tower and the Ho-oh Treasure Room are in logic.
 
 ## Bugs? Suggestions?
 
 Feel free to report them by opening an issue on
 [the GitHub repository](https://github.com/Vicendithas/pokemon-crystal-randomizer-tracker).
-
-## TO DO
-Add logic for the Pokedex/Pokegear/Pokegear cards for Crystal Speedchoice v7 when the randomizers are updated to support it
 
 ## Thanks
 StormRider for the original tracker\
