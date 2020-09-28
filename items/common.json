@@ -158,49 +158,57 @@
     {
         "name": "HM01 Cut",
         "type": "toggle",
-        "img": "images/items/hm_01.png",
+        "img": "images/hms/normal.png",
+		"img_mods": "overlay|images/hms/1.png",
         "codes": "hm01"
     },
     {
         "name": "HM02 Fly",
         "type": "toggle",
-        "img": "images/items/hm_02.png",
+        "img": "images/hms/flying.png",
+		"img_mods": "overlay|images/hms/2.png",
         "codes": "hm02"
     },
     {
         "name": "HM03 Surf",
         "type": "toggle",
-        "img": "images/items/hm_03.png",
+        "img": "images/hms/water.png",
+		"img_mods": "overlay|images/hms/3.png",
         "codes": "hm03"
     },
     {
         "name": "HM04 Strength",
         "type": "toggle",
-        "img": "images/items/hm_04.png",
+        "img": "images/hms/normal.png",
+		"img_mods": "overlay|images/hms/4.png",
         "codes": "hm04"
     },
     {
         "name": "HM05 Flash",
         "type": "toggle",
-        "img": "images/items/hm_05.png",
+        "img": "images/hms/normal.png",
+		"img_mods": "overlay|images/hms/5.png",
         "codes": "hm05"
     },
     {
         "name": "HM06 Whirlpool",
         "type": "toggle",
-        "img": "images/items/hm_06.png",
+        "img": "images/hms/water.png",
+		"img_mods": "overlay|images/hms/6.png",
         "codes": "hm06"
     },
     {
         "name": "HM07 Waterfall",
         "type": "toggle",
-        "img": "images/items/hm_07.png",
+        "img": "images/hms/water.png",
+		"img_mods": "overlay|images/hms/7.png",
         "codes": "hm07"
     },
 	{
         "name": "TM08 Rock Smash",
         "type": "toggle",
-        "img": "images/items/tm_08.png",
+        "img": "images/hms/fighting.png",
+		"img_mods": "overlay|images/hms/8.png,overlay|images/hms/tm.png",
         "codes": "tm08"
     },
 	    {
