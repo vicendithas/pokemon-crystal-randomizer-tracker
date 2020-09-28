@@ -9,31 +9,36 @@ It's an EmoTracker pack with map for\
 [EmoTracker](https://emotracker.net/)
 
 ## Installation
+
+1. Download through the Package Manager in EmoTracker.
+
+OR
+
 1. Download the latest release from the Releases section on GitHub.
-2. Place the downloaded zip file in the EmoTracker packs directory (defaults to ``My Documents\EmoTracker\packs``)
+2. Place the downloaded zip file in the EmoTracker packs directory (defaults to ``My Documents\EmoTracker\packs``).
 
 OR (for the development version)
 
 1. Clone the repository to your computer
-2. Place the downloaded zip file (or directory) in the EmoTracker packs directory (defaults to ``My Documents\EmoTracker\packs``)
+2. Place the downloaded zip file (or directory) in the EmoTracker packs directory (defaults to ``My Documents\EmoTracker\packs``). Note: if you download a zip of the repository, you may need to unzip it first.
 
 ## Usage
 
-This tracker has a couple variants, Key Item Randomizer and Full Item Randomizer. The tracker has the following features:
+This tracker has a couple variants, Full Item Randomizer and Key Item Randomizer. The tracker has the following features:
 
-1. A map containing locations of items and Badges to acquire.
+1. A map containing locations of items and badges to acquire.
 2. A tracker of items and badges acquired
 3. Maps of several caves to help find items or traverse without Flash
 4. Settings options for various randomization features
 
-It is recommended to turn on Fast Tool Tips to see the descriptions of the settings options
+It is recommended to turn on Fast Tool Tips to see the descriptions of the items and settings options
 
 ### Settings Options
 
 If the option is crossed out, it is disabled and not part of the logic of the tracker.
 
-1. ![Ilex Cut Tree](images/other/cut_tree.png "Ilex Cut Tree") The tree in Ilex Forest will be removed, allowing for passage through the forest without access to Cut.
-2. ![Vanilla Clair](images/other/vanilla_clair.png "Vanilla Clair") Clair will force you to go to Dragon's Den and pass the test before giving you the badge and item (requires Surf and Whirlpool).
+1. ![Ilex Cut Tree](images/other/cut_tree.png "Ilex Cut Tree") The tree in Ilex Forest is removed, allowing for passage through the forest without access to Cut.
+2. ![Vanilla Clair](images/other/vanilla_clair.png "Vanilla Clair") Clair forces you to go to Dragon's Den and pass the test before giving you the badge and item (requires Surf and Whirlpool).
 3. ![Elite Four Required](images/other/trophy.png "Elite Four Required") Fighting the Elite Four is required for Red to appear.
 4. ![Backward Kanto](images/other/backward_kanto.png "Backward Kanto") Going into Western Kanto via the Victory Road gate is in logic (requires Surf, Waterfall, and waking up Snorlax, which requires the PokeGear, Radio Card, and Expansion Card).
 5. ![Random Pokedex](images/items/pokedex.png "Random Pokedex") The Pokedex is added to the randomized item pool.
