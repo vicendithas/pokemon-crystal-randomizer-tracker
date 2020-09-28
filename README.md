@@ -33,14 +33,14 @@ It is recommended to turn on Fast Tool Tips to see the descriptions of the setti
 If the option is crossed out, it is disabled and not part of the logic of the tracker.
 
 1. ![Ilex Cut Tree](images/other/cut_tree.png "Ilex Cut Tree") The tree in Ilex Forest will be removed, allowing for passage through the forest without access to Cut.
-2. ![Vanilla Clair](images/other/vanilla_clair.png "Vanilla Clair") Clair will force you to go to Dragon's Den and pass the test before giving you the badge and item.
+2. ![Vanilla Clair](images/other/vanilla_clair.png "Vanilla Clair") Clair will force you to go to Dragon's Den and pass the test before giving you the badge and item (requires Surf and Whirlpool).
 3. ![Elite Four Required](images/other/trophy.png "Elite Four Required") Fighting the Elite Four is required for Red to appear.
-4. ![Backward Kanto](images/other/backward_kanto.png "Backward Kanto") Going into Western Kanto via the Victory Road gate is in logic.
-5. ![Random Pokedex](images/items/pokedex.png "Random Pokedex") The Pokedex is randomized and added to the item pool.
-6. ![Random Pokegear](images/items/pokegear.png "Random Pokegear") The PokeGear is randomized and added to the item pool.
-7. ![Random Radio Cards](images/items/radio_card.png "Random Radio Cards") The Radio Card and Expansion Card are randomized and added to the item pool.
-8. ![Random Map Card](images/items/map_card.png "Random Map Card") The Map Card is randomized and added to the item pool.
-9. ![Tin Tower and Ho-oh Chamber](images/other/tin_tower.png "Tin Tower and Ho-oh Chamber") The Rainbow Wing is randomized and added to the item pool. Tin Tower and the Ho-oh Treasure Room are in logic.
+4. ![Backward Kanto](images/other/backward_kanto.png "Backward Kanto") Going into Western Kanto via the Victory Road gate is in logic (requires Surf, Waterfall, and waking up Snorlax, which requires the PokeGear, Radio Card, and Expansion Card).
+5. ![Random Pokedex](images/items/pokedex.png "Random Pokedex") The Pokedex is added to the randomized item pool.
+6. ![Random Pokegear](images/items/pokegear.png "Random Pokegear") The PokeGear is added to the randomized item pool.
+7. ![Random Radio Cards](images/items/radio_card.png "Random Radio Cards") The Radio Card and Expansion Card are added to the randomized item pool.
+8. ![Random Map Card](images/items/map_card.png "Random Map Card") The Map Card is added to the randomized item pool.
+9. ![Tin Tower and Ho-oh Chamber](images/other/tin_tower.png "Tin Tower and Ho-oh Chamber") The Rainbow Wing is added to the randomized item pool. Tin Tower and the Ho-oh Treasure Room are in logic. Access to the base of Tin Tower requires the Clear Bell and access to the upper floors requires the Rainbow Wing. Ho-oh spawns once the Elite Four have been defeated. The Ho-oh Treasure Chamber opens when Ho-oh has been defeated (requires Surf and Strength).
 
 ## Bugs? Suggestions?
 

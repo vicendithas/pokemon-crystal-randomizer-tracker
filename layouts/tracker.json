@@ -91,6 +91,15 @@
 					  }
 					},
 					{
+					  "title": "Union Cave",
+					  "content": {
+						"type": "map",
+						"maps": [
+							"union_cave"
+						]
+					  }
+					},
+					{
 					  "title": "Mt. Mortar",
 					  "content": {
 						"type": "layout",
@@ -103,6 +112,15 @@
 						"type": "map",
 						"maps": [
 							"rock_tunnel"
+						]
+					  }
+					},
+					{
+					  "title": "Victory Road",
+					  "content": {
+						"type": "map",
+						"maps": [
+							"victory_road"
 						]
 					  }
 					},
