@@ -1,6 +1,6 @@
 # Changelog
 
-## 1.2.0 (coming soon)
+## 1.2.0
 Added maps for Union Cave and Victory Road\
 Overhauled several images and added Pack Documentation support\
 Real Director now properly requires 7 badges (this was a change from speedchoice v6 to v7 to reflect vanilla behavior)\
