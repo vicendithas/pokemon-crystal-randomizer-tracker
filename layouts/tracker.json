@@ -28,6 +28,35 @@
 			}
         ]
     },
+	"tin_tower": {
+        "type": "container",
+        "background": "#877373",
+        "content": [
+            {
+			  "type": "tabbed",
+			  "tabs": [
+				{
+				  "title": "3F-6F",
+				  "content": {
+					"type": "map",
+					"maps": [
+						"tin_tower1"
+					]
+				  }
+				},
+				{
+				  "title": "7F-9F",
+				  "content": {
+					"type": "map",
+					"maps": [
+						"tin_tower2"
+					]
+				  }
+				}
+			  ]
+			}
+        ]
+    },
     "tracker_default": {
         "type": "container",
         "background": "#877373",
@@ -145,12 +174,10 @@
 					{
 					  "title": "Tin Tower",
 					  "content": {
-						"type": "map",
-						"maps": [
-							"tin_tower"
-						]
+						"type": "layout",
+						"key": "tin_tower"
 					  }
-					}
+					},
 				  ]
 				}
             ]
