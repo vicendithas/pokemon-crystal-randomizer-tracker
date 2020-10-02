@@ -9,21 +9,15 @@
                 "item_margin": "1,2",
                 "rows": [
 					[
-                        "pokedex",
-						"pokegear",
-                        "map_card",
-                        "radio_card",
+                        "pokegear",
+						"radio_card",
                         "expansion_card",
-						"", "", "", ""
-                    ],
-                    [
-                        "old_rod",
-                        "good_rod",
-                        "super_rod",
-                        "bicycle",
                         "ss_ticket",
                         "pass",
-						"", "", ""
+						"clear_bell",
+						"silver_wing",
+						"rainbow_wing",
+						""
                     ],
                     [
                         "squirt_bottle",
@@ -33,18 +27,8 @@
 						"basement_key",
                         "lost_item",
 						"water_stone",
-						"", ""
-                    ],
-                    [
-                        "mystery_egg",
-                        "coin_case",
-                        "blue_card",
-                        "item_finder",
-                        "red_scale",
-                        "clear_bell",
-                        "silver_wing",
-						"rainbow_wing",
-						""
+						"mystery_egg",
+						"red_scale"
                     ],
                     [
                         "hm01",
