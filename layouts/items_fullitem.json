@@ -129,5 +129,35 @@
                 "earth_badge"
             ]
         ]
+    },
+	"settings_popup": {
+        "type": "array",
+        "margin": "5",
+        "content": [
+            {
+                "type": "group",
+                "header": "Standard Preset",
+                "header_background": "#3e4b57",
+                "content":[
+                    {
+                        "type": "item",
+                        "margin": "-5,-1,-5,-5",
+                        "item": "standard_preset"
+                    }
+                ]
+            },
+			{
+                "type": "group",
+                "header": "Tricky Preset",
+                "header_background": "#3e4b57",
+                "content":[
+					{
+                        "type": "item",
+                        "margin": "-5,-1,-5,-5",
+                        "item": "tricky_preset"
+                    }
+                ]
+            }
+        ]
     }
 }

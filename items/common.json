@@ -572,6 +572,7 @@
         "type": "toggle",
         "img": "images/other/cut_tree.png",
         "disabled_img_mods": "overlay|images/other/no.png",
+		"initial_active_state": true,
         "codes": "cut_tree"
     },
 	{
@@ -579,6 +580,7 @@
         "type": "toggle",
         "img": "images/other/vanilla_clair.png",
         "disabled_img_mods": "overlay|images/other/no.png",
+		"initial_active_state": false,
         "codes": "vanilla_clair"
     },	
 	{
@@ -586,6 +588,7 @@
         "type": "toggle",
         "img": "images/other/backward_kanto.png",
         "disabled_img_mods": "overlay|images/other/no.png",
+		"initial_active_state": true,
         "codes": "backward_kanto"
     },
 	{
@@ -593,6 +596,7 @@
         "type": "toggle",
         "img": "images/other/trophy.png",
         "disabled_img_mods": "overlay|images/other/no.png",
+		"initial_active_state": false,
         "codes": "elite_four_req"
     },
 	{
@@ -600,6 +604,7 @@
         "type": "toggle",
         "img": "images/items/pokegear.png",
         "disabled_img_mods": "overlay|images/other/no.png",
+		"initial_active_state": false,
         "codes": "random_pokegear"
     },
 	{
@@ -607,6 +612,7 @@
         "type": "toggle",
         "img": "images/items/pokedex.png",
         "disabled_img_mods": "overlay|images/other/no.png",
+		"initial_active_state": false,
         "codes": "random_pokedex"
     },
 	{
@@ -614,6 +620,7 @@
         "type": "toggle",
         "img": "images/items/radio_card.png",
         "disabled_img_mods": "overlay|images/other/no.png",
+		"initial_active_state": false,
         "codes": "random_radio"
     },
 	{
@@ -621,6 +628,7 @@
         "type": "toggle",
         "img": "images/items/map_card.png",
         "disabled_img_mods": "overlay|images/other/no.png",
+		"initial_active_state": false,
         "codes": "random_map"
     },
 	{
@@ -628,6 +636,7 @@
         "type": "toggle",
         "img": "images/other/tin_tower.png",
         "disabled_img_mods": "overlay|images/other/no.png",
+		"initial_active_state": false,
         "codes": "tin_tower"
     }
 ]

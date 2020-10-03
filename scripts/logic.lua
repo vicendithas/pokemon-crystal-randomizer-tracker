@@ -33,3 +33,7 @@ end
 function noVanillaClair()
 	return not Tracker:FindObjectForCode("vanilla_clair").Active
 end
+
+function noCutTree()
+	return not Tracker:FindObjectForCode("cut_tree").Active
+end

@@ -1,5 +1,10 @@
 # Changelog
 
+## 1.2.1
+Reversed behavior of the Ilex Cut Tree icon to be more intuitive\
+Added initial behavior to the settings\
+Added preset buttons for Standard and Tricky presets to quickly set up the settings
+
 ## 1.2.0
 Added maps for Union Cave and Victory Road\
 Overhauled several images and added Pack Documentation support\

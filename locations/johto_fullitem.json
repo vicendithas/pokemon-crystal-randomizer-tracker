@@ -258,12 +258,12 @@
                     },
                     {
                         "name": "Water Stone Treasure Room",
-                        "access_rules": ["@canUseStrength, @canUseSurf, water_stone, partyegg" , "@canUseStrength, @canUseSurf, squirt_bottle, @canUseCut, water_stone", "@canUseStrength, @canUseSurf, squirt_bottle, cut_tree, water_stone" ],
+                        "access_rules": ["@canUseStrength, @canUseSurf, water_stone, partyegg" , "@canUseStrength, @canUseSurf, squirt_bottle, @canUseCut, water_stone", "@canUseStrength, @canUseSurf, squirt_bottle, $noCutTree, water_stone" ],
                         "item_count": 4
                     },
 					{
                         "name": "Ho-oh Treasure Room",
-                        "access_rules": ["ho-oh, @canUseSurf, partyegg", "ho-oh, @canUseSurf, squirt_bottle, @canUseCut", "ho-oh, @canUseSurf, squirt_bottle, cut_tree"],
+                        "access_rules": ["ho-oh, @canUseSurf, partyegg", "ho-oh, @canUseSurf, squirt_bottle, @canUseCut", "ho-oh, @canUseSurf, squirt_bottle, $noCutTree"],
 						"visibility_rules": ["tin_tower"],
                         "item_count": 4
                     },
@@ -278,7 +278,7 @@
             },
             {
                 "name": "Route 32",
-                "access_rules": ["squirt_bottle, @canUseCut", "squirt_bottle, cut_tree", "partyegg"],     
+                "access_rules": ["squirt_bottle, @canUseCut", "squirt_bottle, $noCutTree", "partyegg"],     
                 "sections": [
                     {
                         "name": "Miracle Seed Gift",
@@ -309,7 +309,7 @@
             },
 			{
                 "name": "Union Cave",
-                "access_rules": ["squirt_bottle, @canUseCut", "squirt_bottle, cut_tree", "partyegg"], 
+                "access_rules": ["squirt_bottle, @canUseCut", "squirt_bottle, $noCutTree", "partyegg"], 
                 "sections": [
                     {
                         "name": "1F",
@@ -369,7 +369,7 @@
             },
 			{
                 "name": "Slowpoke Well",
-                "access_rules": ["squirt_bottle, @canUseCut", "squirt_bottle, cut_tree", "partyegg"], 
+                "access_rules": ["squirt_bottle, @canUseCut", "squirt_bottle, $noCutTree", "partyegg"], 
                 "sections": [
                     {
                         "name": "Ground Floor",
@@ -403,7 +403,7 @@
                 "sections": [
                     {   
                         "name": "Ground Before Cut Bush",
-                        "access_rules": ["partyegg", "squirt_bottle, @canUseCut", "squirt_bottle, cut_tree"],
+                        "access_rules": ["partyegg", "squirt_bottle, @canUseCut", "squirt_bottle, $noCutTree"],
                         "item_count": 1
                     },  
                     {
@@ -413,13 +413,13 @@
                     },
                     {
                         "name": "Ground After Cut Bush",
-                        "access_rules": ["squirt_bottle", "@canUseCut,partyegg", "partyegg,cut_tree"],                     
+                        "access_rules": ["squirt_bottle", "@canUseCut,partyegg", "partyegg,$noCutTree"],                     
                         "clear_as_group": false,
                         "item_count": 3
                     },
                     {
                         "name": "Headbutt Teacher",
-                        "access_rules": ["squirt_bottle", "@canUseCut,partyegg", "partyegg,cut_tree"],
+                        "access_rules": ["squirt_bottle", "@canUseCut,partyegg", "partyegg,$noCutTree"],
                         "item_count": 1
                     }
                 ],
@@ -433,7 +433,7 @@
             },
 			{
                 "name": "Route 34",
-                "access_rules": ["squirt_bottle", "@canUseCut, partyegg", "partyegg, cut_tree"],
+                "access_rules": ["squirt_bottle", "@canUseCut, partyegg", "partyegg, $noCutTree"],
                 "sections": [
                     {   "name": "Lady In The Gate",
                         "item_count": 1
@@ -459,7 +459,7 @@
             },
 			{
                 "name": "Goldenrod",
-                "access_rules": ["squirt_bottle", "@canUseCut, partyegg", "partyegg,cut_tree"],
+                "access_rules": ["squirt_bottle", "@canUseCut, partyegg", "partyegg,$noCutTree"],
                 "children": [
                     {
                         "name": "Goldenrod City",
@@ -588,7 +588,7 @@
             },
             {
                 "name": "National Park",
-                "access_rules": ["squirt_bottle", "@canUseCut, partyegg", "partyegg, cut_tree"],
+                "access_rules": ["squirt_bottle", "@canUseCut, partyegg", "partyegg, $noCutTree"],
                 "sections": [
                     {
                         "name": "Ground Items",
@@ -610,7 +610,7 @@
             },
             {
                 "name": "Route 35",
-                "access_rules": ["squirt_bottle", "@canUseCut, partyegg", "partyegg, cut_tree"],
+                "access_rules": ["squirt_bottle", "@canUseCut, partyegg", "partyegg, $noCutTree"],
                 "sections": [
                     {
                         "name": "Pick Up Kenya",
@@ -658,7 +658,7 @@
             },
 			{
                 "name": "Ecruteak City",
-                "access_rules": ["squirt_bottle","pass,ss_ticket,partyegg,@canUseCut", "pass,ss_ticket,partyegg,cut_tree"],
+                "access_rules": ["squirt_bottle","pass,ss_ticket,partyegg,@canUseCut", "pass,ss_ticket,partyegg,$noCutTree"],
                 "sections": [
                     {
                         "name": "House",
