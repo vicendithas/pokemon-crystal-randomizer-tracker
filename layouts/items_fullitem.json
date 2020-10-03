@@ -8,27 +8,27 @@
                 "h_alignment": "left",
                 "item_margin": "1,2",
                 "rows": [
-					[
-                        "pokegear",
+                    [
+						"pokegear",
 						"radio_card",
                         "expansion_card",
-                        "ss_ticket",
-                        "pass",
-						"clear_bell",
-						"silver_wing",
-						"rainbow_wing",
-						""
-                    ],
-                    [
-                        "squirt_bottle",
+						"squirt_bottle",
                         "secret_potion",
                         "card_key",
-                        "machine_part",
+						"ss_ticket",
+                        "pass",
+						""
+                    ],
+					[
+						"machine_part",
+						"clear_bell",
+						"rainbow_wing",
+						"silver_wing",
 						"basement_key",
                         "lost_item",
-						"water_stone",
+						"red_scale",
 						"mystery_egg",
-						"red_scale"
+						"water_stone"
                     ],
                     [
                         "hm01",
@@ -92,9 +92,9 @@
                 "v_alignment": "top",
                 "item_margin": "1,2",
                 "rows": [
-					[ "" ],
-					[ "" ],
-					[ "" ],
+					[ "old_rod" ],
+					[ "good_rod" ],
+					[ "super_rod" ],
 					[ "team_rocket" ],
 					[ "elite_four" ],
 					[ "red" ],
