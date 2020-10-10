@@ -1,5 +1,8 @@
 # Changelog
 
+## 1.3.1
+Fixed an error with Classic Key Item
+
 ## 1.3
 Merged the Full Item and Key Item trackers into a single tracker (added "Full Item" setting)
 Added new settings presets for new supported settings

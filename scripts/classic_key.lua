@@ -32,7 +32,7 @@ function ClassicKeyPreset:onLeftClick()
 	Tracker:FindObjectForCode("cut_tree").Active = false
 	Tracker:FindObjectForCode("vanilla_clair").Active = false
 	Tracker:FindObjectForCode("elite_four_req").Active = true
-	Tracker:FindObjectForCode("backward_kanto").Active = true
+	Tracker:FindObjectForCode("backward_kanto").Active = false
 	Tracker:FindObjectForCode("random_pokegear").Active = false
 	Tracker:FindObjectForCode("random_pokedex").Active = false
 	Tracker:FindObjectForCode("random_radio").Active = false
