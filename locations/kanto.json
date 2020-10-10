@@ -28,6 +28,7 @@
                 "sections": [
                     {
                         "name": "TM Gift",
+						"visibility_rules": ["full_item"],
                         "item_count": 1
                     },
                     {
@@ -50,20 +51,24 @@
                 "sections": [
                     {
                         "name": "Outside The Cave",
+						"visibility_rules": ["full_item"],
                         "item_count": 1
                     },
                     {
                         "name": "House Item",
+						"visibility_rules": ["full_item"],
                         "item_count": 1
                     },
                     {
                         "name": "Cut Locked Item",
                         "access_rules": ["@canUseCut"],
+						"visibility_rules": ["full_item"],
                         "item_count": 1
                     },
                     {   
                         "name": "After The Bushes",
                         "access_rules": ["@canUseCut", "$haveEightBadges, @canUseSurf, @canUseWaterfall, [backward_kanto]"],
+						"visibility_rules": ["full_item"],
                         "clear_as_group": false,
                         "item_count": 2
                     }
@@ -103,6 +108,7 @@
                 "sections": [
                     {
                         "name": "Ground Item",
+						"visibility_rules": ["full_item"],
                         "item_count": 1
                     }
                 ],
@@ -143,6 +149,7 @@
                 "sections": [
                     {
                         "name": "House Item",
+						"visibility_rules": ["full_item"],
                         "item_count": 1
                     }
                 ],
@@ -161,10 +168,12 @@
                     {
                         "name": "Ground Item",
                         "access_rules": ["@canUseCut"],
+						"visibility_rules": ["full_item"],
                         "item_count": 1
                     },
                     {
                         "name": "Defeat All Trainers",
+						"visibility_rules": ["full_item"],
                         "item_count": 1
                     },
                     {
@@ -187,6 +196,7 @@
                 "sections": [
                     {
                         "name": "Pokémon Fan Club Chairman",
+						"visibility_rules": ["full_item"],
                         "item_count": 1,
                     },
                     {
@@ -241,11 +251,13 @@
                 "sections": [
                     {
                         "name": "1F Ground",
+						"visibility_rules": ["full_item"],
                         "clear_as_group": false,
                         "item_count": 2
                     },
                     {
                         "name": "B1F Ground",
+						"visibility_rules": ["full_item"],
                         "clear_as_group": false,
                         "item_count": 3
                     }
@@ -294,11 +306,13 @@
                     {
                         "name": "First Ground Item",
                         "access_rules": ["@canUseCut"],
+						"visibility_rules": ["full_item"],
                         "item_count": 1
                     },
                     {
                         "name": "Second Ground Item",
                         "access_rules": ["@canUseCut, @canUseSurf"],
+						"visibility_rules": ["full_item"],
                         "item_count": 1
                     }  
                 ],
@@ -317,6 +331,7 @@
                     {
                         "name": "Gym Leader TM",
                         "access_rules": ["@canUseCut"],
+						"visibility_rules": ["full_item"],
                         "item_count": 1
                     },
                     {
@@ -339,14 +354,17 @@
                 "sections": [
                     {
                         "name": "Silph Co. Guard",
+						"visibility_rules": ["full_item"],
                         "item_count": 1
                     },
                     {
                         "name": "TM Gift",
+						"visibility_rules": ["full_item"],
                         "item_count": 1
                     },
                     {
                         "name": "Fighting Dojo",
+						"visibility_rules": ["full_item"],
                         "item_count": 1
                     },	
                     {
@@ -373,6 +391,7 @@
                 "sections": [
                     {
                         "name": "Gym Leader TM",
+						"visibility_rules": ["full_item"],
                         "item_count": 1
                     },
                     {
@@ -395,6 +414,7 @@
                     {
                         "name": "Ground Item",
                         "access_rules": ["@canUseCut"],
+						"visibility_rules": ["full_item"],
                         "item_count": 1
                     }
                 ],
@@ -446,6 +466,7 @@
                 "sections": [
                     {
                         "name": "Inside The Falls",
+						"visibility_rules": ["full_item"],
                         "item_count": 1
                     }
                 ],
@@ -463,11 +484,13 @@
                     {
                         "name": "Before The Waterfall",
                         "access_rules": ["@canUseSurf"],
+						"visibility_rules": ["full_item"],
                         "item_count": 1
                     },                    
                     {
                         "name": "After The Waterfall",
                         "access_rules": ["@canUseSurf, @canUseWaterfall, @canUseWhirlpool", "@canUseSurf, @canUseWhirlpool, @canuseCut, snorlax"],
+						"visibility_rules": ["full_item"],
                         "item_count": 1
                     }
                 ],
@@ -485,6 +508,7 @@
                 "sections": [
                     {
                         "name": "Ground Item",
+						"visibility_rules": ["full_item"],
                         "item_count": 1
                     }
                 ],
@@ -502,11 +526,13 @@
                 "sections": [
                     {
                         "name": "1F Ground",
+						"visibility_rules": ["full_item"],
                         "clear_as_group": false,
                         "item_count": 2
                     },
                     {
                         "name": "2F Ground",
+						"visibility_rules": ["full_item"],
                         "clear_as_group": false,
                         "item_count": 3
                     }
@@ -542,6 +568,7 @@
                 "sections": [
                     {
                         "name": "House Item",
+						"visibility_rules": ["full_item"],
                         "item_count": 1
                     }
                 ],

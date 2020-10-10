@@ -568,11 +568,19 @@
         "codes": "blue"
     },
 	{
+        "name": "Full Item",
+        "type": "toggle",
+        "img": "images/other/full_item.png",
+        "disabled_img_mods": "overlay|images/other/no.png",
+		"initial_active_state": true,
+        "codes": "full_item"
+    },
+	{
         "name": "Ilex Cut Tree",
         "type": "toggle",
         "img": "images/other/cut_tree.png",
         "disabled_img_mods": "overlay|images/other/no.png",
-		"initial_active_state": true,
+		"initial_active_state": false,
         "codes": "cut_tree"
     },
 	{

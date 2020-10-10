@@ -8,22 +8,22 @@ Tracker:AddLocations("locations/virtual.json")
 
 ScriptHost:LoadScript("scripts/class.lua")
 ScriptHost:LoadScript("scripts/custom_item.lua")
-ScriptHost:LoadScript("scripts/standardpreset.lua")
-ScriptHost:LoadScript("scripts/trickypreset.lua")
+ScriptHost:LoadScript("scripts/standard_full.lua")
+ScriptHost:LoadScript("scripts/tricky_full.lua")
+ScriptHost:LoadScript("scripts/old_standard_full.lua")
+ScriptHost:LoadScript("scripts/vintage_full.lua")
+ScriptHost:LoadScript("scripts/classic_key.lua")
+ScriptHost:LoadScript("scripts/neo_key.lua")
 
-local standardPreset = StandardPresetItem("Standard Preset", "standard_preset", "images/other/standard.png")
-local trickyPreset = TrickyPresetItem("Tricky Preset", "tricky_preset", "images/other/tricky.png")
+local standardFullPreset = StandardFullPreset("Standard Full", "standard_full", "images/presets/standard_full.png")
+local trickyFullPreset = TrickyFullPreset("Tricky Full", "tricky_full", "images/presets/tricky_full.png")
+local oldStandardFullPreset = OldStandardFullPreset("Old Standard Full", "old_standard_full", "images/presets/old_standard_full.png")
+local vintageFullPreset = VintageFullPreset("Vintage Full", "vintage_full", "images/presets/vintage_full.png")
+local classicKeyPreset = ClassicKeyPreset("Classic Key", "classic_key", "images/presets/classic_key.png")
+local neoKeyPreset = NeoKeyPreset("Neo Key", "neo_key", "images/presets/neo_key.png")
 
-if Tracker.ActiveVariantUID == "keyitem" then
-	Tracker:AddLayouts("layouts/items_keyitem.json")
-	Tracker:AddLocations("locations/johto_keyitem.json")
-	Tracker:AddLocations("locations/kanto_keyitem.json")
-end
-
-if Tracker.ActiveVariantUID == "fullitem" then
-	Tracker:AddLayouts("layouts/items_fullitem.json")
-	Tracker:AddLocations("locations/johto_fullitem.json")
-	Tracker:AddLocations("locations/kanto_fullitem.json")
-end
+Tracker:AddLayouts("layouts/items.json")
+Tracker:AddLocations("locations/johto.json")
+Tracker:AddLocations("locations/kanto.json")
 
 Tracker:AddLayouts("layouts/tracker.json")

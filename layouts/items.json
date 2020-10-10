@@ -1,0 +1,218 @@
+{
+    "tracker_items": {
+        "type": "array",
+        "orientation": "horizontal",
+        "content": [
+            {
+                "type": "itemgrid",
+                "h_alignment": "left",
+                "item_margin": "1,2",
+                "rows": [
+                    [
+						"pokegear",
+						"radio_card",
+                        "expansion_card",
+						"map_card",
+						"squirt_bottle",
+                        "secret_potion",
+                        "card_key",
+						"ss_ticket",
+                        "pass",
+						""
+                    ],
+					[
+						"machine_part",
+						"clear_bell",
+						"rainbow_wing",
+						"silver_wing",
+						"basement_key",
+                        "lost_item",
+						"red_scale",
+						"mystery_egg",
+						"water_stone",
+						""
+                    ],
+					[
+                        "pokedex",
+						"bicycle",
+                        "blue_card",
+                        "coin_case",
+                        "item_finder",
+                        "old_rod",
+                        "good_rod",
+                        "super_rod",
+                        "",
+						""
+                    ],
+                    [
+                        "hm01",
+                        "hm02",
+                        "hm03",
+                        "hm04",
+                        "hm05",
+                        "hm06",
+                        "hm07",
+						"tm08",
+						"",
+						""
+                    ],
+                    [
+                        "zephyr_badge",
+                        "hive_badge",
+                        "plain_badge",
+                        "fog_badge",
+                        "storm_badge",
+                        "mineral_badge",
+                        "glacier_badge",
+                        "rising_badge",
+						"",
+						""
+                    ],
+                    [
+                        "boulder_badge",
+                        "cascade_badge",
+                        "thunder_badge",
+                        "rainbow_badge",
+                        "soul_badge",
+                        "marsh_badge",
+                        "volcano_badge",
+                        "earth_badge",
+						"",
+						""
+                    ],
+					[
+						"team_rocket",
+						"elite_four",
+						"red",
+						"go",
+						"",
+						"",
+						"",
+						"",
+						"",
+						""
+					]
+                ]
+            },
+            {
+                "type": "itemgrid",
+                "v_alignment": "top",
+                "item_margin": "1,2",
+                "rows": [
+					[ 
+						"full_item", 
+						"cut_tree"
+					],
+					[ 
+						"vanilla_clair",
+						"elite_four_req"
+					],
+					[ 
+						"backward_kanto",
+						"random_pokedex"
+					],
+					[ 
+						"random_pokegear",
+						"random_radio"
+					],
+					[ 
+						"random_map",
+						"tin_tower"
+					]
+                ]
+            }
+        ]
+    },
+	"settings_popup": {
+        "type": "array",
+		"orientation": "horizontal",
+        "content": [
+            {
+				"type": "array",
+				"orientation": "vertical",
+				"margin": 5,
+				"content": [
+					{
+						"type": "group",
+						"header": "Standard Full Item",
+						"header_background": "#3e4b57",
+						"content":[
+							{
+								"type": "item",
+								"margin": "-5,-1,-5,-5",
+								"item": "standard_full"
+							}
+						]
+					},
+					{
+						"type": "group",
+						"header": "Tricky Full Item",
+						"header_background": "#3e4b57",
+						"content":[
+							{
+								"type": "item",
+								"margin": "-5,-1,-5,-5",
+								"item": "tricky_full"
+							}
+						]
+					},
+					{
+						"type": "group",
+						"header": "Classic Key Item",
+						"header_background": "#3e4b57",
+						"content":[
+							{
+								"type": "item",
+								"margin": "-5,-1,-5,-5",
+								"item": "classic_key"
+							}
+						]
+					}				
+				]
+			},
+			{
+				"type": "array",
+				"orientation": "vertical",
+				"margin": 5,
+				"content": [
+					{
+						"type": "group",
+						"header": "Old Standard Full Item",
+						"header_background": "#3e4b57",
+						"content":[
+							{
+								"type": "item",
+								"margin": "-5,-1,-5,-5",
+								"item": "old_standard_full"
+							}
+						]
+					},
+					{
+						"type": "group",
+						"header": "Vintage Full Item",
+						"header_background": "#3e4b57",
+						"content":[
+							{
+								"type": "item",
+								"margin": "-5,-1,-5,-5",
+								"item": "vintage_full"
+							}
+						]
+					},
+					{
+						"type": "group",
+						"header": "Neo Key Item",
+						"header_background": "#3e4b57",
+						"content":[
+							{
+								"type": "item",
+								"margin": "-5,-1,-5,-5",
+								"item": "neo_key"
+							}
+						]
+					}
+				]
+			}				
+        ]
+    }
+}

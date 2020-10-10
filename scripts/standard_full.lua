@@ -1,6 +1,6 @@
-StandardPresetItem = CustomItem:extend()
+StandardFullPreset = CustomItem:extend()
 
-function StandardPresetItem:init(name, code, imagePath)
+function StandardFullPreset:init(name, code, imagePath)
     self:createItem(name)
     self.code = code
     self:setProperty("active", false)
@@ -11,15 +11,15 @@ function StandardPresetItem:init(name, code, imagePath)
     self:updateIcon()    
 end
 
-function StandardPresetItem:setActive(active)
+function StandardFullPreset:setActive(active)
     self:setProperty("active", active)
 end
 
-function StandardPresetItem:getActive()
+function StandardFullPreset:getActive()
     return self:getProperty("active")
 end
 
-function StandardPresetItem:updateIcon()
+function StandardFullPreset:updateIcon()
     if self:getActive() then
         self.ItemInstance.Icon = self.activeImage
     else
@@ -27,8 +27,9 @@ function StandardPresetItem:updateIcon()
     end
 end
 
-function StandardPresetItem:onLeftClick()
-	Tracker:FindObjectForCode("cut_tree").Active = true
+function StandardFullPreset:onLeftClick()
+	Tracker:FindObjectForCode("full_item").Active = true
+	Tracker:FindObjectForCode("cut_tree").Active = false
 	Tracker:FindObjectForCode("vanilla_clair").Active = false
 	Tracker:FindObjectForCode("elite_four_req").Active = false
 	Tracker:FindObjectForCode("backward_kanto").Active = true
@@ -39,11 +40,11 @@ function StandardPresetItem:onLeftClick()
     Tracker:FindObjectForCode("tin_tower").Active = false
 end
 
-function StandardPresetItem:onRightClick()
+function StandardFullPreset:onRightClick()
 	
 end
 
-function StandardPresetItem:canProvideCode(code)
+function StandardFullPreset:canProvideCode(code)
     if code == self.code then
         return true
     else
@@ -51,32 +52,32 @@ function StandardPresetItem:canProvideCode(code)
     end
 end
 
-function StandardPresetItem:providesCode(code)
+function StandardFullPreset:providesCode(code)
     if code == self.code and self.getActive() then
         return 1
     end
     return 0
 end
 
-function StandardPresetItem:advanceToCode(code)
+function StandardFullPreset:advanceToCode(code)
     if code == nil or code == self.code then
         self:setActive(true)
     end
 end
 
-function StandardPresetItem:save()
+function StandardFullPreset:save()
     local saveData = {}
     saveData["active"] = self.getActive()
     return saveData
 end
 
-function StandardPresetItem:Load(data)
+function StandardFullPreset:Load(data)
     if data["active"] ~= nil then
         self:setActive(data["active"])
     end
     return true
 end
 
-function StandardPresetItem:propertyChanged(key, value)
+function StandardFullPreset:propertyChanged(key, value)
     self:updateIcon()
 end

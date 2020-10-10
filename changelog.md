@@ -1,5 +1,12 @@
 # Changelog
 
+## 1.3
+Merged the Full Item and Key Item trackers into a single tracker (added "Full Item" setting)
+Added new settings presets for new supported settings
+Reorganized the items (again) to re-add the useless items (it's very disorienting with out them)
+Moved the settings options to the far right side.
+Cleaned up some files and code
+
 ## 1.2.1
 Reversed behavior of the Ilex Cut Tree icon to be more intuitive\
 Added initial behavior to the settings\

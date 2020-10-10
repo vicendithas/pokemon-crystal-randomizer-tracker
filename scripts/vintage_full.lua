@@ -1,6 +1,6 @@
-TrickyPresetItem = CustomItem:extend()
+VintageFullPreset = CustomItem:extend()
 
-function TrickyPresetItem:init(name, code, imagePath)
+function VintageFullPreset:init(name, code, imagePath)
     self:createItem(name)
     self.code = code
     self:setProperty("active", false)
@@ -11,15 +11,15 @@ function TrickyPresetItem:init(name, code, imagePath)
     self:updateIcon()    
 end
 
-function TrickyPresetItem:setActive(active)
+function VintageFullPreset:setActive(active)
     self:setProperty("active", active)
 end
 
-function TrickyPresetItem:getActive()
+function VintageFullPreset:getActive()
     return self:getProperty("active")
 end
 
-function TrickyPresetItem:updateIcon()
+function VintageFullPreset:updateIcon()
     if self:getActive() then
         self.ItemInstance.Icon = self.activeImage
     else
@@ -27,23 +27,24 @@ function TrickyPresetItem:updateIcon()
     end
 end
 
-function TrickyPresetItem:onLeftClick()
-	Tracker:FindObjectForCode("cut_tree").Active = false
+function VintageFullPreset:onLeftClick()
+	Tracker:FindObjectForCode("full_item").Active = true
+	Tracker:FindObjectForCode("cut_tree").Active = true
 	Tracker:FindObjectForCode("vanilla_clair").Active = true
 	Tracker:FindObjectForCode("elite_four_req").Active = false
 	Tracker:FindObjectForCode("backward_kanto").Active = true
-	Tracker:FindObjectForCode("random_pokegear").Active = true
-	Tracker:FindObjectForCode("random_pokedex").Active = true
-	Tracker:FindObjectForCode("random_radio").Active = true
+	Tracker:FindObjectForCode("random_pokegear").Active = false
+	Tracker:FindObjectForCode("random_pokedex").Active = false
+	Tracker:FindObjectForCode("random_radio").Active = false
 	Tracker:FindObjectForCode("random_map").Active = false
-    Tracker:FindObjectForCode("tin_tower").Active = true
+    Tracker:FindObjectForCode("tin_tower").Active = false
 end
 
-function TrickyPresetItem:onRightClick()
+function VintageFullPreset:onRightClick()
 	
 end
 
-function TrickyPresetItem:canProvideCode(code)
+function VintageFullPreset:canProvideCode(code)
     if code == self.code then
         return true
     else
@@ -51,32 +52,32 @@ function TrickyPresetItem:canProvideCode(code)
     end
 end
 
-function TrickyPresetItem:providesCode(code)
+function VintageFullPreset:providesCode(code)
     if code == self.code and self.getActive() then
         return 1
     end
     return 0
 end
 
-function TrickyPresetItem:advanceToCode(code)
+function VintageFullPreset:advanceToCode(code)
     if code == nil or code == self.code then
         self:setActive(true)
     end
 end
 
-function TrickyPresetItem:save()
+function VintageFullPreset:save()
     local saveData = {}
     saveData["active"] = self.getActive()
     return saveData
 end
 
-function TrickyPresetItem:Load(data)
+function VintageFullPreset:Load(data)
     if data["active"] ~= nil then
         self:setActive(data["active"])
     end
     return true
 end
 
-function TrickyPresetItem:propertyChanged(key, value)
+function VintageFullPreset:propertyChanged(key, value)
     self:updateIcon()
 end

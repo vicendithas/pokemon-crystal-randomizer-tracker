@@ -19,21 +19,25 @@
                     },
 					{
                         "name": "Aides Potion",
+						"visibility_rules": ["full_item"],
                         "item_count": 1
                     },
                     {
                         "name": "Talk To Elm",
                         "access_rules": ["mystery_egg"],
+						"visibility_rules": ["full_item"],
                         "hosted_item": "elm"
                     },
                     { 
                         "name": "Aides Pokeballs",
                         "access_rules": ["elm"],
+						"visibility_rules": ["full_item"],
                         "item_count": 1
                     },
                     {
                         "name": "Rising Badge",
                         "access_rules": ["rising_badge"],
+						"visibility_rules": ["full_item"],
                         "item_count": 1
                     },
                     {
@@ -55,6 +59,7 @@
                 "sections": [
                     {
                         "name": "Ground Item",
+						"visibility_rules": ["full_item"],
                         "item_count": 1
                     }
                 ],
@@ -77,6 +82,7 @@
 					{
                         "name": "Man On Island",
                         "access_rules": ["@canUseSurf"],
+						"visibility_rules": ["full_item"],
                         "item_count": 1
                     }
                 ],
@@ -93,10 +99,12 @@
                 "sections": [
                     {                    
                         "name": "Berry Gifter",
+						"visibility_rules": ["full_item"],
                         "item_count": 1
                     },
                     {
                         "name": "Ground Item",
+						"visibility_rules": ["full_item"],
                         "item_count": 1
                     },
                     {
@@ -116,6 +124,7 @@
                     {   
                         "name": "Hand In Red Scale",
                         "access_rules": ["red_scale"],
+						"visibility_rules": ["full_item"],
                         "item_count": 1
                     }
                 ],
@@ -133,11 +142,13 @@
                     {                    
                         "name": "Ground Items",
                         "clear_as_group": false,
+						"visibility_rules": ["full_item"],
                         "item_count": 2
                     },
                     {
                         "name": "Deliver The Mail",
                         "access_rules": ["kenya"],
+						"visibility_rules": ["full_item"],
                         "hosted_item": "mail"
                     }
                 ],
@@ -155,23 +166,27 @@
                 "sections": [
                     {
                         "name": "Violet Side Ground",
+						"visibility_rules": ["full_item"],
                         "item_count": 1
                     },
                     {   
                         "name": "Behind Rock Smash",
                         "access_rules": ["tm08"],
+						"visibility_rules": ["full_item"],
                         "clear_as_group": false,
                         "item_count": 3
                     },
                     {
                         "name": "Blackthorn Side Ground",
                         "access_rules": ["@Blackthorn City, @canUseSurf"],
+						"visibility_rules": ["full_item"],
                         "clear_as_group": false,
                         "item_count": 2
                     },
                     {
                         "name": "Blackglasses Guy",   
                         "access_rules": ["@Blackthorn City, @canUseSurf"],
+						"visibility_rules": ["full_item"],
                         "item_count": 1  
                     }                   
                 ],
@@ -188,6 +203,7 @@
                 "sections": [
                     {
                         "name": "Gym Leader TM",
+						"visibility_rules": ["full_item"],
                         "item_count": 1
                     },
                     {
@@ -197,6 +213,7 @@
                     {   
                         "name": "Ground Items",
                         "access_rules": ["@canUseSurf"],
+						"visibility_rules": ["full_item"],
                         "clear_as_group": false,
                         "item_count": 2
                     },
@@ -219,15 +236,18 @@
                 "sections": [
                     {
                         "name":  "1F",
+						"visibility_rules": ["full_item"],
                         "item_count": 1,
                     },
                     {   
                         "name": "2F",
+						"visibility_rules": ["full_item"],
                         "clear_as_group": false,
                         "item_count": 1
                     },
                     {
                         "name": "3F",
+						"visibility_rules": ["full_item"],
                         "clear_as_group": false,
                         "item_count": 2
                     },
@@ -249,22 +269,25 @@
                 "sections": [
                     {
                         "name": "Escape Rope Treasure Room",
+						"visibility_rules": ["full_item"],
                         "item_count": 4
                     },
                     {
                         "name": "Flash Treasure Room",
                         "access_rules": ["@canUseFlash, @canUseSurf"],
+						"visibility_rules": ["full_item"],
                         "item_count": 4
                     },
                     {
                         "name": "Water Stone Treasure Room",
                         "access_rules": ["@canUseStrength, @canUseSurf, water_stone, partyegg" , "@canUseStrength, @canUseSurf, squirt_bottle, @canUseCut, water_stone", "@canUseStrength, @canUseSurf, squirt_bottle, $noCutTree, water_stone" ],
+						"visibility_rules": ["full_item"],
                         "item_count": 4
                     },
 					{
                         "name": "Ho-oh Treasure Room",
                         "access_rules": ["ho-oh, @canUseSurf, partyegg", "ho-oh, @canUseSurf, squirt_bottle, @canUseCut", "ho-oh, @canUseSurf, squirt_bottle, $noCutTree"],
-						"visibility_rules": ["tin_tower"],
+						"visibility_rules": ["tin_tower, full_item"],
                         "item_count": 4
                     },
                 ],
@@ -283,11 +306,13 @@
                     {
                         "name": "Miracle Seed Gift",
                         "access_rules": ["zephyr_badge"],
+						"visibility_rules": ["full_item"],
                         "item_count": 1
                     },
                     {
                         "name": "Ground Items",
                         "clear_as_group": false,
+						"visibility_rules": ["full_item"],
                         "item_count": 2
                     },                        
                     {    
@@ -296,6 +321,7 @@
                     },
                     {   "name": "Guy Behind Cut Bush",
                         "access_rules": ["@canUseCut"],
+						"visibility_rules": ["full_item"],
                         "item_count": 1
                     }
                 ],
@@ -313,17 +339,20 @@
                 "sections": [
                     {
                         "name": "1F",
+						"visibility_rules": ["full_item"],
                         "clear_as_group": false,
                         "item_count": 4
                     },
                     {
                         "name": "BF1",
+						"visibility_rules": ["full_item"],
                         "clear_as_group": false,
                         "item_count": 2
                     },
                     {  
                         "name": "BF2",
                         "access_rules": ["@canUseSurf"],
+						"visibility_rules": ["full_item"],
                         "clear_as_group": false,
                         "item_count": 2
                     }
@@ -342,11 +371,13 @@
                     {   
                         "name": "Talk To Kurt",
 						"access_rules": ["rocketgrunt"],
+						"visibility_rules": ["full_item"],
                         "item_count": 1
                     },
                     {
                         "name": "Gym Leader TM",
 						"access_rules": ["rocketgrunt"],
+						"visibility_rules": ["full_item"],
                         "item_count": 1
                     },
                     {
@@ -356,6 +387,7 @@
                     },
                     {   "name": "Charcoal",
                         "access_rules": ["rocketgrunt, farfetch'd"],
+						"visibility_rules": ["full_item"],
                         "item_count": 1
                     }
                 ],
@@ -373,6 +405,7 @@
                 "sections": [
                     {
                         "name": "Ground Floor",
+						"visibility_rules": ["full_item"],
                         "item_count": 1
                     },
                     {
@@ -382,11 +415,13 @@
                     {
                         "name": "Basement Ground",
                         "access_rules": ["@canUseSurf,@canUseStrength"],
+						"visibility_rules": ["full_item"],
                         "item_count": 1
                     },
                     {
                         "name": "King's Rock Gifter",
                         "access_rules": ["@canUseSurf,@canUseStrength"],
+						"visibility_rules": ["full_item"],
                         "item_count": 1
                     }
                 ],
@@ -404,6 +439,7 @@
                     {   
                         "name": "Ground Before Cut Bush",
                         "access_rules": ["partyegg", "squirt_bottle, @canUseCut", "squirt_bottle, $noCutTree"],
+						"visibility_rules": ["full_item"],
                         "item_count": 1
                     },  
                     {
@@ -413,13 +449,15 @@
                     },
                     {
                         "name": "Ground After Cut Bush",
-                        "access_rules": ["squirt_bottle", "@canUseCut,partyegg", "partyegg,$noCutTree"],                     
+                        "access_rules": ["squirt_bottle", "@canUseCut,partyegg", "partyegg,$noCutTree"],
+						"visibility_rules": ["full_item"],
                         "clear_as_group": false,
                         "item_count": 3
                     },
                     {
                         "name": "Headbutt Teacher",
                         "access_rules": ["squirt_bottle", "@canUseCut,partyegg", "partyegg,$noCutTree"],
+						"visibility_rules": ["full_item"],
                         "item_count": 1
                     }
                 ],
@@ -436,16 +474,19 @@
                 "access_rules": ["squirt_bottle", "@canUseCut, partyegg", "partyegg, $noCutTree"],
                 "sections": [
                     {   "name": "Lady In The Gate",
+					"visibility_rules": ["full_item"],
                         "item_count": 1
                     },
                     {
                         "name": "Ground Item",
                         "access_rules": ["@canUseSurf"],
+						"visibility_rules": ["full_item"],
                         "item_count": 1
                     },                        
                     {    
                         "name": "Fight The 3 Trainers",
                         "access_rules": ["@canUseSurf"],
+						"visibility_rules": ["full_item"],
                         "item_count": 1
                     }
                 ],
@@ -466,21 +507,25 @@
                         "sections": [
                             {
                                 "name": "Buy Water Stone",
+								"visibility_rules": ["full_item"],
                                 "hosted_item": "water_stone"
                             },
                             {
                                 "name": "Buy Rock Smash",
                                 "access_rules": ["rocksmashguy"],
+								"visibility_rules": ["full_item"],
                                 "hosted_item": "tm08"
                             },
                             {
                                 "name": "Mart Basement Behind Containers",
+								"visibility_rules": ["full_item"],
                                 "clear_as_group": false,
                                 "item_count": 3
                             },
                             {   
                                 "name": "Mart Basement Locked",
                                 "access_rules": ["basement_key"],
+								"visibility_rules": ["full_item"],
                                 "item_count": 1 
                             },                             
                             {
@@ -494,6 +539,7 @@
                             },
                             {
                                 "name": "Gym Leader TM",
+								"visibility_rules": ["full_item"],
                                 "item_count": 1
                             },
                             {
@@ -539,6 +585,7 @@
                             {
                                 "name": "After Defeating Team Rocket",
                                 "access_rules": ["team_rocket"],
+								"visibility_rules": ["full_item"],
                                 "clear_as_group": false,
                                 "item_count": 3
                             }
@@ -561,12 +608,14 @@
                             {
                                 "name": "Warehouse Front",
                                 "access_rules": ["basement_key"],
+								"visibility_rules": ["full_item"],
                                 "clear_as_group": false,
                                 "item_count": 2
                             },
                             {
                                 "name": "Warehouse Back",
                                 "access_rules": ["basement_key"],
+								"visibility_rules": ["full_item"],
                                 "clear_as_group": false,
                                 "item_count": 3
                             },
@@ -592,11 +641,13 @@
                 "sections": [
                     {
                         "name": "Ground Items",
+						"visibility_rules": ["full_item"],
                         "clear_as_group": false,
                         "item_count": 2
                     },
                     {
                         "name": "Lady On Bench",
+						"visibility_rules": ["full_item"],
                         "item_count": 1
                     } 
                 ],
@@ -614,15 +665,18 @@
                 "sections": [
                     {
                         "name": "Pick Up Kenya",
+						"visibility_rules": ["full_item"],
                         "hosted_item": "kenya"
                     },
                     {
                         "name": "Return To The Guard",
                         "access_rules": ["mail"],
+						"visibility_rules": ["full_item"],
                         "item_count": 1
                     },
                     {
                         "name": "Ground Item",
+						"visibility_rules": ["full_item"],
                         "item_count": 1
                     }
                 ],
@@ -640,11 +694,13 @@
                 "sections": [
                     {
                         "name": "Squirt The Tree",
+						"visibility_rules": ["full_item"],
                         "hosted_item": "sudowoodo"
                     },
                     {
                         "name": "Receive Mans Item",
                         "access_rules": ["sudowoodo"],
+						"visibility_rules": ["full_item"],
                         "hosted_item": "rocksmashguy"
                     }
                 ],
@@ -670,6 +726,7 @@
                     },
                     {
                         "name": "Gym Leader TM",
+						"visibility_rules": ["full_item"],
                         "item_count": 1
                     },
                     {
@@ -692,11 +749,13 @@
                     {
                         "name": "Ground Floor",
                         "access_rules": ["tm08"],
+						"visibility_rules": ["full_item"],
                         "item_count": 1
                     },
                     {
                         "name": "Basement",
                         "access_rules": ["@canUseStrength"],
+						"visibility_rules": ["full_item"],
                         "item_count": 1
                     }
                 ],
@@ -722,56 +781,56 @@
 					{
                         "name": "3F",
                         "access_rules": ["rainbow_wing"],
-						"visibility_rules": ["tin_tower"],
+						"visibility_rules": ["tin_tower, full_item"],
 						"clear_as_group": false,
                         "item_count": 1
                     },
 					{
                         "name": "4F",
                         "access_rules": ["rainbow_wing"],
-						"visibility_rules": ["tin_tower"],
+						"visibility_rules": ["tin_tower, full_item"],
 						"clear_as_group": false,
                         "item_count": 3
                     },
 					{
                         "name": "5F",
                         "access_rules": ["rainbow_wing"],
-						"visibility_rules": ["tin_tower"],
+						"visibility_rules": ["tin_tower, full_item"],
 						"clear_as_group": false,
                         "item_count": 1
                     },
 					{
                         "name": "6F",
                         "access_rules": ["rainbow_wing"],
-						"visibility_rules": ["tin_tower"],
+						"visibility_rules": ["tin_tower, full_item"],
 						"clear_as_group": false,
                         "item_count": 1
                     },
 					{
                         "name": "7F",
                         "access_rules": ["rainbow_wing"],
-						"visibility_rules": ["tin_tower"],
+						"visibility_rules": ["tin_tower, full_item"],
 						"clear_as_group": false,
                         "item_count": 1
                     },
 					{
                         "name": "8F",
                         "access_rules": ["rainbow_wing"],
-						"visibility_rules": ["tin_tower"],
+						"visibility_rules": ["tin_tower, full_item"],
 						"clear_as_group": false,
                         "item_count": 3
                     },
 					{
                         "name": "9F",
                         "access_rules": ["rainbow_wing"],
-						"visibility_rules": ["tin_tower"],
+						"visibility_rules": ["tin_tower, full_item"],
 						"clear_as_group": false,
                         "item_count": 1
                     },
 					{
                         "name": "Defeat Ho-oh",
                         "access_rules": ["elite_four, rainbow_wing"],
-						"visibility_rules": ["tin_tower"],
+						"visibility_rules": ["tin_tower, full_item"],
                         "hosted_item": "ho-oh"
                     }					
                 ],
@@ -798,6 +857,7 @@
                     {
                         "name": "Gym Leader TM",
                         "access_rules": ["return_potion"],
+						"visibility_rules": ["full_item"],
                         "item_count": 1
                     },
                     {
@@ -820,15 +880,18 @@
                 "sections": [
                     {
                         "name": "Lighthouse 3F",
+						"visibility_rules": ["full_item"],
                         "item_count": 1
                     },
                     {
                         "name": "Lighthouse 5F",
+						"visibility_rules": ["full_item"],
                         "clear_as_group": false,
                         "item_count": 3
                     },
                     {   
                         "name": "Lighthouse Top Floor",
+						"visibility_rules": ["full_item"],
                         "item_count": 1
                     },
                     {
@@ -855,6 +918,7 @@
                 "sections": [
                     {
                         "name": "Boat Quest",
+						"visibility_rules": ["full_item"],
                         "item_count": 1
                     }
                 ],
@@ -872,23 +936,28 @@
                 "sections": [
                     {
                         "name": "Top Right Entrance",
+						"visibility_rules": ["full_item"],
                         "item_count": 1
                     },
                     {
                         "name": "Bottom Left Entrance",
+						"visibility_rules": ["full_item"],
                         "item_count": 1
                     },
                     {
                         "name": "Before The Waterfall",
+						"visibility_rules": ["full_item"],
                         "item_count": 1
                     },
                     {
                         "name": "Main Room",
+						"visibility_rules": ["full_item"],
                         "clear_as_group": false,
                         "item_count": 5
                     },
                     {
                         "name": "Down The Ladder From Main Room",
+						"visibility_rules": ["full_item"],
                         "clear_as_group": false,
                         "item_count": 2
                     }
@@ -918,6 +987,7 @@
                     {
                         "name": "Gym Leader TM",
                         "access_rules": ["@canUseStrength"],
+						"visibility_rules": ["full_item"],
                         "item_count": 1
                     },
                     {
@@ -940,10 +1010,12 @@
                 "sections": [
                     {
                         "name": "Item Before Mt Mortar",
+						"visibility_rules": ["full_item"],
                         "item_count": 1
                     },
                     {   "name": "Middle Mt Mortar Entrance",
                         "access_rules": ["@canUseSurf"],
+						"visibility_rules": ["full_item"],
                         "item_count": 1
                     }
                 ],
@@ -962,29 +1034,34 @@
                     {
                         "name": "1F Ladders",
                         "clear_as_group": false,
+						"visibility_rules": ["full_item"],
                         "item_count": 2
                     },
                     {
                         "name": "2F (Waterfall)",
                         "access_rules": ["@canUseSurf, @canUseWaterfall"],
+						"visibility_rules": ["full_item"],
                         "clear_as_group": false,
                         "item_count": 6
                     },
                     {
                         "name": "1F Front (Strength)",
                         "access_rules": ["@canUseStrength", "@canUseSurf, @canUseWaterfall"],
+						"visibility_rules": ["full_item"],
                         "clear_as_group": false,
                         "item_count": 4
                     },
                     {
                         "name": "1F Back (Waterfall)",
                         "access_rules": ["@canUseSurf, @canUseWaterfall"],
+						"visibility_rules": ["full_item"],
                         "clear_as_group": false,
                         "item_count": 3
                     },
                     {
                         "name": "B1F (Mid Entrance)",
                         "access_rules": ["@canUseSurf"],
+						"visibility_rules": ["full_item"],
                         "clear_as_group": false,
                         "item_count": 5
                     }
@@ -1004,17 +1081,20 @@
                     {
                         "name": "Rocket Hideout B1F",
                         "access_rules": ["red_gyarados"],
+						"visibility_rules": ["full_item"],
                         "clear_as_group": false,
                         "item_count": 3
                     },
                                         {
                         "name": "Rocket Hideout B2F",
                         "access_rules": ["red_gyarados"],
+						"visibility_rules": ["full_item"],
                         "item_count": 1
                     },
                     {
                         "name": "Rocket Hideout B3F",
                         "access_rules": ["red_gyarados"],
+						"visibility_rules": ["full_item"],
                         "clear_as_group": false,
                         "item_count": 5
                     },
@@ -1026,6 +1106,7 @@
                     {
                         "name": "Gym Leader TM",
                         "access_rules": ["electrode"],
+						"visibility_rules": ["full_item"],
                         "item_count": 1
                     },
                     {
@@ -1048,11 +1129,13 @@
                 "sections": [
                     {
                         "name": "Ground Item",
+						"visibility_rules": ["full_item"],
                         "item_count": 1
                     },
                     {   
                         "name": "Guard Item",
                         "access_rules": ["electrode"],
+						"visibility_rules": ["full_item"],
                         "item_count": 1
                     }
                 ],
@@ -1071,6 +1154,7 @@
                     {   
                         "name": "Lake Of Rage",
                         "access_rules": ["@canUseCut"],
+						"visibility_rules": ["full_item"],
                         "clear_as_group": false,
                         "item_count": 3
                     },
@@ -1095,11 +1179,13 @@
                     {
                         "name": "Ground Items",
                         "clear_as_group": false,
+						"visibility_rules": ["full_item"],
                         "item_count": 2
                     },
                     {
                         "name": "Island Item",
                         "access_rules": ["@canUseSurf"],
+						"visibility_rules": ["full_item"],
                         "item_count": 1
                     }                    
                 ],
@@ -1121,31 +1207,37 @@
                     },
                     {
                         "name": "Third Room Pre-Strength",
+						"visibility_rules": ["full_item"],
                         "item_count": 1
                     },
                     {
                         "name": "Third Room Post-Strength",
                         "access_rules": ["@canUseStrength"],
+						"visibility_rules": ["full_item"],
                         "item_count": 1
                     },
                     {
                         "name": "Fourth Room",
                         "access_rules": ["@canUseStrength"],
+						"visibility_rules": ["full_item"],
                         "item_count": 1
                     },
                     {
                         "name": "Fifth Room",
                         "access_rules": ["@canUseStrength"],
+						"visibility_rules": ["full_item"],
                         "item_count": 1
                     },
                     {
                         "name": "Sixth Room",
                         "access_rules": ["@canUseStrength"],
+						"visibility_rules": ["full_item"],
                         "item_count": 1
                     },
                     {
                         "name": "Exit",
                         "access_rules": ["@canUseStrength"],
+						"visibility_rules": ["full_item"],
                         "clear_as_group": false,
                         "item_count": 2
                     }
@@ -1165,7 +1257,7 @@
                     {
                         "name": "Gym Leader TM",
                         "access_rules": ["team_rocket"],
-						"visibility_rules": ["$noVanillaClair"],
+						"visibility_rules": ["$noVanillaClair, full_item"],
                         "item_count": 1
                     },
                     {
@@ -1188,18 +1280,20 @@
                 "sections": [
                     {
                         "name": "Before The Whirlpool",
+						"visibility_rules": ["full_item"],
                         "clear_as_group": false,
                         "item_count": 2
                     },
                     {
                         "name": "After The Whirlpool",
                         "access_rules": ["@canUseWhirlpool"],
+						"visibility_rules": ["full_item"],
                         "item_count": 1
                     },
 					{
                         "name": "Clair TM",
                         "access_rules": ["@canUseWhirlpool"],
-						"visibility_rules": ["vanilla_clair"],
+						"visibility_rules": ["vanilla_clair, full_item"],
                         "item_count": 1
                     },
 					{
@@ -1223,6 +1317,7 @@
                 "sections": [
                     {
                         "name": "Ground Items",
+						"visibility_rules": ["full_item"],
                         "clear_as_group": false,
                         "item_count": 4
                     }
@@ -1241,6 +1336,7 @@
                 "sections": [
                     {
                         "name": "Ground Item",
+						"visibility_rules": ["full_item"],
                         "item_count": 1
                     }
                 ],
@@ -1258,18 +1354,21 @@
                 "sections": [
                     {
                         "name": "1F Ground",
+						"visibility_rules": ["full_item"],
                         "clear_as_group": false,
                         "item_count": 4
                     },
                     {    
                         "name": "2F Ground",
                         "access_rules": ["@canUseSurf, @canUseWaterfall"],
+						"visibility_rules": ["full_item"],
                         "clear_as_group": false,
                         "item_count": 3
                     },
                     {   
                         "name": "Chambers",
                         "access_rules": ["@canUseSurf, @canUseWaterfall"],
+						"visibility_rules": ["full_item"],
                         "clear_as_group": false,
                         "item_count": 2
                     },
