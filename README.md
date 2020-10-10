@@ -50,10 +50,14 @@ If the option is crossed out, it is disabled and not part of the logic of the tr
 
 ### Settings Presets
 
-Two presets have been added under the gear icon at the top right of the item tracker
+Presets have been added under the gear icon at the top right of the item tracker, corresponding with the presets in ERC's Item Randomizer.
 
-1. ![Standard Full Item](images/presets/standard_full.png "Standard Full Item") Sets the settings options to the default for the Standard preset in the item randomizer.
-2. ![Tricky Full Item](images/presets/tricky_full.png "Tricky Full Item") Sets the settings options to the default for the Tricky preset in the item randomizer.
+1. ![Standard Full Item](images/presets/standard_full.png "Standard Full Item") Standard Full Item randomizer.
+2. ![Old Standard Full Item](images/presets/old_standard_full.png "Old Standard Full Item") Old Standard Full Item randomizer (same as Standard, but Ilex Cut Tree is not removed).
+3. ![Tricky Full Item](images/presets/tricky_full.png "Tricky Full Item") Tricky Full Item randomizer (adds PokeGear, Radio/Expansion Cards, Pokedex, and Tin Tower to logic).
+4. ![Vintage Full Item](images/presets/vintage_full.png "Vintage Full Item") Vintage Full Item randomizer (replicates vanilla Crystal as close as possible).
+5. ![Classic Key Item](images/presets/classic_key.png "Classic Key Item") Classic Key Item randomizer.
+6. ![Neo Key Item](images/presets/neo_key.png "Neo Key Item") Neo Key Item randomizer (a new twist on Key Item Randomizer).
 
 Note: After using these presets, you can further customize your settings options as normal.
 
