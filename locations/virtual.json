@@ -22,9 +22,5 @@
     {
         "name": "canUseWaterfall",
         "access_rules": ["hm07,rising_badge"]
-    },
-	{
-        "name": "kanto_access",
-        "access_rules": ["@Goldenrod City, pass", "@Olivine City, ss_ticket"]
-    }	
+    }
 ]

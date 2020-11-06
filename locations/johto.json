@@ -161,44 +161,6 @@
                 ]
             },
 			{
-                "name": "Dark Cave",
-                "access_rules": ["@canUseFlash", "[@canUseFlash]"],
-                "sections": [
-                    {
-                        "name": "Violet Side Ground",
-						"visibility_rules": ["full_item"],
-                        "item_count": 1
-                    },
-                    {   
-                        "name": "Behind Rock Smash",
-                        "access_rules": ["tm08"],
-						"visibility_rules": ["full_item"],
-                        "clear_as_group": false,
-                        "item_count": 3
-                    },
-                    {
-                        "name": "Blackthorn Side Ground",
-                        "access_rules": ["@Blackthorn City, @canUseSurf"],
-						"visibility_rules": ["full_item"],
-                        "clear_as_group": false,
-                        "item_count": 2
-                    },
-                    {
-                        "name": "Blackglasses Guy",   
-                        "access_rules": ["@Blackthorn City, @canUseSurf"],
-						"visibility_rules": ["full_item"],
-                        "item_count": 1  
-                    }                   
-                ],
-                "map_locations": [
-                    {
-                        "map": "johto_kanto",
-                        "x": 1035,
-                        "y": 456
-                    }
-                ]
-            },
-			{
                 "name": "Violet City",
                 "sections": [
                     {
@@ -216,12 +178,7 @@
 						"visibility_rules": ["full_item"],
                         "clear_as_group": false,
                         "item_count": 2
-                    },
-                    {
-                        "name": "Receive Egg From Aid",
-                        "access_rules": ["falkner"],
-                        "hosted_item": "partyegg"
-                    }   
+                    } 
                 ],
                 "map_locations": [
                     {
@@ -280,13 +237,13 @@
                     },
                     {
                         "name": "Water Stone Treasure Room",
-                        "access_rules": ["@canUseStrength, @canUseSurf, water_stone, partyegg" , "@canUseStrength, @canUseSurf, squirt_bottle, @canUseCut, water_stone", "@canUseStrength, @canUseSurf, squirt_bottle, $noCutTree, water_stone" ],
+                        "access_rules": ["@canUseStrength, @canUseSurf, water_stone"],
 						"visibility_rules": ["full_item"],
                         "item_count": 4
                     },
 					{
                         "name": "Ho-oh Treasure Room",
-                        "access_rules": ["ho-oh, @canUseSurf, partyegg", "ho-oh, @canUseSurf, squirt_bottle, @canUseCut", "ho-oh, @canUseSurf, squirt_bottle, $noCutTree"],
+                        "access_rules": ["ho-oh, @canUseSurf"],
 						"visibility_rules": ["tin_tower, full_item"],
                         "item_count": 4
                     },
@@ -300,8 +257,7 @@
                 ]
             },
             {
-                "name": "Route 32",
-                "access_rules": ["squirt_bottle, @canUseCut", "squirt_bottle, $noCutTree", "partyegg"],     
+                "name": "Route 32",     
                 "sections": [
                     {
                         "name": "Miracle Seed Gift",
@@ -335,7 +291,6 @@
             },
 			{
                 "name": "Union Cave",
-                "access_rules": ["squirt_bottle, @canUseCut", "squirt_bottle, $noCutTree", "partyegg"], 
                 "sections": [
                     {
                         "name": "1F",
@@ -386,7 +341,7 @@
                         "hosted_item": "bugsy"
                     },
                     {   "name": "Charcoal",
-                        "access_rules": ["rocketgrunt, farfetch'd"],
+                        "access_rules": ["farfetch'd"],
 						"visibility_rules": ["full_item"],
                         "item_count": 1
                     }
@@ -401,7 +356,6 @@
             },
 			{
                 "name": "Slowpoke Well",
-                "access_rules": ["squirt_bottle, @canUseCut", "squirt_bottle, $noCutTree", "partyegg"], 
                 "sections": [
                     {
                         "name": "Ground Floor",
@@ -414,13 +368,13 @@
                     },
                     {
                         "name": "Basement Ground",
-                        "access_rules": ["@canUseSurf,@canUseStrength"],
+                        "access_rules": ["@canUseSurf, @canUseStrength"],
 						"visibility_rules": ["full_item"],
                         "item_count": 1
                     },
                     {
                         "name": "King's Rock Gifter",
-                        "access_rules": ["@canUseSurf,@canUseStrength"],
+                        "access_rules": ["@canUseSurf, @canUseStrength"],
 						"visibility_rules": ["full_item"],
                         "item_count": 1
                     }
@@ -438,7 +392,6 @@
                 "sections": [
                     {   
                         "name": "Ground Before Cut Bush",
-                        "access_rules": ["partyegg", "squirt_bottle, @canUseCut", "squirt_bottle, $noCutTree"],
 						"visibility_rules": ["full_item"],
                         "item_count": 1
                     },  
@@ -449,14 +402,14 @@
                     },
                     {
                         "name": "Ground After Cut Bush",
-                        "access_rules": ["squirt_bottle", "@canUseCut,partyegg", "partyegg,$noCutTree"],
+                        "access_rules": ["squirt_bottle", "@canUseCut", "$noCutTree"],
 						"visibility_rules": ["full_item"],
                         "clear_as_group": false,
                         "item_count": 3
                     },
                     {
                         "name": "Headbutt Teacher",
-                        "access_rules": ["squirt_bottle", "@canUseCut,partyegg", "partyegg,$noCutTree"],
+                        "access_rules": ["squirt_bottle", "@canUseCut", "$noCutTree"],
 						"visibility_rules": ["full_item"],
                         "item_count": 1
                     }
@@ -471,10 +424,10 @@
             },
 			{
                 "name": "Route 34",
-                "access_rules": ["squirt_bottle", "@canUseCut, partyegg", "partyegg, $noCutTree"],
+                "access_rules": ["squirt_bottle", "@canUseCut", "$noCutTree"],
                 "sections": [
                     {   "name": "Lady In The Gate",
-					"visibility_rules": ["full_item"],
+						"visibility_rules": ["full_item"],
                         "item_count": 1
                     },
                     {
@@ -484,7 +437,7 @@
                         "item_count": 1
                     },                        
                     {    
-                        "name": "Fight The 3 Trainers",
+                        "name": "Soft Sand Girls",
                         "access_rules": ["@canUseSurf"],
 						"visibility_rules": ["full_item"],
                         "item_count": 1
@@ -500,7 +453,7 @@
             },
 			{
                 "name": "Goldenrod",
-                "access_rules": ["squirt_bottle", "@canUseCut, partyegg", "partyegg,$noCutTree"],
+                "access_rules": ["squirt_bottle", "@canUseCut", "$noCutTree"],
                 "children": [
                     {
                         "name": "Goldenrod City",
@@ -637,7 +590,7 @@
             },
             {
                 "name": "National Park",
-                "access_rules": ["squirt_bottle", "@canUseCut, partyegg", "partyegg, $noCutTree"],
+                "access_rules": ["squirt_bottle", "@canUseCut", "$noCutTree"],
                 "sections": [
                     {
                         "name": "Ground Items",
@@ -661,7 +614,7 @@
             },
             {
                 "name": "Route 35",
-                "access_rules": ["squirt_bottle", "@canUseCut, partyegg", "partyegg, $noCutTree"],
+                "access_rules": ["squirt_bottle", "@canUseCut", "$noCutTree"],
                 "sections": [
                     {
                         "name": "Pick Up Kenya",
@@ -714,7 +667,7 @@
             },
 			{
                 "name": "Ecruteak City",
-                "access_rules": ["squirt_bottle","pass,ss_ticket,partyegg,@canUseCut", "pass,ss_ticket,partyegg,$noCutTree"],
+                "access_rules": ["squirt_bottle", "pass,ss_ticket,@canUseCut", "pass,ss_ticket,$noCutTree"],
                 "sections": [
                     {
                         "name": "House",
@@ -844,7 +797,7 @@
             },
 			{
                 "name": "Olivine City",
-                "access_rules": ["@Ecruteak City"],
+                "access_rules": ["squirt_bottle", "pass,ss_ticket,@canUseCut", "pass,ss_ticket,$noCutTree"],
                 "sections": [
                     {
                         "name": "Fisherman",
@@ -876,7 +829,7 @@
             },
 			{
                 "name": "Olivine Lighthouse",
-                "access_rules": ["@Ecruteak City"],
+                "access_rules": ["@Olivine City"],
                 "sections": [
                     {
                         "name": "Lighthouse 3F",
@@ -914,7 +867,7 @@
             },
 			{
                 "name": "S.S. Aqua",
-                "access_rules": ["@Ecruteak City, ss_ticket", "@Vermilion City, ss_ticket"],
+                "access_rules": ["squirt_bottle, ss_ticket", "pass,ss_ticket,@canUseCut", "pass,ss_ticket,$noCutTree"],
                 "sections": [
                     {
                         "name": "Boat Quest",
@@ -932,7 +885,7 @@
             },
 			{
                 "name": "Whirl Islands",
-                "access_rules": ["@Ecruteak City, @canUseSurf, @canUseWhirlpool, [@canUseFlash]"], 
+                "access_rules": ["@Olivine City, @canUseSurf, @canUseWhirlpool, [@canUseFlash]"], 
                 "sections": [
                     {
                         "name": "Top Right Entrance",
@@ -972,7 +925,7 @@
             },
             {
                 "name": "Cianwood City",
-                "access_rules": ["@Ecruteak City,@canUseSurf"],
+                "access_rules": ["@Olivine City, @canUseSurf"],
                 "sections": [
                     {
                         "name": "Pharmacy",
@@ -1174,7 +1127,7 @@
             },
 			{
                 "name": "Route 44",
-                "access_rules": ["@Ecruteak City,$canFightTeamRocket"],
+                "access_rules": ["@Ecruteak City, $canFightTeamRocket"],
                 "sections": [
                     {
                         "name": "Ground Items",
@@ -1252,7 +1205,7 @@
             },
 			{
                 "name": "Blackthorn City",
-                "access_rules": ["@Ecruteak City,@canUseStrength,$canFightTeamRocket"],
+                "access_rules": ["@Ecruteak City, @canUseStrength, $canFightTeamRocket"],
                 "sections": [
                     {
                         "name": "Gym Leader TM",
@@ -1276,7 +1229,7 @@
             },
 			{
                 "name": "Dragon's Den",
-                "access_rules": ["@Blackthorn City, clair, @canUseSurf"],
+                "access_rules": ["clair, @canUseSurf"],
                 "sections": [
                     {
                         "name": "Before The Whirlpool",
@@ -1311,9 +1264,47 @@
                     }
                 ]
             },
+			{
+                "name": "Dark Cave",
+                "access_rules": ["[@canUseFlash]"],
+                "sections": [
+                    {
+                        "name": "Violet Side Ground",
+						"visibility_rules": ["full_item"],
+                        "item_count": 1
+                    },
+                    {   
+                        "name": "Behind Rock Smash",
+                        "access_rules": ["tm08"],
+						"visibility_rules": ["full_item"],
+                        "clear_as_group": false,
+                        "item_count": 3
+                    },
+                    {
+                        "name": "Blackthorn Side Ground",
+                        "access_rules": ["@Ecruteak City, @canUseStrength, $canFightTeamRocket, @canUseSurf"],
+						"visibility_rules": ["full_item"],
+                        "clear_as_group": false,
+                        "item_count": 2
+                    },
+                    {
+                        "name": "Blackglasses Guy",   
+                        "access_rules": ["@Ecruteak City, @canUseStrength, $canFightTeamRocket, @canUseSurf"],
+						"visibility_rules": ["full_item"],
+                        "item_count": 1  
+                    }                   
+                ],
+                "map_locations": [
+                    {
+                        "map": "johto_kanto",
+                        "x": 1035,
+                        "y": 456
+                    }
+                ]
+            },
             {
                 "name": "Route 45",
-                "access_rules": ["@Blackthorn City"],
+                "access_rules": ["@Ecruteak City, @canUseStrength, $canFightTeamRocket"],
                 "sections": [
                     {
                         "name": "Ground Items",
@@ -1332,7 +1323,7 @@
             },
             {
                 "name": "Route 46",
-                "access_rules": [ "@Blackthorn City", "tm08,[@canUseFlash]" ],
+                "access_rules": [ "@Ecruteak City, @canUseStrength, $canFightTeamRocket", "tm08, [@canUseFlash]" ],
                 "sections": [
                     {
                         "name": "Ground Item",

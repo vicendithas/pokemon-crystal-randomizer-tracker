@@ -405,12 +405,6 @@
         "img": "images/other/elm.png",
         "codes": "Elm"
     },
-    {
-        "name": "Party Egg",
-        "type": "toggle",
-        "img": "images/items/mystery_egg.png",
-        "codes": "partyegg"
-    },
 	{
         "name": "Snorlax",
         "type": "toggle",

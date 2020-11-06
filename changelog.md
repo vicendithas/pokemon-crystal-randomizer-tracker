@@ -1,13 +1,18 @@
 # Changelog
+## 1.3.5
+Fixed errors in the Union Cave Map (was using a Gold/Silver map instead of a Crystal map)\
+Removed the Party Egg in Violet City (it was causing problems with the logic and doesn't add much usefullness to the tracker, IMO)\
+Reworked logic surrounding Kanto Access and Backward Kanto to fix problems with locations not showing accessable when they should\
+Split Route 2 to separate Viridian Forest Hedge Maze (to better indicate the location of the items)
 
 ## 1.3.1
 Fixed an error with Classic Key Item
 
 ## 1.3
-Merged the Full Item and Key Item trackers into a single tracker (added "Full Item" setting)
-Added new settings presets for new supported settings
-Reorganized the items (again) to re-add the useless items (it's very disorienting with out them)
-Moved the settings options to the far right side.
+Merged the Full Item and Key Item trackers into a single tracker (added "Full Item" setting)\
+Added new settings presets for new supported settings\
+Reorganized the items (again) to re-add the useless items (it's very disorienting with out them)\
+Moved the settings options to the far right side.\
 Cleaned up some files and code
 
 ## 1.2.1
