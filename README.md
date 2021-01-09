@@ -53,11 +53,15 @@ If the option is crossed out, it is disabled and not part of the logic of the tr
 Presets have been added under the gear icon at the top right of the item tracker, corresponding with the presets in ERC's Item Randomizer.
 
 1. ![Standard Full Item](images/presets/standard_full.png "Standard Full Item") Standard Full Item randomizer.
-2. ![Old Standard Full Item](images/presets/old_standard_full.png "Old Standard Full Item") Old Standard Full Item randomizer (same as Standard, but Ilex Cut Tree is not removed).
-3. ![Tricky Full Item](images/presets/tricky_full.png "Tricky Full Item") Tricky Full Item randomizer (adds PokeGear, Radio/Expansion Cards, Pokedex, and Tin Tower to logic).
-4. ![Vintage Full Item](images/presets/vintage_full.png "Vintage Full Item") Vintage Full Item randomizer (replicates vanilla Crystal as close as possible).
-5. ![Classic Key Item](images/presets/classic_key.png "Classic Key Item") Classic Key Item randomizer.
-6. ![Neo Key Item](images/presets/neo_key.png "Neo Key Item") Neo Key Item randomizer (a new twist on Key Item Randomizer).
+2. ![Easy Full Item](images/presets/easy_full.png "Easy Full Item") Easy Full Item randomizer (same as Standard, but with a few Easy settings, see below).
+3. ![Old Standard Full Item](images/presets/old_standard_full.png "Old Standard Full Item") Old Standard Full Item randomizer (same as Standard, but Ilex Cut Tree is not removed).
+4. ![Tricky/Extreme Full Item](images/presets/tricky_full.png "Tricky/Extreme Full Item") Tricky or Extreme Full Item randomizer (adds PokeGear, Radio/Expansion Cards, Pokedex, and Tin Tower to logic).
+5. ![Vintage Full Item](images/presets/vintage_full.png "Vintage Full Item") Vintage Full Item randomizer (replicates vanilla Crystal as close as possible).
+6. ![Easy/Classic Key Item](images/presets/classic_key.png "Easy/Classic Key Item") Classic or Easy Key Item randomizer (see below for Easy variant information).
+7. ![Neo/Extreme Key Item](images/presets/neo_key.png "Neo/Extreme Key Item") Neo or Extreme Key Item randomizer (new twists on Key Item Randomizer).
+
+The Extreme variants mixes badges into the item pool. This does not change how the tracker operates, but is noted here for convenience.
+The Easy variants guarantee early Fly access (follows early Bicycle logic), Backwards Kanto is never required, and none of the Kanto Gym leaders (except Janine) will be required until access to 7 other badges.
 
 Note: After using these presets, you can further customize your settings options as normal.
 

@@ -1,4 +1,10 @@
 # Changelog
+## 1.4
+Removed Map Card because it will never be added to the randomizer\
+Added/Updates presets for new available presets\
+Updated logic on Rainbow Wing check to reflect a bug in the game code\
+Added defeating Morty as a requirement for access to Tin Tower
+
 ## 1.3.5
 Fixed errors in the Union Cave Map (was using a Gold/Silver map instead of a Crystal map)\
 Removed the Party Egg in Violet City (it was causing problems with the logic and doesn't add much usefullness to the tracker, IMO)\

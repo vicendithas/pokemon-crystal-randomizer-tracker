@@ -74,11 +74,6 @@
 			{
                 "name": "Cherrygrove City",
                 "sections": [
-                    {
-                        "name": "Map Card",
-						"visibility_rules": ["random_map"],
-                        "item_count": 1
-                    },
 					{
                         "name": "Man On Island",
                         "access_rules": ["@canUseSurf"],
@@ -722,12 +717,12 @@
             },
 			{
                 "name": "Tin Tower",
-                "access_rules": ["@Ecruteak City, clear_bell"],
+                "access_rules": ["@Ecruteak City, clear_bell, morty"],
 				"visibility_rules": ["tin_tower"],
                 "sections": [
                     {
                         "name": "Rainbow Wing",
-                        "access_rules": ["elite_four"],
+                        "access_rules": ["red_gyarados"],
 						"visibility_rules": ["tin_tower"],
                         "item_count": 1
                     },

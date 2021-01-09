@@ -36,7 +36,6 @@ function NeoKeyPreset:onLeftClick()
 	Tracker:FindObjectForCode("random_pokegear").Active = true
 	Tracker:FindObjectForCode("random_pokedex").Active = true
 	Tracker:FindObjectForCode("random_radio").Active = true
-	Tracker:FindObjectForCode("random_map").Active = false
     Tracker:FindObjectForCode("tin_tower").Active = true
 end
 

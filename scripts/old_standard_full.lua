@@ -36,7 +36,6 @@ function OldStandardFullPreset:onLeftClick()
 	Tracker:FindObjectForCode("random_pokegear").Active = false
 	Tracker:FindObjectForCode("random_pokedex").Active = false
 	Tracker:FindObjectForCode("random_radio").Active = false
-	Tracker:FindObjectForCode("random_map").Active = false
     Tracker:FindObjectForCode("tin_tower").Active = false
 end
 

@@ -626,14 +626,6 @@
         "codes": "random_radio"
     },
 	{
-        "name": "Random Map Card",
-        "type": "toggle",
-        "img": "images/items/map_card.png",
-        "disabled_img_mods": "overlay|images/other/no.png",
-		"initial_active_state": false,
-        "codes": "random_map"
-    },
-	{
         "name": "Tin Tower",
         "type": "toggle",
         "img": "images/other/tin_tower.png",

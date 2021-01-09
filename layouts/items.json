@@ -12,10 +12,10 @@
 						"pokegear",
 						"radio_card",
                         "expansion_card",
-						"map_card",
 						"squirt_bottle",
                         "secret_potion",
                         "card_key",
+						"",
 						"ss_ticket",
                         "pass",
 						""
@@ -38,10 +38,10 @@
                         "blue_card",
                         "coin_case",
                         "item_finder",
+						"",
                         "old_rod",
                         "good_rod",
                         "super_rod",
-                        "",
 						""
                     ],
                     [
@@ -52,8 +52,8 @@
                         "hm05",
                         "hm06",
                         "hm07",
-						"tm08",
 						"",
+						"tm08",
 						""
                     ],
                     [
@@ -116,7 +116,7 @@
 						"random_radio"
 					],
 					[ 
-						"random_map",
+						"",
 						"tin_tower"
 					]
                 ]
@@ -132,6 +132,18 @@
 				"orientation": "vertical",
 				"margin": 5,
 				"content": [
+					{
+						"type": "group",
+						"header": "Easy Full Item",
+						"header_background": "#3e4b57",
+						"content":[
+							{
+								"type": "item",
+								"margin": "-5,-1,-5,-5",
+								"item": "easy_full"
+							}
+						]
+					},
 					{
 						"type": "group",
 						"header": "Standard Full Item",
