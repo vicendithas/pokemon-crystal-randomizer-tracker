@@ -45,8 +45,7 @@ If the option is crossed out, it is disabled and not part of the logic of the tr
 6. ![Random Pokedex](images/items/pokedex.png "Random Pokedex") The Pokedex is added to the randomized item pool.
 7. ![Random Pokegear](images/items/pokegear.png "Random Pokegear") The PokeGear is added to the randomized item pool.
 8. ![Random Radio Cards](images/items/radio_card.png "Random Radio Cards") The Radio Card and Expansion Card are added to the randomized item pool.
-9. ![Random Map Card](images/items/map_card.png "Random Map Card") The Map Card is added to the randomized item pool.
-10. ![Tin Tower and Ho-oh Chamber](images/other/tin_tower.png "Tin Tower and Ho-oh Chamber") The Rainbow Wing is added to the randomized item pool. Tin Tower and the Ho-oh Treasure Room are in logic. Access to the base of Tin Tower requires the Clear Bell and access to the upper floors requires the Rainbow Wing. Ho-oh spawns once the Elite Four have been defeated. The Ho-oh Treasure Chamber opens when Ho-oh has been defeated (requires Surf and Strength).
+9. ![Tin Tower and Ho-oh Chamber](images/other/tin_tower.png "Tin Tower and Ho-oh Chamber") The Rainbow Wing is added to the randomized item pool. Tin Tower and the Ho-oh Treasure Room are in logic. Access to the base of Tin Tower requires the Clear Bell and access to the upper floors requires the Rainbow Wing. Ho-oh spawns once the Elite Four have been defeated. The Ho-oh Treasure Chamber opens when Ho-oh has been defeated (requires Surf and Strength).
 
 ### Settings Presets
 
@@ -60,7 +59,7 @@ Presets have been added under the gear icon at the top right of the item tracker
 6. ![Easy/Classic Key Item](images/presets/classic_key.png "Easy/Classic Key Item") Classic or Easy Key Item randomizer (see below for Easy variant information).
 7. ![Neo/Extreme Key Item](images/presets/neo_key.png "Neo/Extreme Key Item") Neo or Extreme Key Item randomizer (new twists on Key Item Randomizer).
 
-The Extreme variants mixes badges into the item pool. This does not change how the tracker operates, but is noted here for convenience.
+The Extreme variants mixes badges into the item pool. This does not change how the tracker operates, but is noted here for convenience.\
 The Easy variants guarantee early Fly access (follows early Bicycle logic), Backwards Kanto is never required, and none of the Kanto Gym leaders (except Janine) will be required until access to 7 other badges.
 
 Note: After using these presets, you can further customize your settings options as normal.
