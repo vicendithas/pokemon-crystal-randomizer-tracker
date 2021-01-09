@@ -717,7 +717,7 @@
             },
 			{
                 "name": "Tin Tower",
-                "access_rules": ["@Ecruteak City, clear_bell, morty"],
+                "access_rules": ["@Ecruteak City, clear_bell"],
 				"visibility_rules": ["tin_tower"],
                 "sections": [
                     {
