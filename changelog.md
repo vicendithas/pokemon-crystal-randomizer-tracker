@@ -1,7 +1,11 @@
 # Changelog
+## 2.0
+Added support for Nightmare mode\
+Added Cut requirement for house on Route 28
+
 ## 1.4.1
-Reversed some of the changes in 1.4
-Removed Morty as a requirement for Tin Tower (turns out it's more complicated than that)
+Reversed some of the changes in 1.4\
+Removed Morty as a requirement for Tin Tower (turns out it's more complicated than that)\
 Removed the spaces in the item grid (I thought it would help to separate some items out, but it was just confusing)
 
 ## 1.4

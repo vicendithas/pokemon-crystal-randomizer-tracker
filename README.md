@@ -55,6 +55,7 @@ Presets have been added under the gear icon at the top right of the item tracker
 2. ![Easy Full Item](images/presets/easy_full.png "Easy Full Item") Easy Full Item randomizer (same as Standard, but with a few Easy settings, see below).
 3. ![Old Standard Full Item](images/presets/old_standard_full.png "Old Standard Full Item") Old Standard Full Item randomizer (same as Standard, but Ilex Cut Tree is not removed).
 4. ![Tricky/Extreme Full Item](images/presets/tricky_full.png "Tricky/Extreme Full Item") Tricky or Extreme Full Item randomizer (adds PokeGear, Radio/Expansion Cards, Pokedex, and Tin Tower to logic).
+4. ![Nightmare Full Item](images/presets/nightmare_full.png "Nightmare Full Item") Nightmare Full Item randomizer. Do you like fun? Well, too bad.
 5. ![Vintage Full Item](images/presets/vintage_full.png "Vintage Full Item") Vintage Full Item randomizer (replicates vanilla Crystal as close as possible).
 6. ![Easy/Classic Key Item](images/presets/classic_key.png "Easy/Classic Key Item") Classic or Easy Key Item randomizer (see below for Easy variant information).
 7. ![Neo/Extreme Key Item](images/presets/neo_key.png "Neo/Extreme Key Item") Neo or Extreme Key Item randomizer (new twists on Key Item Randomizer).
