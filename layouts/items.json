@@ -189,6 +189,18 @@
 				"content": [
 					{
 						"type": "group",
+						"header": "Vintage Full Item",
+						"header_background": "#3e4b57",
+						"content":[
+							{
+								"type": "item",
+								"margin": "-5,-1,-5,-5",
+								"item": "vintage_full"
+							}
+						]
+					},
+					{
+						"type": "group",
 						"header": "Old Standard Full Item",
 						"header_background": "#3e4b57",
 						"content":[
@@ -201,13 +213,13 @@
 					},
 					{
 						"type": "group",
-						"header": "Vintage Full Item",
+						"header": "Nightmare Full Item",
 						"header_background": "#3e4b57",
 						"content":[
 							{
 								"type": "item",
 								"margin": "-5,-1,-5,-5",
-								"item": "vintage_full"
+								"item": "nightmare_full"
 							}
 						]
 					},

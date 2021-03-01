@@ -581,6 +581,7 @@
                 "sections": [
                     {
                         "name": "House Item",
+						"access_rules": ["@canUseCut"],
 						"visibility_rules": ["full_item"],
                         "item_count": 1
                     }
