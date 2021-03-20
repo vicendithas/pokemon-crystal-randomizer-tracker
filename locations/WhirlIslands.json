@@ -1,0 +1,44 @@
+[
+	{
+		"name": "Whirl Islands",
+		"chest_unopened_img": "images/chests/default_unopened.png",
+        "chest_opened_img": "images/chests/default_opened.png",
+		"access_rules": ["@Olivine City, @canUseSurf, @canUseWhirlpool, [@canUseFlash]"], 
+		"sections": [
+			{
+				"name": "Top Right Entrance",
+				"visibility_rules": ["full_item"],
+				"item_count": 1
+			},
+			{
+				"name": "Bottom Left Entrance",
+				"visibility_rules": ["full_item"],
+				"item_count": 1
+			},
+			{
+				"name": "Before The Waterfall",
+				"visibility_rules": ["full_item"],
+				"item_count": 1
+			},
+			{
+				"name": "Main Room",
+				"visibility_rules": ["full_item"],
+				"clear_as_group": false,
+				"item_count": 5
+			},
+			{
+				"name": "Down The Ladder From Main Room",
+				"visibility_rules": ["full_item"],
+				"clear_as_group": false,
+				"item_count": 2
+			}
+		],
+		"map_locations": [
+			{
+				"map": "johto_kanto",
+				"x": 201,
+				"y": 783
+			}
+		]
+	}
+]

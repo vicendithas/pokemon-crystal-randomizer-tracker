@@ -562,6 +562,14 @@
         "codes": "blue"
     },
 	{
+        "name": "boat_quest",
+        "type": "toggle",
+        "img": "images/chests/default_opened.png",
+		"disabled_img": "images/chests/default_unopened.png",
+		"disabled_img_mods": "",
+        "codes": "boat_quest"
+    },
+	{
         "name": "Full Item",
         "type": "toggle",
         "img": "images/other/full_item.png",
@@ -632,5 +640,13 @@
         "disabled_img_mods": "overlay|images/other/no.png",
 		"initial_active_state": false,
         "codes": "tin_tower"
+    },
+	{
+        "name": "Hidden Items",
+        "type": "toggle",
+        "img": "images/other/hidden_items.png",
+        "disabled_img_mods": "overlay|images/other/no.png",
+		"initial_active_state": false,
+        "codes": "hidden_items"
     }
 ]

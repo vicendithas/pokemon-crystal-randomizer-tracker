@@ -1,0 +1,25 @@
+[
+	{
+		"name": "Pewter City",
+		"chest_unopened_img": "images/chests/default_unopened.png",
+        "chest_opened_img": "images/chests/default_opened.png",
+		"access_rules": ["@Viridian City"],
+		"sections": [
+			{
+				"name": "Old Man",
+				"item_count": 1
+			},
+			{
+				"name": "Gym - Brock",
+				"hosted_item": "brock"
+			}
+		],
+		"map_locations": [
+			{
+				"map": "johto_kanto",
+				"x": 1956,
+				"y": 370,
+			}
+		]
+	}
+]

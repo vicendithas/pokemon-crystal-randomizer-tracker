@@ -1,0 +1,28 @@
+[
+	{
+		"name": "Blackthorn City",
+		"chest_unopened_img": "images/chests/default_unopened.png",
+        "chest_opened_img": "images/chests/default_opened.png",
+		"access_rules": ["@Ecruteak City, @canUseStrength, $canFightTeamRocket"],
+		"sections": [
+			{
+				"name": "Gym Leader TM",
+				"access_rules": ["team_rocket"],
+				"visibility_rules": ["$noVanillaClair, full_item"],
+				"item_count": 1
+			},
+			{
+				"name": "Gym - Clair",
+				"access_rules": ["team_rocket"],
+				"hosted_item": "clair"
+			}
+		],
+		"map_locations": [
+			{
+				"map": "johto_kanto",
+				"x": 1285,
+				"y": 286
+			}
+		]
+	}
+]

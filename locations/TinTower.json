@@ -1,0 +1,79 @@
+[
+	{
+		"name": "Tin Tower",
+		"chest_unopened_img": "images/chests/default_unopened.png",
+        "chest_opened_img": "images/chests/default_opened.png",
+		"access_rules": ["@Ecruteak City, clear_bell"],
+		"visibility_rules": ["tin_tower"],
+		"sections": [
+			{
+				"name": "Rainbow Wing",
+				"access_rules": ["red_gyarados"],
+				"visibility_rules": ["tin_tower"],
+				"item_count": 1
+			},
+			{
+				"name": "3F",
+				"access_rules": ["rainbow_wing"],
+				"visibility_rules": ["tin_tower, full_item"],
+				"clear_as_group": false,
+				"item_count": 1
+			},
+			{
+				"name": "4F",
+				"access_rules": ["rainbow_wing"],
+				"visibility_rules": ["tin_tower, full_item"],
+				"clear_as_group": false,
+				"item_count": 3
+			},
+			{
+				"name": "5F",
+				"access_rules": ["rainbow_wing"],
+				"visibility_rules": ["tin_tower, full_item"],
+				"clear_as_group": false,
+				"item_count": 1
+			},
+			{
+				"name": "6F",
+				"access_rules": ["rainbow_wing"],
+				"visibility_rules": ["tin_tower, full_item"],
+				"clear_as_group": false,
+				"item_count": 1
+			},
+			{
+				"name": "7F",
+				"access_rules": ["rainbow_wing"],
+				"visibility_rules": ["tin_tower, full_item"],
+				"clear_as_group": false,
+				"item_count": 1
+			},
+			{
+				"name": "8F",
+				"access_rules": ["rainbow_wing"],
+				"visibility_rules": ["tin_tower, full_item"],
+				"clear_as_group": false,
+				"item_count": 3
+			},
+			{
+				"name": "9F",
+				"access_rules": ["rainbow_wing"],
+				"visibility_rules": ["tin_tower, full_item"],
+				"clear_as_group": false,
+				"item_count": 1
+			},
+			{
+				"name": "Defeat Ho-oh",
+				"access_rules": ["elite_four, rainbow_wing"],
+				"visibility_rules": ["tin_tower, full_item"],
+				"hosted_item": "ho-oh"
+			}					
+		],
+		"map_locations": [
+			{
+				"map": "johto_kanto",
+				"x": 666,
+				"y": 206
+			}
+		]
+	}
+]

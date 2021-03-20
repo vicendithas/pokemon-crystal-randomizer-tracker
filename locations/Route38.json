@@ -1,0 +1,94 @@
+Location:
+    -
+        Name: Route 38 Entrance
+        FileName: Route38.asm
+        Type: Map
+        HasPKMN: No
+        WildTableList:
+        LocationReqs: Route 38 via Ecruteak
+        FlagReqs:
+        ItemReqs:
+            - Squirtbottle
+        FlagsSet:
+        ReachableReqs:
+        Code:
+        Text:
+        TrainerList:
+        Sublocations:
+    -
+        Name: Route 38 via Ecruteak
+        FileName: Route38.asm
+        Type: Map
+        HasPKMN: Yes
+        WildTableList:
+        LocationReqs: Ecruteak City via Route 37
+        FlagReqs:
+        ItemReqs:
+            - Squirtbottle
+        FlagsSet:
+        ReachableReqs:
+        Code:
+        Text:
+        TrainerList:
+        Sublocations:
+    -
+        Name: Route 38 Entrance
+        FileName: Route38.asm
+        Type: Map
+        HasPKMN: No
+        WildTableList:
+        LocationReqs: 
+            - Route 38 via Route 39
+        FlagReqs:
+        ItemReqs:
+            - Pass
+            - S S Ticket 
+        FlagsSet:
+        ReachableReqs:
+        Code:
+        Text:
+        TrainerList:
+        Sublocations:
+    -
+        Name: Route 38 via Route 39
+        FileName: Route38.asm
+        Type: Map
+        HasPKMN: Yes
+        WildTableList:
+        LocationReqs: 
+            - Route 39 via Olivine
+        FlagReqs:
+            - Hive Badge
+            - Kanto Mode
+        ItemReqs:
+            - Pass
+            - S S Ticket 
+            - Cut
+        FlagsSet:
+        ReachableReqs:
+        Code:
+        Text:
+        TrainerList:
+        Sublocations:
+    -
+        Name: Route 38
+        FileName: Route38.asm
+        Type: Map
+        HasPKMN: No
+        WildTableList: Route_38
+        LocationReqs: Route 38 Entrance
+        FlagReqs:
+        ItemReqs:
+        FlagsSet:
+        ReachableReqs:
+        Code:
+        Text:
+        AREALV: 16
+        TrainerList:
+            - SAILOR 10
+            - LASS 10
+            - BEAUTY 16
+            - BIRD_KEEPER 5
+            - SCHOOLBOY 10
+            - BEAUTY 17
+        Sublocations:

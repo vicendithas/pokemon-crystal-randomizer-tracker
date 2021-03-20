@@ -1,0 +1,22 @@
+[
+	{
+		"name": "Pallet Town",
+		"chest_unopened_img": "images/chests/default_unopened.png",
+        "chest_opened_img": "images/chests/default_opened.png",
+		"access_rules": ["@Viridian City"],
+		"sections": [
+			{
+				"name": "Talk To Oak",
+				"access_rules": ["$haveAllBadges"],
+				"hosted_item": "oak"
+			}
+		],
+		"map_locations": [
+			{
+				"map": "johto_kanto",
+				"x": 1954,
+				"y": 953
+			}
+		]
+	}
+]

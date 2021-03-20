@@ -1,0 +1,39 @@
+[
+	{
+		"name": "Ilex Forest",
+		"chest_unopened_img": "images/chests/default_unopened.png",
+        "chest_opened_img": "images/chests/default_opened.png",
+		"sections": [
+			{   
+				"name": "Ground Before Cut Bush",
+				"visibility_rules": ["full_item"],
+				"item_count": 1
+			},  
+			{
+				"name": "Retrieve Farfetch'd",
+				"access_rules": ["rocketgrunt"], 
+				"hosted_item": "farfetch'd"
+			},
+			{
+				"name": "Ground After Cut Bush",
+				"access_rules": ["squirt_bottle", "@canUseCut", "$noCutTree"],
+				"visibility_rules": ["full_item"],
+				"clear_as_group": false,
+				"item_count": 3
+			},
+			{
+				"name": "Headbutt Teacher",
+				"access_rules": ["squirt_bottle", "@canUseCut", "$noCutTree"],
+				"visibility_rules": ["full_item"],
+				"item_count": 1
+			}
+		],
+		"map_locations": [
+			{
+				"map": "johto_kanto",
+				"x": 454,
+				"y": 1118
+			}
+		]
+	}
+]

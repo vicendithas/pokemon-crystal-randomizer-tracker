@@ -1,0 +1,35 @@
+[
+	{
+		"name": "Union Cave",
+		"chest_unopened_img": "images/chests/default_unopened.png",
+        "chest_opened_img": "images/chests/default_opened.png",
+		"sections": [
+			{
+				"name": "1F",
+				"visibility_rules": ["full_item"],
+				"clear_as_group": false,
+				"item_count": 4
+			},
+			{
+				"name": "BF1",
+				"visibility_rules": ["full_item"],
+				"clear_as_group": false,
+				"item_count": 2
+			},
+			{  
+				"name": "BF2",
+				"access_rules": ["@canUseSurf"],
+				"visibility_rules": ["full_item"],
+				"clear_as_group": false,
+				"item_count": 2
+			}
+		],
+		"map_locations": [
+			{
+				"map": "johto_kanto",
+				"x": 784,
+				"y": 1118
+			}
+		]
+	}
+]

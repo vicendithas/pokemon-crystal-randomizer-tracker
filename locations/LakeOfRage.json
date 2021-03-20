@@ -1,0 +1,29 @@
+[
+	{
+		"name": "Lake of Rage",
+		"chest_unopened_img": "images/chests/default_unopened.png",
+        "chest_opened_img": "images/chests/default_opened.png",
+		"access_rules": ["@Ecruteak City"],
+		"sections": [
+			{   
+				"name": "Lake Of Rage",
+				"access_rules": ["@canUseCut"],
+				"visibility_rules": ["full_item"],
+				"clear_as_group": false,
+				"item_count": 3
+			},
+			{
+				"name": "Red Gyarados",
+				"access_rules": ["@canUseSurf"],
+				"hosted_item": "red_gyarados"
+			}
+		],
+		"map_locations": [
+			{
+				"map": "johto_kanto",
+				"x": 1035,
+				"y": 126
+			}
+		]
+	}
+]

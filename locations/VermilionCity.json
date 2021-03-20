@@ -1,0 +1,37 @@
+[
+	{
+		"name": "Vermilion City",
+		"chest_unopened_img": "images/chests/default_unopened.png",
+        "chest_opened_img": "images/chests/default_opened.png",
+		"access_rules": ["@Saffron City"],
+		"sections": [
+			{
+				"name": "Pokémon Fan Club Chairman",
+				"visibility_rules": ["full_item"],
+				"item_count": 1,
+			},
+			{
+				"name": "Pokémon Fan Doll",
+				"access_rules": ["fix_power_plant"],
+				"item_count": 1
+			},
+			{
+				"name": "Gym - Lt. Surge",
+				"access_rules": ["@canUseCut", "@canUseSurf"],
+				"hosted_item": "lt-surge"
+			},
+			{
+				"name": "Wake Up Snorlax",
+				"access_rules": ["pokegear,radio_card,expansion_card"],
+				"hosted_item": "snorlax"
+			}
+		],
+		"map_locations": [
+			{
+				"map": "johto_kanto",
+				"x": 2452,
+				"y": 704,
+			}
+		]
+	}
+]

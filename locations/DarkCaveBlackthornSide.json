@@ -1,0 +1,30 @@
+[
+	{
+		"name": "Dark Cave Blackthorn Side",
+		"chest_unopened_img": "images/chests/default_unopened.png",
+        "chest_opened_img": "images/chests/default_opened.png",
+		"access_rules": ["[@canUseFlash]"],
+		"sections": [
+			{
+				"name": "Blackthorn Side Ground",
+				"access_rules": ["@Ecruteak City, @canUseStrength, $canFightTeamRocket, @canUseSurf"],
+				"visibility_rules": ["full_item"],
+				"clear_as_group": false,
+				"item_count": 2
+			},
+			{
+				"name": "Blackglasses Guy",   
+				"access_rules": ["@Ecruteak City, @canUseStrength, $canFightTeamRocket, @canUseSurf"],
+				"visibility_rules": ["full_item"],
+				"item_count": 1  
+			}                   
+		],
+		"map_locations": [
+			{
+				"map": "johto_kanto",
+				"x": 1205,
+				"y": 371
+			}
+		]
+	}
+]

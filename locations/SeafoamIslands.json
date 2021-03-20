@@ -1,0 +1,21 @@
+[
+	{
+		"name": "Seafoam Islands",
+		"chest_unopened_img": "images/chests/default_unopened.png",
+        "chest_opened_img": "images/chests/default_opened.png",
+		"access_rules": ["@Viridian City, @canUseSurf"],
+		"sections": [
+			{
+				"name": "Gym - Blaine",
+				"hosted_item": "blaine"
+			}
+		],
+		"map_locations": [
+			{
+				"map": "johto_kanto",
+				"x": 2117,
+				"y": 1202,
+			}
+		]
+	}
+]

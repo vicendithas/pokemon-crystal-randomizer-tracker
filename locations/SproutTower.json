@@ -1,0 +1,37 @@
+[
+	{
+		"name": "Sprout Tower",
+		"chest_unopened_img": "images/chests/default_unopened.png",
+        "chest_opened_img": "images/chests/default_opened.png",
+		"sections": [
+			{
+				"name":  "1F",
+				"visibility_rules": ["full_item"],
+				"item_count": 1,
+			},
+			{   
+				"name": "2F",
+				"visibility_rules": ["full_item"],
+				"clear_as_group": false,
+				"item_count": 1
+			},
+			{
+				"name": "3F",
+				"visibility_rules": ["full_item"],
+				"clear_as_group": false,
+				"item_count": 2
+			},
+			{
+				"name": "Defeat The Elder",
+				"item_count": 1
+			}                            
+		],
+		"map_locations": [
+			{
+				"map": "johto_kanto",
+				"x": 784,
+				"y": 371
+			}
+		]
+	}
+]

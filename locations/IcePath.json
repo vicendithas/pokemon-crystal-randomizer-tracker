@@ -1,0 +1,57 @@
+[
+	{
+		"name": "Ice Path",
+		"chest_unopened_img": "images/chests/default_unopened.png",
+        "chest_opened_img": "images/chests/default_opened.png",
+		"access_rules": ["@Ecruteak City, $canFightTeamRocket"],
+		"sections": [
+			{
+				"name": "Entrance",
+				"item_count": 1
+			},
+			{
+				"name": "Third Room Pre-Strength",
+				"visibility_rules": ["full_item"],
+				"item_count": 1
+			},
+			{
+				"name": "Third Room Post-Strength",
+				"access_rules": ["@canUseStrength"],
+				"visibility_rules": ["full_item"],
+				"item_count": 1
+			},
+			{
+				"name": "Fourth Room",
+				"access_rules": ["@canUseStrength"],
+				"visibility_rules": ["full_item"],
+				"item_count": 1
+			},
+			{
+				"name": "Fifth Room",
+				"access_rules": ["@canUseStrength"],
+				"visibility_rules": ["full_item"],
+				"item_count": 1
+			},
+			{
+				"name": "Sixth Room",
+				"access_rules": ["@canUseStrength"],
+				"visibility_rules": ["full_item"],
+				"item_count": 1
+			},
+			{
+				"name": "Exit",
+				"access_rules": ["@canUseStrength"],
+				"visibility_rules": ["full_item"],
+				"clear_as_group": false,
+				"item_count": 2
+			}
+		],
+		"map_locations": [
+			{
+				"map": "johto_kanto",
+				"x": 1205,
+				"y": 206
+			}
+		]
+	}
+]

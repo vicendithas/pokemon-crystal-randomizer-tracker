@@ -1,0 +1,23 @@
+[
+	{
+		"name": "Route 45",
+		"chest_unopened_img": "images/chests/default_unopened.png",
+        "chest_opened_img": "images/chests/default_opened.png",
+		"access_rules": ["@Ecruteak City, @canUseStrength, $canFightTeamRocket"],
+		"sections": [
+			{
+				"name": "Ground Items",
+				"visibility_rules": ["full_item"],
+				"clear_as_group": false,
+				"item_count": 4
+			}
+		],
+		"map_locations": [
+			{
+				"map": "johto_kanto",
+				"x": 1285,
+				"y": 456
+			}
+		]
+	}
+]

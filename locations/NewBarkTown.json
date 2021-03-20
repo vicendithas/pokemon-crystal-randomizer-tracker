@@ -1,0 +1,54 @@
+[
+	{
+		"name": "New Bark Town",
+		"chest_unopened_img": "images/chests/default_unopened.png",
+        "chest_opened_img": "images/chests/default_opened.png",
+		"sections": [
+			{
+				"name": "Pokegear",
+				"visibility_rules": ["$noRandomPokegear"],
+				"hosted_item": "pokegear"
+			},
+			{
+				"name": "Pokegear",
+				"visibility_rules": ["random_pokegear"],
+				"item_count": 1
+			},
+			{
+				"name": "Aides Potion",
+				"visibility_rules": ["full_item"],
+				"item_count": 1
+			},
+			{
+				"name": "Talk To Elm",
+				"access_rules": ["mystery_egg"],
+				"visibility_rules": ["full_item"],
+				"hosted_item": "elm"
+			},
+			{ 
+				"name": "Aides Pokeballs",
+				"access_rules": ["elm"],
+				"visibility_rules": ["full_item"],
+				"item_count": 1
+			},
+			{
+				"name": "Rising Badge",
+				"access_rules": ["rising_badge"],
+				"visibility_rules": ["full_item"],
+				"item_count": 1
+			},
+			{
+				"name": "Defeat Elite Four",
+				"access_rules": ["elite_four"],
+				"item_count": 1
+			}
+		],
+		"map_locations": [
+			{
+				"map": "johto_kanto",
+				"x": 1365,
+				"y": 868
+			}
+        ]
+	}
+]

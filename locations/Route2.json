@@ -1,0 +1,33 @@
+[
+	{
+		"name": "Route 2",
+		"chest_unopened_img": "images/chests/default_unopened.png",
+        "chest_opened_img": "images/chests/default_opened.png",
+		"access_rules": ["snorlax"],
+		"sections": [
+			{
+				"name": "Outside The Cave",
+				"visibility_rules": ["full_item"],
+				"item_count": 1
+			},
+			{
+				"name": "House Item",
+				"visibility_rules": ["full_item"],
+				"item_count": 1
+			},
+			{
+				"name": "Cut Locked Item",
+				"access_rules": ["@canUseCut"],
+				"visibility_rules": ["full_item"],
+				"item_count": 1
+			}
+		],
+		"map_locations": [
+			{
+				"map": "johto_kanto",
+				"x": 1956,
+				"y": 535
+			}
+		]
+	}
+]

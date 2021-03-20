@@ -1,0 +1,42 @@
+[
+	{
+		"name": "Olivine Lighthouse",
+		"chest_unopened_img": "images/chests/default_unopened.png",
+        "chest_opened_img": "images/chests/default_opened.png",
+		"access_rules": ["@Olivine City"],
+		"sections": [
+			{
+				"name": "Lighthouse 3F",
+				"visibility_rules": ["full_item"],
+				"item_count": 1
+			},
+			{
+				"name": "Lighthouse 5F",
+				"visibility_rules": ["full_item"],
+				"clear_as_group": false,
+				"item_count": 3
+			},
+			{   
+				"name": "Lighthouse Top Floor",
+				"visibility_rules": ["full_item"],
+				"item_count": 1
+			},
+			{
+				"name": "Lighthouse - Talk to Jasmine",
+				"hosted_item": "talk_jasmine"
+			},
+			{
+				"name": "Lighthouse - Return Secretpotion",
+				"access_rules": ["secret_potion"],
+				"hosted_item": "return_potion"
+			}
+		],
+		"map_locations": [
+			{
+				"map": "johto_kanto",
+				"x": 370,
+				"y": 456
+			}
+		]
+	}
+]

@@ -1,0 +1,36 @@
+[
+	{
+		"name": "Olivine City",
+		"chest_unopened_img": "images/chests/default_unopened.png",
+        "chest_opened_img": "images/chests/default_opened.png",
+		"access_rules": ["squirt_bottle", "pass,ss_ticket,@canUseCut", "pass,ss_ticket,$noCutTree"],
+		"sections": [
+			{
+				"name": "Fisherman",
+				"item_count": 1
+			},
+			{
+				"name": "Cafe",
+				"item_count": 1
+			},
+			{
+				"name": "Gym Leader TM",
+				"access_rules": ["return_potion"],
+				"visibility_rules": ["full_item"],
+				"item_count": 1
+			},
+			{
+				"name": "Gym - Jasmine",
+				"access_rules": ["return_potion"],
+				"hosted_item": "jasmine"
+			}
+		],
+		"map_locations": [
+			{
+				"map": "johto_kanto",
+				"x": 285,
+				"y": 456
+			}
+		]
+	}
+]

@@ -1,0 +1,58 @@
+[
+	{
+		"name": "Goldenrod City",
+		"chest_unopened_img": "images/chests/default_unopened.png",
+        "chest_opened_img": "images/chests/default_opened.png",
+		"access_rules": ["squirt_bottle", "@canUseCut", "$noCutTree"],
+		"sections": [
+			{
+				"name": "Buy Water Stone",
+				"visibility_rules": ["full_item"],
+				"hosted_item": "water_stone"
+			},
+			{
+				"name": "Buy Rock Smash",
+				"access_rules": ["rocksmashguy"],
+				"visibility_rules": ["full_item"],
+				"hosted_item": "tm08"
+			},
+			{
+				"name": "Mart Basement Behind Containers",
+				"visibility_rules": ["full_item"],
+				"clear_as_group": false,
+				"item_count": 3
+			},
+			{   
+				"name": "Mart Basement Locked",
+				"access_rules": ["basement_key"],
+				"visibility_rules": ["full_item"],
+				"item_count": 1 
+			},                             
+			{
+				"name": "Bike Shop",
+				"item_count": 1
+			},
+			{
+				"name": "Flower Shop",
+				"access_rules": ["plain_badge"],
+				"item_count": 1
+			},
+			{
+				"name": "Gym Leader TM",
+				"visibility_rules": ["full_item"],
+				"item_count": 1
+			},
+			{
+				"name": "Gym - Whitney",
+				"hosted_item": "whitney"
+			}
+		],
+		"map_locations": [
+			{
+				"map": "johto_kanto",
+				"x": 454,
+				"y": 788
+			}
+		]
+	}
+]

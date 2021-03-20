@@ -1,0 +1,27 @@
+[
+	{
+		"name": "Route 42",
+		"chest_unopened_img": "images/chests/default_unopened.png",
+        "chest_opened_img": "images/chests/default_opened.png",
+		"access_rules": ["@Ecruteak City"],
+		"sections": [
+			{
+				"name": "Item Before Mt Mortar",
+				"visibility_rules": ["full_item"],
+				"item_count": 1
+			},
+			{   "name": "Middle Mt Mortar Entrance",
+				"access_rules": ["@canUseSurf"],
+				"visibility_rules": ["full_item"],
+				"item_count": 1
+			}
+		],
+		"map_locations": [
+			{
+				"map": "johto_kanto",
+				"x": 895,
+				"y": 286
+			}
+		]
+	}
+]

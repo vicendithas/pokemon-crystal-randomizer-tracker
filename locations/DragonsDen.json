@@ -1,0 +1,41 @@
+[
+	{
+		"name": "Dragon's Den",
+		"chest_unopened_img": "images/chests/default_unopened.png",
+        "chest_opened_img": "images/chests/default_opened.png",
+		"access_rules": ["clair, @canUseSurf"],
+		"sections": [
+			{
+				"name": "Before The Whirlpool",
+				"visibility_rules": ["full_item"],
+				"clear_as_group": false,
+				"item_count": 2
+			},
+			{
+				"name": "After The Whirlpool",
+				"access_rules": ["@canUseWhirlpool"],
+				"visibility_rules": ["full_item"],
+				"item_count": 1
+			},
+			{
+				"name": "Clair TM",
+				"access_rules": ["@canUseWhirlpool"],
+				"visibility_rules": ["vanilla_clair, full_item"],
+				"item_count": 1
+			},
+			{
+				"name": "Clair Badge",
+				"access_rules": ["@canUseWhirlpool"],
+				"visibility_rules": ["vanilla_clair"],
+				"hosted_item": "clair_test"
+			}
+		],
+		"map_locations": [
+			{
+				"map": "johto_kanto",
+				"x": 1285,
+				"y": 206
+			}
+		]
+	}
+]

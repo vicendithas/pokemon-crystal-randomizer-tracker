@@ -1,0 +1,27 @@
+[
+	{
+		"name": "Cerulean City",
+		"chest_unopened_img": "images/chests/default_unopened.png",
+        "chest_opened_img": "images/chests/default_opened.png",
+		"access_rules": ["@Saffron City"],
+		"sections": [
+			{
+				"name": "Rocket Member",
+				"access_rules": ["power_plant_manager"],
+				"item_count": 1,
+			},                       
+			{
+				"name": "Gym - Misty",
+				"access_rules": ["power_plant_manager, talk_misty"],
+				"hosted_item": "misty"
+			}
+		],
+		"map_locations": [
+			{
+				"map": "johto_kanto",
+				"x": 2452,
+				"y": 370,
+			}
+		]
+	}
+]

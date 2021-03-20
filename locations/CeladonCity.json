@@ -1,0 +1,28 @@
+[
+	{
+		"name": "Celadon City",
+		"chest_unopened_img": "images/chests/default_unopened.png",
+        "chest_opened_img": "images/chests/default_opened.png",
+		"access_rules": ["@Saffron City"],
+		"sections": [
+			{
+				"name": "Gym Leader TM",
+				"access_rules": ["@canUseCut"],
+				"visibility_rules": ["full_item"],
+				"item_count": 1
+			},
+			{
+				"name": "Gym - Erika",
+				"access_rules": ["@canUseCut"],
+				"hosted_item": "erika"
+			}
+		],
+		"map_locations": [
+			{
+				"map": "johto_kanto",
+				"x": 2202,
+				"y": 536,
+			}
+		]
+	}
+]

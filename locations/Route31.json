@@ -1,0 +1,28 @@
+[
+	{
+		"name": "Route 31",
+		"chest_unopened_img": "images/chests/default_unopened.png",
+        "chest_opened_img": "images/chests/default_opened.png",
+		"sections": [
+			{                    
+				"name": "Ground Items",
+				"clear_as_group": false,
+				"visibility_rules": ["full_item"],
+				"item_count": 2
+			},
+			{
+				"name": "Deliver The Mail",
+				"access_rules": ["kenya"],
+				"visibility_rules": ["full_item"],
+				"hosted_item": "mail"
+			}
+		],
+		"map_locations": [
+			{
+				"map": "johto_kanto",
+				"x": 948,
+				"y": 456
+			}
+		]
+	}
+]

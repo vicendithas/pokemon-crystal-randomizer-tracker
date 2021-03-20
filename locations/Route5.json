@@ -1,0 +1,22 @@
+[
+	{
+		"name": "Route 5",
+		"chest_unopened_img": "images/chests/default_unopened.png",
+        "chest_opened_img": "images/chests/default_opened.png",
+		"access_rules": ["@Saffron City"],
+		"sections": [
+			{
+				"name": "House Item",
+				"visibility_rules": ["full_item"],
+				"item_count": 1
+			}
+		],
+		"map_locations": [
+			{
+				"map": "johto_kanto",
+				"x": 2452,
+				"y": 454	
+			}
+		]
+	}
+]

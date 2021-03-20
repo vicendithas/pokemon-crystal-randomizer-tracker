@@ -1,0 +1,29 @@
+[
+	{
+		"name": "Rock Tunnel",
+		"chest_unopened_img": "images/chests/default_unopened.png",
+        "chest_opened_img": "images/chests/default_opened.png",
+		"access_rules": ["@Saffron City, [@canUseFlash]"],
+		"sections": [
+			{
+				"name": "1F Ground",
+				"visibility_rules": ["full_item"],
+				"clear_as_group": false,
+				"item_count": 2
+			},
+			{
+				"name": "B1F Ground",
+				"visibility_rules": ["full_item"],
+				"clear_as_group": false,
+				"item_count": 3
+			}
+		],
+		"map_locations": [
+			{
+				"map": "johto_kanto",
+				"x": 2784,
+				"y": 370
+			}
+		]
+	}
+]

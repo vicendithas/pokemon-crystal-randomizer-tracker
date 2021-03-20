@@ -1,0 +1,23 @@
+[
+	{
+		"name": "Viridian Forest",
+		"chest_unopened_img": "images/chests/default_unopened.png",
+        "chest_opened_img": "images/chests/default_opened.png",
+		"access_rules": ["@Viridian City"],
+		"sections": [
+			{   
+				"name": "Hedge Maze",
+				"visibility_rules": ["full_item"],
+				"clear_as_group": false,
+				"item_count": 2
+			}
+		],
+		"map_locations": [
+			{
+				"map": "johto_kanto",
+				"x": 1956,
+				"y": 455
+			}
+		]
+	}
+]

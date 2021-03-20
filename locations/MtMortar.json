@@ -1,0 +1,51 @@
+[
+	{
+		"name": "Mt. Mortar",
+		"chest_unopened_img": "images/chests/default_unopened.png",
+        "chest_opened_img": "images/chests/default_opened.png",
+		"access_rules": ["@Ecruteak City"],
+		"sections": [
+			{
+				"name": "1F Ladders",
+				"clear_as_group": false,
+				"visibility_rules": ["full_item"],
+				"item_count": 2
+			},
+			{
+				"name": "2F (Waterfall)",
+				"access_rules": ["@canUseSurf, @canUseWaterfall"],
+				"visibility_rules": ["full_item"],
+				"clear_as_group": false,
+				"item_count": 6
+			},
+			{
+				"name": "1F Front (Strength)",
+				"access_rules": ["@canUseStrength", "@canUseSurf, @canUseWaterfall"],
+				"visibility_rules": ["full_item"],
+				"clear_as_group": false,
+				"item_count": 4
+			},
+			{
+				"name": "1F Back (Waterfall)",
+				"access_rules": ["@canUseSurf, @canUseWaterfall"],
+				"visibility_rules": ["full_item"],
+				"clear_as_group": false,
+				"item_count": 3
+			},
+			{
+				"name": "B1F (Mid Entrance)",
+				"access_rules": ["@canUseSurf"],
+				"visibility_rules": ["full_item"],
+				"clear_as_group": false,
+				"item_count": 5
+			}
+		],
+		"map_locations": [
+			{
+				"map": "johto_kanto",
+				"x": 784,
+				"y": 286
+			}
+		]
+	}
+]

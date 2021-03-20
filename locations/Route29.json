@@ -1,0 +1,21 @@
+[
+	{
+		"name": "Route 29",
+		"chest_unopened_img": "images/chests/default_unopened.png",
+        "chest_opened_img": "images/chests/default_opened.png",
+		"sections": [
+			{
+				"name": "Ground Item",
+				"visibility_rules": ["full_item"],
+				"item_count": 1
+			}
+		],
+		"map_locations": [
+			{
+				"map": "johto_kanto",
+				"x": 1200,
+				"y": 868
+			}
+		]
+	}
+]

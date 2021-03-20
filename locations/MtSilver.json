@@ -1,0 +1,42 @@
+[
+	{
+		"name": "Mt. Silver",
+		"chest_unopened_img": "images/chests/default_unopened.png",
+        "chest_opened_img": "images/chests/default_opened.png",
+		"access_rules": ["oak"],
+		"sections": [
+			{
+				"name": "1F Ground",
+				"visibility_rules": ["full_item"],
+				"clear_as_group": false,
+				"item_count": 4
+			},
+			{    
+				"name": "2F Ground",
+				"access_rules": ["@canUseSurf, @canUseWaterfall"],
+				"visibility_rules": ["full_item"],
+				"clear_as_group": false,
+				"item_count": 3
+			},
+			{   
+				"name": "Chambers",
+				"access_rules": ["@canUseSurf, @canUseWaterfall"],
+				"visibility_rules": ["full_item"],
+				"clear_as_group": false,
+				"item_count": 2
+			},
+			{
+				"name": "Red",
+				"access_rules": ["elite_four", "$noEliteFour"],
+				"hosted_item": "red"
+			}
+		],
+		"map_locations": [
+			{
+				"map": "johto_kanto",
+				"x": 1450,
+				"y": 536
+			}
+		]
+	}
+]

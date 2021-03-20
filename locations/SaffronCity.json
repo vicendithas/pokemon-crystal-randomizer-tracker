@@ -1,0 +1,41 @@
+[
+	{
+		"name": "Saffron City",
+		"chest_unopened_img": "images/chests/default_unopened.png",
+        "chest_opened_img": "images/chests/default_opened.png",
+		"access_rules": ["squirt_bottle, pass", "@canUseCut, pass", "$noCutTree, pass", "squirt_bottle, ss_ticket"],
+		"sections": [
+			{
+				"name": "Silph Co. Guard",
+				"visibility_rules": ["full_item"],
+				"item_count": 1
+			},
+			{
+				"name": "TM Gift",
+				"visibility_rules": ["full_item"],
+				"item_count": 1
+			},
+			{
+				"name": "Fighting Dojo",
+				"visibility_rules": ["full_item"],
+				"item_count": 1
+			},	
+			{
+				"name": "Copycat Girl",
+				"access_rules": ["lost_item"],
+				"item_count": 1
+			},
+			{
+				"name": "Gym - Sabrina",
+				"hosted_item": "sabrina"
+			}
+		],
+		"map_locations": [
+			{
+				"map": "johto_kanto",
+				"x": 2452,
+				"y": 536,
+			}
+		]
+	}
+]

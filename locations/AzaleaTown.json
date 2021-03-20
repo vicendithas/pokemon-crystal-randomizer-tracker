@@ -1,0 +1,38 @@
+[
+	{
+		"name": "Azalea Town",
+		"chest_unopened_img": "images/chests/default_unopened.png",
+        "chest_opened_img": "images/chests/default_opened.png",
+		"sections": [
+			{   
+				"name": "Talk To Kurt",
+				"access_rules": ["rocketgrunt"],
+				"visibility_rules": ["full_item"],
+				"item_count": 1
+			},
+			{
+				"name": "Gym Leader TM",
+				"access_rules": ["rocketgrunt"],
+				"visibility_rules": ["full_item"],
+				"item_count": 1
+			},
+			{
+				"name": "Gym - Bugsy",
+				"access_rules": ["rocketgrunt"],
+				"hosted_item": "bugsy"
+			},
+			{   "name": "Charcoal",
+				"access_rules": ["farfetch'd"],
+				"visibility_rules": ["full_item"],
+				"item_count": 1
+			}
+		],
+		"map_locations": [
+			{
+				"map": "johto_kanto",
+				"x": 620,
+				"y": 1118
+			}
+		]
+	}
+]

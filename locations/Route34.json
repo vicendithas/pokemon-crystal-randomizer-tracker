@@ -1,0 +1,32 @@
+[
+	{
+		"name": "Route 34",
+		"chest_unopened_img": "images/chests/default_unopened.png",
+        "chest_opened_img": "images/chests/default_opened.png",
+		"sections": [
+			{   "name": "Lady In The Gate",
+				"visibility_rules": ["full_item"],
+				"item_count": 1
+			},
+			{
+				"name": "Ground Item",
+				"access_rules": ["@canUseSurf"],
+				"visibility_rules": ["full_item"],
+				"item_count": 1
+			},                        
+			{    
+				"name": "Soft Sand Girls",
+				"access_rules": ["@canUseSurf"],
+				"visibility_rules": ["full_item"],
+				"item_count": 1
+			}
+		],
+		"map_locations": [
+			{
+				"map": "johto_kanto",
+				"x": 454,
+				"y": 953
+			}
+		]
+	}
+]

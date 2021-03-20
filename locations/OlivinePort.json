@@ -1,0 +1,22 @@
+[
+	{
+		"name": "Olivine Port",
+		"chest_unopened_img": "images/chests/default_unopened.png",
+        "chest_opened_img": "images/chests/default_opened.png",
+		"access_rules": ["squirt_bottle, ss_ticket", "pass,ss_ticket,@canUseCut", "pass,ss_ticket,$noCutTree"],
+		"sections": [
+			{
+				"name": "Boat Quest",
+				"visibility_rules": ["full_item"],
+				"hosted_item": "boat_quest"
+			}
+		],
+		"map_locations": [
+			{
+				"map": "johto_kanto",
+				"x": 285,
+				"y": 536
+			}
+		]
+	}
+]

@@ -1,0 +1,39 @@
+[
+	{
+		"name": "Ruins of Alph",
+		"chest_unopened_img": "images/chests/default_unopened.png",
+        "chest_opened_img": "images/chests/default_opened.png",
+		"sections": [
+			{
+				"name": "Escape Rope Treasure Room",
+				"visibility_rules": ["full_item"],
+				"item_count": 4
+			},
+			{
+				"name": "Flash Treasure Room",
+				"access_rules": ["@canUseFlash, @canUseSurf"],
+				"visibility_rules": ["full_item"],
+				"item_count": 4
+			},
+			{
+				"name": "Water Stone Treasure Room",
+				"access_rules": ["@canUseStrength, @canUseSurf, water_stone"],
+				"visibility_rules": ["full_item"],
+				"item_count": 4
+			},
+			{
+				"name": "Ho-oh Treasure Room",
+				"access_rules": ["ho-oh, @canUseSurf"],
+				"visibility_rules": ["tin_tower, full_item"],
+				"item_count": 4
+			},
+		],
+		"map_locations": [
+			{
+				"map": "johto_kanto",
+				"x": 702,
+				"y": 622
+			}
+		]
+	}
+]

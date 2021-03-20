@@ -1,0 +1,29 @@
+[
+	{
+		"name": "Victory Road",
+		"chest_unopened_img": "images/chests/default_unopened.png",
+        "chest_opened_img": "images/chests/default_opened.png",
+		"access_rules": ["@canUseSurf, @canUseWaterfall, $haveEightBadges", "snorlax, @canUseCut"],
+		"sections": [
+			{
+				"name": "1F Ground",
+				"visibility_rules": ["full_item"],
+				"clear_as_group": false,
+				"item_count": 2
+			},
+			{
+				"name": "2F Ground",
+				"visibility_rules": ["full_item"],
+				"clear_as_group": false,
+				"item_count": 3
+			}
+		],
+		"map_locations": [
+			{
+				"map": "johto_kanto",
+				"x": 1700,
+				"y": 370
+			}
+		]
+	}
+]

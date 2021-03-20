@@ -1,0 +1,28 @@
+[
+	{
+		"name": "Route 36",
+		"chest_unopened_img": "images/chests/default_unopened.png",
+        "chest_opened_img": "images/chests/default_opened.png",
+		"access_rules": ["squirt_bottle"],
+		"sections": [
+			{
+				"name": "Squirt The Tree",
+				"visibility_rules": ["full_item"],
+				"hosted_item": "sudowoodo"
+			},
+			{
+				"name": "Rock Smash Guy",
+				"access_rules": ["sudowoodo"],
+				"visibility_rules": ["full_item"],
+				"hosted_item": "rocksmashguy"
+			}
+		],
+		"map_locations": [
+			{
+				"map": "johto_kanto",
+				"x": 619,
+				"y": 456
+			}
+		]
+	}
+]

@@ -1,0 +1,21 @@
+[
+	{
+		"name": "Indigo Plateau",
+		"chest_unopened_img": "images/chests/default_unopened.png",
+        "chest_opened_img": "images/chests/default_opened.png",
+		"access_rules": ["$haveEightBadges,@canUseSurf,@canUseWaterfall", "snorlax, @canUseCut"],
+		"sections": [
+			{
+				"name": "Pokémon League",
+				"hosted_item": "elite_four"
+			}
+		],
+		"map_locations": [
+			{
+				"map": "johto_kanto",
+				"x": 1704,
+				"y": 204,
+			}
+		]
+	}
+]

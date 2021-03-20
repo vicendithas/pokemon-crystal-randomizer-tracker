@@ -101,22 +101,22 @@
                 "rows": [
 					[ 
 						"full_item", 
-						"cut_tree"
+						"hidden_items"
 					],
 					[ 
-						"vanilla_clair",
-						"elite_four_req"
+						"cut_tree",
+						"vanilla_clair"
 					],
 					[ 
 						"backward_kanto",
-						"random_pokedex"
+						"elite_four_req"
 					],
 					[ 
 						"random_pokegear",
 						"random_radio"
 					],
 					[ 
-						"",
+						"random_pokedex",
 						"tin_tower"
 					]
                 ]
@@ -158,19 +158,19 @@
 					},
 					{
 						"type": "group",
-						"header": "Tricky Full Item",
+						"header": "Chaos Full Item",
 						"header_background": "#3e4b57",
 						"content":[
 							{
 								"type": "item",
 								"margin": "-5,-1,-5,-5",
-								"item": "tricky_full"
+								"item": "chaos_full"
 							}
 						]
 					},
 					{
 						"type": "group",
-						"header": "Classic Key Item",
+						"header": "Easy/Classic Key Item",
 						"header_background": "#3e4b57",
 						"content":[
 							{
@@ -201,13 +201,13 @@
 					},
 					{
 						"type": "group",
-						"header": "Old Standard Full Item",
+						"header": "Tricky/Extreme Full Item",
 						"header_background": "#3e4b57",
 						"content":[
 							{
 								"type": "item",
 								"margin": "-5,-1,-5,-5",
-								"item": "old_standard_full"
+								"item": "tricky_full"
 							}
 						]
 					},
@@ -225,7 +225,7 @@
 					},
 					{
 						"type": "group",
-						"header": "Neo Key Item",
+						"header": "Neo/Extreme Key Item",
 						"header_background": "#3e4b57",
 						"content":[
 							{

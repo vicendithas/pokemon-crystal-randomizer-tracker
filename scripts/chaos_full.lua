@@ -1,6 +1,6 @@
-OldStandardFullPreset = CustomItem:extend()
+ChaosFullPreset = CustomItem:extend()
 
-function OldStandardFullPreset:init(name, code, imagePath)
+function ChaosFullPreset:init(name, code, imagePath)
     self:createItem(name)
     self.code = code
     self:setProperty("active", false)
@@ -11,15 +11,15 @@ function OldStandardFullPreset:init(name, code, imagePath)
     self:updateIcon()    
 end
 
-function OldStandardFullPreset:setActive(active)
+function ChaosFullPreset:setActive(active)
     self:setProperty("active", active)
 end
 
-function OldStandardFullPreset:getActive()
+function ChaosFullPreset:getActive()
     return self:getProperty("active")
 end
 
-function OldStandardFullPreset:updateIcon()
+function ChaosFullPreset:updateIcon()
     if self:getActive() then
         self.ItemInstance.Icon = self.activeImage
     else
@@ -27,23 +27,24 @@ function OldStandardFullPreset:updateIcon()
     end
 end
 
-function OldStandardFullPreset:onLeftClick()
+function ChaosFullPreset:onLeftClick()
 	Tracker:FindObjectForCode("full_item").Active = true
-	Tracker:FindObjectForCode("cut_tree").Active = true
-	Tracker:FindObjectForCode("vanilla_clair").Active = false
+	Tracker:FindObjectForCode("cut_tree").Active = false
+	Tracker:FindObjectForCode("vanilla_clair").Active = true
 	Tracker:FindObjectForCode("elite_four_req").Active = false
 	Tracker:FindObjectForCode("backward_kanto").Active = true
-	Tracker:FindObjectForCode("random_pokegear").Active = false
-	Tracker:FindObjectForCode("random_pokedex").Active = false
-	Tracker:FindObjectForCode("random_radio").Active = false
-    Tracker:FindObjectForCode("tin_tower").Active = false
+	Tracker:FindObjectForCode("random_pokegear").Active = true
+	Tracker:FindObjectForCode("random_pokedex").Active = true
+	Tracker:FindObjectForCode("random_radio").Active = true
+    Tracker:FindObjectForCode("tin_tower").Active = true
+	Tracker:FindObjectForCode("hidden_items").Active = true
 end
 
-function OldStandardFullPreset:onRightClick()
+function ChaosFullPreset:onRightClick()
 	
 end
 
-function OldStandardFullPreset:canProvideCode(code)
+function ChaosFullPreset:canProvideCode(code)
     if code == self.code then
         return true
     else
@@ -51,32 +52,32 @@ function OldStandardFullPreset:canProvideCode(code)
     end
 end
 
-function OldStandardFullPreset:providesCode(code)
+function ChaosFullPreset:providesCode(code)
     if code == self.code and self.getActive() then
         return 1
     end
     return 0
 end
 
-function OldStandardFullPreset:advanceToCode(code)
+function ChaosFullPreset:advanceToCode(code)
     if code == nil or code == self.code then
         self:setActive(true)
     end
 end
 
-function OldStandardFullPreset:save()
+function ChaosFullPreset:save()
     local saveData = {}
     saveData["active"] = self.getActive()
     return saveData
 end
 
-function OldStandardFullPreset:Load(data)
+function ChaosFullPreset:Load(data)
     if data["active"] ~= nil then
         self:setActive(data["active"])
     end
     return true
 end
 
-function OldStandardFullPreset:propertyChanged(key, value)
+function ChaosFullPreset:propertyChanged(key, value)
     self:updateIcon()
 end

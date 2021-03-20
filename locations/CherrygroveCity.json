@@ -1,0 +1,22 @@
+[
+	{
+		"name": "Cherrygrove City",
+		"chest_unopened_img": "images/chests/default_unopened.png",
+        "chest_opened_img": "images/chests/default_opened.png",
+		"sections": [
+			{
+				"name": "Man On Island",
+				"access_rules": ["@canUseSurf"],
+				"visibility_rules": ["full_item"],
+				"item_count": 1
+			}
+		],
+		"map_locations": [
+			{
+				"map": "johto_kanto",
+				"x": 948,
+				"y": 868
+			}
+		]
+	}
+]

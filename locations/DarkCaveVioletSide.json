@@ -1,0 +1,29 @@
+[
+	{
+		"name": "Dark Cave Violet Side",
+		"chest_unopened_img": "images/chests/default_unopened.png",
+        "chest_opened_img": "images/chests/default_opened.png",
+		"access_rules": ["[@canUseFlash]"],
+		"sections": [
+			{
+				"name": "Violet Side Ground",
+				"visibility_rules": ["full_item"],
+				"item_count": 1
+			},
+			{   
+				"name": "Behind Rock Smash",
+				"access_rules": ["tm08"],
+				"visibility_rules": ["full_item"],
+				"clear_as_group": false,
+				"item_count": 3
+			}                
+		],
+		"map_locations": [
+			{
+				"map": "johto_kanto",
+				"x": 1035,
+				"y": 456
+			}
+		]
+	}
+]

@@ -1,0 +1,38 @@
+[
+	{
+		"name": "Cianwood City",
+		"chest_unopened_img": "images/chests/default_unopened.png",
+        "chest_opened_img": "images/chests/default_opened.png",
+		"access_rules": ["@Olivine City, @canUseSurf"],
+		"sections": [
+			{
+				"name": "Pharmacy",
+				"access_rules": ["talk_jasmine"],
+				"item_count": 1
+			},
+			{
+				"name": "Chuck's Wife",
+				"access_rules": ["chuck"],
+				"item_count": 1
+			},
+			{
+				"name": "Gym Leader TM",
+				"access_rules": ["@canUseStrength"],
+				"visibility_rules": ["full_item"],
+				"item_count": 1
+			},
+			{
+				"name": "Gym - Chuck",
+				"access_rules": ["@canUseStrength"],
+				"hosted_item": "chuck"
+			}
+		],
+		"map_locations": [
+			{
+				"map": "johto_kanto",
+				"x": 116,
+				"y": 868
+			}
+		]
+	}
+]

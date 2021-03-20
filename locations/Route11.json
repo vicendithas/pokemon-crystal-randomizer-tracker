@@ -1,0 +1,95 @@
+Location:
+    -
+        Name: Woke Snorlax
+        FileName: VermilionCity.asm
+        Type: Map
+        HasPKMN: No
+        WildTableList: 
+        LocationReqs: 
+            - Vermilion City Entrance
+            - Power Plant Activated
+        FlagReqs:
+            - Surf
+        ItemReqs:
+        FlagsSet:
+        ReachableReqs:
+        Code:
+        Text:
+        TrainerList: 
+        Sublocations:
+    -
+        Name: Route 11 entrance
+        FileName: Route11.asm
+        Type: Map
+        HasPKMN: No
+        WildTableList: 
+        LocationReqs:
+            - Vermilion City
+        FlagReqs:
+            - Snorlax Woken
+        ItemReqs:
+        FlagsSet:
+        ReachableReqs:
+        Code:
+        Text:
+        TrainerList: 
+        Sublocations:
+    -
+        Name: Route 11 entrance
+        FileName: Route11.asm
+        Type: Map
+        HasPKMN: No
+        WildTableList: 
+        LocationReqs:
+            - Route 12
+        FlagReqs:
+        ItemReqs:
+        FlagsSet:
+        ReachableReqs:
+        Code:
+        Text:
+        TrainerList: 
+        Sublocations:
+    -
+        Name: Route 11
+        FileName: Route11.asm
+        Type: Map
+        HasPKMN: Yes
+        WildTableList: 
+            - ROUTE_11
+        LocationReqs:
+            - Route 11 entrance
+        FlagReqs:
+        ItemReqs:
+        FlagsSet:
+        ReachableReqs:
+        Code:
+        Text:
+        AREALV: 32
+        TrainerList: 
+            - PSYCHIC_T 4
+            - YOUNGSTER 12
+            - YOUNGSTER 11
+            - PSYCHIC_T 3
+        Sublocations:
+            -
+                Name: Route 11 Hidden Revive
+                FileName: Route11.asm
+                SecondaryFile: Route11.asm
+                Type: Item
+                HasPKMN: No
+                WildTableList:
+                LocationReqs: Route 11
+                FlagReqs:
+                    - Hidden Items
+                ItemReqs:
+                FlagsSet:
+                ReachableReqs:
+                NormalItem: REVIVE
+                Code: |
+                    Route11HiddenRevive:
+                        ITEMLINE
+                SecondaryCode: '    bg_event 32,  5, BGEVENT_ITEM, Route11HiddenRevive'
+                Text:
+                TrainerList: 
+                Sublocations:

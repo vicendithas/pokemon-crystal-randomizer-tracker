@@ -1,0 +1,37 @@
+[
+	{
+		"name": "Route 32",
+		"chest_unopened_img": "images/chests/default_unopened.png",
+        "chest_opened_img": "images/chests/default_opened.png",
+		"sections": [
+			{
+				"name": "Miracle Seed Gift",
+				"access_rules": ["zephyr_badge"],
+				"visibility_rules": ["full_item"],
+				"item_count": 1
+			},
+			{
+				"name": "Ground Items",
+				"clear_as_group": false,
+				"visibility_rules": ["full_item"],
+				"item_count": 2
+			},                        
+			{    
+				"name": "Pokémon Center",
+				"item_count": 1
+			},
+			{   "name": "Guy Behind Cut Bush",
+				"access_rules": ["@canUseCut"],
+				"visibility_rules": ["full_item"],
+				"item_count": 1
+			}
+		],
+		"map_locations": [
+			{
+				"map": "johto_kanto",
+				"x": 784,
+				"y": 788
+			}
+		]
+	}
+]

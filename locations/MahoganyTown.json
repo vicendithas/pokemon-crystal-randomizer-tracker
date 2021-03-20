@@ -1,0 +1,53 @@
+[
+	{
+		"name": "Mahogany Town",
+		"chest_unopened_img": "images/chests/default_unopened.png",
+        "chest_opened_img": "images/chests/default_opened.png",
+		"access_rules": ["@Ecruteak City"],
+		"sections": [
+			{
+				"name": "Rocket Hideout B1F",
+				"access_rules": ["red_gyarados"],
+				"visibility_rules": ["full_item"],
+				"clear_as_group": false,
+				"item_count": 3
+			},
+								{
+				"name": "Rocket Hideout B2F",
+				"access_rules": ["red_gyarados"],
+				"visibility_rules": ["full_item"],
+				"item_count": 1
+			},
+			{
+				"name": "Rocket Hideout B3F",
+				"access_rules": ["red_gyarados"],
+				"visibility_rules": ["full_item"],
+				"clear_as_group": false,
+				"item_count": 5
+			},
+			{
+				"name": "Defeat The Electrodes",
+				"access_rules": ["red_gyarados"],
+				"hosted_item": "electrode"
+			},
+			{
+				"name": "Gym Leader TM",
+				"access_rules": ["electrode"],
+				"visibility_rules": ["full_item"],
+				"item_count": 1
+			},
+			{
+				"name": "Gym - Pryce",
+				"access_rules": ["electrode"],
+				"hosted_item": "pryce"
+			}
+		],
+		"map_locations": [
+			{
+				"map": "johto_kanto",
+				"x": 1035,
+				"y": 286
+			}
+		]
+	}
+]

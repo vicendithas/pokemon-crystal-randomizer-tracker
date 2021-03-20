@@ -1,0 +1,48 @@
+[
+	{
+		"name": "Goldenrod Radio Tower",
+		"chest_unopened_img": "images/chests/default_unopened.png",
+        "chest_opened_img": "images/chests/default_opened.png",
+		"access_rules": ["squirt_bottle", "@canUseCut", "$noCutTree"],
+		"sections": [
+			{   
+				"name": "Radio Card",
+				"visibility_rules": ["$noRandomRadio"],
+				"hosted_item": "radio_card"
+			},
+			{   
+				"name": "Radio Card",
+				"visibility_rules": ["random_radio"],
+				"item_count": 1
+			},
+			{
+				"name": "Buena",
+				"item_count": 1
+			},
+			{
+				"name": "False Director",
+				"access_rules": ["$canFightTeamRocket"],
+				"item_count": 1
+			},
+			{
+				"name": "Defeat Team Rocket",
+				"access_rules": ["$canFightTeamRocket,card_key"],
+				"hosted_item": "team_rocket"
+			},
+			{
+				"name": "After Defeating Team Rocket",
+				"access_rules": ["team_rocket"],
+				"visibility_rules": ["full_item"],
+				"clear_as_group": false,
+				"item_count": 3
+			}
+		],
+		"map_locations": [
+			{
+				"map": "johto_kanto",
+				"x": 384,
+				"y": 788
+			}
+		]
+	}
+]

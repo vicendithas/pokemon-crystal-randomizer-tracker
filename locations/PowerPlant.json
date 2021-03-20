@@ -1,0 +1,26 @@
+[
+	{
+		"name": "Power Plant",
+		"chest_unopened_img": "images/chests/default_unopened.png",
+        "chest_opened_img": "images/chests/default_opened.png",
+		"access_rules": [ "@Saffron City, @canUseCut, @canUseSurf", "@Saffron City, [@canUseFlash], @canUseSurf"],
+		"sections": [
+			{
+				"name": "Talk To Manager",
+				"hosted_item": "power_plant_manager"
+			},
+			{
+				"name": "Fix Power Plant",
+				"access_rules": ["machine_part"],
+				"hosted_item": "fix_power_plant"
+			}
+		],
+		"map_locations": [
+			{
+				"map": "johto_kanto",
+				"x": 2784,
+				"y": 454,
+			}
+		]
+	}
+]
