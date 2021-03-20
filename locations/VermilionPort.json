@@ -3,7 +3,7 @@
 		"name": "Vermilion Port",
 		"chest_unopened_img": "images/chests/default_unopened.png",
         "chest_opened_img": "images/chests/default_opened.png",
-		"access_rules": ["@Saffron City"],
+		"access_rules": ["@Saffron City, ss_ticket"],
 		"sections": [
 			{
 				"name": "Boat Quest",

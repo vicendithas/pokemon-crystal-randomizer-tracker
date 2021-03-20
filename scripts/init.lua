@@ -9,14 +9,6 @@ Tracker:AddLocations("locations/virtual.json")
 ScriptHost:LoadScript("scripts/class.lua")
 ScriptHost:LoadScript("scripts/custom_item.lua")
 ScriptHost:LoadScript("scripts/preset.lua")
--- ScriptHost:LoadScript("scripts/easy_full.lua")
--- ScriptHost:LoadScript("scripts/standard_full.lua")
--- ScriptHost:LoadScript("scripts/tricky_full.lua")
--- ScriptHost:LoadScript("scripts/chaos_full.lua")
--- ScriptHost:LoadScript("scripts/vintage_full.lua")
--- ScriptHost:LoadScript("scripts/classic_key.lua")
--- ScriptHost:LoadScript("scripts/neo_key.lua")
--- ScriptHost:LoadScript("scripts/nightmare_full.lua")
 
 local easyFullPreset = Preset("Easy Full", "easy_full", "images/presets/easy_full.png")
 local standardFullPreset = Preset("Standard Full", "standard_full", "images/presets/standard_full.png")
@@ -30,7 +22,5 @@ local nightmareFullPreset = Preset("Nightmare Full", "nightmare_full", "images/p
 Tracker:AddLayouts("layouts/items.json")
 
 ScriptHost:LoadScript("scripts/loadlocations.lua")
--- Tracker:AddLocations("locations/johto.json")
--- Tracker:AddLocations("locations/kanto.json")
 
 Tracker:AddLayouts("layouts/tracker.json")

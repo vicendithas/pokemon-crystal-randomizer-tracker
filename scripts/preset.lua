@@ -28,110 +28,36 @@ function Preset:updateIcon()
 end
 
 function Preset:onLeftClick()
+	-- order of settings: full_item, hidden_items, cut_tree, vanilla_clair, backward_kanto, elite_four_req, random_pokegear, random_radio, random_pokedex, tin_tower
+	presetSettings = {false, false, false, false, false, false, false, false, false, false}
 	if self.code == "easy_full" then
-		Tracker:FindObjectForCode("full_item").Active = true
-		Tracker:FindObjectForCode("cut_tree").Active = false
-		Tracker:FindObjectForCode("vanilla_clair").Active = false
-		Tracker:FindObjectForCode("elite_four_req").Active = false
-		Tracker:FindObjectForCode("backward_kanto").Active = false
-		Tracker:FindObjectForCode("random_pokegear").Active = false
-		Tracker:FindObjectForCode("random_pokedex").Active = false
-		Tracker:FindObjectForCode("random_radio").Active = false
-		Tracker:FindObjectForCode("tin_tower").Active = false
-		Tracker:FindObjectForCode("hidden_items").Active = false
+		presetSettings = {true, false, false, false, false, false, false, false, false, false}
+	elseif self.code == "standard_full" then
+		presetSettings = {true, false, false, false, true, false, false, false, false, false}
+	elseif self.code == "tricky_full" then
+		presetSettings = {true, false, false, true, true, false, true, true, true, true}
+	elseif self.code == "chaos_full" then
+		presetSettings = {true, true, false, true, true, false, true, true, true, true}
+	elseif self.code == "vintage_full" then
+		presetSettings = {true, false, true, true, true, false, false, false, false, false}
+	elseif self.code == "classic_key" then
+		presetSettings = {false, false, false, false, false, true, false, false, false, false}
+	elseif self.code == "neo_key" then
+		presetSettings = {false, false, false, false, true, false, true, true, true, true}
+	elseif self.code == "nightmare_full" then
+		presetSettings = {true, false, true, true, true, true, true, true, true, true}
 	end
 	
-	if self.code == "standard_full" then
-		Tracker:FindObjectForCode("full_item").Active = true
-		Tracker:FindObjectForCode("cut_tree").Active = false
-		Tracker:FindObjectForCode("vanilla_clair").Active = false
-		Tracker:FindObjectForCode("elite_four_req").Active = false
-		Tracker:FindObjectForCode("backward_kanto").Active = true
-		Tracker:FindObjectForCode("random_pokegear").Active = false
-		Tracker:FindObjectForCode("random_pokedex").Active = false
-		Tracker:FindObjectForCode("random_radio").Active = false
-		Tracker:FindObjectForCode("tin_tower").Active = false
-		Tracker:FindObjectForCode("hidden_items").Active = false
-	end
-	
-	if self.code == "tricky_full" then
-		Tracker:FindObjectForCode("full_item").Active = true
-		Tracker:FindObjectForCode("cut_tree").Active = false
-		Tracker:FindObjectForCode("vanilla_clair").Active = true
-		Tracker:FindObjectForCode("elite_four_req").Active = false
-		Tracker:FindObjectForCode("backward_kanto").Active = true
-		Tracker:FindObjectForCode("random_pokegear").Active = true
-		Tracker:FindObjectForCode("random_pokedex").Active = true
-		Tracker:FindObjectForCode("random_radio").Active = true
-		Tracker:FindObjectForCode("tin_tower").Active = true
-		Tracker:FindObjectForCode("hidden_items").Active = false
-	end
-	
-	if self.code == "chaos_full" then
-		Tracker:FindObjectForCode("full_item").Active = true
-		Tracker:FindObjectForCode("cut_tree").Active = false
-		Tracker:FindObjectForCode("vanilla_clair").Active = true
-		Tracker:FindObjectForCode("elite_four_req").Active = false
-		Tracker:FindObjectForCode("backward_kanto").Active = true
-		Tracker:FindObjectForCode("random_pokegear").Active = true
-		Tracker:FindObjectForCode("random_pokedex").Active = true
-		Tracker:FindObjectForCode("random_radio").Active = true
-		Tracker:FindObjectForCode("tin_tower").Active = true
-		Tracker:FindObjectForCode("hidden_items").Active = true
-	end
-	
-	if self.code == "vintage_full" then
-		Tracker:FindObjectForCode("full_item").Active = true
-		Tracker:FindObjectForCode("cut_tree").Active = true
-		Tracker:FindObjectForCode("vanilla_clair").Active = true
-		Tracker:FindObjectForCode("elite_four_req").Active = false
-		Tracker:FindObjectForCode("backward_kanto").Active = true
-		Tracker:FindObjectForCode("random_pokegear").Active = false
-		Tracker:FindObjectForCode("random_pokedex").Active = false
-		Tracker:FindObjectForCode("random_radio").Active = false
-		Tracker:FindObjectForCode("tin_tower").Active = false
-		Tracker:FindObjectForCode("hidden_items").Active = false
-	end
-	
-	if self.code == "classic_key" then
-		Tracker:FindObjectForCode("full_item").Active = false
-		Tracker:FindObjectForCode("cut_tree").Active = false
-		Tracker:FindObjectForCode("vanilla_clair").Active = false
-		Tracker:FindObjectForCode("elite_four_req").Active = true
-		Tracker:FindObjectForCode("backward_kanto").Active = false
-		Tracker:FindObjectForCode("random_pokegear").Active = false
-		Tracker:FindObjectForCode("random_pokedex").Active = false
-		Tracker:FindObjectForCode("random_radio").Active = false
-		Tracker:FindObjectForCode("tin_tower").Active = false
-		Tracker:FindObjectForCode("hidden_items").Active = false
-	end
-	
-	if self.code == "neo_key" then
-		Tracker:FindObjectForCode("full_item").Active = false
-		Tracker:FindObjectForCode("cut_tree").Active = false
-		Tracker:FindObjectForCode("vanilla_clair").Active = false
-		Tracker:FindObjectForCode("elite_four_req").Active = false
-		Tracker:FindObjectForCode("backward_kanto").Active = true
-		Tracker:FindObjectForCode("random_pokegear").Active = true
-		Tracker:FindObjectForCode("random_pokedex").Active = true
-		Tracker:FindObjectForCode("random_radio").Active = true
-		Tracker:FindObjectForCode("tin_tower").Active = true
-		Tracker:FindObjectForCode("hidden_items").Active = false
-	end
-	
-	if self.code == "nightmare_full" then
-		Tracker:FindObjectForCode("full_item").Active = true
-		Tracker:FindObjectForCode("cut_tree").Active = true
-		Tracker:FindObjectForCode("vanilla_clair").Active = true
-		Tracker:FindObjectForCode("elite_four_req").Active = true
-		Tracker:FindObjectForCode("backward_kanto").Active = true
-		Tracker:FindObjectForCode("random_pokegear").Active = true
-		Tracker:FindObjectForCode("random_pokedex").Active = true
-		Tracker:FindObjectForCode("random_radio").Active = true
-		Tracker:FindObjectForCode("tin_tower").Active = true
-		Tracker:FindObjectForCode("hidden_items").Active = false
-	end
-	
+	Tracker:FindObjectForCode("full_item").Active = presetSettings[1]
+	Tracker:FindObjectForCode("hidden_items").Active = presetSettings[2]
+	Tracker:FindObjectForCode("cut_tree").Active = presetSettings[3]
+	Tracker:FindObjectForCode("vanilla_clair").Active = presetSettings[4]
+	Tracker:FindObjectForCode("backward_kanto").Active = presetSettings[5]
+	Tracker:FindObjectForCode("elite_four_req").Active = presetSettings[6]
+	Tracker:FindObjectForCode("random_pokegear").Active = presetSettings[7]
+	Tracker:FindObjectForCode("random_radio").Active = presetSettings[8]
+	Tracker:FindObjectForCode("random_pokedex").Active = presetSettings[9]
+    Tracker:FindObjectForCode("tin_tower").Active = presetSettings[10]
 end
 
 function Preset:onRightClick()
