@@ -26,6 +26,15 @@
 				"access_rules": ["squirt_bottle", "@canUseCut", "$noCutTree"],
 				"visibility_rules": ["full_item"],
 				"item_count": 1
+			},
+			{
+				"name": "Hidden Items",
+				"access_rules": ["squirt_bottle", "@canUseCut", "$noCutTree"],
+				"visibility_rules": ["hidden_items"],
+				"chest_unopened_img": "images/chests/hidden_unopened.png",
+				"chest_opened_img": "images/chests/hidden_opened.png",
+				"clear_as_group": false,
+				"item_count": 3
 			}
 		],
 		"map_locations": [

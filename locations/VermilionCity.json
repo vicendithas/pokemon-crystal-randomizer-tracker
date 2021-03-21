@@ -24,6 +24,14 @@
 				"name": "Wake Up Snorlax",
 				"access_rules": ["pokegear,radio_card,expansion_card"],
 				"hosted_item": "snorlax"
+			},
+			{
+				"name": "Hidden Items",
+				"access_rules": [],
+				"visibility_rules": ["hidden_items"],
+				"chest_unopened_img": "images/chests/hidden_unopened.png",
+				"chest_opened_img": "images/chests/hidden_opened.png",
+				"item_count": 1
 			}
 		],
 		"map_locations": [

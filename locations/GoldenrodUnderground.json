@@ -10,6 +10,15 @@
 				"item_count": 1
 			},
 			{
+				"name": "Hidden Items - Shops",
+				"access_rules": [],
+				"visibility_rules": ["hidden_items"],
+				"chest_unopened_img": "images/chests/hidden_unopened.png",
+				"chest_opened_img": "images/chests/hidden_opened.png",
+				"clear_as_group": false,
+				"item_count": 3
+			},
+			{
 				"name": "Warehouse Front",
 				"access_rules": ["basement_key"],
 				"visibility_rules": ["full_item"],
@@ -27,6 +36,15 @@
 				"name": "Save The Director",
 				"access_rules": ["basement_key,$canFightTeamRocket"],
 				"item_count": 1
+			},
+			{
+				"name": "Hidden Items - Tunnel",
+				"access_rules": ["basement_key"],
+				"visibility_rules": ["hidden_items"],
+				"chest_unopened_img": "images/chests/hidden_unopened.png",
+				"chest_opened_img": "images/chests/hidden_opened.png",
+				"clear_as_group": false,
+				"item_count": 2
 			}
 		],
 		"map_locations": [

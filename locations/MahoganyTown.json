@@ -31,6 +31,15 @@
 				"hosted_item": "electrode"
 			},
 			{
+				"name": "Hidden Items - Rocket Base",
+				"access_rules": ["red_gyarados"],
+				"visibility_rules": ["hidden_items"],
+				"chest_unopened_img": "images/chests/hidden_unopened.png",
+				"chest_opened_img": "images/chests/hidden_opened.png",
+				"clear_as_group": false,
+				"item_count": 2
+			},
+			{
 				"name": "Gym Leader TM",
 				"access_rules": ["electrode"],
 				"visibility_rules": ["full_item"],
