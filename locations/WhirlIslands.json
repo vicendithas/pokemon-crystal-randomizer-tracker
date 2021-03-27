@@ -3,43 +3,56 @@
 		"name": "Whirl Islands",
 		"chest_unopened_img": "images/chests/default_unopened.png",
         "chest_opened_img": "images/chests/default_opened.png",
-		"access_rules": ["@Ecruteak City, @canUseSurf, @canUseWhirlpool, [@canUseFlash]"], 
+		"access_rules": ["@Ecruteak City, @canUseSurf, @canUseWhirlpool"], 
 		"sections": [
 			{
 				"name": "Top Right Entrance",
+				"access_rules": ["[@canUseFlash]"],
 				"visibility_rules": ["full_item"],
 				"item_count": 1
 			},
 			{
 				"name": "Bottom Left Entrance",
+				"access_rules": ["[@canUseFlash]"],
 				"visibility_rules": ["full_item"],
 				"item_count": 1
 			},
 			{
 				"name": "Before The Waterfall",
+				"access_rules": ["[@canUseFlash]"],
 				"visibility_rules": ["full_item"],
 				"item_count": 1
 			},
 			{
 				"name": "Main Room",
+				"access_rules": ["[@canUseFlash]"],
 				"visibility_rules": ["full_item"],
 				"clear_as_group": false,
 				"item_count": 5
 			},
 			{
 				"name": "Down The Ladder From Main Room",
+				"access_rules": ["[@canUseFlash]"],
 				"visibility_rules": ["full_item"],
 				"clear_as_group": false,
 				"item_count": 2
 			},
 			{
 				"name": "Hidden Items",
-				"access_rules": [],
+				"access_rules": ["[@canUseFlash]"],
 				"visibility_rules": ["hidden_items"],
 				"chest_unopened_img": "images/chests/hidden_unopened.png",
 				"chest_opened_img": "images/chests/hidden_opened.png",
 				"clear_as_group": false,
 				"item_count": 3
+			},
+			{
+				"name": "Hidden Items - Outside SW Whirl",
+				"access_rules": [],
+				"visibility_rules": ["hidden_items"],
+				"chest_unopened_img": "images/chests/hidden_unopened.png",
+				"chest_opened_img": "images/chests/hidden_opened.png",
+				"item_count": 1
 			}
 		],
 		"map_locations": [

@@ -7,6 +7,7 @@
 		"sections": [
 			{
 				"name": "Boat Quest",
+				"access_rules": ["ss_ticket"],
 				"visibility_rules": ["full_item"],
 				"hosted_item": "boat_quest"
 			},
