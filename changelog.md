@@ -1,4 +1,9 @@
 # Changelog
+
+## 2.1
+Added support for Chaos mode (hidden items)\
+Various small improvements
+
 ## 2.0
 Added support for Nightmare mode\
 Added Cut requirement for house on Route 28

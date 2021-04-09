@@ -8,7 +8,7 @@
 		"sections": [
 			{
 				"name": "Rainbow Wing",
-				"access_rules": ["red_gyarados"],
+				"access_rules": ["red_gyarados", "elite_four"],
 				"visibility_rules": ["tin_tower"],
 				"item_count": 1
 			},

@@ -564,9 +564,7 @@
 	{
         "name": "boat_quest",
         "type": "toggle",
-        "img": "images/chests/default_opened.png",
-		"disabled_img": "images/chests/default_unopened.png",
-		"disabled_img_mods": "",
+        "img": "images/other/ss_aqua.png",
         "codes": "boat_quest"
     },
 	{
