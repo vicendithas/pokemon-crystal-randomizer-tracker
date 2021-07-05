@@ -15,6 +15,12 @@
 				"access_rules": ["@canUseSurf, @canUseWaterfall, @canUseWhirlpool", "snorlax, @canUseCut, @canUseSurf, @canUseWhirlpool"],
 				"visibility_rules": ["full_item"],
 				"item_count": 1
+			},
+			{
+				"name": "Sandstorm TM",
+				"access_rules": ["@canUseSurf, @canUseWaterfall", "snorlax, @canuseCut"],
+				"visibility_rules": ["day_happiness"],
+				"item_count": 1
 			}
 		],
 		"map_locations": [

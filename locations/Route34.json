@@ -3,6 +3,7 @@
 		"name": "Route 34",
 		"chest_unopened_img": "images/chests/default_unopened.png",
         "chest_opened_img": "images/chests/default_opened.png",
+		"access_rules": ["squirt_bottle", "@canUseCut", "$noCutTree"],
 		"sections": [
 			{   "name": "Lady In The Gate",
 				"visibility_rules": ["full_item"],

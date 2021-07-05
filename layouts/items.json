@@ -113,11 +113,15 @@
 					],
 					[ 
 						"random_pokegear",
-						"random_radio"
+						"random_pokedex"
 					],
 					[ 
-						"random_pokedex",
+						"berry_trees",
 						"tin_tower"
+					],
+					[ 
+						"day_happiness",
+						"evil"
 					]
                 ]
             }
@@ -125,12 +129,12 @@
     },
 	"settings_popup": {
         "type": "array",
-		"orientation": "horizontal",
+		"orientation": "vertical",
         "content": [
             {
 				"type": "array",
-				"orientation": "vertical",
-				"margin": 5,
+				"orientation": "horizontal",
+				"margin": 0,
 				"content": [
 					{
 						"type": "group",
@@ -140,7 +144,7 @@
 							{
 								"type": "item",
 								"margin": "-5,-1,-5,-5",
-								"item": "easy_full"
+								"item": "full_easy"
 							}
 						]
 					},
@@ -152,7 +156,38 @@
 							{
 								"type": "item",
 								"margin": "-5,-1,-5,-5",
-								"item": "standard_full"
+								"item": "full_standard"
+							}
+						]
+					},
+					{
+						"type": "group",
+						"header": "Vintage Full Item",
+						"header_background": "#3e4b57",
+						"content":[
+							{
+								"type": "item",
+								"margin": "-5,-1,-5,-5",
+								"item": "full_vintage"
+							}
+						]
+					}					
+				]
+			},
+			{
+				"type": "array",
+				"orientation": "horizontal",
+				"margin": 0,
+				"content": [
+					{
+						"type": "group",
+						"header": "Tricky/Extreme Full Item",
+						"header_background": "#3e4b57",
+						"content":[
+							{
+								"type": "item",
+								"margin": "-5,-1,-5,-5",
+								"item": "full_tricky_extreme"
 							}
 						]
 					},
@@ -164,50 +199,38 @@
 							{
 								"type": "item",
 								"margin": "-5,-1,-5,-5",
-								"item": "chaos_full"
+								"item": "full_chaos"
 							}
 						]
 					},
 					{
 						"type": "group",
-						"header": "Easy/Classic Key Item",
+						"header": "Crazy Full Item",
 						"header_background": "#3e4b57",
 						"content":[
 							{
 								"type": "item",
 								"margin": "-5,-1,-5,-5",
-								"item": "classic_key"
+								"item": "full_crazy"
 							}
 						]
-					}				
+					}
 				]
 			},
 			{
 				"type": "array",
-				"orientation": "vertical",
-				"margin": 5,
+				"orientation": "horizontal",
+				"margin": 0,
 				"content": [
 					{
 						"type": "group",
-						"header": "Vintage Full Item",
+						"header": "Crazy Chaos Full Item",
 						"header_background": "#3e4b57",
 						"content":[
 							{
 								"type": "item",
 								"margin": "-5,-1,-5,-5",
-								"item": "vintage_full"
-							}
-						]
-					},
-					{
-						"type": "group",
-						"header": "Tricky/Extreme Full Item",
-						"header_background": "#3e4b57",
-						"content":[
-							{
-								"type": "item",
-								"margin": "-5,-1,-5,-5",
-								"item": "tricky_full"
+								"item": "full_crazy_chaos"
 							}
 						]
 					},
@@ -219,24 +242,55 @@
 							{
 								"type": "item",
 								"margin": "-5,-1,-5,-5",
-								"item": "nightmare_full"
+								"item": "full_nightmare"
 							}
 						]
 					},
 					{
 						"type": "group",
-						"header": "Neo/Extreme Key Item",
+						"header": "Nightmare Crazy Chaos Full Item",
 						"header_background": "#3e4b57",
 						"content":[
 							{
 								"type": "item",
 								"margin": "-5,-1,-5,-5",
-								"item": "neo_key"
+								"item": "full_nightmare_crazy_chaos"
 							}
 						]
-					}
+					}				
 				]
-			}				
+			},
+						{
+				"type": "array",
+				"orientation": "horizontal",
+				"margin": 0,
+				"content": [
+					{
+						"type": "group",
+						"header": "Easy/Classic Key Item",
+						"header_background": "#3e4b57",
+						"content":[
+							{
+								"type": "item",
+								"margin": "-5,-1,-5,-5",
+								"item": "key_easy_classic"
+							}
+						]
+					},
+					{
+						"type": "group",
+						"header": "Tricky/Extreme Key Item",
+						"header_background": "#3e4b57",
+						"content":[
+							{
+								"type": "item",
+								"margin": "-5,-1,-5,-5",
+								"item": "key_tricky_extreme"
+							}
+						]
+					}				
+				]
+			}
         ]
     }
 }

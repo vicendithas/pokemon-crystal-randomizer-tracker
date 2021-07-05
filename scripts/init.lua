@@ -10,14 +10,20 @@ ScriptHost:LoadScript("scripts/class.lua")
 ScriptHost:LoadScript("scripts/custom_item.lua")
 ScriptHost:LoadScript("scripts/preset.lua")
 
-local easyFullPreset = Preset("Easy Full", "easy_full", "images/presets/easy_full.png")
-local standardFullPreset = Preset("Standard Full", "standard_full", "images/presets/standard_full.png")
-local trickyFullPreset = Preset("Tricky Full", "tricky_full", "images/presets/tricky_full.png")
-local chaosFullPreset = Preset("Chaos Full", "chaos_full", "images/presets/chaos_full.png")
-local vintageFullPreset = Preset("Vintage Full", "vintage_full", "images/presets/vintage_full.png")
-local classicKeyPreset = Preset("Classic Key", "classic_key", "images/presets/classic_key.png")
-local neoKeyPreset = Preset("Neo Key", "neo_key", "images/presets/neo_key.png")
-local nightmareFullPreset = Preset("Nightmare Full", "nightmare_full", "images/presets/nightmare_full.png")
+local fullEasy					=	Preset("Easy Full",						"full_easy",					"images/presets/full_easy.png")
+local fullStandard				=	Preset("Standard Full",					"full_standard",				"images/presets/full_standard.png")
+local fullVintage				=	Preset("Vintage Full",					"full_vintage",					"images/presets/full_vintage.png")
+
+local fullTrickyExtreme			=	Preset("Tricky / Extreme Full",			"full_tricky_extreme",			"images/presets/full_tricky_extreme.png")
+local fullChaos					=	Preset("Chaos Full",					"full_chaos",					"images/presets/full_chaos.png")
+local fullCrazy					=	Preset("Crazy Full",					"full_crazy",					"images/presets/full_crazy.png")
+
+local fullCrazyChaos			=	Preset("Crazy Chaos Full",				"full_crazy_chaos",				"images/presets/full_crazy_chaos.png")
+local fullNightmare				=	Preset("Nightmare Full",				"full_nightmare",				"images/presets/full_nightmare.png")
+local fullNightmareCrazyChaos	=	Preset("Nightmare Crazy Chaos Full",	"full_nightmare_crazy_chaos",	"images/presets/full_nightmare_crazy_chaos.png")
+
+local keyEasyClassic			=	Preset("Easy / Classic Key",			"key_easy_classic",				"images/presets/key_easy_classic.png")
+local keyTrickyExtreme			=	Preset("Tricky / Extreme Key",			"key_tricky_extreme",			"images/presets/key_tricky_extreme.png")
 
 Tracker:AddLayouts("layouts/items.json")
 

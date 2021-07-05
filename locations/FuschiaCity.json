@@ -13,6 +13,13 @@
 			{
 				"name": "Gym - Janine",
 				"hosted_item": "janine"
+			},
+			{
+				"name": "Berry Trees",
+				"access_rules": ["@canUseCut"],
+				"visibility_rules": ["berry_trees"],
+				"clear_as_group": false,
+				"item_count": 1
 			}
 		],
 		"map_locations": [

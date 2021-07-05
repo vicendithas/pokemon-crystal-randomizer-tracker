@@ -25,6 +25,20 @@
 				"chest_opened_img": "images/chests/hidden_opened.png",
 				"clear_as_group": false,
 				"item_count": 2
+			},
+			{
+				"name": "Wesley",
+				"access_rules": ["@canUseCut"],
+				"visibility_rules": ["day_happiness"],
+				"item_count": 1
+			},
+			{
+				"name": "Hidden Item by Wesley",
+				"access_rules": ["@canUseCut"],
+				"visibility_rules": ["hidden_items, day_happiness"],
+				"chest_unopened_img": "images/chests/hidden_unopened.png",
+				"chest_opened_img": "images/chests/hidden_opened.png",
+				"item_count": 1
 			}
 		],
 		"map_locations": [

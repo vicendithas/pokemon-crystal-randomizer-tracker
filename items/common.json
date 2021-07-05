@@ -608,12 +608,12 @@
         "codes": "elite_four_req"
     },
 	{
-        "name": "Random PokeGear",
+        "name": "Random PokeGear and Radio Cards",
         "type": "toggle",
         "img": "images/items/pokegear.png",
         "disabled_img_mods": "overlay|images/other/no.png",
 		"initial_active_state": false,
-        "codes": "random_pokegear"
+        "codes": "random_pokegear,random_radio"
     },
 	{
         "name": "Random PokeDex",
@@ -622,14 +622,6 @@
         "disabled_img_mods": "overlay|images/other/no.png",
 		"initial_active_state": false,
         "codes": "random_pokedex"
-    },
-	{
-        "name": "Random Radio Cards",
-        "type": "toggle",
-        "img": "images/items/radio_card.png",
-        "disabled_img_mods": "overlay|images/other/no.png",
-		"initial_active_state": false,
-        "codes": "random_radio"
     },
 	{
         "name": "Tin Tower",
@@ -646,5 +638,29 @@
         "disabled_img_mods": "overlay|images/other/no.png",
 		"initial_active_state": false,
         "codes": "hidden_items"
+    },
+	{
+        "name": "Berry Trees",
+        "type": "toggle",
+        "img": "images/other/berry_tree.png",
+        "disabled_img_mods": "overlay|images/other/no.png",
+		"initial_active_state": false,
+        "codes": "berry_trees"
+    },
+	{
+        "name": "Day and Happiness Items",
+        "type": "toggle",
+        "img": "images/other/clock.png",
+        "disabled_img_mods": "overlay|images/other/no.png",
+		"initial_active_state": false,
+        "codes": "day_happiness"
+    },
+	{
+        "name": "E.V.I.L",
+        "type": "toggle",
+        "img": "images/other/evil.png",
+        "disabled_img_mods": "overlay|images/other/no.png",
+		"initial_active_state": false,
+        "codes": "evil"
     }
 ]

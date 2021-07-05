@@ -12,6 +12,19 @@
 				"chest_unopened_img": "images/chests/hidden_unopened.png",
 				"chest_opened_img": "images/chests/hidden_opened.png",
 				"item_count": 1
+			},
+			{
+				"name": "Sunny",
+				"access_rules": [],
+				"visibility_rules": ["day_happiness"],
+				"item_count": 1
+			},
+			{
+				"name": "Berry Trees",
+				"access_rules": [],
+				"visibility_rules": ["berry_trees"],
+				"clear_as_group": false,
+				"item_count": 3
 			}
 		],
 		"map_locations": [

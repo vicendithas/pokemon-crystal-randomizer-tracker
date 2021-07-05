@@ -12,6 +12,13 @@
 			{
 				"name": "Gym - Brock",
 				"hosted_item": "brock"
+			},
+			{
+				"name": "Berry Trees",
+				"access_rules": [],
+				"visibility_rules": ["berry_trees"],
+				"clear_as_group": false,
+				"item_count": 2
 			}
 		],
 		"map_locations": [

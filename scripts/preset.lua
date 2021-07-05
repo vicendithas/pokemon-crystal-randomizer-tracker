@@ -28,25 +28,23 @@ function Preset:updateIcon()
 end
 
 function Preset:onLeftClick()
-	-- order of settings: full_item, hidden_items, cut_tree, vanilla_clair, backward_kanto, elite_four_req, random_pokegear, random_radio, random_pokedex, tin_tower
-	presetSettings = {false, false, false, false, false, false, false, false, false, false}
-	if self.code == "easy_full" then
-		presetSettings = {true, false, false, false, false, false, false, false, false, false}
-	elseif self.code == "standard_full" then
-		presetSettings = {true, false, false, false, true, false, false, false, false, false}
-	elseif self.code == "tricky_full" then
-		presetSettings = {true, false, false, true, true, false, true, true, true, true}
-	elseif self.code == "chaos_full" then
-		presetSettings = {true, true, false, true, true, false, true, true, true, true}
-	elseif self.code == "vintage_full" then
-		presetSettings = {true, false, true, true, true, false, false, false, false, false}
-	elseif self.code == "classic_key" then
-		presetSettings = {false, false, false, false, false, true, false, false, false, false}
-	elseif self.code == "neo_key" then
-		presetSettings = {false, false, false, false, true, false, true, true, true, true}
-	elseif self.code == "nightmare_full" then
-		presetSettings = {true, false, true, true, true, true, true, true, true, true}
-	end
+	--																			full			cut tree 		bw kanto		gear/radio		tin				berrys	
+	--																					hidden			v clair			e4 req			pokedex			day/happy		evil	
+															presetSettings = {	false,	false,	false,	false,	false,	false,	false,	false,	false,	false,	false,	false}
+	if	self.code == "full_easy"					then	presetSettings = {	true,	false,	false,	false,	false,	false,	false,	false,	false,	false,	false,	false}	end
+	if	self.code == "full_standard"				then	presetSettings = {	true,	false,	false,	false,	true,	false,	false,	false,	false,	false,	false,	false}	end
+	if	self.code == "full_vintage"					then	presetSettings = {	true,	false,	true,	true,	true,	false,	false,	false,	false,	false,	false,	false}	end
+
+	if	self.code == "full_tricky_extreme"			then	presetSettings = {	true,	false,	false,	true,	true,	false,	true,	true,	true,	false,	false,	false}	end
+	if	self.code == "full_chaos"					then	presetSettings = {	true,	true,	false,	true,	true,	false,	true,	true,	true,	false,	false,	false}	end
+	if	self.code == "full_crazy"					then	presetSettings = {	true,	false,	false,	true,	true,	false,	true,	true,	true,	true,	true,	false}	end
+
+	if	self.code == "full_crazy_chaos"				then	presetSettings = {	true,	true,	false,	true,	true,	false,	true,	true,	true,	true,	true,	false}	end
+	if	self.code == "full_nightmare"				then	presetSettings = {	true,	false,	true,	true,	true,	true,	true,	true,	true,	false,	false,	true}	end
+	if	self.code == "full_nightmare_crazy_chaos"	then	presetSettings = {	true,	true,	true,	true,	true,	true,	true,	true,	true,	true,	true,	true}	end
+
+	if	self.code == "key_easy_classic"				then	presetSettings = {	false,	false,	false,	false,	false,	true,	false,	false,	false,	false,	false,	false}	end
+	if	self.code == "key_tricky_extreme"			then	presetSettings = {	false,	false,	false,	false,	true,	false,	true,	true,	true,	false,	false,	false}	end
 	
 	Tracker:FindObjectForCode("full_item").Active = presetSettings[1]
 	Tracker:FindObjectForCode("hidden_items").Active = presetSettings[2]
@@ -55,9 +53,11 @@ function Preset:onLeftClick()
 	Tracker:FindObjectForCode("backward_kanto").Active = presetSettings[5]
 	Tracker:FindObjectForCode("elite_four_req").Active = presetSettings[6]
 	Tracker:FindObjectForCode("random_pokegear").Active = presetSettings[7]
-	Tracker:FindObjectForCode("random_radio").Active = presetSettings[8]
-	Tracker:FindObjectForCode("random_pokedex").Active = presetSettings[9]
-    Tracker:FindObjectForCode("tin_tower").Active = presetSettings[10]
+	Tracker:FindObjectForCode("random_pokedex").Active = presetSettings[8]
+    Tracker:FindObjectForCode("tin_tower").Active = presetSettings[9]
+	Tracker:FindObjectForCode("day_happiness").Active = presetSettings[10]
+	Tracker:FindObjectForCode("berry_trees").Active = presetSettings[11]
+	Tracker:FindObjectForCode("evil").Active = presetSettings[12]
 end
 
 function Preset:onRightClick()

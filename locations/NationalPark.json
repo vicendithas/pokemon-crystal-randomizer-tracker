@@ -15,7 +15,31 @@
 				"name": "Lady On Bench",
 				"visibility_rules": ["full_item"],
 				"item_count": 1
-			} 
+			},
+			{
+				"name": "Bug Catching First",
+				"access_rules": [],
+				"visibility_rules": ["evil"],
+				"item_count": 1
+			},
+			{
+				"name": "Bug Catching Second",
+				"access_rules": [],
+				"visibility_rules": ["evil"],
+				"item_count": 1
+			},
+			{
+				"name": "Bug Catching Third",
+				"access_rules": [],
+				"visibility_rules": ["evil"],
+				"item_count": 1
+			},
+			{
+				"name": "Bug Catching Last",
+				"access_rules": [],
+				"visibility_rules": ["evil"],
+				"item_count": 1
+			}
 		],
 		"map_locations": [
 			{

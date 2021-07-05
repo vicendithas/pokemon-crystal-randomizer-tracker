@@ -1,4 +1,12 @@
 # Changelog
+## 3.0
+Added support for Crazy mode (day locked items, happiness locked items, berry trees)\
+Added support for Crazy Chaos mode (Crazy + Chaos)\
+Updated setting for Nightmare preset (inc. adding "evil" modifier)\
+Added support for Nightmare Crazy Chaos mode (Nightmare + Crazy + Chaos)\
+Merged "Random PokeGear" and "Random Radio Cards" into one modifier\
+Refactored some variable names to standardize them\
+Fixed some bugs for item availability
 
 ## 2.1
 Added support for Chaos mode (hidden items)\
