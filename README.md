@@ -71,7 +71,7 @@ Presets have been added under the gear icon at the top right of the item tracker
 6. ![Crazy Full Item](images/presets/full_crazy.png "Crazy Full Item") Crazy Full Item randomizer (same as Extreme, but day and happiness locked items and berry trees are added).
 7. ![Crazy Chaos Full Item](images/presets/full_crazy_chaos.png "Crazy Chaos Full Item") Crazy + Chaos Full Item randomizer.
 8. ![Nightmare Full Item](images/presets/full_nightmare.png "Nightmare Full Item") Nightmare Full Item randomizer. Do you like fun? Well, too bad.
-9. ![Crazy Chaos Nightmare Full Item](images/presets/full_nightmare_crazy_chaos.png "Crazy Chaos Nightmare Full Item") Nightmare plus Crazy Chaos. And you thought Nightmare couldn't get worse...
+9. ![Chaos Nightmare Full Item](images/presets/full_chaos_nightmare.png "Chaos Nightmare Full Item") Nightmare plus Chaos. And you thought Nightmare couldn't get worse...
 10. ![Easy/Classic Key Item](images/presets/key_easy_classic.png "Easy/Classic Key Item") Easy or Classic Key Item randomizer. (see below)
 11. ![Tricky/Extreme Key Item](images/presets/key_tricky_extreme.png "Tricky/Extreme Key Item") Tricky or Extreme Key Item randomizer. (see below)
 

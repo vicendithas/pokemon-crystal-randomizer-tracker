@@ -248,13 +248,13 @@
 					},
 					{
 						"type": "group",
-						"header": "Nightmare Crazy Chaos Full Item",
+						"header": "Chaos Nightmare Full Item",
 						"header_background": "#3e4b57",
 						"content":[
 							{
 								"type": "item",
 								"margin": "-5,-1,-5,-5",
-								"item": "full_nightmare_crazy_chaos"
+								"item": "full_chaos_nightmare"
 							}
 						]
 					}				
