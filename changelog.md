@@ -1,4 +1,7 @@
 # Changelog
+## 3.0.1
+Forgot to change the version number. lol
+
 ## 3.0
 Added support for Crazy mode (day locked items, happiness locked items, berry trees)\
 Added support for Crazy Chaos mode (Crazy + Chaos)\
