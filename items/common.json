@@ -662,5 +662,15 @@
         "disabled_img_mods": "overlay|images/other/no.png",
 		"initial_active_state": false,
         "codes": "evil"
+    },
+	{
+        "name": "Badges Required for Red",
+        "type": "consumable",
+        "img": "images/badges/boulder_badge.png",
+		"initial_quantity": 16,
+		"min_quantity": 0,
+		"max_quantity": 16,
+		"increment": 1,
+        "codes": "badges_req_red"
     }
 ]

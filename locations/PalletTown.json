@@ -7,7 +7,7 @@
 		"sections": [
 			{
 				"name": "Talk To Oak",
-				"access_rules": ["$haveAllBadges"],
+				"access_rules": ["$haveEnoughBadges"],
 				"hosted_item": "oak"
 			}
 		],

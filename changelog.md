@@ -1,4 +1,7 @@
 # Changelog
+## 3.1
+Added an icon to allow for different numbers of badges before Red can be fought
+
 ## 3.0.1
 Forgot to change the version number. lol
 

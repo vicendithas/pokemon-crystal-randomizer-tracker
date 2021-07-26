@@ -50,6 +50,7 @@ If the option is crossed out, it is disabled and not part of the logic of the tr
 10. ![Berry Trees](images/other/berry_tree.png "Berry Trees") Berry and Apricorn trees are added to the randomized item pool.
 11. ![Day and Happiness Items](images/other/clock.png "Day and Happiness Items") Items locked by day, time, or happiness are added to the randomized item pool (requirements changed to always be available).
 12. ![E.V.I.L](images/other/evil.png "E.V.I.L") Evil checks are added to the item pool. Currently this is only the Bug Catching Contest (4 items for 1st, 2nd, 3rd, and last places), but it will likely be expanded in the future.
+12. ![Required Badges for Red](images/badges/boulder_badge.png "Required Badges for Red") Value can be modified to indicate how many badges are required before Professor Oak in Pallet Town will allow access to Mt. Silver.
 
 Note: Currently, with the "Hidden Items" modifier, items that would potentially blocked by a specific day or time are not included.
 1. Route 32 Great Ball (blocked by Frieda on Fridays)
