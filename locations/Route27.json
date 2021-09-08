@@ -18,7 +18,7 @@
 			},
 			{
 				"name": "Sandstorm TM",
-				"access_rules": ["@canUseSurf, @canUseWaterfall", "snorlax, @canuseCut"],
+				"access_rules": ["@canUseSurf, @canUseWaterfall", "snorlax, @canUseCut, @canUseSurf"],
 				"visibility_rules": ["day_happiness"],
 				"item_count": 1
 			}
