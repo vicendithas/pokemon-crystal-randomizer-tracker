@@ -1,6 +1,8 @@
 # Changelog
+
 ## 3.1.1
-Fixed an error with the logic of the Sandstorm TM location
+Fixed an error with the logic of the Sandstorm TM location\
+Moved "Mart Basement Locked" from Goldenrod City to Goldenrod Underground to better reflect logical progression
 
 ## 3.1
 Added an icon to allow for different numbers of badges before Red can be fought

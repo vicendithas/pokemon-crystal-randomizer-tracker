@@ -28,12 +28,6 @@
 				"visibility_rules": ["day_happiness"],
 				"item_count": 2
 			},
-			{   
-				"name": "Mart Basement Locked",
-				"access_rules": ["basement_key"],
-				"visibility_rules": ["full_item"],
-				"item_count": 1 
-			},
 			{
 				"name": "Bike Shop",
 				"item_count": 1

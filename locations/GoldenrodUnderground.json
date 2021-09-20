@@ -37,6 +37,12 @@
 				"access_rules": ["basement_key,$canFightTeamRocket"],
 				"item_count": 1
 			},
+			{   
+				"name": "Mart Basement Locked",
+				"access_rules": ["basement_key"],
+				"visibility_rules": ["full_item"],
+				"item_count": 1 
+			},
 			{
 				"name": "Hidden Items - Tunnel",
 				"access_rules": ["basement_key"],
