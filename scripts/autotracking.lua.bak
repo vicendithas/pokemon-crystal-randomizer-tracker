@@ -1,0 +1,153 @@
+print("")
+print("Active Auto-Tracker Configuration")
+print("---------------------------------------------------------------------")
+print("Enable Item Tracking:        ", AUTOTRACKER_ENABLE_ITEM_TRACKING)
+print("Enable Location Tracking:    ", AUTOTRACKER_ENABLE_LOCATION_TRACKING)
+print("Enable Debug Logging:        ", AUTOTRACKER_ENABLE_DEBUG_LOGGING)
+print("---------------------------------------------------------------------")
+print("")
+
+function autotracker_started()
+    -- Invoked when the auto-tracker is activated/connected
+end
+
+function isInGame()
+	-- 0xC2CD is wGameLogicPaused, zero = not paused, non zero = paused
+    return true --AutoTracker:ReadU8(0xC2CD) == 0x00
+end
+
+function updateToggleItemFromByte(segment, code, address, reset)
+	local item = Tracker:FindObjectForCode(code)
+	local prevVal
+    if item then
+		prevVal = item.Active
+        local value = segment:ReadUInt8(address)
+        if value > 0 then
+            item.Active = true
+        elseif reset then
+            item.Active = false
+        end
+    else
+		print(code .. " does not exist")
+		return false
+	end
+	
+	if AUTOTRACKER_ENABLE_DEBUG_LOGGING and (prevVal ~= item.Active) then
+		print(code .. ": " .. tostring(item.Active))
+	end
+end
+
+function updateToggleItemFromBit(segment, code, address, bitpos)
+	local item = Tracker:FindObjectForCode(code)
+    local prevVal
+    if item then
+		prevVal = item.Active
+        local value = segment:ReadUInt8(address) & (2^bitpos)
+        if value > 0 then
+            item.Active = true
+        else
+            item.Active = false
+        end
+    else
+		print(code .. " does not exist")
+		return false
+	end
+	
+	if AUTOTRACKER_ENABLE_DEBUG_LOGGING and (prevVal ~= item.Active) then
+		print(code .. ": " .. tostring(item.Active))
+	end
+end
+
+function updateToggleItemFromByteSearch(segment, code, address, num_items, spacing, item_id, reset)
+	local item = Tracker:FindObjectForCode(code)
+    local prevVal
+    if item then
+		prevVal = item.Active
+		local curr_addr, index
+		local value = false
+		for index = 0,num_items-1,1 do
+			curr_addr = address + (index * spacing)
+			value = value or ( segment:ReadUInt8(curr_addr) == item_id )
+		end
+        if value then
+            item.Active = true
+        elseif reset then
+            item.Active = false
+        end
+    else
+		print(code .. ": " .. tostring(item.Active))
+		return false
+	end
+	
+	if AUTOTRACKER_ENABLE_DEBUG_LOGGING and (prevVal ~= item.Active) then
+		print(code .. ": " .. tostring(item.Active))
+	end
+end
+
+function updateAllItemsFromMemorySegment(segment)
+	if not isInGame() then
+		return false
+	end
+	
+	if AUTOTRACKER_ENABLE_ITEM_TRACKING then
+		local num_keyitems = math.min( segment:ReadUInt8(0x18BC), 25)
+		local num_items = math.min ( segment:ReadUInt8(0x1892), 20)
+	
+		updateToggleItemFromBit(segment, "pokegear",  0x1957, 7)
+		updateToggleItemFromBit(segment, "radio_card",  0x1957, 1)
+		updateToggleItemFromBit(segment, "expansion_card",  0x1957, 3)
+		updateToggleItemFromByteSearch(segment, "squirt_bottle",0x18BD, num_keyitems, 1, 0xAF, true)
+		updateToggleItemFromByteSearch(segment, "secret_potion",0x18BD, num_keyitems, 1, 0x43, false)
+		updateToggleItemFromByteSearch(segment, "card_key",		0x18BD, num_keyitems, 1, 0x7F, true)
+		updateToggleItemFromByteSearch(segment, "ss_ticket",	0x18BD, num_keyitems, 1, 0x44, true)
+		updateToggleItemFromByteSearch(segment, "pass",			0x18BD, num_keyitems, 1, 0x86, true)
+		
+		updateToggleItemFromByteSearch(segment, "machine_part",	0x18BD, num_keyitems, 1, 0x80, false)
+		updateToggleItemFromByteSearch(segment, "clear_bell",	0x18BD, num_keyitems, 1, 0x46, true)
+		updateToggleItemFromByteSearch(segment, "rainbow_wing",	0x18BD, num_keyitems, 1, 0xB2, true)
+		updateToggleItemFromByteSearch(segment, "silver_wing",	0x18BD, num_keyitems, 1, 0x47, true)
+		updateToggleItemFromByteSearch(segment, "basement_key",	0x18BD, num_keyitems, 1, 0x85, true)
+		updateToggleItemFromByteSearch(segment, "lost_item",	0x18BD, num_keyitems, 1, 0x82, false)
+		updateToggleItemFromByteSearch(segment, "red_scale",	0x18BD, num_keyitems, 1, 0x42, false)
+		updateToggleItemFromByteSearch(segment, "mystery_egg",	0x18BD, num_keyitems, 1, 0x45, false)
+		updateToggleItemFromByteSearch(segment, "water_stone",	0x1893, num_items,    2, 0x18, false)
+		
+		updateToggleItemFromBit(segment, 		"pokedex",  	0x184C, 0)
+		updateToggleItemFromByteSearch(segment, "bicycle",		0x18BD, num_keyitems, 1, 0x07, true)
+		updateToggleItemFromByteSearch(segment, "blue_card",	0x18BD, num_keyitems, 1, 0x74, true)
+		updateToggleItemFromByteSearch(segment, "coin_case",	0x18BD, num_keyitems, 1, 0x36, true)
+		updateToggleItemFromByteSearch(segment, "item_finder",	0x18BD, num_keyitems, 1, 0x37, true)
+		updateToggleItemFromByteSearch(segment, "old_rod",		0x18BD, num_keyitems, 1, 0x3A, true)
+		updateToggleItemFromByteSearch(segment, "good_rod",		0x18BD, num_keyitems, 1, 0x3B, true)
+		updateToggleItemFromByteSearch(segment, "super_rod",	0x18BD, num_keyitems, 1, 0x3D, true)
+	
+		updateToggleItemFromByte(segment, "tm08",  0x1860, false)
+		updateToggleItemFromByte(segment, "hm01",  0x188B, true)
+		updateToggleItemFromByte(segment, "hm02",  0x188C, true)
+		updateToggleItemFromByte(segment, "hm03",  0x188D, true)
+		updateToggleItemFromByte(segment, "hm04",  0x188E, true)
+		updateToggleItemFromByte(segment, "hm05",  0x188F, true)
+		updateToggleItemFromByte(segment, "hm06",  0x1890, true)
+		updateToggleItemFromByte(segment, "hm07",  0x1891, true)
+	
+		updateToggleItemFromBit(segment, "zephyr_badge", 	0x1857, 0)
+		updateToggleItemFromBit(segment, "hive_badge",		0x1857, 1)
+		updateToggleItemFromBit(segment, "plain_badge",		0x1857, 2)
+		updateToggleItemFromBit(segment, "fog_badge",		0x1857, 3)
+		updateToggleItemFromBit(segment, "mineral_badge",	0x1857, 4)
+		updateToggleItemFromBit(segment, "storm_badge",		0x1857, 5)
+		updateToggleItemFromBit(segment, "glacier_badge",	0x1857, 6)
+		updateToggleItemFromBit(segment, "rising_badge",	0x1857, 7)
+		
+		updateToggleItemFromBit(segment, "boulder_badge",	0x1858, 0)
+		updateToggleItemFromBit(segment, "cascade_badge",	0x1858, 1)
+		updateToggleItemFromBit(segment, "thunder_badge",	0x1858, 2)
+		updateToggleItemFromBit(segment, "rainbow_badge",	0x1858, 3)
+		updateToggleItemFromBit(segment, "soul_badge",		0x1858, 4)
+		updateToggleItemFromBit(segment, "marsh_badge",		0x1858, 5)
+		updateToggleItemFromBit(segment, "volcano_badge",	0x1858, 6)
+		updateToggleItemFromBit(segment, "earth_badge",		0x1858, 7)
+	end
+end
+
+ScriptHost:AddMemoryWatch("Crystal Items", 0x184C, 0x10C, updateAllItemsFromMemorySegment)

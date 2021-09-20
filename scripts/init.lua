@@ -1,3 +1,5 @@
+ScriptHost:LoadScript("scripts/settings.lua")
+
 Tracker:AddItems("items/common.json")
 
 Tracker:AddMaps("maps/maps.json")
@@ -30,3 +32,5 @@ Tracker:AddLayouts("layouts/items.json")
 ScriptHost:LoadScript("scripts/loadlocations.lua")
 
 Tracker:AddLayouts("layouts/tracker.json")
+
+ScriptHost:LoadScript("scripts/autotracking.lua")
