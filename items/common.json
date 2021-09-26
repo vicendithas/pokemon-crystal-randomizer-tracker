@@ -664,6 +664,14 @@
         "codes": "evil"
     },
 	{
+        "name": "Open Mt. Silver",
+        "type": "toggle",
+        "img": "images/other/mountain.png",
+        "disabled_img_mods": "overlay|images/other/no.png",
+		"initial_active_state": false,
+        "codes": "open_silver"
+    },
+	{
         "name": "Badges Required for Red",
         "type": "consumable",
         "img": "images/badges/boulder_badge.png",

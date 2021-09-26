@@ -35,7 +35,7 @@
 			{
 				"name": "Hidden Item by Wesley",
 				"access_rules": ["@canUseCut"],
-				"visibility_rules": ["hidden_items, day_happiness"],
+				"visibility_rules": ["hidden_items"],
 				"chest_unopened_img": "images/chests/hidden_unopened.png",
 				"chest_opened_img": "images/chests/hidden_opened.png",
 				"item_count": 1

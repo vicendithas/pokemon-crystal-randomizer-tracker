@@ -3,7 +3,7 @@
 		"name": "Mt. Silver",
 		"chest_unopened_img": "images/chests/default_unopened.png",
         "chest_opened_img": "images/chests/default_opened.png",
-		"access_rules": ["[@canUseFlash], oak"],
+		"access_rules": ["[@canUseFlash], oak", "[@canUseFlash], @canUseSurf, @canUseWaterfall, $haveEightBadges, open_silver", "[@canUseFlash], snorlax, @canUseCut, open_silver"],
 		"sections": [
 			{
 				"name": "1F Ground",
@@ -36,7 +36,7 @@
 			},
 			{
 				"name": "Red",
-				"access_rules": ["elite_four", "$noEliteFour"],
+				"access_rules": ["elite_four, oak", "$noEliteFour, oak"],
 				"hosted_item": "red"
 			}
 		],
