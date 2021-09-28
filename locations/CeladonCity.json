@@ -6,15 +6,10 @@
 		"access_rules": ["@Saffron City"],
 		"sections": [
 			{
-				"name": "Gym Leader TM",
-				"access_rules": ["@canUseCut"],
-				"visibility_rules": ["full_item"],
+				"name": "Curse TM",
+				"access_rules": [],
+				"visibility_rules": ["day_happiness"],
 				"item_count": 1
-			},
-			{
-				"name": "Gym - Erika",
-				"access_rules": ["@canUseCut"],
-				"hosted_item": "erika"
 			},
 			{
 				"name": "Hidden Items",
@@ -25,10 +20,15 @@
 				"item_count": 1
 			},
 			{
-				"name": "Curse TM",
-				"access_rules": [],
-				"visibility_rules": ["day_happiness"],
+				"name": "Gym Leader TM",
+				"access_rules": ["@canUseCut"],
+				"visibility_rules": ["full_item"],
 				"item_count": 1
+			},
+			{
+				"name": "Gym - Erika",
+				"access_rules": ["@canUseCut"],
+				"hosted_item": "erika"
 			}
 		],
 		"map_locations": [

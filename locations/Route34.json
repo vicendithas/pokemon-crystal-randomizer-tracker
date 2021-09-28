@@ -10,18 +10,6 @@
 				"item_count": 1
 			},
 			{
-				"name": "Ground Item",
-				"access_rules": ["@canUseSurf"],
-				"visibility_rules": ["full_item"],
-				"item_count": 1
-			},                        
-			{    
-				"name": "Soft Sand Girls",
-				"access_rules": ["@canUseSurf"],
-				"visibility_rules": ["full_item"],
-				"item_count": 1
-			},
-			{
 				"name": "Hidden Items - Daycare",
 				"access_rules": [],
 				"visibility_rules": ["hidden_items"],
@@ -30,11 +18,23 @@
 				"item_count": 1
 			},
 			{
+				"name": "Ground Item",
+				"access_rules": ["@canUseSurf"],
+				"visibility_rules": ["full_item"],
+				"item_count": 1
+			},                        
+			{
 				"name": "Hidden Items - Island",
 				"access_rules": ["@canUseSurf"],
 				"visibility_rules": ["hidden_items"],
 				"chest_unopened_img": "images/chests/hidden_unopened.png",
 				"chest_opened_img": "images/chests/hidden_opened.png",
+				"item_count": 1
+			},
+			{    
+				"name": "Soft Sand Girls",
+				"access_rules": ["@canUseSurf"],
+				"visibility_rules": ["full_item"],
 				"item_count": 1
 			}
 		],

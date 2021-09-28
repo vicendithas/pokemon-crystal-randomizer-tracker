@@ -26,11 +26,6 @@
 				"item_count": 5
 			},
 			{
-				"name": "Defeat The Electrodes",
-				"access_rules": ["red_gyarados"],
-				"hosted_item": "electrode"
-			},
-			{
 				"name": "Hidden Items - Rocket Base",
 				"access_rules": ["red_gyarados"],
 				"visibility_rules": ["hidden_items"],
@@ -38,6 +33,11 @@
 				"chest_opened_img": "images/chests/hidden_opened.png",
 				"clear_as_group": false,
 				"item_count": 2
+			},
+			{
+				"name": "Defeat The Electrodes",
+				"access_rules": ["red_gyarados"],
+				"hosted_item": "electrode"
 			},
 			{
 				"name": "Gym Leader TM",

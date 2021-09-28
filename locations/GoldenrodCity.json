@@ -6,17 +6,6 @@
 		"access_rules": ["squirt_bottle", "@canUseCut", "$noCutTree"],
 		"sections": [
 			{
-				"name": "Buy Water Stone",
-				"visibility_rules": ["full_item"],
-				"hosted_item": "water_stone"
-			},
-			{
-				"name": "Buy Rock Smash",
-				"access_rules": ["rocksmashguy"],
-				"visibility_rules": ["full_item"],
-				"hosted_item": "tm08"
-			},
-			{
 				"name": "Mart Basement Behind Containers",
 				"visibility_rules": ["full_item"],
 				"clear_as_group": false,
@@ -29,12 +18,18 @@
 				"item_count": 2
 			},
 			{
-				"name": "Bike Shop",
-				"item_count": 1
+				"name": "Buy Water Stone",
+				"visibility_rules": ["full_item"],
+				"hosted_item": "water_stone"
 			},
 			{
-				"name": "Flower Shop",
-				"access_rules": ["plain_badge"],
+				"name": "Buy Rock Smash",
+				"access_rules": ["rocksmashguy"],
+				"visibility_rules": ["full_item"],
+				"hosted_item": "tm08"
+			},
+			{
+				"name": "Bike Shop",
 				"item_count": 1
 			},
 			{
@@ -45,6 +40,11 @@
 			{
 				"name": "Gym - Whitney",
 				"hosted_item": "whitney"
+			},
+			{
+				"name": "Flower Shop",
+				"access_rules": ["plain_badge"],
+				"item_count": 1
 			}
 		],
 		"map_locations": [

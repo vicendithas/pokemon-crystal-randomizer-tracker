@@ -19,14 +19,23 @@
 				"item_count": 3
 			},
 			{
-				"name": "Warehouse Front",
+				"name": "Puzzle Room",
 				"access_rules": ["basement_key"],
 				"visibility_rules": ["full_item"],
 				"clear_as_group": false,
 				"item_count": 2
 			},
 			{
-				"name": "Warehouse Back",
+				"name": "Hidden Items - Puzzle Room",
+				"access_rules": ["basement_key"],
+				"visibility_rules": ["hidden_items"],
+				"chest_unopened_img": "images/chests/hidden_unopened.png",
+				"chest_opened_img": "images/chests/hidden_opened.png",
+				"clear_as_group": false,
+				"item_count": 2
+			},
+			{
+				"name": "Warehouse",
 				"access_rules": ["basement_key"],
 				"visibility_rules": ["full_item"],
 				"clear_as_group": false,
@@ -42,22 +51,13 @@
 				"access_rules": ["basement_key"],
 				"visibility_rules": ["full_item"],
 				"item_count": 1 
-			},
-			{
-				"name": "Hidden Items - Tunnel",
-				"access_rules": ["basement_key"],
-				"visibility_rules": ["hidden_items"],
-				"chest_unopened_img": "images/chests/hidden_unopened.png",
-				"chest_opened_img": "images/chests/hidden_opened.png",
-				"clear_as_group": false,
-				"item_count": 2
 			}
 		],
 		"map_locations": [
 			{
 				"map": "johto_kanto",
 				"x": 422,
-				"y": 722
+				"y": 708
 			}
 		]
 	}

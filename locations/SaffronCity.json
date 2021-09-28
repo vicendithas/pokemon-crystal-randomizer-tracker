@@ -6,17 +6,17 @@
 		"access_rules": ["squirt_bottle, pass", "@canUseCut, pass", "$noCutTree, pass", "squirt_bottle, ss_ticket"],
 		"sections": [
 			{
+				"name": "Fighting Dojo",
+				"visibility_rules": ["full_item"],
+				"item_count": 1
+			},
+			{
 				"name": "Silph Co. Guard",
 				"visibility_rules": ["full_item"],
 				"item_count": 1
 			},
 			{
 				"name": "TM Gift",
-				"visibility_rules": ["full_item"],
-				"item_count": 1
-			},
-			{
-				"name": "Fighting Dojo",
 				"visibility_rules": ["full_item"],
 				"item_count": 1
 			},	

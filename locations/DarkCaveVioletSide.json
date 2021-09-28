@@ -10,13 +10,6 @@
 				"visibility_rules": ["full_item"],
 				"item_count": 1
 			},
-			{   
-				"name": "Behind Rock Smash",
-				"access_rules": ["tm08"],
-				"visibility_rules": ["full_item"],
-				"clear_as_group": false,
-				"item_count": 3
-			},
 			{
 				"name": "Hidden Items",
 				"access_rules": ["tm08"],
@@ -24,6 +17,13 @@
 				"chest_unopened_img": "images/chests/hidden_unopened.png",
 				"chest_opened_img": "images/chests/hidden_opened.png",
 				"item_count": 1
+			},
+			{   
+				"name": "Behind Rock Smash",
+				"access_rules": ["tm08"],
+				"visibility_rules": ["full_item"],
+				"clear_as_group": false,
+				"item_count": 3
 			}
 		],
 		"map_locations": [

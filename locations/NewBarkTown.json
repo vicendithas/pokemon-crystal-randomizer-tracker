@@ -20,13 +20,13 @@
 				"item_count": 1
 			},
 			{
-				"name": "Talk To Elm",
+				"name": "Give Elm the Egg",
 				"access_rules": ["mystery_egg"],
 				"visibility_rules": ["full_item"],
 				"hosted_item": "elm"
 			},
 			{ 
-				"name": "Aides Pokeballs",
+				"name": "Aide Pokeballs",
 				"access_rules": ["elm"],
 				"visibility_rules": ["full_item"],
 				"item_count": 1

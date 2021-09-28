@@ -6,16 +6,16 @@
 		"access_rules": [ "@Ecruteak City, @canUseStrength, $canFightTeamRocket", "tm08, [@canUseFlash]" ],
 		"sections": [
 			{
-				"name": "Ground Item",
-				"visibility_rules": ["full_item"],
-				"item_count": 1
-			},
-			{
 				"name": "Berry Trees",
 				"access_rules": [],
 				"visibility_rules": ["berry_trees"],
 				"clear_as_group": false,
 				"item_count": 2
+			},
+			{
+				"name": "Ground Item",
+				"visibility_rules": ["full_item"],
+				"item_count": 1
 			}
 		],
 		"map_locations": [

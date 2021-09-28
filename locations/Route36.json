@@ -5,6 +5,12 @@
         "chest_opened_img": "images/chests/default_opened.png",
 		"sections": [
 			{
+				"name": "Arthur",
+				"access_rules": [],
+				"visibility_rules": ["day_happiness"],
+				"item_count": 1
+			},
+			{
 				"name": "Squirt The Tree",
 				"access_rules": ["squirt_bottle"],
 				"visibility_rules": ["full_item"],
@@ -15,12 +21,6 @@
 				"access_rules": ["sudowoodo"],
 				"visibility_rules": ["full_item"],
 				"hosted_item": "rocksmashguy"
-			},
-			{
-				"name": "Arthur",
-				"access_rules": [],
-				"visibility_rules": ["day_happiness"],
-				"item_count": 1
 			},
 			{
 				"name": "Berry Trees",

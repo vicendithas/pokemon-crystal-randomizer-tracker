@@ -6,7 +6,7 @@
 		"access_rules": ["@Ecruteak City"],
 		"sections": [
 			{   
-				"name": "Lake Of Rage",
+				"name": "Lake Of Rage (Cut Maze)",
 				"access_rules": ["@canUseCut"],
 				"visibility_rules": ["full_item"],
 				"clear_as_group": false,

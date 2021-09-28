@@ -9,10 +9,10 @@
 				"access_rules": ["@canUseSurf"],
 				"visibility_rules": ["full_item"],
 				"item_count": 1
-			},                    
+			},
 			{
-				"name": "After The Waterfall",
-				"access_rules": ["@canUseSurf, @canUseWaterfall, @canUseWhirlpool", "snorlax, @canUseCut, @canUseSurf, @canUseWhirlpool"],
+				"name": "Inside The Falls",
+				"access_rules": ["@canUseSurf"],
 				"visibility_rules": ["full_item"],
 				"item_count": 1
 			},
@@ -21,12 +21,18 @@
 				"access_rules": ["@canUseSurf, @canUseWaterfall", "snorlax, @canUseCut, @canUseSurf"],
 				"visibility_rules": ["day_happiness"],
 				"item_count": 1
+			},
+			{
+				"name": "After The Waterfall",
+				"access_rules": ["@canUseSurf, @canUseWaterfall, @canUseWhirlpool", "snorlax, @canUseCut, @canUseSurf, @canUseWhirlpool"],
+				"visibility_rules": ["full_item"],
+				"item_count": 1
 			}
 		],
 		"map_locations": [
 			{
 				"map": "johto_kanto",
-				"x": 1700,
+				"x": 1540,
 				"y": 868,
 			}
 		]

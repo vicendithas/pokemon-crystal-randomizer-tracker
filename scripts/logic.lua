@@ -1,7 +1,6 @@
 function canFightTeamRocket()
-    local reqBadges = Tracker:ProviderCountForCode("team_rocket_badges")
     local badges = Tracker:ProviderCountForCode("badge")
-    return badges >= reqBadges
+    return badges >= 7
 end
 
 function haveAllBadges()
