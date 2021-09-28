@@ -39,6 +39,18 @@
 				"access_rules": [],
 				"visibility_rules": ["evil"],
 				"item_count": 1
+			},
+			{   
+				"name": "Beverly Phone Number (Marill)",
+				"access_rules": ["marill"],
+				"visibility_rules": ["evil"],
+				"hosted_item": "beverly_phone"
+			},
+			{   
+				"name": "Beverly Item",
+				"access_rules": ["beverly_phone"],
+				"visibility_rules": ["evil"],
+				"item_count": 1
 			}
 		],
 		"map_locations": [

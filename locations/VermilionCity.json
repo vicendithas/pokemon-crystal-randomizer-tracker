@@ -36,6 +36,7 @@
 			{
 				"name": "Guy by Diglett's Cave",
 				"access_rules": ["$haveAllBadges"],
+				"visibility_rules": ["pointless_checks"],
 				"item_count": 1
 			},
 		],

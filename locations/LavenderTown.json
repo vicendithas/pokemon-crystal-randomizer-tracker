@@ -7,13 +7,6 @@
 		"sections": [
 			{
 				"name": "Expansion Card",
-				"visibility_rules": ["$noRandomRadio"],
-				"access_rules": ["fix_power_plant"],
-				"hosted_item": "expansion_card"
-			},
-			{
-				"name": "Expansion Card",
-				"visibility_rules": ["random_radio"],
 				"access_rules": ["fix_power_plant"],
 				"item_count": 1
 			}

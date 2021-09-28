@@ -36,6 +36,18 @@
 				"access_rules": ["@canUseSurf"],
 				"visibility_rules": ["full_item"],
 				"item_count": 1
+			},
+			{   
+				"name": "Gina Phone Number",
+				"access_rules": [],
+				"visibility_rules": ["evil"],
+				"hosted_item": "gina_phone"
+			},
+			{   
+				"name": "Gina Item",
+				"access_rules": ["gina_phone"],
+				"visibility_rules": ["evil"],
+				"item_count": 1
 			}
 		],
 		"map_locations": [

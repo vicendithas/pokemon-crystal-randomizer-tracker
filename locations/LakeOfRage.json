@@ -39,6 +39,12 @@
 				"chest_unopened_img": "images/chests/hidden_unopened.png",
 				"chest_opened_img": "images/chests/hidden_opened.png",
 				"item_count": 1
+			},
+			{   
+				"name": "Biggest Magikarp",
+				"access_rules": ["magikarp"],
+				"visibility_rules": ["evil"],
+				"item_count": 1
 			}
 		],
 		"map_locations": [

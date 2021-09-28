@@ -35,18 +35,24 @@
 			},
 			{
 				"name": "Pokedex",
-				"visibility_rules": ["$noRandomPokedex"],
-				"hosted_item": "pokedex"
-			},
-			{
-				"name": "Pokedex",
-				"visibility_rules": ["random_pokedex"],
 				"item_count": 1
 			},
 			{   
 				"name": "Hand In Red Scale",
 				"access_rules": ["red_scale"],
 				"visibility_rules": ["full_item"],
+				"item_count": 1
+			},
+			{   
+				"name": "Joey Phone Number",
+				"access_rules": [],
+				"visibility_rules": ["evil"],
+				"hosted_item": "joey_phone"
+			},
+			{   
+				"name": "Joey Item",
+				"access_rules": ["elite_four, joey_phone"],
+				"visibility_rules": ["evil"],
 				"item_count": 1
 			}
 		],

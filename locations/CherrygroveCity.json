@@ -9,6 +9,11 @@
 				"access_rules": ["@canUseSurf"],
 				"visibility_rules": ["full_item"],
 				"item_count": 1
+			},
+			{
+				"name": "Map Card",
+				"visibility_rules": ["pointless_checks"],
+				"item_count": 1
 			}
 		],
 		"map_locations": [

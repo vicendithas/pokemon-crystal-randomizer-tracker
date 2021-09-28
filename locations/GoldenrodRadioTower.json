@@ -7,12 +7,6 @@
 		"sections": [
 			{   
 				"name": "Radio Card",
-				"visibility_rules": ["$noRandomRadio"],
-				"hosted_item": "radio_card"
-			},
-			{   
-				"name": "Radio Card",
-				"visibility_rules": ["random_radio"],
 				"item_count": 1
 			},
 			{

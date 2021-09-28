@@ -27,6 +27,18 @@
 				"access_rules": ["@canUseSurf, @canUseWaterfall, @canUseWhirlpool", "snorlax, @canUseCut, @canUseSurf, @canUseWhirlpool"],
 				"visibility_rules": ["full_item"],
 				"item_count": 1
+			},
+			{   
+				"name": "Jose Phone Number",
+				"access_rules": ["@canUseSurf, @canUseWaterfall, @canUseWhirlpool", "snorlax, @canUseCut, @canUseSurf, @canUseWhirlpool"],
+				"visibility_rules": ["evil"],
+				"hosted_item": "jose_phone"
+			},
+			{   
+				"name": "Jose Item",
+				"access_rules": ["jose_phone, @canUseSurf, @canUseWaterfall, @canUseWhirlpool", "jose_phone, snorlax, @canUseCut, @canUseSurf, @canUseWhirlpool"],
+				"visibility_rules": ["evil"],
+				"item_count": 1
 			}
 		],
 		"map_locations": [

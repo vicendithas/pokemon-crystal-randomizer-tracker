@@ -19,18 +19,6 @@ function haveEightBadges()
 	return badges >= 8
 end
 
-function noRandomPokedex()
-	return not Tracker:FindObjectForCode("random_pokedex").Active
-end
-
-function noRandomPokegear()
-	return not Tracker:FindObjectForCode("random_pokegear").Active
-end
-
-function noRandomRadio()
-	return not Tracker:FindObjectForCode("random_radio").Active
-end
-
 function noEliteFour()
 	return not Tracker:FindObjectForCode("elite_four_req").Active
 end

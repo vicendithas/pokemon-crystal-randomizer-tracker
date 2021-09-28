@@ -6,12 +6,6 @@
 		"sections": [
 			{
 				"name": "Pokegear",
-				"visibility_rules": ["$noRandomPokegear"],
-				"hosted_item": "pokegear"
-			},
-			{
-				"name": "Pokegear",
-				"visibility_rules": ["random_pokegear"],
 				"item_count": 1
 			},
 			{
@@ -35,6 +29,12 @@
 				"name": "Rising Badge",
 				"access_rules": ["rising_badge"],
 				"visibility_rules": ["full_item"],
+				"item_count": 1
+			},
+			{   
+				"name": "Elm Everstone",
+				"access_rules": ["togepi"],
+				"visibility_rules": ["evil"],
 				"item_count": 1
 			},
 			{

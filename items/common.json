@@ -562,7 +562,7 @@
         "codes": "blue"
     },
 	{
-        "name": "boat_quest",
+        "name": "Boat Quest",
         "type": "toggle",
         "img": "images/other/ss_aqua.png",
         "codes": "boat_quest"
@@ -606,22 +606,6 @@
         "disabled_img_mods": "overlay|images/other/no.png",
 		"initial_active_state": false,
         "codes": "elite_four_req"
-    },
-	{
-        "name": "Random PokeGear and Radio Cards",
-        "type": "toggle",
-        "img": "images/items/pokegear.png",
-        "disabled_img_mods": "overlay|images/other/no.png",
-		"initial_active_state": false,
-        "codes": "random_pokegear,random_radio"
-    },
-	{
-        "name": "Random PokeDex",
-        "type": "toggle",
-        "img": "images/items/pokedex.png",
-        "disabled_img_mods": "overlay|images/other/no.png",
-		"initial_active_state": false,
-        "codes": "random_pokedex"
     },
 	{
         "name": "Tin Tower",
@@ -670,6 +654,158 @@
         "disabled_img_mods": "overlay|images/other/no.png",
 		"initial_active_state": false,
         "codes": "open_silver"
+    },
+	{
+        "name": "Pointless Checks",
+        "type": "toggle",
+        "img": "images/other/question_mark.png",
+        "disabled_img_mods": "overlay|images/other/no.png",
+		"initial_active_state": false,
+        "codes": "pointless_checks"
+    },
+	{
+        "name": "Marill",
+        "type": "toggle",
+        "img": "images/other/marill.png",
+        "codes": "marill"
+    },
+	{
+        "name": "Pikachu",
+        "type": "toggle",
+        "img": "images/other/pikachu.png",
+        "codes": "pikachu"
+    },
+	{
+        "name": "Clefairy",
+        "type": "toggle",
+        "img": "images/other/clefairy.png",
+        "codes": "clefairy"
+    },
+	{
+        "name": "Lickitung",
+        "type": "toggle",
+        "img": "images/other/lickitung.png",
+        "codes": "lickitung"
+    },
+	{
+        "name": "Oddish",
+        "type": "toggle",
+        "img": "images/other/oddish.png",
+        "codes": "oddish"
+    },
+	{
+        "name": "Staryu",
+        "type": "toggle",
+        "img": "images/other/staryu.png",
+        "codes": "staryu"
+    },
+	{
+        "name": "Growlithe",
+        "type": "toggle",
+        "img": "images/other/growlithe.png",
+        "codes": "growlithe"
+    },
+	{
+        "name": "Pichu",
+        "type": "toggle",
+        "img": "images/other/pichu.png",
+        "codes": "pichu"
+    },
+	{
+        "name": "Togepi",
+        "type": "toggle",
+        "img": "images/other/togepi.png",
+        "codes": "togepi"
+    },
+	{
+        "name": "Magikarp",
+        "type": "toggle",
+        "img": "images/other/magikarp.png",
+        "codes": "magikarp"
+    },
+	{
+        "name": "Joey Phone",
+        "type": "toggle",
+        "img": "images/items/phone_card.png",
+        "codes": "joey_phone"
+    },
+	{
+        "name": "Wade Phone",
+        "type": "toggle",
+        "img": "images/items/phone_card.png",
+        "codes": "wade_phone"
+    },
+	{
+        "name": "Gina Phone",
+        "type": "toggle",
+        "img": "images/items/phone_card.png",
+        "codes": "gina_phone"
+    },
+	{
+        "name": "Beverly Phone",
+        "type": "toggle",
+        "img": "images/items/phone_card.png",
+        "codes": "beverly_phone"
+    },
+	{
+        "name": "Alan Phone",
+        "type": "toggle",
+        "img": "images/items/phone_card.png",
+        "codes": "alan_phone"
+    },
+	{
+        "name": "Dana Phone",
+        "type": "toggle",
+        "img": "images/items/phone_card.png",
+        "codes": "dana_phone"
+    },
+	{
+        "name": "Derek Phone",
+        "type": "toggle",
+        "img": "images/items/phone_card.png",
+        "codes": "derek_phone"
+    },
+	{
+        "name": "Huey Phone",
+        "type": "toggle",
+        "img": "images/items/phone_card.png",
+        "codes": "huey_phone"
+    },
+	{
+        "name": "Tully Phone",
+        "type": "toggle",
+        "img": "images/items/phone_card.png",
+        "codes": "tully_phone"
+    },
+	{
+        "name": "Tiffany Phone",
+        "type": "toggle",
+        "img": "images/items/phone_card.png",
+        "codes": "tiffany_phone"
+    },
+	{
+        "name": "Vance Phone",
+        "type": "toggle",
+        "img": "images/items/phone_card.png",
+        "codes": "vance_phone"
+    },
+	{
+        "name": "Kenji Phone",
+        "type": "toggle",
+        "img": "images/items/phone_card.png",
+        "codes": "kenji_phone"
+    },
+	{
+        "name": "Erin Phone",
+        "type": "toggle",
+        "img": "images/items/phone_card.png",
+        "codes": "erin_phone"
+    },
+	{
+        "name": "Jose Phone",
+        "type": "toggle",
+        "img": "images/items/phone_card.png",
+        "codes": "jose_phone"
     },
 	{
         "name": "Badges Required for Red",

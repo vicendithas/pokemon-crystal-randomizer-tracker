@@ -28,6 +28,18 @@
 				"visibility_rules": ["berry_trees"],
 				"clear_as_group": false,
 				"item_count": 1
+			},
+			{   
+				"name": "Alan Phone Number",
+				"access_rules": [],
+				"visibility_rules": ["evil"],
+				"hosted_item": "alan_phone"
+			},
+			{   
+				"name": "Alan Item",
+				"access_rules": ["alan_phone"],
+				"visibility_rules": ["evil"],
+				"item_count": 1
 			}
 		],
 		"map_locations": [

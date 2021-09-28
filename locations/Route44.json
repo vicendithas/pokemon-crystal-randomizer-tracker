@@ -31,6 +31,18 @@
 				"chest_unopened_img": "images/chests/hidden_unopened.png",
 				"chest_opened_img": "images/chests/hidden_opened.png",
 				"item_count": 1
+			},
+			{   
+				"name": "Vance Phone Number",
+				"access_rules": [],
+				"visibility_rules": ["evil"],
+				"hosted_item": "vance_phone"
+			},
+			{   
+				"name": "Vance Item",
+				"access_rules": ["vance_phone"],
+				"visibility_rules": ["evil"],
+				"item_count": 1
 			}
 		],
 		"map_locations": [

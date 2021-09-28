@@ -112,10 +112,6 @@
 						"elite_four_req"
 					],
 					[ 
-						"random_pokegear",
-						"random_pokedex"
-					],
-					[ 
 						"berry_trees",
 						"tin_tower"
 					],
@@ -125,6 +121,45 @@
 					],
 					[ 
 						"open_silver",
+						"pointless_checks"
+					],
+					[ 
+						"",
+						""
+					]
+                ]
+            },
+			{
+                "type": "itemgrid",
+                "v_alignment": "top",
+                "item_margin": "1,2",
+                "rows": [
+					[ 
+						"marill", 
+						"pikachu"
+					],
+					[ 
+						"clefairy",
+						"lickitung"
+					],
+					[ 
+						"oddish",
+						"staryu"
+					],
+					[ 
+						"growlithe",
+						"pichu"
+					],
+					[ 
+						"togepi",
+						"magikarp"
+					],
+					[ 
+						"",
+						""
+					],
+					[ 
+						"",
 						""
 					]
                 ]
