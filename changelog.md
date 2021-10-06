@@ -1,5 +1,8 @@
 # Changelog
 
+## 4.0.1
+Added National Park Hidden Item
+
 ## 4.0
 Added a lot of new settings:
 1. Open Mt. Silver (Route 28 and Mt. Silver are accessible as soon as the player can reach the League Gate)
