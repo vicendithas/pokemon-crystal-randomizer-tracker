@@ -38,15 +38,9 @@
 				"item_count": 1
 			},
 			{   
-				"name": "Gina Phone Number",
+				"name": "Picknicker Gina",
 				"access_rules": [],
-				"visibility_rules": ["evil"],
-				"hosted_item": "gina_phone"
-			},
-			{   
-				"name": "Gina Item",
-				"access_rules": ["gina_phone"],
-				"visibility_rules": ["evil"],
+				"visibility_rules": ["phone_items"],
 				"item_count": 1
 			}
 		],

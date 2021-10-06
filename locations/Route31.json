@@ -24,15 +24,9 @@
 				"hosted_item": "mail"
 			},
 			{   
-				"name": "Wade Phone Number",
+				"name": "Bug Catcher Wade",
 				"access_rules": [],
-				"visibility_rules": ["evil"],
-				"hosted_item": "wade_phone"
-			},
-			{   
-				"name": "Wade Item",
-				"access_rules": ["wade_phone"],
-				"visibility_rules": ["evil"],
+				"visibility_rules": ["phone_items"],
 				"item_count": 1
 			}
 		],

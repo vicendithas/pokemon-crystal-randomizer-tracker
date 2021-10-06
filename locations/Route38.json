@@ -13,15 +13,9 @@
 				"item_count": 1
 			},
 			{   
-				"name": "Dana Phone Number",
+				"name": "Lass Dana",
 				"access_rules": [],
-				"visibility_rules": ["evil"],
-				"hosted_item": "dana_phone"
-			},
-			{   
-				"name": "Dana Item",
-				"access_rules": ["dana_phone"],
-				"visibility_rules": ["evil"],
+				"visibility_rules": ["phone_items"],
 				"item_count": 1
 			}
 		],

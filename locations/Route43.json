@@ -24,15 +24,9 @@
 				"item_count": 1
 			},
 			{   
-				"name": "Tiffany Phone Number (Clefairy)",
+				"name": "Picknicker Tiffany (Clefairy)",
 				"access_rules": ["clefairy"],
-				"visibility_rules": ["evil"],
-				"hosted_item": "tiffany_phone"
-			},
-			{   
-				"name": "Tiffany Item",
-				"access_rules": ["tiffany_phone"],
-				"visibility_rules": ["evil"],
+				"visibility_rules": ["phone_items, pokemon_locked"],
 				"item_count": 1
 			}
 		],

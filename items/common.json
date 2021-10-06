@@ -568,6 +568,66 @@
         "codes": "boat_quest"
     },
 	{
+        "name": "Marill",
+        "type": "toggle",
+        "img": "images/other/marill.png",
+        "codes": "marill"
+    },
+	{
+        "name": "Pikachu",
+        "type": "toggle",
+        "img": "images/other/pikachu.png",
+        "codes": "pikachu"
+    },
+	{
+        "name": "Clefairy",
+        "type": "toggle",
+        "img": "images/other/clefairy.png",
+        "codes": "clefairy"
+    },
+	{
+        "name": "Lickitung",
+        "type": "toggle",
+        "img": "images/other/lickitung.png",
+        "codes": "lickitung"
+    },
+	{
+        "name": "Oddish",
+        "type": "toggle",
+        "img": "images/other/oddish.png",
+        "codes": "oddish"
+    },
+	{
+        "name": "Staryu",
+        "type": "toggle",
+        "img": "images/other/staryu.png",
+        "codes": "staryu"
+    },
+	{
+        "name": "Growlithe",
+        "type": "toggle",
+        "img": "images/other/growlithe.png",
+        "codes": "growlithe"
+    },
+	{
+        "name": "Pichu",
+        "type": "toggle",
+        "img": "images/other/pichu.png",
+        "codes": "pichu"
+    },
+	{
+        "name": "Togepi",
+        "type": "toggle",
+        "img": "images/other/togepi.png",
+        "codes": "togepi"
+    },
+	{
+        "name": "Magikarp",
+        "type": "toggle",
+        "img": "images/other/magikarp.png",
+        "codes": "magikarp"
+    },
+	{
         "name": "Full Item",
         "type": "toggle",
         "img": "images/other/full_item.png",
@@ -640,14 +700,6 @@
         "codes": "day_happiness"
     },
 	{
-        "name": "E.V.I.L",
-        "type": "toggle",
-        "img": "images/other/evil.png",
-        "disabled_img_mods": "overlay|images/other/no.png",
-		"initial_active_state": false,
-        "codes": "evil"
-    },
-	{
         "name": "Open Mt. Silver",
         "type": "toggle",
         "img": "images/other/mountain.png",
@@ -664,148 +716,28 @@
         "codes": "pointless_checks"
     },
 	{
-        "name": "Marill",
-        "type": "toggle",
-        "img": "images/other/marill.png",
-        "codes": "marill"
-    },
-	{
-        "name": "Pikachu",
-        "type": "toggle",
-        "img": "images/other/pikachu.png",
-        "codes": "pikachu"
-    },
-	{
-        "name": "Clefairy",
-        "type": "toggle",
-        "img": "images/other/clefairy.png",
-        "codes": "clefairy"
-    },
-	{
-        "name": "Lickitung",
-        "type": "toggle",
-        "img": "images/other/lickitung.png",
-        "codes": "lickitung"
-    },
-	{
-        "name": "Oddish",
-        "type": "toggle",
-        "img": "images/other/oddish.png",
-        "codes": "oddish"
-    },
-	{
-        "name": "Staryu",
-        "type": "toggle",
-        "img": "images/other/staryu.png",
-        "codes": "staryu"
-    },
-	{
-        "name": "Growlithe",
-        "type": "toggle",
-        "img": "images/other/growlithe.png",
-        "codes": "growlithe"
-    },
-	{
-        "name": "Pichu",
-        "type": "toggle",
-        "img": "images/other/pichu.png",
-        "codes": "pichu"
-    },
-	{
-        "name": "Togepi",
-        "type": "toggle",
-        "img": "images/other/togepi.png",
-        "codes": "togepi"
-    },
-	{
-        "name": "Magikarp",
-        "type": "toggle",
-        "img": "images/other/magikarp.png",
-        "codes": "magikarp"
-    },
-	{
-        "name": "Joey Phone",
+        "name": "Phone Call Items",
         "type": "toggle",
         "img": "images/items/phone_card.png",
-        "codes": "joey_phone"
+        "disabled_img_mods": "overlay|images/other/no.png",
+		"initial_active_state": false,
+        "codes": "phone_items"
     },
 	{
-        "name": "Wade Phone",
+        "name": "Bug Catching Contest",
         "type": "toggle",
-        "img": "images/items/phone_card.png",
-        "codes": "wade_phone"
+        "img": "images/other/bug_catching.png",
+        "disabled_img_mods": "overlay|images/other/no.png",
+		"initial_active_state": false,
+        "codes": "bug_catching"
     },
 	{
-        "name": "Gina Phone",
+        "name": "Pokemon Locked Checks",
         "type": "toggle",
-        "img": "images/items/phone_card.png",
-        "codes": "gina_phone"
-    },
-	{
-        "name": "Beverly Phone",
-        "type": "toggle",
-        "img": "images/items/phone_card.png",
-        "codes": "beverly_phone"
-    },
-	{
-        "name": "Alan Phone",
-        "type": "toggle",
-        "img": "images/items/phone_card.png",
-        "codes": "alan_phone"
-    },
-	{
-        "name": "Dana Phone",
-        "type": "toggle",
-        "img": "images/items/phone_card.png",
-        "codes": "dana_phone"
-    },
-	{
-        "name": "Derek Phone",
-        "type": "toggle",
-        "img": "images/items/phone_card.png",
-        "codes": "derek_phone"
-    },
-	{
-        "name": "Huey Phone",
-        "type": "toggle",
-        "img": "images/items/phone_card.png",
-        "codes": "huey_phone"
-    },
-	{
-        "name": "Tully Phone",
-        "type": "toggle",
-        "img": "images/items/phone_card.png",
-        "codes": "tully_phone"
-    },
-	{
-        "name": "Tiffany Phone",
-        "type": "toggle",
-        "img": "images/items/phone_card.png",
-        "codes": "tiffany_phone"
-    },
-	{
-        "name": "Vance Phone",
-        "type": "toggle",
-        "img": "images/items/phone_card.png",
-        "codes": "vance_phone"
-    },
-	{
-        "name": "Kenji Phone",
-        "type": "toggle",
-        "img": "images/items/phone_card.png",
-        "codes": "kenji_phone"
-    },
-	{
-        "name": "Erin Phone",
-        "type": "toggle",
-        "img": "images/items/phone_card.png",
-        "codes": "erin_phone"
-    },
-	{
-        "name": "Jose Phone",
-        "type": "toggle",
-        "img": "images/items/phone_card.png",
-        "codes": "jose_phone"
+        "img": "images/other/eevee.png",
+        "disabled_img_mods": "overlay|images/other/no40.png",
+		"initial_active_state": false,
+        "codes": "pokemon_locked"
     },
 	{
         "name": "Badges Required for Red",

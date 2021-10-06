@@ -27,15 +27,9 @@
 				"item_count": 1
 			},
 			{   
-				"name": "Derek Phone Number (Pikachu)",
-				"access_rules": ["pikachu"],
-				"visibility_rules": ["evil"],
-				"hosted_item": "derek_phone"
-			},
-			{   
-				"name": "Derek Item",
-				"access_rules": ["derek_phone"],
-				"visibility_rules": ["evil"],
+				"name": "PokeFan Derek (Pikachu)",
+				"access_rules": ["pikachu, fix_power_plant"],
+				"visibility_rules": ["phone_items, pokemon_locked"],
 				"item_count": 1
 			}
 		],

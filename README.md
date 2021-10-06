@@ -42,23 +42,22 @@ If the option is crossed out, it is disabled and not part of the logic of the tr
 2. ![Hidden Items](images/other/hidden_items.png "Hidden Items") Adds hidden items into the pool (only makes sense to use with Full Item). Does not include the Machine Part location, since that is included by default.
 3. ![Ilex Cut Tree](images/other/cut_tree.png "Ilex Cut Tree") The tree in Ilex Forest is present, requiring access to Cut to pass.
 4. ![Vanilla Clair](images/other/vanilla_clair.png "Vanilla Clair") Clair forces you to go to Dragon's Den and pass the test before giving you the badge and item (requires Surf and Whirlpool).
-5. ![Elite Four Required](images/other/trophy.png "Elite Four Required") Fighting the Elite Four is required for Red to appear.
-6. ![Backward Kanto](images/other/backward_kanto.png "Backward Kanto") Going into Western Kanto via the Victory Road gate is in logic (requires Surf, Waterfall, and waking up Snorlax, which requires the PokeGear, Radio Card, and Expansion Card).
-7. ![Random Pokegear and Radio Cards](images/items/pokegear.png "Random Pokegear and Radio Cards") The PokeGear, Radio Card, and Expansion Card are added to the randomized item pool.
-8. ![Random Pokedex](images/items/pokedex.png "Random Pokedex") The Pokedex is added to the randomized item pool.
-9. ![Tin Tower and Ho-oh Chamber](images/other/tin_tower.png "Tin Tower and Ho-oh Chamber") The Rainbow Wing is added to the randomized item pool. Tin Tower and the Ho-oh Treasure Room are in logic. Access to the base of Tin Tower requires the Clear Bell and access to the upper floors requires the Rainbow Wing. Ho-oh spawns once the Elite Four have been defeated. The Ho-oh Treasure Chamber opens when Ho-oh has been defeated (requires Surf and Strength).
-10. ![Berry Trees](images/other/berry_tree.png "Berry Trees") Berry and Apricorn trees are added to the randomized item pool.
-11. ![Day and Happiness Items](images/other/clock.png "Day and Happiness Items") Items locked by day, time, or happiness are added to the randomized item pool (requirements changed to always be available).
-12. ![E.V.I.L](images/other/evil.png "E.V.I.L") Evil checks are added to the item pool. Currently this is only the Bug Catching Contest (4 items for 1st, 2nd, 3rd, and last places), but it will likely be expanded in the future.
-12. ![Required Badges for Red](images/badges/boulder_badge.png "Required Badges for Red") Value can be modified to indicate how many badges are required before Professor Oak in Pallet Town will allow access to Mt. Silver.
+5. ![Backward Kanto](images/other/backward_kanto.png "Backward Kanto") Going into Western Kanto via the Victory Road gate is in logic (requires Surf, Waterfall, and waking up Snorlax, which requires the PokeGear, Radio Card, and Expansion Card).
+6. ![Elite Four Required](images/other/trophy.png "Elite Four Required") Fighting the Elite Four is required for Red to appear.
+7. ![Berry Trees](images/other/berry_tree.png "Berry Trees") Berry and Apricorn trees are added to the randomized item pool.
+8. ![Tin Tower and Ho-oh Chamber](images/other/tin_tower.png "Tin Tower and Ho-oh Chamber") The Rainbow Wing is added to the randomized item pool. Tin Tower and the Ho-oh Treasure Room are in logic. Access to the base of Tin Tower requires the Clear Bell and access to the upper floors requires the Rainbow Wing. Ho-oh spawns once the Elite Four have been defeated. The Ho-oh Treasure Chamber opens when Ho-oh has been defeated (requires Surf and Strength).
+9. ![Day and Happiness Items](images/other/clock.png "Day and Happiness Items") Items locked by day, time, or happiness are added to the randomized item pool (requirements changed to always be available).
+10. ![Open Mt. Silver](images/other/mountain.png "Open Mt. Silver") Opens Mt. Silver so that the player can access it as soon as the League Gate is reachable.
+11. ![Bug Catching Contest](images/other/bug_catching.png "Bug Catching Contest") Adds the Bug Catching Contest (4 items for 1st, 2nd, 3rd, and last places).
+12. ![Phone Call Trainers](images/items/phone_card.png "Phone Call Trainers") Adds the trainers that will give you their phone number and offer items.
+13. ![Pokemon Locked Items](images/other/eevee.png "Pokemon Locked Items") Adds the checks locked by specific Pokemon (Bill's Grandfather, Elm's Everstone, Lake of Rage Biggest Magikarp, and some of the phone call trainers).
+14. ![Pointless Checks](images/other/question_mark.png "Pointless Checks") Adds a few less than useful checks into the pool.
+15. ![Required Badges for Red](images/badges/boulder_badge.png "Required Badges for Red") Value can be modified to indicate how many badges are required before Professor Oak in Pallet Town will allow access to Mt. Silver.
 
-Note: Currently, with the "Hidden Items" modifier, items that would potentially blocked by a specific day or time are not included.
-1. Route 32 Great Ball (blocked by Frieda on Fridays)
-2. Lake of Rage Rare Candy (blocked by Wesley on Wednesdays)
-3. Mt. Moon Clefairy Square Moon Stone (only available on Monday nights)
-
-However, the with the addition of the "Day and Happiness Items" modifier, the Route 32 and Lake of Rage items are moved to be in front of the NPCs and the Clefairy Square item is always available.\
-If you have both "Hidden Items" and "Day and Happiness Items", these items become available.
+Notes:
+1. With the "Hidden Items" modifier and/or the "Day and Happiness Items", the items underneath Wesley (Lake of Rage) and Frieda (Route 32), are moved to be in front of them.
+2. With the "Hidden Items" modifier, Mt. Moon Clefairy Square Moon Stone is not included.
+3. However, with "Hidden Items" and "Day and Happiness Items" modifiers, Clefairy Square item is available.
 
 ### Settings Presets
 
@@ -68,13 +67,14 @@ Presets have been added under the gear icon at the top right of the item tracker
 2. ![Standard Full Item](images/presets/full_standard.png "Standard Full Item") Standard Full Item randomizer.
 3. ![Vintage Full Item](images/presets/full_vintage.png "Vintage Full Item") Vintage Full Item randomizer (replicates vanilla Crystal in some ways).
 4. ![Tricky/Extreme Full Item](images/presets/full_tricky_extreme.png "Tricky/Extreme Full Item") Standard Full Item randomizer, but with some extra twists (see below)
-5. ![Chaos Full Item](images/presets/full_chaos.png "Chaos Full Item") Chaos Full Item randomizer (same as Extreme, but hidden items locations are added).
+5. ![Extreme with Hidden Items](images/presets/full_extreme_hidden.png "Extreme with Hidden Items") Extreme, but hidden items locations are added.
 6. ![Crazy Full Item](images/presets/full_crazy.png "Crazy Full Item") Crazy Full Item randomizer (same as Extreme, but day and happiness locked items and berry trees are added).
-7. ![Crazy Chaos Full Item](images/presets/full_crazy_chaos.png "Crazy Chaos Full Item") Crazy + Chaos Full Item randomizer.
-8. ![Nightmare Full Item](images/presets/full_nightmare.png "Nightmare Full Item") Nightmare Full Item randomizer. Do you like fun? Well, too bad.
-9. ![Chaos Nightmare Full Item](images/presets/full_chaos_nightmare.png "Chaos Nightmare Full Item") Nightmare plus Chaos. And you thought Nightmare couldn't get worse...
-10. ![Easy/Classic Key Item](images/presets/key_easy_classic.png "Easy/Classic Key Item") Easy or Classic Key Item randomizer. (see below)
-11. ![Tricky/Extreme Key Item](images/presets/key_tricky_extreme.png "Tricky/Extreme Key Item") Tricky or Extreme Key Item randomizer. (see below)
+7. ![Crazy with Hidden Items](images/presets/full_crazy_hidden.png "Crazy Chaos Full Item") Crazy, but hidden items locations are added.
+8. ![Maximum Full Item](images/presets/full_maximum.png "Maximum Full Item") All item locations from the previous presets are included.
+9. ![Nightmare Full Item](images/presets/full_nightmare.png "Nightmare Full Item") Nightmare Full Item randomizer. Do you like fun? Well, too bad.
+10. ![Nightmare with Hidden Items](images/presets/full_nightmare_hidden.png "Nightmare with Hidden Items") Nightmare plus Hidden Items. And you thought Nightmare couldn't get worse...
+11. ![Easy/Classic Key Item](images/presets/key_easy_classic.png "Easy/Classic Key Item") Easy or Classic Key Item randomizer. (see below)
+12. ![Tricky/Extreme Key Item](images/presets/key_tricky_extreme.png "Tricky/Extreme Key Item") Tricky or Extreme Key Item randomizer. (see below)
 
 The Tricky variant adds PokeGear, Radio/Expansion Cards, Pokedex, and Tin Tower into the item pool.\
 The Extreme variants mixes badges into the item pool.\

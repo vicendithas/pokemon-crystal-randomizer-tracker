@@ -30,15 +30,9 @@
 				"item_count": 1
 			},
 			{   
-				"name": "Alan Phone Number",
+				"name": "Schoolboy Alan",
 				"access_rules": [],
-				"visibility_rules": ["evil"],
-				"hosted_item": "alan_phone"
-			},
-			{   
-				"name": "Alan Item",
-				"access_rules": ["alan_phone"],
-				"visibility_rules": ["evil"],
+				"visibility_rules": ["phone_items"],
 				"item_count": 1
 			}
 		],

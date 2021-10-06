@@ -18,15 +18,9 @@
 				"item_count": 1
 			},
 			{   
-				"name": "Erin Phone Number",
-				"access_rules": [],
-				"visibility_rules": ["evil"],
-				"hosted_item": "erin_phone"
-			},
-			{   
-				"name": "Erin Item",
-				"access_rules": ["erin_phone"],
-				"visibility_rules": ["evil"],
+				"name": "Picknicker Erin (Rematches)",
+				"access_rules": ["elite_four, fix_power_plant"],
+				"visibility_rules": ["phone_items"],
 				"item_count": 1
 			}
 		],

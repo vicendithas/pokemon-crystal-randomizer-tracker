@@ -32,31 +32,31 @@
 			{   
 				"name": "Bill's Grandpa 1st",
 				"access_rules": ["lickitung"],
-				"visibility_rules": ["evil"],
+				"visibility_rules": ["pokemon_locked"],
 				"item_count": 1
 			},
 			{   
 				"name": "Bill's Grandpa 2nd",
 				"access_rules": ["lickitung, oddish"],
-				"visibility_rules": ["evil"],
+				"visibility_rules": ["pokemon_locked"],
 				"item_count": 1
 			},
 			{   
 				"name": "Bill's Grandpa 3rd",
 				"access_rules": ["lickitung, oddish, staryu"],
-				"visibility_rules": ["evil"],
+				"visibility_rules": ["pokemon_locked"],
 				"item_count": 1
 			},
 			{   
 				"name": "Bill's Grandpa 4th",
 				"access_rules": ["lickitung, oddish, staryu, growlithe"],
-				"visibility_rules": ["evil"],
+				"visibility_rules": ["pokemon_locked"],
 				"item_count": 1
 			},
 			{   
 				"name": "Bill's Grandpa 5th",
 				"access_rules": ["lickitung, oddish, staryu, growlithe, pichu"],
-				"visibility_rules": ["evil"],
+				"visibility_rules": ["pokemon_locked"],
 				"item_count": 1
 			}
 		],

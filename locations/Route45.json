@@ -27,15 +27,9 @@
 				"item_count": 1
 			},
 			{   
-				"name": "Kenji Phone Number",
+				"name": "Blackbelt Kenji",
 				"access_rules": [],
-				"visibility_rules": ["evil"],
-				"hosted_item": "kenji_phone"
-			},
-			{   
-				"name": "Kenji Item",
-				"access_rules": ["kenji_phone"],
-				"visibility_rules": ["evil"],
+				"visibility_rules": ["phone_items"],
 				"item_count": 1
 			}
 		],

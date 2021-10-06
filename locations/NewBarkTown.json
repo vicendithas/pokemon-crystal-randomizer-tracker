@@ -34,7 +34,7 @@
 			{   
 				"name": "Elm Everstone",
 				"access_rules": ["togepi"],
-				"visibility_rules": ["evil"],
+				"visibility_rules": ["pokemon_locked"],
 				"item_count": 1
 			},
 			{

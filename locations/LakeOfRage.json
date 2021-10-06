@@ -43,7 +43,7 @@
 			{   
 				"name": "Biggest Magikarp",
 				"access_rules": ["magikarp"],
-				"visibility_rules": ["evil"],
+				"visibility_rules": ["pokemon_locked"],
 				"item_count": 1
 			}
 		],

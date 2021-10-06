@@ -35,13 +35,13 @@
 					[
                         "pokedex",
 						"bicycle",
+						"map_card",
                         "blue_card",
                         "coin_case",
                         "item_finder",
                         "old_rod",
                         "good_rod",
                         "super_rod",
-						"",
 						""
                     ],
                     [
@@ -117,15 +117,15 @@
 					],
 					[ 
 						"day_happiness",
-						"evil"
+						"open_silver"
 					],
 					[ 
-						"open_silver",
+						"bug_catching",
+						"phone_items"
+					],
+					[ 
+						"pokemon_locked",
 						"pointless_checks"
-					],
-					[ 
-						"",
-						""
 					]
                 ]
             },
@@ -232,13 +232,13 @@
 					},
 					{
 						"type": "group",
-						"header": "Chaos Full Item",
+						"header": "Extreme with Hidden Items",
 						"header_background": "#3e4b57",
 						"content":[
 							{
 								"type": "item",
 								"margin": "-5,-1,-5,-5",
-								"item": "full_chaos"
+								"item": "full_extreme_hidden"
 							}
 						]
 					},
@@ -263,13 +263,25 @@
 				"content": [
 					{
 						"type": "group",
-						"header": "Crazy Chaos Full Item",
+						"header": "Crazy with Hidden Items",
 						"header_background": "#3e4b57",
 						"content":[
 							{
 								"type": "item",
 								"margin": "-5,-1,-5,-5",
-								"item": "full_crazy_chaos"
+								"item": "full_crazy_hidden"
+							}
+						]
+					},
+					{
+						"type": "group",
+						"header": "Maximum Full Item",
+						"header_background": "#3e4b57",
+						"content":[
+							{
+								"type": "item",
+								"margin": "-5,-1,-5,-5",
+								"item": "full_maximum"
 							}
 						]
 					},
@@ -284,18 +296,6 @@
 								"item": "full_nightmare"
 							}
 						]
-					},
-					{
-						"type": "group",
-						"header": "Chaos Nightmare Full Item",
-						"header_background": "#3e4b57",
-						"content":[
-							{
-								"type": "item",
-								"margin": "-5,-1,-5,-5",
-								"item": "full_chaos_nightmare"
-							}
-						]
 					}				
 				]
 			},
@@ -304,6 +304,18 @@
 				"orientation": "horizontal",
 				"margin": 0,
 				"content": [
+					{
+						"type": "group",
+						"header": "Nightmare with Hidden Items",
+						"header_background": "#3e4b57",
+						"content":[
+							{
+								"type": "item",
+								"margin": "-5,-1,-5,-5",
+								"item": "full_nightmare_hidden"
+							}
+						]
+					},
 					{
 						"type": "group",
 						"header": "Easy/Classic Key Item",

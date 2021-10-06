@@ -15,13 +15,14 @@ local fullStandard				=	Preset("Standard Full",					"full_standard",				"images/
 local fullVintage				=	Preset("Vintage Full",					"full_vintage",					"images/presets/full_vintage.png")
 
 local fullTrickyExtreme			=	Preset("Tricky / Extreme Full",			"full_tricky_extreme",			"images/presets/full_tricky_extreme.png")
-local fullChaos					=	Preset("Chaos Full",					"full_chaos",					"images/presets/full_chaos.png")
+local fullExtremeHidden			=	Preset("Extreme with Hidden Items",		"full_extreme_hidden",			"images/presets/full_extreme_hidden.png")
 local fullCrazy					=	Preset("Crazy Full",					"full_crazy",					"images/presets/full_crazy.png")
 
-local fullCrazyChaos			=	Preset("Crazy Chaos Full",				"full_crazy_chaos",				"images/presets/full_crazy_chaos.png")
+local fullCrazyHidden			=	Preset("Crazy with Hidden Items",		"full_crazy_hidden",			"images/presets/full_crazy_hidden.png")
+local fullMaximum				=	Preset("Maximum Full",					"full_maximum",					"images/presets/full_maximum.png")
 local fullNightmare				=	Preset("Nightmare Full",				"full_nightmare",				"images/presets/full_nightmare.png")
-local fullChaosNightmare		=	Preset("Chaos Nightmare Full",			"full_chaos_nightmare",			"images/presets/full_chaos_nightmare.png")
 
+local fullNightmareHidden		=	Preset("Nightmare with Hidden Items",	"full_nightmare_hidden",		"images/presets/full_nightmare_hidden.png")
 local keyEasyClassic			=	Preset("Easy / Classic Key",			"key_easy_classic",				"images/presets/key_easy_classic.png")
 local keyTrickyExtreme			=	Preset("Tricky / Extreme Key",			"key_tricky_extreme",			"images/presets/key_tricky_extreme.png")
 

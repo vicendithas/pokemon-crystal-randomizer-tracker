@@ -1,5 +1,13 @@
 # Changelog
 
+## 4.0
+Added a lot of new settings:
+1. Open Mt. Silver (Route 28 and Mt. Silver are accessible as soon as the player can reach the League Gate)
+2. Phone Call Trainers (some trainers will give you their phone number and call to offer items)
+3. Pokemon Locked Checks (Bill's Grandfather, Elm's Everstone, Lake of Rage Biggest Magikarp, and some of the phone call trainers require specific Pokemon)
+4. Pointless Checks (a couple less than useful checks)
+5. Removed E.V.I.L and added Bug Catching Contest as it's own modifier.
+
 ## 3.1.1
 Fixed an error with the logic of the Sandstorm TM location\
 Moved "Mart Basement Locked" from Goldenrod City to Goldenrod Underground to better reflect logical progression
