@@ -30,7 +30,7 @@
 			},
 			{   
 				"name": "Birdkeeper Jose",
-				"access_rules": ["@canUseSurf, @canUseWaterfall, @canUseWhirlpool", "snorlax, @canUseCut, @canUseSurf, @canUseWhirlpool"],
+				"access_rules": ["pokegear, @canUseSurf, @canUseWaterfall, @canUseWhirlpool", "pokegear, snorlax, @canUseCut, @canUseSurf, @canUseWhirlpool"],
 				"visibility_rules": ["phone_items"],
 				"item_count": 1
 			}

@@ -31,7 +31,7 @@
 			},
 			{   
 				"name": "Schoolboy Alan",
-				"access_rules": [],
+				"access_rules": ["pokegear"],
 				"visibility_rules": ["phone_items"],
 				"item_count": 1
 			}

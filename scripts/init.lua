@@ -5,6 +5,7 @@ Tracker:AddMaps("maps/maps.json")
 ScriptHost:LoadScript("scripts/logic.lua")
 
 Tracker:AddLocations("locations/virtual.json")
+Tracker:AddLocations("locations/Pokemon.json")
 
 ScriptHost:LoadScript("scripts/class.lua")
 ScriptHost:LoadScript("scripts/custom_item.lua")

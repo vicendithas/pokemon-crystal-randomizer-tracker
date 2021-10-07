@@ -128,41 +128,6 @@
 						"pointless_checks"
 					]
                 ]
-            },
-			{
-                "type": "itemgrid",
-                "v_alignment": "top",
-                "item_margin": "1,2",
-                "rows": [
-					[ 
-						"marill", 
-						"pikachu"
-					],
-					[ 
-						"clefairy",
-						"lickitung"
-					],
-					[ 
-						"oddish",
-						"staryu"
-					],
-					[ 
-						"growlithe",
-						"pichu"
-					],
-					[ 
-						"togepi",
-						"magikarp"
-					],
-					[ 
-						"",
-						""
-					],
-					[ 
-						"",
-						""
-					]
-                ]
             }
         ]
     },

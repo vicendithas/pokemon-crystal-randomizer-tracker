@@ -51,7 +51,7 @@
 			},
 			{   
 				"name": "PokeFan Beverly (Marill)",
-				"access_rules": ["marill"],
+				"access_rules": ["pokegear, marill"],
 				"visibility_rules": ["phone_items, pokemon_locked"],
 				"item_count": 1
 			}

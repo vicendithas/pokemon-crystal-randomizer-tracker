@@ -40,7 +40,7 @@
 			},
 			{   
 				"name": "Sailor Huey (Rematches)",
-				"access_rules": ["elite_four, team_rocket, fix_power_plant"],
+				"access_rules": ["pokegear, elite_four, team_rocket, fix_power_plant"],
 				"visibility_rules": ["phone_items"],
 				"item_count": 1
 			}

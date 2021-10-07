@@ -25,7 +25,7 @@
 			},
 			{   
 				"name": "Picknicker Tiffany (Clefairy)",
-				"access_rules": ["clefairy"],
+				"access_rules": ["pokegear, clefairy"],
 				"visibility_rules": ["phone_items, pokemon_locked"],
 				"item_count": 1
 			}

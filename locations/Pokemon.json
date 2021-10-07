@@ -1,0 +1,75 @@
+[
+	{
+		"name": "Pokemon",
+		"visibility_rules": ["pokemon_locked"],
+		"sections": [
+			{
+				"name": "Marill",
+				"access_rules": [],
+				"visibility_rules": ["pokemon_locked, phone_items"],
+				"hosted_item": "marill"
+			},
+			{
+				"name": "Pikachu)",
+				"access_rules": [],
+				"visibility_rules": ["pokemon_locked, phone_items"],
+				"hosted_item": "pikachu"
+			},
+			{
+				"name": "Clefairy",
+				"access_rules": [],
+				"visibility_rules": ["pokemon_locked, phone_items"],
+				"hosted_item": "clefairy"
+			},
+			{
+				"name": "Lickitung",
+				"access_rules": [],
+				"visibility_rules": ["pokemon_locked"],
+				"hosted_item": "lickitung"
+			},
+			{
+				"name": "Oddish",
+				"access_rules": [],
+				"visibility_rules": ["pokemon_locked"],
+				"hosted_item": "oddish"
+			},
+			{
+				"name": "Staryu",
+				"access_rules": [],
+				"visibility_rules": ["pokemon_locked"],
+				"hosted_item": "staryu"
+			},
+			{
+				"name": "Growlithe",
+				"access_rules": [],
+				"visibility_rules": ["pokemon_locked"],
+				"hosted_item": "growlithe"
+			},
+			{
+				"name": "Pichu",
+				"access_rules": [],
+				"visibility_rules": ["pokemon_locked"],
+				"hosted_item": "pichu"
+			},
+			{
+				"name": "Togepi/Togetic",
+				"access_rules": [],
+				"visibility_rules": ["pokemon_locked"],
+				"hosted_item": "togepi"
+			},
+			{
+				"name": "Magikarp",
+				"access_rules": [],
+				"visibility_rules": ["pokemon_locked"],
+				"hosted_item": "magikarp"
+			}
+		],
+		"map_locations": [
+			{
+				"map": "johto_kanto",
+				"x": 40,
+				"y": 40
+			}
+		]
+	}
+]

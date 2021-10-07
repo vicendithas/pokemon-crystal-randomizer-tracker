@@ -28,7 +28,7 @@
 			},
 			{   
 				"name": "PokeFan Derek (Pikachu)",
-				"access_rules": ["pikachu, fix_power_plant"],
+				"access_rules": ["pokegear, pikachu, fix_power_plant"],
 				"visibility_rules": ["phone_items, pokemon_locked"],
 				"item_count": 1
 			}

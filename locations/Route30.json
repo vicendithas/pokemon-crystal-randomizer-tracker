@@ -45,7 +45,7 @@
 			},
 			{   
 				"name": "Youngster Joey (Rematches)",
-				"access_rules": ["elite_four, team_rocket"],
+				"access_rules": ["pokegear, elite_four, team_rocket"],
 				"visibility_rules": ["phone_items"],
 				"item_count": 1
 			}
