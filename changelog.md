@@ -1,5 +1,9 @@
 # Changelog
 
+## 4.1
+Added Pokegear as optional requirement for phone call items\
+Moved Pokemon for Pokemon Locked Checks from the tracker into their own location
+
 ## 4.0.1
 Added National Park Hidden Item
 
