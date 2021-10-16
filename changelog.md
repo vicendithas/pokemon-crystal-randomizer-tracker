@@ -1,5 +1,9 @@
 # Changelog
 
+## 4.2
+Added Radio Tower Rockets to requirements for Gina\
+Added Fisherman Wilton to Route 44
+
 ## 4.1
 Added Pokegear as optional requirement for phone call items\
 Moved Pokemon for Pokemon Locked Checks from the tracker into their own location

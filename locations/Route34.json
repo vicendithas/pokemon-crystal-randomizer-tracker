@@ -39,7 +39,7 @@
 			},
 			{   
 				"name": "Picknicker Gina",
-				"access_rules": ["pokegear"],
+				"access_rules": ["pokegear, team_rocket"],
 				"visibility_rules": ["phone_items"],
 				"item_count": 1
 			}
