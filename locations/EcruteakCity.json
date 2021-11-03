@@ -10,7 +10,9 @@
 				"item_count": 1
 			},
 			{
-				"name": "Kimono Girls",
+				"name": "Kimono Girls (HM03 - Surf)",
+				"chest_unopened_img": "images/chests/tm_hm_unopened.png",
+				"chest_opened_img": "images/chests/tm_hm_opened.png",
 				"item_count": 1
 			},
 			{
@@ -22,13 +24,15 @@
 				"item_count": 1
 			},
 			{
-				"name": "Gym Leader TM",
-				"visibility_rules": ["full_item"],
-				"item_count": 1
+				"name": "Morty Badge",
+				"hosted_item": "morty"
 			},
 			{
-				"name": "Gym - Morty",
-				"hosted_item": "morty"
+				"name": "Morty TM30 - Shadow Ball",
+				"visibility_rules": ["full_item"],
+				"chest_unopened_img": "images/chests/tm_hm_unopened.png",
+				"chest_opened_img": "images/chests/tm_hm_opened.png",
+				"item_count": 1
 			}
 		],
 		"map_locations": [

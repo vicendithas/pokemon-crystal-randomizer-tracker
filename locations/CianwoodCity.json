@@ -20,19 +20,23 @@
 				"item_count": 1
 			},
 			{
-				"name": "Gym Leader TM",
-				"access_rules": ["@canUseStrength"],
-				"visibility_rules": ["full_item"],
-				"item_count": 1
-			},
-			{
-				"name": "Gym - Chuck",
+				"name": "Chuck Badge",
 				"access_rules": ["@canUseStrength"],
 				"hosted_item": "chuck"
 			},
 			{
-				"name": "Chuck's Wife",
+				"name": "Chuck TM01 - Dynamicpunch",
+				"access_rules": ["@canUseStrength"],
+				"visibility_rules": ["full_item"],
+				"chest_unopened_img": "images/chests/tm_hm_unopened.png",
+				"chest_opened_img": "images/chests/tm_hm_opened.png",
+				"item_count": 1
+			},
+			{
+				"name": "Chuck's Wife (HM02 - Fly)",
 				"access_rules": ["chuck"],
+				"chest_unopened_img": "images/chests/tm_hm_unopened.png",
+				"chest_opened_img": "images/chests/tm_hm_opened.png",
 				"item_count": 1
 			}
 		],

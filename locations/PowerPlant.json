@@ -13,6 +13,14 @@
 				"name": "Fix Power Plant",
 				"access_rules": ["machine_part"],
 				"hosted_item": "fix_power_plant"
+			},
+			{
+				"name": "TM07 - Zap Cannon",
+				"visibility_rules": ["full_item"],
+				"access_rules": ["fix_power_plant"],
+				"chest_unopened_img": "images/chests/tm_hm_unopened.png",
+				"chest_opened_img": "images/chests/tm_hm_opened.png",
+				"item_count": 1
 			}
 		],
 		"map_locations": [

@@ -6,13 +6,15 @@
 		"access_rules": ["snorlax,@canUseCut", "@canUseSurf,@canUseWaterfall,$haveEightBadges,snorlax,[backward_kanto]"],
 		"sections": [
 			{
-				"name": "TM Gift",
+				"name": "TM42 - Dream Eater",
 				"visibility_rules": ["full_item"],
 				"access_rules": ["@canUseCut", "@canUseSurf"],
+				"chest_unopened_img": "images/chests/tm_hm_unopened.png",
+				"chest_opened_img": "images/chests/tm_hm_opened.png",
 				"item_count": 1
 			},
 			{
-				"name": "Gym - Blue",
+				"name": "Blue Badge",
 				"access_rules": ["talk_blue"],
 				"hosted_item": "blue"
 			}

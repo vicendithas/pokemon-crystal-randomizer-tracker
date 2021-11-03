@@ -15,6 +15,8 @@
 				"access_rules": [],
 				"visibility_rules": ["berry_trees"],
 				"clear_as_group": false,
+				"chest_unopened_img": "images/chests/tree_unopened.png",
+				"chest_opened_img": "images/chests/tree_opened.png",
 				"item_count": 1
 			},
 			{
@@ -23,10 +25,20 @@
 				"visibility_rules": ["full_item"],
 				"hosted_item": "mail"
 			},
+			{
+				"name": "TM50 - Nightmare",
+				"access_rules": ["mail"],
+				"visibility_rules": ["full_item"],
+				"chest_unopened_img": "images/chests/tm_hm_unopened.png",
+				"chest_opened_img": "images/chests/tm_hm_opened.png",
+				"item_count": 1
+			},
 			{   
 				"name": "Bug Catcher Wade",
 				"access_rules": ["pokegear"],
 				"visibility_rules": ["phone_items"],
+				"chest_unopened_img": "images/chests/phone_unopened.png",
+				"chest_opened_img": "images/chests/phone_opened.png",
 				"item_count": 1
 			}
 		],

@@ -6,9 +6,11 @@
 		"access_rules": ["@Saffron City"],
 		"sections": [
 			{
-				"name": "Curse TM",
+				"name": "TM03 - Curse",
 				"access_rules": [],
 				"visibility_rules": ["day_happiness"],
+				"chest_unopened_img": "images/chests/tm_hm_unopened.png",
+				"chest_opened_img": "images/chests/tm_hm_opened.png",
 				"item_count": 1
 			},
 			{
@@ -20,15 +22,17 @@
 				"item_count": 1
 			},
 			{
-				"name": "Gym Leader TM",
-				"access_rules": ["@canUseCut"],
-				"visibility_rules": ["full_item"],
-				"item_count": 1
-			},
-			{
-				"name": "Gym - Erika",
+				"name": "Erika Badge",
 				"access_rules": ["@canUseCut"],
 				"hosted_item": "erika"
+			},
+			{
+				"name": "Erika TM19 - Giga Drain",
+				"access_rules": ["@canUseCut"],
+				"visibility_rules": ["full_item"],
+				"chest_unopened_img": "images/chests/tm_hm_unopened.png",
+				"chest_opened_img": "images/chests/tm_hm_opened.png",
+				"item_count": 1
 			}
 		],
 		"map_locations": [

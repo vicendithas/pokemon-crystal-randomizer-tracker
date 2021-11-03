@@ -22,7 +22,9 @@
 				"item_count": 2
 			},
 			{
-				"name": "Defeat The Elder",
+				"name": "Elder (HM05 - Flash)",
+				"chest_unopened_img": "images/chests/tm_hm_unopened.png",
+				"chest_opened_img": "images/chests/tm_hm_opened.png",
 				"item_count": 1
 			}                            
 		],

@@ -12,9 +12,11 @@
 				"item_count": 3
 			},
 			{
-				"name": "Return/Frustration TMs",
+				"name": "TM21 - Frustration / TM27 - Return",
 				"access_rules": [],
 				"visibility_rules": ["day_happiness"],
+				"chest_unopened_img": "images/chests/tm_hm_unopened.png",
+				"chest_opened_img": "images/chests/tm_hm_opened.png",
 				"item_count": 2
 			},
 			{
@@ -33,13 +35,15 @@
 				"item_count": 1
 			},
 			{
-				"name": "Gym Leader TM",
-				"visibility_rules": ["full_item"],
-				"item_count": 1
+				"name": "Whitney Badge",
+				"hosted_item": "whitney"
 			},
 			{
-				"name": "Gym - Whitney",
-				"hosted_item": "whitney"
+				"name": "Whitney TM45 - Attract",
+				"visibility_rules": ["full_item"],
+				"chest_unopened_img": "images/chests/tm_hm_unopened.png",
+				"chest_opened_img": "images/chests/tm_hm_opened.png",
+				"item_count": 1
 			},
 			{
 				"name": "Flower Shop",

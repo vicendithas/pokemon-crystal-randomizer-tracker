@@ -14,9 +14,11 @@
 				"item_count": 1
 			},
 			{
-				"name": "Snore TM",
+				"name": "TM13 - Snore",
 				"access_rules": [],
 				"visibility_rules": ["day_happiness"],
+				"chest_unopened_img": "images/chests/tm_hm_unopened.png",
+				"chest_opened_img": "images/chests/tm_hm_opened.png",
 				"item_count": 1
 			},
 			{
@@ -24,12 +26,16 @@
 				"access_rules": [],
 				"visibility_rules": ["berry_trees"],
 				"clear_as_group": false,
+				"chest_unopened_img": "images/chests/tree_unopened.png",
+				"chest_opened_img": "images/chests/tree_opened.png",
 				"item_count": 1
 			},
 			{   
 				"name": "PokeFan Derek (Pikachu)",
 				"access_rules": ["pokegear, pikachu, fix_power_plant"],
 				"visibility_rules": ["phone_items, pokemon_locked"],
+				"chest_unopened_img": "images/chests/phone_unopened.png",
+				"chest_opened_img": "images/chests/phone_opened.png",
 				"item_count": 1
 			}
 		],

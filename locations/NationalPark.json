@@ -6,10 +6,16 @@
 		"access_rules": ["squirt_bottle", "@canUseCut", "$noCutTree"],
 		"sections": [
 			{
-				"name": "Ground Items",
+				"name": "Behind Fence Right",
 				"visibility_rules": ["full_item"],
-				"clear_as_group": false,
-				"item_count": 2
+				"item_count": 1
+			},
+			{
+				"name": "TM28 - Dig",
+				"visibility_rules": ["full_item"],
+				"chest_unopened_img": "images/chests/tm_hm_unopened.png",
+				"chest_opened_img": "images/chests/tm_hm_opened.png",
+				"item_count": 1
 			},
 			{
 				"name": "Hidden Items",
@@ -53,6 +59,8 @@
 				"name": "PokeFan Beverly (Marill)",
 				"access_rules": ["pokegear, marill"],
 				"visibility_rules": ["phone_items, pokemon_locked"],
+				"chest_unopened_img": "images/chests/phone_unopened.png",
+				"chest_opened_img": "images/chests/phone_opened.png",
 				"item_count": 1
 			}
 		],

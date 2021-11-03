@@ -1,5 +1,11 @@
 # Changelog
 
+## 4.3
+Fixed a typo, no more "Pikachu)"\
+Fixed presets that include Open Silver, to not include E4 Required (Open Silver includes Skip E4)\
+Fixed Biggest Magikarp check to require Mahogany Rockets.\
+Added new chest icons for phone call items, berry trees, and TM/HMs.
+
 ## 4.2
 Added Radio Tower Rockets to requirements for Gina\
 Added Fisherman Wilton to Route 44

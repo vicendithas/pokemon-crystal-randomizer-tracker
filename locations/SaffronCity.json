@@ -16,8 +16,10 @@
 				"item_count": 1
 			},
 			{
-				"name": "TM Gift",
+				"name": "TM29 - Psychic",
 				"visibility_rules": ["full_item"],
+				"chest_unopened_img": "images/chests/tm_hm_unopened.png",
+				"chest_opened_img": "images/chests/tm_hm_opened.png",
 				"item_count": 1
 			},	
 			{
@@ -26,7 +28,7 @@
 				"item_count": 1
 			},
 			{
-				"name": "Gym - Sabrina",
+				"name": "Sabrina Badge",
 				"hosted_item": "sabrina"
 			}
 		],

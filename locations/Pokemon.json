@@ -10,7 +10,7 @@
 				"hosted_item": "marill"
 			},
 			{
-				"name": "Pikachu)",
+				"name": "Pikachu",
 				"access_rules": [],
 				"visibility_rules": ["pokemon_locked, phone_items"],
 				"hosted_item": "pikachu"

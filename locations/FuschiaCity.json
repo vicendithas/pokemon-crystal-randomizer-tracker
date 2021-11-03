@@ -6,19 +6,23 @@
 		"access_rules": ["@Saffron City"],
 		"sections": [
 			{
-				"name": "Gym Leader TM",
-				"visibility_rules": ["full_item"],
-				"item_count": 1
+				"name": "Janine Badge",
+				"hosted_item": "janine"
 			},
 			{
-				"name": "Gym - Janine",
-				"hosted_item": "janine"
+				"name": "Janine TM06 - Toxic",
+				"visibility_rules": ["full_item"],
+				"chest_unopened_img": "images/chests/tm_hm_unopened.png",
+				"chest_opened_img": "images/chests/tm_hm_opened.png",
+				"item_count": 1
 			},
 			{
 				"name": "Berry Trees",
 				"access_rules": ["@canUseCut"],
 				"visibility_rules": ["berry_trees"],
 				"clear_as_group": false,
+				"chest_unopened_img": "images/chests/tree_unopened.png",
+				"chest_opened_img": "images/chests/tree_opened.png",
 				"item_count": 1
 			}
 		],

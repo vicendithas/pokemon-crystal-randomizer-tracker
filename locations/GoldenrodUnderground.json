@@ -39,7 +39,15 @@
 				"access_rules": ["basement_key"],
 				"visibility_rules": ["full_item"],
 				"clear_as_group": false,
-				"item_count": 3
+				"item_count": 2
+			},
+			{
+				"name": "TM35 - Sleep Talk",
+				"access_rules": ["basement_key"],
+				"visibility_rules": ["full_item"],
+				"chest_unopened_img": "images/chests/tm_hm_unopened.png",
+				"chest_opened_img": "images/chests/tm_hm_opened.png",
+				"item_count": 1
 			},
 			{
 				"name": "Save The Director",

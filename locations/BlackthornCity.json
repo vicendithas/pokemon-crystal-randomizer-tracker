@@ -12,15 +12,24 @@
 				"item_count": 1
 			},
 			{
-				"name": "Gym Leader TM",
-				"access_rules": ["team_rocket"],
-				"visibility_rules": ["$noVanillaClair, full_item"],
-				"item_count": 1
-			},
-			{
-				"name": "Gym - Clair",
+				"name": "Defeat Clair",
+				"visibility_rules": ["vanilla_clair"],
 				"access_rules": ["team_rocket"],
 				"hosted_item": "clair"
+			},
+			{
+				"name": "Clair Badge",
+				"visibility_rules": ["$noVanillaClair"],
+				"access_rules": ["team_rocket"],
+				"hosted_item": "clair"
+			},
+						{
+				"name": "Clair TM24 - Dragonbreath",
+				"access_rules": ["team_rocket"],
+				"visibility_rules": ["$noVanillaClair, full_item"],
+				"chest_unopened_img": "images/chests/tm_hm_unopened.png",
+				"chest_opened_img": "images/chests/tm_hm_opened.png",
+				"item_count": 1
 			}
 		],
 		"map_locations": [

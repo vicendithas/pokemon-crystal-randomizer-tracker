@@ -11,9 +11,11 @@
 				"item_count": 1
 			},
 			{   
-				"name": "Guard Item",
+				"name": "TM36 - Sludge Bomb",
 				"access_rules": ["electrode"],
 				"visibility_rules": ["full_item"],
+				"chest_unopened_img": "images/chests/tm_hm_unopened.png",
+				"chest_opened_img": "images/chests/tm_hm_opened.png",
 				"item_count": 1
 			},
 			{
@@ -21,12 +23,16 @@
 				"access_rules": ["@canUseSurf, @canUseCut"],
 				"visibility_rules": ["berry_trees"],
 				"clear_as_group": false,
+				"chest_unopened_img": "images/chests/tree_unopened.png",
+				"chest_opened_img": "images/chests/tree_opened.png",
 				"item_count": 1
 			},
 			{   
 				"name": "Picknicker Tiffany (Clefairy)",
 				"access_rules": ["pokegear, clefairy"],
 				"visibility_rules": ["phone_items, pokemon_locked"],
+				"chest_unopened_img": "images/chests/phone_unopened.png",
+				"chest_opened_img": "images/chests/phone_opened.png",
 				"item_count": 1
 			}
 		],

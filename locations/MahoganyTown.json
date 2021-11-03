@@ -12,10 +12,12 @@
 				"clear_as_group": false,
 				"item_count": 3
 			},
-								{
-				"name": "Rocket Hideout B2F",
+			{
+				"name": "TM46 - Thief",
 				"access_rules": ["red_gyarados"],
 				"visibility_rules": ["full_item"],
+				"chest_unopened_img": "images/chests/tm_hm_unopened.png",
+				"chest_opened_img": "images/chests/tm_hm_opened.png",
 				"item_count": 1
 			},
 			{
@@ -40,15 +42,24 @@
 				"hosted_item": "electrode"
 			},
 			{
-				"name": "Gym Leader TM",
+				"name": "Lance (HM06 - Whirlpool)",
 				"access_rules": ["electrode"],
-				"visibility_rules": ["full_item"],
+				"chest_unopened_img": "images/chests/tm_hm_unopened.png",
+				"chest_opened_img": "images/chests/tm_hm_opened.png",
 				"item_count": 1
 			},
 			{
-				"name": "Gym - Pryce",
+				"name": "Pryce Badge",
 				"access_rules": ["electrode"],
 				"hosted_item": "pryce"
+			},
+			{
+				"name": "Pryce TM16 - Icy Wind",
+				"access_rules": ["electrode"],
+				"visibility_rules": ["full_item"],
+				"chest_unopened_img": "images/chests/tm_hm_unopened.png",
+				"chest_opened_img": "images/chests/tm_hm_opened.png",
+				"item_count": 1
 			}
 		],
 		"map_locations": [
