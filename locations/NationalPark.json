@@ -35,25 +35,25 @@
 				"name": "Bug Catching First",
 				"access_rules": [],
 				"visibility_rules": ["bug_catching"],
-				"item_count": 1
+				"hosted_item": "bcg_first"
 			},
 			{
 				"name": "Bug Catching Second",
 				"access_rules": [],
 				"visibility_rules": ["bug_catching"],
-				"item_count": 1
+				"hosted_item": "bcg_second"
 			},
 			{
 				"name": "Bug Catching Third",
 				"access_rules": [],
 				"visibility_rules": ["bug_catching"],
-				"item_count": 1
+				"hosted_item": "bcg_third"
 			},
 			{
 				"name": "Bug Catching Consolation",
 				"access_rules": [],
 				"visibility_rules": ["bug_catching"],
-				"item_count": 1
+				"hosted_item": "bcg_consolation"
 			},
 			{   
 				"name": "PokeFan Beverly (Marill)",

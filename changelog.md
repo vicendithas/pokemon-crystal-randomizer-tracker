@@ -1,5 +1,10 @@
 # Changelog
 
+## 4.4
+Changed some of the "event" checks to ease confusion on how many checks there are.\
+Changed visuals on completed checks to better indicate when a check is done.\
+Updated images of some items/locations.
+
 ## 4.3
 Fixed a typo, no more "Pikachu)"\
 Fixed presets that include Open Silver, to not include E4 Required (Open Silver includes Skip E4)\

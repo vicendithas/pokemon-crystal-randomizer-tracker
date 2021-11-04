@@ -37,16 +37,9 @@
 				"item_count": 2
 			},
 			{
-				"name": "Defeat The Electrodes",
+				"name": "Lance (HM06 - Whirlpool)",
 				"access_rules": ["red_gyarados"],
 				"hosted_item": "electrode"
-			},
-			{
-				"name": "Lance (HM06 - Whirlpool)",
-				"access_rules": ["electrode"],
-				"chest_unopened_img": "images/chests/tm_hm_unopened.png",
-				"chest_opened_img": "images/chests/tm_hm_opened.png",
-				"item_count": 1
 			},
 			{
 				"name": "Pryce Badge",

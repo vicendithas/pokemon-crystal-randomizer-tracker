@@ -17,18 +17,10 @@
 				"hosted_item": "sudowoodo"
 			},
 			{
-				"name": "Rock Smash Guy",
+				"name": "TM08 - Rock Smash",
 				"access_rules": ["sudowoodo"],
 				"visibility_rules": ["full_item"],
 				"hosted_item": "rocksmashguy"
-			},
-			{
-				"name": "TM08 - Rock Smash",
-				"visibility_rules": ["full_item"],
-				"access_rules": ["rocksmashguy"],
-				"chest_unopened_img": "images/chests/tm_hm_unopened.png",
-				"chest_opened_img": "images/chests/tm_hm_opened.png",
-				"item_count": 1
 			},
 			{
 				"name": "Berry Trees",
