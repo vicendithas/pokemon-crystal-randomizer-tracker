@@ -1,0 +1,272 @@
+[
+    {
+        "name": "Beverly",
+        "type": "progressive",
+		"allow_disabled": "false",
+		"stages": [
+			{
+				"img": "images/items/phone_card.png"
+			},
+			{
+				"img": "images/chests/default_unopened.png"
+			},
+			{
+				"img": "images/chests/default_unopened.png",
+				"img_mods": "overlay|images/mod/no64.png",
+				"codes": "beverly"
+			}
+		]
+    },
+	{
+        "name": "Erin",
+        "type": "progressive",
+		"allow_disabled": "false",
+		"stages": [
+			{
+				"img": "images/items/phone_card.png"
+			},
+			{
+				"img": "images/chests/default_unopened.png"
+			},
+			{
+				"img": "images/chests/default_unopened.png",
+				"img_mods": "overlay|images/mod/no64.png",
+				"codes": "erin"
+			}
+		]
+    },
+	{
+        "name": "Kenji",
+        "type": "progressive",
+		"allow_disabled": "false",
+		"stages": [
+			{
+				"img": "images/items/phone_card.png"
+			},
+			{
+				"img": "images/chests/default_unopened.png"
+			},
+			{
+				"img": "images/chests/default_unopened.png",
+				"img_mods": "overlay|images/mod/no64.png",
+				"codes": "kenji"
+			}
+		]
+    },
+	{
+        "name": "Vance",
+        "type": "progressive",
+		"allow_disabled": "false",
+		"stages": [
+			{
+				"img": "images/items/phone_card.png"
+			},
+			{
+				"img": "images/chests/default_unopened.png"
+			},
+			{
+				"img": "images/chests/default_unopened.png",
+				"img_mods": "overlay|images/mod/no64.png",
+				"codes": "vance"
+			}
+		]
+    },
+	{
+        "name": "Wilton",
+        "type": "progressive",
+		"allow_disabled": "false",
+		"stages": [
+			{
+				"img": "images/items/phone_card.png"
+			},
+			{
+				"img": "images/chests/default_unopened.png"
+			},
+			{
+				"img": "images/chests/default_unopened.png",
+				"img_mods": "overlay|images/mod/no64.png",
+				"codes": "wilton"
+			}
+		]
+    },
+	{
+        "name": "Tiffany",
+        "type": "progressive",
+		"allow_disabled": "false",
+		"stages": [
+			{
+				"img": "images/items/phone_card.png"
+			},
+			{
+				"img": "images/chests/default_unopened.png"
+			},
+			{
+				"img": "images/chests/default_unopened.png",
+				"img_mods": "overlay|images/mod/no64.png",
+				"codes": "tiffany"
+			}
+		]
+    },
+	{
+        "name": "Tully",
+        "type": "progressive",
+		"allow_disabled": "false",
+		"stages": [
+			{
+				"img": "images/items/phone_card.png"
+			},
+			{
+				"img": "images/chests/default_unopened.png"
+			},
+			{
+				"img": "images/chests/default_unopened.png",
+				"img_mods": "overlay|images/mod/no64.png",
+				"codes": "tully"
+			}
+		]
+    },
+	{
+        "name": "Derek",
+        "type": "progressive",
+		"allow_disabled": "false",
+		"stages": [
+			{
+				"img": "images/items/phone_card.png"
+			},
+			{
+				"img": "images/chests/default_unopened.png"
+			},
+			{
+				"img": "images/chests/default_unopened.png",
+				"img_mods": "overlay|images/mod/no64.png",
+				"codes": "derek"
+			}
+		]
+    },
+	{
+        "name": "Dana",
+        "type": "progressive",
+		"allow_disabled": "false",
+		"stages": [
+			{
+				"img": "images/items/phone_card.png"
+			},
+			{
+				"img": "images/chests/default_unopened.png"
+			},
+			{
+				"img": "images/chests/default_unopened.png",
+				"img_mods": "overlay|images/mod/no64.png",
+				"codes": "dana"
+			}
+		]
+    },
+	{
+        "name": "Alan",
+        "type": "progressive",
+		"allow_disabled": "false",
+		"stages": [
+			{
+				"img": "images/items/phone_card.png"
+			},
+			{
+				"img": "images/chests/default_unopened.png"
+			},
+			{
+				"img": "images/chests/default_unopened.png",
+				"img_mods": "overlay|images/mod/no64.png",
+				"codes": "alan"
+			}
+		]
+    },
+	{
+        "name": "Gina",
+        "type": "progressive",
+		"allow_disabled": "false",
+		"stages": [
+			{
+				"img": "images/items/phone_card.png"
+			},
+			{
+				"img": "images/chests/default_unopened.png"
+			},
+			{
+				"img": "images/chests/default_unopened.png",
+				"img_mods": "overlay|images/mod/no64.png",
+				"codes": "gina"
+			}
+		]
+    },
+	{
+        "name": "Wade",
+        "type": "progressive",
+		"allow_disabled": "false",
+		"stages": [
+			{
+				"img": "images/items/phone_card.png"
+			},
+			{
+				"img": "images/chests/default_unopened.png"
+			},
+			{
+				"img": "images/chests/default_unopened.png",
+				"img_mods": "overlay|images/mod/no64.png",
+				"codes": "wade"
+			}
+		]
+    },
+	{
+        "name": "Joey",
+        "type": "progressive",
+		"allow_disabled": "false",
+		"stages": [
+			{
+				"img": "images/items/phone_card.png"
+			},
+			{
+				"img": "images/chests/default_unopened.png"
+			},
+			{
+				"img": "images/chests/default_unopened.png",
+				"img_mods": "overlay|images/mod/no64.png",
+				"codes": "joey"
+			}
+		]
+    },
+	{
+        "name": "Jose",
+        "type": "progressive",
+		"allow_disabled": "false",
+		"stages": [
+			{
+				"img": "images/items/phone_card.png"
+			},
+			{
+				"img": "images/chests/default_unopened.png"
+			},
+			{
+				"img": "images/chests/default_unopened.png",
+				"img_mods": "overlay|images/mod/no64.png",
+				"codes": "jose"
+			}
+		]
+    },
+	{
+        "name": "Huey",
+        "type": "progressive",
+		"allow_disabled": "false",
+		"stages": [
+			{
+				"img": "images/items/phone_card.png"
+			},
+			{
+				"img": "images/chests/default_unopened.png"
+			},
+			{
+				"img": "images/chests/default_unopened.png",
+				"img_mods": "overlay|images/mod/no64.png",
+				"codes": "huey"
+			}
+		]
+    }
+]

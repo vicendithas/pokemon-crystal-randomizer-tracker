@@ -1,4 +1,10 @@
-Tracker:AddItems("items/common.json")
+Tracker:AddItems("items/badges.json")
+Tracker:AddItems("items/gym_leaders.json")
+Tracker:AddItems("items/items.json")
+Tracker:AddItems("items/modifiers.json")
+Tracker:AddItems("items/other.json")
+Tracker:AddItems("items/phone_calls.json")
+Tracker:AddItems("items/pokemon.json")
 
 Tracker:AddMaps("maps/maps.json")
 

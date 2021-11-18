@@ -23,9 +23,7 @@
 				"name": "Picknicker Erin (Rematches)",
 				"access_rules": ["pokegear, elite_four, fix_power_plant"],
 				"visibility_rules": ["phone_items"],
-				"chest_unopened_img": "images/chests/phone_unopened.png",
-				"chest_opened_img": "images/chests/phone_opened.png",
-				"item_count": 1
+				"hosted_item": "erin"
 			}
 		],
 		"map_locations": [

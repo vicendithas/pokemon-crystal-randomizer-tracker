@@ -1,0 +1,124 @@
+[
+	{
+        "name": "Full Item",
+        "type": "toggle",
+        "img": "images/other/full_item.png",
+        "disabled_img_mods": "overlay|images/mod/no64.png",
+		"initial_active_state": true,
+        "codes": "full_item"
+    },
+	{
+        "name": "Ilex Cut Tree",
+        "type": "toggle",
+        "img": "images/other/cut_tree.png",
+        "disabled_img_mods": "overlay|images/mod/no64.png",
+		"initial_active_state": false,
+        "codes": "cut_tree"
+    },
+	{
+        "name": "Vanilla Clair",
+        "type": "toggle",
+        "img": "images/other/vanilla_clair.png",
+        "disabled_img_mods": "overlay|images/mod/no64.png",
+		"initial_active_state": false,
+        "codes": "vanilla_clair"
+    },	
+	{
+        "name": "Backward Kanto",
+        "type": "toggle",
+        "img": "images/other/backward_kanto.png",
+        "disabled_img_mods": "overlay|images/mod/no64.png",
+		"initial_active_state": true,
+        "codes": "backward_kanto"
+    },
+	{
+        "name": "Elite Four Required",
+        "type": "toggle",
+        "img": "images/other/trophy.png",
+        "disabled_img_mods": "overlay|images/mod/no64.png",
+		"initial_active_state": false,
+        "codes": "elite_four_req"
+    },
+	{
+        "name": "Tin Tower",
+        "type": "toggle",
+        "img": "images/other/tin_tower.png",
+        "disabled_img_mods": "overlay|images/mod/no64.png",
+		"initial_active_state": false,
+        "codes": "tin_tower"
+    },
+	{
+        "name": "Hidden Items",
+        "type": "toggle",
+        "img": "images/other/hidden_items.png",
+        "disabled_img_mods": "overlay|images/mod/no64.png",
+		"initial_active_state": false,
+        "codes": "hidden_items"
+    },
+	{
+        "name": "Berry Trees",
+        "type": "toggle",
+        "img": "images/other/berry_tree.png",
+        "disabled_img_mods": "overlay|images/mod/no64.png",
+		"initial_active_state": false,
+        "codes": "berry_trees"
+    },
+	{
+        "name": "Day and Happiness Items",
+        "type": "toggle",
+        "img": "images/other/clock.png",
+        "disabled_img_mods": "overlay|images/mod/no64.png",
+		"initial_active_state": false,
+        "codes": "day_happiness"
+    },
+	{
+        "name": "Open Mt. Silver",
+        "type": "toggle",
+        "img": "images/other/mountain.png",
+        "disabled_img_mods": "overlay|images/mod/no64.png",
+		"initial_active_state": false,
+        "codes": "open_silver"
+    },
+	{
+        "name": "Pointless Checks",
+        "type": "toggle",
+        "img": "images/other/question_mark.png",
+        "disabled_img_mods": "overlay|images/mod/no64.png",
+		"initial_active_state": false,
+        "codes": "pointless_checks"
+    },
+	{
+        "name": "Phone Call Items",
+        "type": "toggle",
+        "img": "images/items/phone_card.png",
+        "disabled_img_mods": "overlay|images/mod/no64.png",
+		"initial_active_state": false,
+        "codes": "phone_items"
+    },
+	{
+        "name": "Bug Catching Contest",
+        "type": "toggle",
+        "img": "images/pokemon/scyther.png",
+        "disabled_img_mods": "overlay|images/mod/no56.png",
+		"initial_active_state": false,
+        "codes": "bug_catching"
+    },
+	{
+        "name": "Pokemon Locked Checks",
+        "type": "toggle",
+        "img": "images/pokemon/eevee.png",
+        "disabled_img_mods": "overlay|images/mod/no40.png",
+		"initial_active_state": false,
+        "codes": "pokemon_locked"
+    },
+	{
+        "name": "Badges Required for Red",
+        "type": "consumable",
+        "img": "images/badges/boulder_badge.png",
+		"initial_quantity": 16,
+		"min_quantity": 0,
+		"max_quantity": 16,
+		"increment": 1,
+        "codes": "badges_req_red"
+    }
+]

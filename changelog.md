@@ -1,5 +1,11 @@
 # Changelog
 
+## 4.5
+Cleaned up the 2 step remove locations (Sudowoodo and Chuck's Wife)\
+Removed the Snorlax location. West Kanto will now show as available as soon as all 3 Radio pieces are acquired.\
+Changed the Phone trainer items to progressive items. Will first show a phone icon, then a Pokeball, then a crossed out Pokeball.\
+The rest
+
 ## 4.4
 Changed some of the "event" checks to ease confusion on how many checks there are.\
 Changed visuals on completed checks to better indicate when a check is done.\

@@ -1,0 +1,420 @@
+[
+    {
+        "name": "Radio Tower Rockets",
+        "type": "progressive",
+		"allow_disabled": "false",
+		"stages": [
+			{
+				"img": "images/other/team_rocket.png"
+			},
+			{
+				"img": "images/other/team_rocket.png",
+				"img_mods": "overlay|images/mod/no64.png",
+				"codes": "team_rocket"
+			}
+		]
+    },
+    {
+        "name": "Elite Four",
+        "type": "toggle",
+        "img": "images/other/trophy.png",
+        "codes": "elite_four"
+    },
+    {
+        "name": "Red",
+        "type": "toggle",
+        "img": "images/other/red.png",
+        "codes": "red"
+    },
+    {
+        "name": "GO MODE",
+        "type": "toggle",
+        "img": "images/other/go.png",
+        "codes": "go"
+    },
+	{
+        "name": "Rock Smash Guy",
+        "type": "progressive",
+		"allow_disabled": "false",
+		"stages": [
+			{
+				"img": "images/chests/tm_hm_unopened.png"
+			},
+			{
+				"img": "images/chests/tm_hm_opened.png",
+				"codes": "rocksmashguy"
+			}
+        ]
+    },
+    {
+        "name": "Pick Up Kenya",
+        "type": "progressive",
+		"allow_disabled": "false",
+		"stages": [
+			{
+				"img": "images/pokemon/spearow.png"
+			},
+			{
+				"img": "images/pokemon/spearow.png",
+				"img_mods": "overlay|images/mod/no40.png",
+				"codes": "kenya"
+			}
+		]
+    },
+    {
+        "name": "Deliver Mail",
+        "type": "progressive",
+		"allow_disabled": "false",
+		"stages": [
+			{
+				"img": "images/chests/tm_hm_unopened.png"
+			},
+			{
+				"img": "images/chests/tm_hm_opened.png",
+				"codes": "deliver_mail"
+			}
+        ]
+    },
+	{
+        "name": "Slowpoke Well Rockets",
+        "type": "progressive",
+		"allow_disabled": "false",
+		"stages": [
+			{
+				"img": "images/other/team_rocket.png"
+			},
+			{
+				"img": "images/other/team_rocket.png",
+				"img_mods": "overlay|images/mod/no64.png",
+				"codes": "slowpoke_well"
+			}
+        ]
+    },
+    {
+        "name": "Retrieve Farfetch'd",
+        "type": "progressive",
+		"allow_disabled": "false",
+		"stages": [
+			{
+				"img": "images/chests/tm_hm_unopened.png"
+			},
+			{
+				"img": "images/chests/tm_hm_opened.png",
+				"codes": "farfetch'd"
+			}
+        ]
+    },
+    {
+        "name": "Mahogany Rockets",
+        "type": "progressive",
+		"allow_disabled": "false",
+		"stages": [
+			{
+				"img": "images/chests/tm_hm_unopened.png"
+			},
+			{
+				"img": "images/chests/tm_hm_opened.png",
+				"codes": "electrode"
+			}
+        ]
+    },
+    {
+        "name": "Talk To Oak",
+        "type": "progressive",
+		"allow_disabled": "false",
+		"stages": [
+			{
+				"img": "images/other/oak.png"
+			},
+			{
+				"img": "images/other/oak.png",
+				"img_mods": "overlay|images/mod/no64.png",
+				"codes": "oak"
+			}
+		]
+    },
+    {
+        "name": "Talk to Jasmine",
+        "type": "progressive",
+		"allow_disabled": "false",
+		"stages": [
+			{
+				"img": "images/gyms/jasmine.png"
+			},
+			{
+				"img": "images/gyms/jasmine.png",
+				"img_mods": "overlay|images/mod/no56.png",
+				"codes": "talk_jasmine"
+			}
+		]
+    },
+	{
+        "name": "Return Secretpotion",
+        "type": "progressive",
+		"allow_disabled": "false",
+		"stages": [
+			{
+				"img": "images/items/secret_potion.png"
+			},
+			{
+				"img": "images/items/secret_potion.png",
+				"img_mods": "overlay|images/mod/no64.png",
+				"codes": "return_potion"
+			}
+		]
+    },
+	{
+        "name": "Pass Clair Test",
+        "type": "progressive",
+		"allow_disabled": "false",
+		"stages": [
+			{
+				"img": "images/gyms/clair.png"
+			},
+			{
+				"img": "images/gyms/clair.png",
+				"img_mods": "overlay|images/mod/no56.png",
+				"codes": "clair_test"
+			}
+		]
+    },
+    {
+        "name": "Talk to Blue",
+        "type": "progressive",
+		"allow_disabled": "false",
+		"stages": [
+			{
+				"img": "images/gyms/blue.png"
+			},
+			{
+				"img": "images/gyms/blue.png",
+				"img_mods": "overlay|images/mod/no56.png",
+				"codes": "talk_blue"
+			}
+		]
+    },
+	{
+        "name": "Ruin Misty's Date",
+        "type": "progressive",
+		"allow_disabled": "false",
+		"stages": [
+			{
+				"img": "images/gyms/misty.png"
+			},
+			{
+				"img": "images/gyms/misty.png",
+				"img_mods": "overlay|images/mod/no56.png",
+				"codes": "talk_misty"
+			}
+		]
+    },
+    {
+        "name": "Talk to Power Plant Manager",
+        "type": "progressive",
+		"allow_disabled": "false",
+		"stages": [
+			{
+				"img": "images/other/power_plant_manager.png"
+			},
+			{
+				"img": "images/other/power_plant_manager.png",
+				"img_mods": "overlay|images/mod/no64.png",
+				"codes": "power_plant_manager"
+			}
+		]
+    },
+    {
+        "name": "Fix Power Plant",
+        "type": "progressive",
+		"allow_disabled": "false",
+		"stages": [
+			{
+				"img": "images/chests/tm_hm_unopened.png"
+			},
+			{
+				"img": "images/chests/tm_hm_opened.png",
+				"codes": "fix_power_plant"
+			}
+        ]
+    },
+	{
+        "name": "Red Gyarados",
+        "type": "progressive",
+		"allow_disabled": "false",
+		"stages": [
+			{
+				"img": "images/pokemon/red_gyarados.png"
+			},
+			{
+				"img": "images/pokemon/red_gyarados.png",
+				"img_mods": "overlay|images/mod/no56.png",
+				"codes": "red_gyarados"
+			}
+		]
+    },
+	{
+        "name": "Defeat/Catch Ho-oh",
+        "type": "progressive",
+		"allow_disabled": "false",
+		"stages": [
+			{
+				"img": "images/pokemon/ho-oh.png"
+			},
+			{
+				"img": "images/pokemon/ho-oh.png",
+				"img_mods": "overlay|images/mod/no56.png",
+				"codes": "ho-oh"
+			}
+		]
+    },
+	{
+        "name": "Boat Quest",
+        "type": "progressive",
+		"allow_disabled": "false",
+		"stages": [
+			{
+				"img": "images/other/ss_aqua.png"
+			},
+			{
+				"img": "images/other/ss_aqua.png",
+				"img_mods": "overlay|images/mod/no120.png",
+				"codes": "boat_quest"
+			}
+		]
+    },
+	{
+        "name": "BCC First",
+        "type": "progressive",
+		"allow_disabled": "false",
+		"stages": [
+			{
+				"img": "images/pokemon/scyther.png"
+			},
+			{
+				"img": "images/pokemon/scyther.png",
+				"img_mods": "overlay|images/mod/no56.png",
+				"codes": "bcg_first"
+			}
+		]
+    },
+	{
+        "name": "BCC Second",
+        "type": "progressive",
+		"allow_disabled": "false",
+		"stages": [
+			{
+				"img": "images/pokemon/beedrill.png"
+			},
+			{
+				"img": "images/pokemon/beedrill.png",
+				"img_mods": "overlay|images/mod/no56.png",
+				"codes": "bcg_second"
+			}
+		]
+    },
+	{
+        "name": "BCC Third",
+        "type": "progressive",
+		"allow_disabled": "false",
+		"stages": [
+			{
+				"img": "images/pokemon/venonat.png"
+			},
+			{
+				"img": "images/pokemon/venonat.png",
+				"img_mods": "overlay|images/mod/no40.png",
+				"codes": "bcg_third"
+			}
+		]
+    },
+	{
+        "name": "BCC Consolation",
+        "type": "progressive",
+		"allow_disabled": "false",
+		"stages": [
+			{
+				"img": "images/pokemon/caterpie.png"
+			},
+			{
+				"img": "images/pokemon/caterpie.png",
+				"img_mods": "overlay|images/mod/no40.png",
+				"codes": "bcg_consolation"
+			}
+		]
+    },
+	{
+        "name": "Bill's Grandpa 1st",
+        "type": "progressive",
+		"allow_disabled": "false",
+		"stages": [
+			{
+				"img": "images/pokemon/lickitung.png"
+			},
+			{
+				"img": "images/pokemon/lickitung.png",
+				"img_mods": "overlay|images/mod/no56.png",
+				"codes": "bill_gpa_1"
+			}
+		]
+    },
+	{
+        "name": "Bill's Grandpa 2nd",
+        "type": "progressive",
+		"allow_disabled": "false",
+		"stages": [
+			{
+				"img": "images/pokemon/oddish.png"
+			},
+			{
+				"img": "images/pokemon/oddish.png",
+				"img_mods": "overlay|images/mod/no32.png",
+				"codes": "bill_gpa_2"
+			}
+		]
+    },
+	{
+        "name": "Bill's Grandpa 3rd",
+        "type": "progressive",
+		"allow_disabled": "false",
+		"stages": [
+			{
+				"img": "images/pokemon/staryu.png"
+			},
+			{
+				"img": "images/pokemon/staryu.png",
+				"img_mods": "overlay|images/mod/no48.png",
+				"codes": "bill_gpa_3"
+			}
+		]
+    },
+	{
+        "name": "Bill's Grandpa 4th",
+        "type": "progressive",
+		"allow_disabled": "false",
+		"stages": [
+			{
+				"img": "images/pokemon/growlithe.png"
+			},
+			{
+				"img": "images/pokemon/growlithe.png",
+				"img_mods": "overlay|images/mod/no40.png",
+				"codes": "bill_gpa_4"
+			}
+		]
+    },
+	{
+        "name": "Bill's Grandpa 5th",
+        "type": "progressive",
+		"allow_disabled": "false",
+		"stages": [
+			{
+				"img": "images/pokemon/pichu.png"
+			},
+			{
+				"img": "images/pokemon/pichu.png",
+				"img_mods": "overlay|images/mod/no40.png",
+				"codes": "bill_gpa_5"
+			}
+		]
+    }
+]

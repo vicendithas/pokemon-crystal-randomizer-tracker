@@ -1,0 +1,98 @@
+[
+    {
+        "name": "Zephyr Badge",
+        "type": "toggle",
+        "img": "images/badges/zephyr_badge.png",
+        "codes": "zephyr_badge,badge"
+    },
+    {
+        "name": "Hive Badge",
+        "type": "toggle",
+        "img": "images/badges/hive_badge.png",
+        "codes": "hive_badge,badge"
+    },
+    {
+        "name": "Plain Badge",
+        "type": "toggle",
+        "img": "images/badges/plain_badge.png",
+        "codes": "plain_badge,badge"
+    },
+    {
+        "name": "Fog Badge",
+        "type": "toggle",
+        "img": "images/badges/fog_badge.png",
+        "codes": "fog_badge,badge"
+    },
+    {
+        "name": "Storm Badge",
+        "type": "toggle",
+        "img": "images/badges/storm_badge.png",
+        "codes": "storm_badge,badge"
+    },
+    {
+        "name": "Mineral Badge",
+        "type": "toggle",
+        "img": "images/badges/mineral_badge.png",
+        "codes": "mineral_badge,badge"
+    },
+    {
+        "name": "Glacier Badge",
+        "type": "toggle",
+        "img": "images/badges/glacier_badge.png",
+        "codes": "glacier_badge,badge"
+    },
+    {
+        "name": "Rising Badge",
+        "type": "toggle",
+        "img": "images/badges/rising_badge.png",
+        "codes": "rising_badge,badge"
+    },
+    {
+        "name": "Boulder Badge",
+        "type": "toggle",
+        "img": "images/badges/boulder_badge.png",
+        "codes": "boulder_badge,badge"
+    },
+    {
+        "name": "Cascade Badge",
+        "type": "toggle",
+        "img": "images/badges/cascade_badge.png",
+        "codes": "cascade_badge,badge"
+    },
+    {
+        "name": "Thunder Badge",
+        "type": "toggle",
+        "img": "images/badges/thunder_badge.png",
+        "codes": "thunder_badge,badge"
+    },
+    {
+        "name": "Rainbow Badge",
+        "type": "toggle",
+        "img": "images/badges/rainbow_badge.png",
+        "codes": "rainbow_badge,badge"
+    },
+    {
+        "name": "Soul Badge",
+        "type": "toggle",
+        "img": "images/badges/soul_badge.png",
+        "codes": "soul_badge,badge"
+    },
+    {
+        "name": "Marsh Badge",
+        "type": "toggle",
+        "img": "images/badges/marsh_badge.png",
+        "codes": "marsh_badge,badge"
+    },
+    {
+        "name": "Volcano Badge",
+        "type": "toggle",
+        "img": "images/badges/volcano_badge.png",
+        "codes": "volcano_badge,badge"
+    },
+    {
+        "name": "Earth Badge",
+        "type": "toggle",
+        "img": "images/badges/earth_badge.png",
+        "codes": "earth_badge,badge"
+    }
+]

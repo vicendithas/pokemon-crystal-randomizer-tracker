@@ -22,5 +22,9 @@
     {
         "name": "canUseWaterfall",
         "access_rules": ["hm07,rising_badge"]
+    },
+	{
+        "name": "snorlaxAvailable",
+        "access_rules": ["pokegear,radio_card,expansion_card"]
     }
 ]

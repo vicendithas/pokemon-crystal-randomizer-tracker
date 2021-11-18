@@ -17,7 +17,7 @@
 				"name": "Give Elm Egg (Aide's Pokeballs)",
 				"access_rules": ["mystery_egg"],
 				"visibility_rules": ["full_item"],
-				"hosted_item": "elm"
+				"item_count": 1
 			},
 			{
 				"name": "Rising Badge",

@@ -11,7 +11,7 @@
 			},  
 			{
 				"name": "Farfetch'd (HM01 - Cut)",
-				"access_rules": ["rocketgrunt"], 
+				"access_rules": ["slowpoke_well"], 
 				"hosted_item": "farfetch'd"
 			},
 			{

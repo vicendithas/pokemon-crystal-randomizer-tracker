@@ -31,9 +31,7 @@
 				"name": "Picknicker Tiffany (Clefairy)",
 				"access_rules": ["pokegear, clefairy"],
 				"visibility_rules": ["phone_items, pokemon_locked"],
-				"chest_unopened_img": "images/chests/phone_unopened.png",
-				"chest_opened_img": "images/chests/phone_opened.png",
-				"item_count": 1
+				"hosted_item": "tiffany"
 			}
 		],
 		"map_locations": [

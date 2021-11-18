@@ -1,0 +1,152 @@
+[
+	{
+        "name": "Marill",
+        "type": "progressive",
+		"allow_disabled": "false",
+		"stages": [
+			{
+				"img": "images/pokemon/marill.png"
+			},
+			{
+				"img": "images/pokemon/marill.png",
+				"img_mods": "overlay|images/mod/no40.png",
+				"codes": "marill"
+			}
+		]
+    },
+	{
+        "name": "Pikachu",
+        "type": "progressive",
+		"allow_disabled": "false",
+		"stages": [
+			{
+				"img": "images/pokemon/pikachu.png"
+			},
+			{
+				"img": "images/pokemon/pikachu.png",
+				"img_mods": "overlay|images/mod/no40.png",
+				"codes": "pikachu"
+			}
+		]
+    },
+	{
+        "name": "Clefairy",
+        "type": "progressive",
+		"allow_disabled": "false",
+		"stages": [
+			{
+				"img": "images/pokemon/clefairy.png"
+			},
+			{
+				"img": "images/pokemon/clefairy.png",
+				"img_mods": "overlay|images/mod/no40.png",
+				"codes": "clefairy"
+			}
+		]
+    },
+	{
+        "name": "Lickitung",
+        "type": "progressive",
+		"allow_disabled": "false",
+		"stages": [
+			{
+				"img": "images/pokemon/lickitung.png"
+			},
+			{
+				"img": "images/pokemon/lickitung.png",
+				"img_mods": "overlay|images/mod/no56.png",
+				"codes": "lickitung"
+			}
+		]
+    },
+	{
+        "name": "Oddish",
+        "type": "progressive",
+		"allow_disabled": "false",
+		"stages": [
+			{
+				"img": "images/pokemon/oddish.png"
+			},
+			{
+				"img": "images/pokemon/oddish.png",
+				"img_mods": "overlay|images/mod/no32.png",
+				"codes": "oddish"
+			}
+		]
+    },
+	{
+        "name": "Staryu",
+        "type": "progressive",
+		"allow_disabled": "false",
+		"stages": [
+			{
+				"img": "images/pokemon/staryu.png"
+			},
+			{
+				"img": "images/pokemon/staryu.png",
+				"img_mods": "overlay|images/mod/no48.png",
+				"codes": "staryu"
+			}
+		]
+    },
+	{
+        "name": "Growlithe",
+        "type": "progressive",
+		"allow_disabled": "false",
+		"stages": [
+			{
+				"img": "images/pokemon/growlithe.png"
+			},
+			{
+				"img": "images/pokemon/growlithe.png",
+				"img_mods": "overlay|images/mod/no40.png",
+				"codes": "growlithe"
+			}
+		]
+    },
+	{
+        "name": "Pichu",
+        "type": "progressive",
+		"allow_disabled": "false",
+		"stages": [
+			{
+				"img": "images/pokemon/pichu.png"
+			},
+			{
+				"img": "images/pokemon/pichu.png",
+				"img_mods": "overlay|images/mod/no40.png",
+				"codes": "pichu"
+			}
+		]
+    },
+	{
+        "name": "Togepi",
+        "type": "progressive",
+		"allow_disabled": "false",
+		"stages": [
+			{
+				"img": "images/pokemon/togepi.png"
+			},
+			{
+				"img": "images/pokemon/togepi.png",
+				"img_mods": "overlay|images/mod/no32.png",
+				"codes": "togepi"
+			}
+		]
+    },
+	{
+        "name": "Magikarp",
+        "type": "progressive",
+		"allow_disabled": "false",
+		"stages": [
+			{
+				"img": "images/pokemon/magikarp.png"
+			},
+			{
+				"img": "images/pokemon/magikarp.png",
+				"img_mods": "overlay|images/mod/no48.png",
+				"codes": "magikarp"
+			}
+		]
+    }
+]

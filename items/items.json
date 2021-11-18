@@ -1,0 +1,214 @@
+[
+    {
+        "name": "PokeDex",
+        "type": "toggle",
+        "img": "images/items/pokedex.png",
+        "codes": "pokedex"
+    },
+	{
+        "name": "PokeGear",
+        "type": "toggle",
+        "img": "images/items/pokegear.png",
+        "codes": "pokegear"
+    },
+	{
+        "name": "Map Card",
+        "type": "toggle",
+        "img": "images/items/map_card.png",
+        "codes": "map_card"
+    },
+	{
+        "name": "Radio Card",
+        "type": "toggle",
+        "img": "images/items/radio_card.png",
+        "codes": "radio_card"
+    },
+	{
+        "name": "Expansion Card",
+        "type": "toggle",
+        "img": "images/items/expansion_card.png",
+        "codes": "expansion_card"
+    },
+	{
+        "name": "Old Rod",
+        "type": "toggle",
+        "img": "images/items/old_rod.png",
+        "codes": "old_rod"
+    },
+	{
+        "name": "Good Rod",
+        "type": "toggle",
+        "img": "images/items/good_rod.png",
+        "codes": "good_rod"
+    },
+	{
+        "name": "Super Rod",
+        "type": "toggle",
+        "img": "images/items/super_rod.png",
+        "codes": "super_rod"
+    },
+	{
+        "name": "Bicycle",
+        "type": "toggle",
+        "img": "images/items/bicycle.png",
+        "codes": "bicycle"
+    },
+	{
+        "name": "S.S. Ticket",
+        "type": "toggle",
+        "img": "images/items/ss_ticket.png",
+        "codes": "ss_ticket"
+    },
+	{
+        "name": "Pass",
+        "type": "toggle",
+        "img": "images/items/pass.png",
+        "codes": "pass"
+    },
+	{
+        "name": "Squirt Bottle",
+        "type": "toggle",
+        "img": "images/items/squirt_bottle.png",
+        "codes": "squirt_bottle"
+    },
+	{
+        "name": "Secret Potion",
+        "type": "toggle",
+        "img": "images/items/secret_potion.png",
+        "codes": "secret_potion"
+    },
+	{
+        "name": "Basement Key",
+        "type": "toggle",
+        "img": "images/items/basement_key.png",
+        "codes": "basement_key"
+    },
+	{
+        "name": "Card Key",
+        "type": "toggle",
+        "img": "images/items/card_key.png",
+        "codes": "card_key"
+    },
+	{
+        "name": "Machine Part",
+        "type": "toggle",
+        "img": "images/items/machine_part.png",
+        "codes": "machine_part"
+    },
+	{
+        "name": "Lost Item",
+        "type": "toggle",
+        "img": "images/items/lost_item.png",
+        "codes": "lost_item"
+    },
+	{
+        "name": "Water Stone",
+        "type": "toggle",
+        "img": "images/items/water_stone.png",
+        "codes": "water_stone"
+    },
+	{
+        "name": "Mystery Egg",
+        "type": "toggle",
+        "img": "images/items/mystery_egg.png",
+        "codes": "mystery_egg"
+    },
+	{
+        "name": "Coin Case",
+        "type": "toggle",
+        "img": "images/items/coin_case.png",
+        "codes": "coin_case"
+    },
+    {
+        "name": "Blue Card",
+        "type": "toggle",
+        "img": "images/items/blue_card.png",
+        "codes": "blue_card"
+    },
+	{
+        "name": "Itemfinder",
+        "type": "toggle",
+        "img": "images/items/item_finder.png",
+        "codes": "item_finder"
+    },
+	{
+        "name": "Red Scale",
+        "type": "toggle",
+        "img": "images/items/red_scale.png",
+        "codes": "red_scale"
+    },
+    {
+        "name": "Clear Bell",
+        "type": "toggle",
+        "img": "images/items/clear_bell.png",
+        "codes": "clear_bell"
+    },
+    {
+        "name": "Silver Wing",
+        "type": "toggle",
+        "img": "images/items/silver_wing.png",
+        "codes": "silver_wing"
+    },
+	{
+        "name": "Rainbow Wing",
+        "type": "toggle",
+        "img": "images/items/rainbow_wing.png",
+        "codes": "rainbow_wing"
+    },
+    {
+        "name": "HM01 Cut",
+        "type": "toggle",
+        "img": "images/hms/normal.png",
+		"img_mods": "overlay|images/hms/1.png",
+        "codes": "hm01"
+    },
+    {
+        "name": "HM02 Fly",
+        "type": "toggle",
+        "img": "images/hms/flying.png",
+		"img_mods": "overlay|images/hms/2.png",
+        "codes": "hm02"
+    },
+    {
+        "name": "HM03 Surf",
+        "type": "toggle",
+        "img": "images/hms/water.png",
+		"img_mods": "overlay|images/hms/3.png",
+        "codes": "hm03"
+    },
+    {
+        "name": "HM04 Strength",
+        "type": "toggle",
+        "img": "images/hms/normal.png",
+		"img_mods": "overlay|images/hms/4.png",
+        "codes": "hm04"
+    },
+    {
+        "name": "HM05 Flash",
+        "type": "toggle",
+        "img": "images/hms/normal.png",
+		"img_mods": "overlay|images/hms/5.png",
+        "codes": "hm05"
+    },
+    {
+        "name": "HM06 Whirlpool",
+        "type": "toggle",
+        "img": "images/hms/water.png",
+		"img_mods": "overlay|images/hms/6.png",
+        "codes": "hm06"
+    },
+    {
+        "name": "HM07 Waterfall",
+        "type": "toggle",
+        "img": "images/hms/water.png",
+		"img_mods": "overlay|images/hms/7.png",
+        "codes": "hm07"
+    },
+	{
+        "name": "TM08 Rock Smash",
+        "type": "toggle",
+        "img": "images/hms/fighting.png",
+		"img_mods": "overlay|images/hms/8.png,overlay|images/hms/tm.png",
+        "codes": "tm08"
+    }
+]

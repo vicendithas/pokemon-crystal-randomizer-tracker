@@ -19,7 +19,7 @@
 			},
 			{
 				"name": "Return To The Guard",
-				"access_rules": ["mail"],
+				"access_rules": ["deliver_mail"],
 				"visibility_rules": ["full_item"],
 				"item_count": 1
 			},

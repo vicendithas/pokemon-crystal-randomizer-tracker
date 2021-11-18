@@ -1,0 +1,242 @@
+[
+	{
+        "name": "Falkner",
+        "type": "progressive",
+		"allow_disabled": "false",
+		"stages": [
+			{
+				"img": "images/gyms/falkner.png"
+			},
+			{
+				"img": "images/gyms/falkner.png",
+				"img_mods": "overlay|images/mod/no56.png",
+				"codes": "falkner"
+			}
+		]
+    },
+	{
+        "name": "Bugsy",
+        "type": "progressive",
+		"allow_disabled": "false",
+		"stages": [
+			{
+				"img": "images/gyms/bugsy.png"
+			},
+			{
+				"img": "images/gyms/bugsy.png",
+				"img_mods": "overlay|images/mod/no56.png",
+				"codes": "bugsy"
+			}
+		]
+    },
+	{
+        "name": "Whitney",
+        "type": "progressive",
+		"allow_disabled": "false",
+		"stages": [
+			{
+				"img": "images/gyms/whitney.png"
+			},
+			{
+				"img": "images/gyms/whitney.png",
+				"img_mods": "overlay|images/mod/no56.png",
+				"codes": "whitney"
+			}
+		]
+    },
+	{
+        "name": "Morty",
+        "type": "progressive",
+		"allow_disabled": "false",
+		"stages": [
+			{
+				"img": "images/gyms/morty.png"
+			},
+			{
+				"img": "images/gyms/morty.png",
+				"img_mods": "overlay|images/mod/no56.png",
+				"codes": "morty"
+			}
+		]
+    },
+	{
+        "name": "Jasmine",
+        "type": "progressive",
+		"allow_disabled": "false",
+		"stages": [
+			{
+				"img": "images/gyms/jasmine.png"
+			},
+			{
+				"img": "images/gyms/jasmine.png",
+				"img_mods": "overlay|images/mod/no56.png",
+				"codes": "jasmine"
+			}
+		]
+    },
+	{
+        "name": "Chuck",
+        "type": "progressive",
+		"allow_disabled": "false",
+		"stages": [
+			{
+				"img": "images/gyms/chuck.png"
+			},
+			{
+				"img": "images/gyms/chuck.png",
+				"img_mods": "overlay|images/mod/no56.png",
+				"codes": "chuck"
+			}
+		]
+    },
+	{
+        "name": "Pryce",
+        "type": "progressive",
+		"allow_disabled": "false",
+		"stages": [
+			{
+				"img": "images/gyms/pryce.png"
+			},
+			{
+				"img": "images/gyms/pryce.png",
+				"img_mods": "overlay|images/mod/no56.png",
+				"codes": "pryce"
+			}
+		]
+    },
+	{
+        "name": "Clair",
+        "type": "progressive",
+		"allow_disabled": "false",
+		"stages": [
+			{
+				"img": "images/gyms/clair.png"
+			},
+			{
+				"img": "images/gyms/clair.png",
+				"img_mods": "overlay|images/mod/no56.png",
+				"codes": "clair"
+			}
+		]
+    },
+	{
+        "name": "Brock",
+        "type": "progressive",
+		"allow_disabled": "false",
+		"stages": [
+			{
+				"img": "images/gyms/brock.png"
+			},
+			{
+				"img": "images/gyms/brock.png",
+				"img_mods": "overlay|images/mod/no56.png",
+				"codes": "brock"
+			}
+		]
+    },
+	{
+        "name": "Misty",
+        "type": "progressive",
+		"allow_disabled": "false",
+		"stages": [
+			{
+				"img": "images/gyms/misty.png"
+			},
+			{
+				"img": "images/gyms/misty.png",
+				"img_mods": "overlay|images/mod/no56.png",
+				"codes": "misty"
+			}
+		]
+    },
+	{
+        "name": "Lt. Surge",
+        "type": "progressive",
+		"allow_disabled": "false",
+		"stages": [
+			{
+				"img": "images/gyms/lt-surge.png"
+			},
+			{
+				"img": "images/gyms/lt-surge.png",
+				"img_mods": "overlay|images/mod/no56.png",
+				"codes": "lt-surge"
+			}
+		]
+    },
+	{
+        "name": "Erika",
+        "type": "progressive",
+		"allow_disabled": "false",
+		"stages": [
+			{
+				"img": "images/gyms/erika.png"
+			},
+			{
+				"img": "images/gyms/erika.png",
+				"img_mods": "overlay|images/mod/no56.png",
+				"codes": "erika"
+			}
+		]
+    },
+	{
+        "name": "Janine",
+        "type": "progressive",
+		"allow_disabled": "false",
+		"stages": [
+			{
+				"img": "images/gyms/janine.png"
+			},
+			{
+				"img": "images/gyms/janine.png",
+				"img_mods": "overlay|images/mod/no56.png",
+				"codes": "janine"
+			}
+		]
+    },
+	{
+        "name": "Sabrina",
+        "type": "progressive",
+		"allow_disabled": "false",
+		"stages": [
+			{
+				"img": "images/gyms/sabrina.png"
+			},
+			{
+				"img": "images/gyms/sabrina.png",
+				"img_mods": "overlay|images/mod/no56.png",
+				"codes": "sabrina"
+			}
+		]
+    },
+	{
+        "name": "Blaine",
+        "type": "progressive",
+		"allow_disabled": "false",
+		"stages": [
+			{
+				"img": "images/gyms/blaine.png"
+			},
+			{
+				"img": "images/gyms/blaine.png",
+				"img_mods": "overlay|images/mod/no56.png",
+				"codes": "blaine"
+			}
+		]
+    },
+	{
+        "name": "Blue",
+        "type": "progressive",
+		"allow_disabled": "false",
+		"stages": [
+			{
+				"img": "images/gyms/blue.png"
+			},
+			{
+				"img": "images/gyms/blue.png",
+				"img_mods": "overlay|images/mod/no56.png",
+				"codes": "blue"
+			}
+		]
+    }
+]

@@ -3,7 +3,7 @@
 		"name": "Route 2",
 		"chest_unopened_img": "images/chests/default_unopened.png",
         "chest_opened_img": "images/chests/default_opened.png",
-		"access_rules": ["snorlax"],
+		"access_rules": ["@snorlaxAvailable"],
 		"sections": [
 			{
 				"name": "Outside The Cave",
