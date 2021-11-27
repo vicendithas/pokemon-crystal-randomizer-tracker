@@ -3,7 +3,7 @@
 		"name": "Diglett's Cave",
 		"chest_unopened_img": "images/chests/default_unopened.png",
         "chest_opened_img": "images/chests/default_opened.png",
-		"access_rules": ["@snorlaxAvailable"],
+		"access_rules": ["@Saffron City, @snorlaxAvailable"],
 		"sections": [
 			{
 				"name": "Hidden Items",

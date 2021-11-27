@@ -3,7 +3,7 @@
 		"name": "Route 26",
 		"chest_unopened_img": "images/chests/default_unopened.png",
         "chest_opened_img": "images/chests/default_opened.png",
-		"access_rules": ["@canUseSurf, @canUseWaterfall", "@snorlaxAvailable, @canUseCut"],
+		"access_rules": ["@canUseSurf, @canUseWaterfall", "@Saffron City, @snorlaxAvailable, @canUseCut"],
 		"sections": [
 			{
 				"name": "Ground Item",

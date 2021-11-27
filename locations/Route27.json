@@ -3,22 +3,21 @@
 		"name": "Route 27",
 		"chest_unopened_img": "images/chests/default_unopened.png",
         "chest_opened_img": "images/chests/default_opened.png",
+		"access_rules": ["@canUseSurf"],
 		"sections": [
 			{
 				"name": "Before The Waterfall",
-				"access_rules": ["@canUseSurf"],
 				"visibility_rules": ["full_item"],
 				"item_count": 1
 			},
 			{
 				"name": "Inside The Falls",
-				"access_rules": ["@canUseSurf"],
 				"visibility_rules": ["full_item"],
 				"item_count": 1
 			},
 			{
 				"name": "TM37 - Sandstorm",
-				"access_rules": ["@canUseSurf, @canUseWaterfall", "@snorlaxAvailable, @canUseCut, @canUseSurf"],
+				"access_rules": ["@canUseWaterfall", "@Saffron City, @snorlaxAvailable, @canUseCut"],
 				"visibility_rules": ["day_happiness"],
 				"chest_unopened_img": "images/chests/tm_hm_unopened.png",
 				"chest_opened_img": "images/chests/tm_hm_opened.png",
@@ -26,7 +25,7 @@
 			},
 			{
 				"name": "TM22 - Solar Beam",
-				"access_rules": ["@canUseSurf, @canUseWaterfall, @canUseWhirlpool", "@snorlaxAvailable, @canUseCut, @canUseSurf, @canUseWhirlpool"],
+				"access_rules": ["@canUseWaterfall, @canUseWhirlpool", "@Saffron City, @snorlaxAvailable, @canUseCut, @canUseWhirlpool"],
 				"visibility_rules": ["full_item"],
 				"chest_unopened_img": "images/chests/tm_hm_unopened.png",
 				"chest_opened_img": "images/chests/tm_hm_opened.png",
@@ -34,7 +33,7 @@
 			},
 			{   
 				"name": "Birdkeeper Jose",
-				"access_rules": ["pokegear, @canUseSurf, @canUseWaterfall, @canUseWhirlpool", "pokegear, @snorlaxAvailable, @canUseCut, @canUseSurf, @canUseWhirlpool"],
+				"access_rules": ["pokegear, @canUseWaterfall, @canUseWhirlpool", "@Saffron City, pokegear, @snorlaxAvailable, @canUseCut, @canUseWhirlpool"],
 				"visibility_rules": ["phone_items"],
 				"hosted_item": "jose"
 			}

@@ -1,5 +1,8 @@
 # Changelog
 
+## 4.6
+Fixed some of the issues introduced with the Snorlax changes.
+
 ## 4.5
 Cleaned up the 2 step remove locations (Sudowoodo and Chuck's Wife)\
 Removed the Snorlax location. West Kanto will now show as available as soon as all 3 Radio pieces are acquired.\
