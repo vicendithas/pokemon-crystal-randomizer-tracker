@@ -28,24 +28,19 @@ function Preset:updateIcon()
 end
 
 function Preset:onLeftClick()
-	--																		full			cut tree 		bw kanto		tin				berrys			phone			pointless
+	--																		full			cut tree 		bw kanto		tin				berrys			phone			pointless		nerf hooh
 	--																				hidden			v clair			e4 req			day/happy		BCC				Pkmn locked		open silver
-														presetSettings = {	false,	false,	false,	false,	false,	false,	false,	false,	false,	false,	false,	false,	false,	false}
-	if	self.code == "full_easy"				then	presetSettings = {	true,	false,	false,	false,	false,	false,	false,	false,	false,	false,	false,	false,	false,	false}	end
-	if	self.code == "full_standard"			then	presetSettings = {	true,	false,	false,	false,	true,	false,	false,	false,	false,	false,	false,	false,	false,	false}	end
-	if	self.code == "full_vintage"				then	presetSettings = {	true,	false,	true,	true,	true,	false,	false,	false,	false,	false,	false,	false,	false,	false}	end
-
-	if	self.code == "full_tricky_extreme"		then	presetSettings = {	true,	false,	false,	true,	true,	false,	true,	false,	false,	false,	false,	false,	false,	false}	end
-	if	self.code == "full_extreme_hidden"		then	presetSettings = {	true,	true,	false,	true,	true,	false,	true,	false,	false,	false,	false,	false,	false,	false}	end
-	if	self.code == "full_crazy"				then	presetSettings = {	true,	false,	false,	true,	true,	false,	true,	true,	true,	false,	false,	false,	false,	false}	end
-
-	if	self.code == "full_crazy_hidden"		then	presetSettings = {	true,	true,	false,	true,	true,	false,	true,	true,	true,	false,	false,	false,	false,	false}	end
-	if	self.code == "full_maximum"				then	presetSettings = {	true,	true,	false,	true,	true,	false,	true,	true,	true,	true,	true,	true,	true,	true}	end
-	if	self.code == "full_nightmare"			then	presetSettings = {	true,	false,	true,	true,	true,	false,	true,	true,	true,	true,	true,	true,	true,	true}	end
-	
-	if	self.code == "full_nightmare_hidden"	then	presetSettings = {	true,	true,	true,	true,	true,	false,	true,	true,	true,	true,	true,	true,	true,	true}	end
-	if	self.code == "key_easy_classic"			then	presetSettings = {	false,	false,	false,	false,	false,	true,	false,	false,	false,	false,	false,	false,	false,	false}	end
-	if	self.code == "key_tricky_extreme"		then	presetSettings = {	false,	false,	false,	false,	true,	false,	true,	false,	false,	false,	false,	false,	false,	false}	end
+														presetSettings = {	false,	false,	false,	false,	false,	false,	false,	false,	false,	false,	false,	false,	false,	false,	false}
+	if	self.code == "full_easy"				then	presetSettings = {	true,	false,	false,	false,	false,	false,	false,	false,	false,	false,	false,	false,	false,	false,	false}	end
+	if	self.code == "full_standard"			then	presetSettings = {	true,	false,	false,	false,	true,	false,	false,	false,	false,	false,	false,	false,	false,	false,	false}	end
+	if	self.code == "full_vintage"				then	presetSettings = {	true,	false,	true,	true,	true,	false,	false,	false,	false,	false,	false,	false,	false,	false,	false}	end
+	if	self.code == "full_tricky"				then	presetSettings = {	true,	false,	false,	true,	true,	false,	true,	false,	false,	false,	false,	false,	false,	false,	false}	end
+	if	self.code == "full_extreme"				then	presetSettings = {	true,	false,	false,	true,	true,	false,	true,	false,	false,	false,	false,	false,	false,	false,	true}	end
+	if	self.code == "full_crazy"				then	presetSettings = {	true,	false,	false,	true,	true,	false,	true,	true,	true,	false,	false,	false,	false,	false,	false}	end
+	if	self.code == "full_maximum"				then	presetSettings = {	true,	true,	false,	true,	true,	false,	true,	true,	true,	true,	true,	true,	true,	true,	false}	end
+	if	self.code == "full_nightmare"			then	presetSettings = {	true,	false,	true,	true,	true,	false,	true,	true,	true,	true,	true,	true,	true,	true,	false}	end
+	if	self.code == "key_easy_classic"			then	presetSettings = {	false,	false,	false,	false,	false,	true,	false,	false,	false,	false,	false,	false,	false,	false,	false}	end
+	if	self.code == "key_tricky_extreme"		then	presetSettings = {	false,	false,	false,	false,	true,	false,	true,	false,	false,	false,	false,	false,	false,	false,	false}	end
 	
 	Tracker:FindObjectForCode("full_item").Active = presetSettings[1]
 	Tracker:FindObjectForCode("hidden_items").Active = presetSettings[2]
@@ -61,6 +56,7 @@ function Preset:onLeftClick()
 	Tracker:FindObjectForCode("pokemon_locked").Active = presetSettings[12]
 	Tracker:FindObjectForCode("pointless_checks").Active = presetSettings[13]
 	Tracker:FindObjectForCode("open_silver").Active = presetSettings[14]
+	Tracker:FindObjectForCode("nerf_hooh").Active = presetSettings[15]
 end
 
 function Preset:onRightClick()

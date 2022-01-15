@@ -42,7 +42,7 @@
 			},
 			{
 				"name": "Birdkeeper Vance (Rematches)",
-				"access_rules": ["pokegear, elite_four, fix_power_plant"],
+				"access_rules": ["pokegear, fix_power_plant"],
 				"visibility_rules": ["phone_items"],
 				"hosted_item": "vance"
 			}

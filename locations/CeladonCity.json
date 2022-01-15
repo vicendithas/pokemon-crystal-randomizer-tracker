@@ -14,6 +14,12 @@
 				"item_count": 1
 			},
 			{
+				"name": "Leftovers",
+				"access_rules": [],
+				"visibility_rules": [],
+				"item_count": 1
+			},
+			{
 				"name": "Hidden Items",
 				"access_rules": [],
 				"visibility_rules": ["hidden_items"],

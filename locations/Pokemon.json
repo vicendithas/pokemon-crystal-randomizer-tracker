@@ -62,6 +62,12 @@
 				"access_rules": [],
 				"visibility_rules": ["pokemon_locked"],
 				"hosted_item": "magikarp"
+			},
+			{
+				"name": "Unown (3 Different)",
+				"access_rules": [],
+				"visibility_rules": ["pokemon_locked"],
+				"hosted_item": "unown"
 			}
 		],
 		"map_locations": [

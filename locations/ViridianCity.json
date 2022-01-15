@@ -3,7 +3,7 @@
 		"name": "Viridian City",
 		"chest_unopened_img": "images/chests/default_unopened.png",
         "chest_opened_img": "images/chests/default_opened.png",
-		"access_rules": ["@Saffron City,@snorlaxAvailable,@canUseCut", "@canUseSurf,@canUseWaterfall,$haveEightBadges,@snorlaxAvailable,[backward_kanto]"],
+		"access_rules": ["@Saffron City,@snorlaxAvailable,@canUseCut", "@Saffron City,@canUseSurf,@canUseWaterfall,$haveEightBadges,@snorlaxAvailable,[backward_kanto]"],
 		"sections": [
 			{
 				"name": "TM42 - Dream Eater",

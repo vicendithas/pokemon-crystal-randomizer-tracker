@@ -148,5 +148,29 @@
 				"codes": "magikarp"
 			}
 		]
+    },
+	{
+        "name": "Unown",
+        "type": "progressive",
+		"allow_disabled": "false",
+		"stages": [
+			{
+				"img": "images/pokemon/unown.png",
+				"img_mods": "overlay|images/mod/3_40.png"
+			},
+			{
+				"img": "images/pokemon/unown.png",
+				"img_mods": "overlay|images/mod/2_40.png"
+			},
+			{
+				"img": "images/pokemon/unown.png",
+				"img_mods": "overlay|images/mod/1_40.png"
+			},
+			{
+				"img": "images/pokemon/unown.png",
+				"img_mods": "overlay|images/mod/no40.png",
+				"codes": "unown"
+			}
+		]
     }
 ]

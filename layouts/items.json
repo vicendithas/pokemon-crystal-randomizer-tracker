@@ -34,14 +34,14 @@
                     ],
 					[
                         "pokedex",
+						"unowndex",
 						"bicycle",
 						"map_card",
                         "blue_card",
                         "coin_case",
                         "item_finder",
-                        "old_rod",
-                        "good_rod",
-                        "super_rod",
+                        "rods",
+						"",
 						""
                     ],
                     [
@@ -101,31 +101,37 @@
                 "rows": [
 					[ 
 						"full_item", 
-						"hidden_items"
+						"hidden_items",
+						"day_happiness"
 					],
-					[ 
-						"cut_tree",
-						"vanilla_clair"
-					],
-					[ 
-						"backward_kanto",
-						"elite_four_req"
-					],
-					[ 
-						"berry_trees",
-						"tin_tower"
-					],
-					[ 
-						"day_happiness",
-						"open_silver"
+					[	"tin_tower",
+						"nerf_hooh",
+						"berry_trees"
 					],
 					[ 
 						"bug_catching",
-						"phone_items"
+						"phone_items",
+						"pokemon_locked"
 					],
 					[ 
-						"pokemon_locked",
+						"cut_tree",
+						"vanilla_clair",
+						"open_silver"
+					],
+					[ 
+						"backward_kanto",
+						"elite_four_req",
 						"pointless_checks"
+					],
+					[
+						"",
+						"",
+						""
+					],
+					[
+						"",
+						"",
+						""
 					]
                 ]
             }
@@ -175,47 +181,28 @@
 								"item": "full_vintage"
 							}
 						]
-					}					
-				]
-			},
-			{
-				"type": "array",
-				"orientation": "horizontal",
-				"margin": 0,
-				"content": [
+					},
 					{
 						"type": "group",
-						"header": "Tricky/Extreme Full Item",
+						"header": "Tricky Full Item",
 						"header_background": "#3e4b57",
 						"content":[
 							{
 								"type": "item",
 								"margin": "-5,-1,-5,-5",
-								"item": "full_tricky_extreme"
+								"item": "full_tricky"
 							}
 						]
 					},
 					{
 						"type": "group",
-						"header": "Extreme with Hidden Items",
+						"header": "Extreme Full Item",
 						"header_background": "#3e4b57",
 						"content":[
 							{
 								"type": "item",
 								"margin": "-5,-1,-5,-5",
-								"item": "full_extreme_hidden"
-							}
-						]
-					},
-					{
-						"type": "group",
-						"header": "Crazy Full Item",
-						"header_background": "#3e4b57",
-						"content":[
-							{
-								"type": "item",
-								"margin": "-5,-1,-5,-5",
-								"item": "full_crazy"
+								"item": "full_extreme"
 							}
 						]
 					}
@@ -228,13 +215,13 @@
 				"content": [
 					{
 						"type": "group",
-						"header": "Crazy with Hidden Items",
+						"header": "Crazy Full Item",
 						"header_background": "#3e4b57",
 						"content":[
 							{
 								"type": "item",
 								"margin": "-5,-1,-5,-5",
-								"item": "full_crazy_hidden"
+								"item": "full_crazy"
 							}
 						]
 					},
@@ -261,25 +248,6 @@
 								"item": "full_nightmare"
 							}
 						]
-					}				
-				]
-			},
-						{
-				"type": "array",
-				"orientation": "horizontal",
-				"margin": 0,
-				"content": [
-					{
-						"type": "group",
-						"header": "Nightmare with Hidden Items",
-						"header_background": "#3e4b57",
-						"content":[
-							{
-								"type": "item",
-								"margin": "-5,-1,-5,-5",
-								"item": "full_nightmare_hidden"
-							}
-						]
 					},
 					{
 						"type": "group",
@@ -304,7 +272,7 @@
 								"item": "key_tricky_extreme"
 							}
 						]
-					}				
+					}					
 				]
 			}
         ]

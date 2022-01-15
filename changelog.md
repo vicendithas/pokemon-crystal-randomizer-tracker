@@ -1,5 +1,16 @@
 # Changelog
 
+## 5.0
+Updated to reflect v6 of the Crystal Item Randomizer\
+Updated Rainbow Wing location to correctly be locked by E4 (no more Lance cheese).\
+Added UnownDex\
+Added "Nerf Ho-oh" modifier, where Ho-oh (and subsequently Ho-oh chamber) will be available without beating E4\
+Added Leftovers to all modes (I didn't bother with a modifier, because even if it's unrandomized, it's probably worth people grabbing anyway)\
+Updated presets and removed some to clear clutter. Any mode that previous was "+ Hidden Items" will need "Hidden Items" added manually.\
+Example: Extreme + Hidden Items can now be made by clicking the Extreme preset, then clicking the Hidden Items modifier.\
+Changed the orientation of the Goldenrod City icons. (I changed it in a previous update, and I'm not satisfied with it)\
+Fixed another issue with Snorlax logic.
+
 ## 4.6
 Fixed some of the issues introduced with the Snorlax changes.
 

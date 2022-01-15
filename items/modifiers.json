@@ -48,6 +48,14 @@
         "codes": "tin_tower"
     },
 	{
+        "name": "Nerf Ho-oh",
+        "type": "toggle",
+        "img": "images/other/nerf_ho-oh.png",
+        "disabled_img_mods": "overlay|images/mod/no56.png",
+		"initial_active_state": false,
+        "codes": "nerf_hooh"
+    },
+	{
         "name": "Hidden Items",
         "type": "toggle",
         "img": "images/other/hidden_items.png",

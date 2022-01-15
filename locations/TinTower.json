@@ -8,7 +8,7 @@
 		"sections": [
 			{
 				"name": "Rainbow Wing",
-				"access_rules": ["red_gyarados", "elite_four"],
+				"access_rules": ["elite_four"],
 				"visibility_rules": ["tin_tower"],
 				"item_count": 1
 			},
@@ -81,7 +81,7 @@
 			},
 			{
 				"name": "Defeat Ho-oh",
-				"access_rules": ["elite_four, rainbow_wing"],
+				"access_rules": ["elite_four, rainbow_wing","nerf_hooh, rainbow_wing"],
 				"visibility_rules": ["tin_tower, full_item"],
 				"hosted_item": "ho-oh"
 			}

@@ -6,6 +6,12 @@
         "codes": "pokedex"
     },
 	{
+        "name": "Unown Dex",
+        "type": "toggle",
+        "img": "images/items/unowndex.png",
+        "codes": "unowndex"
+    },
+	{
         "name": "PokeGear",
         "type": "toggle",
         "img": "images/items/pokegear.png",
@@ -30,22 +36,22 @@
         "codes": "expansion_card"
     },
 	{
-        "name": "Old Rod",
-        "type": "toggle",
-        "img": "images/items/old_rod.png",
-        "codes": "old_rod"
-    },
-	{
-        "name": "Good Rod",
-        "type": "toggle",
-        "img": "images/items/good_rod.png",
-        "codes": "good_rod"
-    },
-	{
-        "name": "Super Rod",
-        "type": "toggle",
-        "img": "images/items/super_rod.png",
-        "codes": "super_rod"
+        "name": "Rods",
+        "type": "progressive",
+		"stages": [
+			{
+				"img": "images/items/old_rod.png",
+				"codes": "old_rod,rods"
+			},
+			{
+				"img": "images/items/good_rod.png",
+				"codes": "good_rod,rods"
+			},
+			{
+				"img": "images/items/super_rod.png",
+				"codes": "super_rod,rods"
+			}
+		]
     },
 	{
         "name": "Bicycle",
