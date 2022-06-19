@@ -19,7 +19,7 @@
 				"item_count": 1,
 			},                       
 			{
-				"name": "Misty Badge",
+				"name": "Badge (Misty)",
 				"access_rules": ["power_plant_manager, talk_misty"],
 				"hosted_item": "misty"
 			}

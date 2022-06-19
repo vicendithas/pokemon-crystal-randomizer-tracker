@@ -5,12 +5,12 @@
         "chest_opened_img": "images/chests/default_opened.png",
 		"sections": [
 			{
-				"name": "Falkner Badge",
+				"name": "Badge (Falkner)",
 				"hosted_item": "falkner"
 			},
 			{
-				"name": "Falkner TM31 - Mud Slap",
-				"visibility_rules": ["full_item"],
+				"name": "TM31 - Mud Slap (Falkner)",
+				"visibility_rules": ["full_item", "tms"],
 				"chest_unopened_img": "images/chests/tm_hm_unopened.png",
 				"chest_opened_img": "images/chests/tm_hm_opened.png",
 				"item_count": 1

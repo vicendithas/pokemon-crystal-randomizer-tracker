@@ -6,9 +6,9 @@
 		"access_rules": ["@Saffron City"],
 		"sections": [
 			{
-				"name": "TM03 - Curse",
+				"name": "TM03 - Curse (Mansion NPC)",
 				"access_rules": [],
-				"visibility_rules": ["day_happiness"],
+				"visibility_rules": ["day_happiness", "tms"],
 				"chest_unopened_img": "images/chests/tm_hm_unopened.png",
 				"chest_opened_img": "images/chests/tm_hm_opened.png",
 				"item_count": 1
@@ -28,14 +28,14 @@
 				"item_count": 1
 			},
 			{
-				"name": "Erika Badge",
+				"name": "Badge (Erika)",
 				"access_rules": ["@canUseCut"],
 				"hosted_item": "erika"
 			},
 			{
-				"name": "Erika TM19 - Giga Drain",
+				"name": "TM19 - Giga Drain (Erika)",
 				"access_rules": ["@canUseCut"],
-				"visibility_rules": ["full_item"],
+				"visibility_rules": ["full_item", "tms"],
 				"chest_unopened_img": "images/chests/tm_hm_unopened.png",
 				"chest_opened_img": "images/chests/tm_hm_opened.png",
 				"item_count": 1

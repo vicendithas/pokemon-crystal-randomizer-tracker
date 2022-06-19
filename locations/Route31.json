@@ -20,9 +20,9 @@
 				"item_count": 1
 			},
 			{
-				"name": "Deliver Mail (TM50 - Nightmare)",
+				"name": "TM50 - Nightmare (Deliver Kenya)",
 				"access_rules": ["kenya"],
-				"visibility_rules": ["full_item"],
+				"visibility_rules": ["full_item", "tms"],
 				"hosted_item": "deliver_mail"
 			},
 			{   

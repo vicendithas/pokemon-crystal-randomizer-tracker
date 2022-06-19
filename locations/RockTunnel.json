@@ -11,8 +11,8 @@
 				"item_count": 1
 			},
 			{
-				"name": "TM47 - Steel Wing",
-				"visibility_rules": ["full_item"],
+				"name": "TM47 - Steel Wing (1F)",
+				"visibility_rules": ["full_item", "tms"],
 				"chest_unopened_img": "images/chests/tm_hm_unopened.png",
 				"chest_opened_img": "images/chests/tm_hm_opened.png",
 				"item_count": 1

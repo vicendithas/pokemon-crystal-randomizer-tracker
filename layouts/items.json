@@ -102,11 +102,12 @@
 					[ 
 						"full_item", 
 						"hidden_items",
-						"day_happiness"
+						"tms"
 					],
-					[	"tin_tower",
-						"nerf_hooh",
-						"berry_trees"
+					[	
+						"day_happiness",
+						"berry_trees",
+						"tin_tower"
 					],
 					[ 
 						"bug_catching",
@@ -114,17 +115,17 @@
 						"pokemon_locked"
 					],
 					[ 
+						"nerf_hooh",
 						"cut_tree",
-						"vanilla_clair",
-						"open_silver"
+						"vanilla_clair"
 					],
 					[ 
+						"open_silver",
 						"backward_kanto",
-						"elite_four_req",
 						"pointless_checks"
 					],
 					[
-						"",
+						"elite_four_req",
 						"",
 						""
 					],

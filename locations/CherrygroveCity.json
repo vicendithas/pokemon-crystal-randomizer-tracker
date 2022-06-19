@@ -12,7 +12,7 @@
 			},
 			{
 				"name": "Map Card",
-				"visibility_rules": ["pointless_checks"],
+				"visibility_rules": ["pointless_checks", "tms"],
 				"item_count": 1
 			}
 		],

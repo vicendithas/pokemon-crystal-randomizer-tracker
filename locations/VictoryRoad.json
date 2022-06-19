@@ -18,8 +18,8 @@
 				"item_count": 2
 			},
 			{
-				"name": "TM26 - Earthquake",
-				"visibility_rules": ["full_item"],
+				"name": "TM26 - Earthquake (2F)",
+				"visibility_rules": ["full_item", "tms"],
 				"clear_as_group": false,
 				"chest_unopened_img": "images/chests/tm_hm_unopened.png",
 				"chest_opened_img": "images/chests/tm_hm_opened.png",

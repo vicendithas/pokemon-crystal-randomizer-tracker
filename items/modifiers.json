@@ -8,6 +8,14 @@
         "codes": "full_item"
     },
 	{
+        "name": "TMs",
+        "type": "toggle",
+        "img": "images/hms/normal.png",
+        "disabled_img_mods": "overlay|images/mod/no90.png",
+		"initial_active_state": false,
+        "codes": "tms"
+    },
+	{
         "name": "Ilex Cut Tree",
         "type": "toggle",
         "img": "images/other/cut_tree.png",

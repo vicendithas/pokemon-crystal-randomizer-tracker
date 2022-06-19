@@ -14,20 +14,20 @@
 				"item_count": 1
 			},
 			{   
-				"name": "Talk To Kurt",
+				"name": "Kurt",
 				"access_rules": ["slowpoke_well"],
 				"visibility_rules": ["full_item"],
 				"item_count": 1
 			},
 			{
-				"name": "Bugsy Badge",
+				"name": "Badge (Bugsy)",
 				"access_rules": ["slowpoke_well"],
 				"hosted_item": "bugsy"
 			},
 			{
-				"name": "Bugsy TM49 - Fury Cutter",
+				"name": "TM49 - Fury Cutter (Bugsy)",
 				"access_rules": ["slowpoke_well"],
-				"visibility_rules": ["full_item"],
+				"visibility_rules": ["full_item", "tms"],
 				"chest_unopened_img": "images/chests/tm_hm_unopened.png",
 				"chest_opened_img": "images/chests/tm_hm_opened.png",
 				"item_count": 1

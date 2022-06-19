@@ -13,9 +13,9 @@
 				"item_count": 3
 			},
 			{
-				"name": "TM46 - Thief",
+				"name": "TM46 - Thief (B2F)",
 				"access_rules": ["red_gyarados"],
-				"visibility_rules": ["full_item"],
+				"visibility_rules": ["full_item", "tms"],
 				"chest_unopened_img": "images/chests/tm_hm_unopened.png",
 				"chest_opened_img": "images/chests/tm_hm_opened.png",
 				"item_count": 1
@@ -37,19 +37,19 @@
 				"item_count": 2
 			},
 			{
-				"name": "Lance (HM06 - Whirlpool)",
+				"name": "HM06 - Whirlpool (Lance)",
 				"access_rules": ["red_gyarados"],
 				"hosted_item": "electrode"
 			},
 			{
-				"name": "Pryce Badge",
+				"name": "Badge (Pryce)",
 				"access_rules": ["electrode"],
 				"hosted_item": "pryce"
 			},
 			{
-				"name": "Pryce TM16 - Icy Wind",
+				"name": "TM16 - Icy Wind (Pryce)",
 				"access_rules": ["electrode"],
-				"visibility_rules": ["full_item"],
+				"visibility_rules": ["full_item", "tms"],
 				"chest_unopened_img": "images/chests/tm_hm_unopened.png",
 				"chest_opened_img": "images/chests/tm_hm_opened.png",
 				"item_count": 1

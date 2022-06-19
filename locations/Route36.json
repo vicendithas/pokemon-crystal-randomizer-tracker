@@ -11,9 +11,9 @@
 				"item_count": 1
 			},
 			{
-				"name": "Sudowoodo (TM08 - Rock Smash)",
+				"name": "TM08 - Rock Smash (Sudowoodo)",
 				"access_rules": ["squirt_bottle"],
-				"visibility_rules": ["full_item"],
+				"visibility_rules": ["full_item", "tms"],
 				"hosted_item": "rocksmashguy"
 			},
 			{

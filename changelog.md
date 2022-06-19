@@ -1,5 +1,11 @@
 # Changelog
 
+## 5.1
+Fixed an error with Elite Four access logic (yet another issue introduced with the Snorlax change)\
+Added more descriptive locations for TMs\
+Modified a few item location descriptions\
+Added a new modifier "TMs" to show vanilla TM locations (and Map Card) for Key Item + TM mode some people play
+
 ## 5.0
 Updated to reflect v6 of the Crystal Item Randomizer\
 Updated Rainbow Wing location to correctly be locked by E4 (no more Lance cheese).\

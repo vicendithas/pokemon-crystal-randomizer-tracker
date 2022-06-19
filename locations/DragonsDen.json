@@ -20,15 +20,15 @@
 				"item_count": 1
 			},
 			{
-				"name": "Clair Badge",
+				"name": "Badge (Clair)",
 				"access_rules": ["@canUseWhirlpool"],
 				"visibility_rules": ["vanilla_clair"],
 				"hosted_item": "clair_test"
 			},
 			{
-				"name": "Clair TM24 - Dragonbreath",
+				"name": "TM24 - Dragonbreath (Clair)",
 				"access_rules": ["@canUseWhirlpool"],
-				"visibility_rules": ["vanilla_clair, full_item"],
+				"visibility_rules": ["vanilla_clair, full_item", "vanilla_clair, tms"],
 				"chest_unopened_img": "images/chests/tm_hm_unopened.png",
 				"chest_opened_img": "images/chests/tm_hm_opened.png",
 				"item_count": 1

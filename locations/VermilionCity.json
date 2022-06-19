@@ -19,7 +19,7 @@
 				"item_count": 1
 			},
 			{
-				"name": "Lt. Surge Badge",
+				"name": "Badge (Lt. Surge)",
 				"access_rules": ["@canUseCut", "@canUseSurf"],
 				"hosted_item": "lt-surge"
 			},

@@ -6,7 +6,7 @@
 		"access_rules": ["@Viridian City, @canUseSurf"],
 		"sections": [
 			{
-				"name": "Blaine Badge",
+				"name": "Badge (Blaine)",
 				"hosted_item": "blaine"
 			}
 		],

@@ -51,9 +51,10 @@
 				"visibility_rules": ["full_item"],
 				"item_count": 1
 			},
-			{   "name": "TM05 - Roar",
+			{   
+				"name": "TM05 - Roar (Guy Behind Cut)",
 				"access_rules": ["@canUseCut"],
-				"visibility_rules": ["full_item"],
+				"visibility_rules": ["full_item", "tms"],
 				"chest_unopened_img": "images/chests/tm_hm_unopened.png",
 				"chest_opened_img": "images/chests/tm_hm_opened.png",
 				"item_count": 1

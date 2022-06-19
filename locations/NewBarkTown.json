@@ -20,13 +20,13 @@
 				"item_count": 1
 			},
 			{
-				"name": "Rising Badge",
+				"name": "Show Elm Rising Badge",
 				"access_rules": ["rising_badge"],
 				"visibility_rules": ["full_item"],
 				"item_count": 1
 			},
 			{   
-				"name": "Elm Everstone",
+				"name": "Show Elm Togepi/Togetic",
 				"access_rules": ["togepi"],
 				"visibility_rules": ["pokemon_locked"],
 				"item_count": 1

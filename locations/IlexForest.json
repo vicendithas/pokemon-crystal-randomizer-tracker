@@ -10,7 +10,7 @@
 				"item_count": 1
 			},  
 			{
-				"name": "Farfetch'd (HM01 - Cut)",
+				"name": "HM01 - Cut (Farfetch'd)",
 				"access_rules": ["slowpoke_well"], 
 				"hosted_item": "farfetch'd"
 			},
@@ -22,9 +22,9 @@
 				"item_count": 3
 			},
 			{
-				"name": "TM02 - Headbut",
+				"name": "TM02 - Headbutt",
 				"access_rules": ["squirt_bottle", "@canUseCut", "$noCutTree"],
-				"visibility_rules": ["full_item"],
+				"visibility_rules": ["full_item", "tms"],
 				"chest_unopened_img": "images/chests/tm_hm_unopened.png",
 				"chest_opened_img": "images/chests/tm_hm_opened.png",
 				"item_count": 1

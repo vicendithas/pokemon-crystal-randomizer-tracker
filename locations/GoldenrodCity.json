@@ -14,7 +14,7 @@
 			{
 				"name": "TM21 - Frustration / TM27 - Return",
 				"access_rules": [],
-				"visibility_rules": ["day_happiness"],
+				"visibility_rules": ["day_happiness", "tms"],
 				"chest_unopened_img": "images/chests/tm_hm_unopened.png",
 				"chest_opened_img": "images/chests/tm_hm_opened.png",
 				"item_count": 2
@@ -35,12 +35,12 @@
 				"item_count": 1
 			},
 			{
-				"name": "Whitney Badge",
+				"name": "Badge (Whitney)",
 				"hosted_item": "whitney"
 			},
 			{
-				"name": "Whitney TM45 - Attract",
-				"visibility_rules": ["full_item"],
+				"name": "TM45 - Attract (Whitney)",
+				"visibility_rules": ["full_item", "tms"],
 				"chest_unopened_img": "images/chests/tm_hm_unopened.png",
 				"chest_opened_img": "images/chests/tm_hm_opened.png",
 				"item_count": 1

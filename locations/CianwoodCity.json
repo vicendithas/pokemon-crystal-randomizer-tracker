@@ -20,20 +20,20 @@
 				"item_count": 1
 			},
 			{
-				"name": "Chuck Badge",
+				"name": "Badge (Chuck)",
 				"access_rules": ["@canUseStrength"],
 				"hosted_item": "chuck"
 			},
 			{
-				"name": "Chuck TM01 - Dynamicpunch",
+				"name": "TM01 - Dynamicpunch (Chuck)",
 				"access_rules": ["@canUseStrength"],
-				"visibility_rules": ["full_item"],
+				"visibility_rules": ["full_item", "tms"],
 				"chest_unopened_img": "images/chests/tm_hm_unopened.png",
 				"chest_opened_img": "images/chests/tm_hm_opened.png",
 				"item_count": 1
 			},
 			{
-				"name": "Chuck's Wife (HM02 - Fly)",
+				"name": "HM02 - Fly (Chuck's Wife)",
 				"access_rules": ["@canUseStrength"],
 				"chest_unopened_img": "images/chests/tm_hm_unopened.png",
 				"chest_opened_img": "images/chests/tm_hm_opened.png",

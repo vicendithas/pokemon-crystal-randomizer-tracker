@@ -10,7 +10,7 @@
 				"hosted_item": "power_plant_manager"
 			},
 			{
-				"name": "Fix Power Plant (TM07 - Zap Cannon)",
+				"name": "TM07 - Zap Cannon (Fix Power Plant)",
 				"access_rules": ["machine_part"],
 				"hosted_item": "fix_power_plant"
 			}

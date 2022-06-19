@@ -18,15 +18,15 @@
 				"hosted_item": "clair"
 			},
 			{
-				"name": "Clair Badge",
+				"name": "Badge (Clair)",
 				"visibility_rules": ["$noVanillaClair"],
 				"access_rules": ["team_rocket"],
 				"hosted_item": "clair"
 			},
 						{
-				"name": "Clair TM24 - Dragonbreath",
+				"name": "TM24 - Dragonbreath (Clair)",
 				"access_rules": ["team_rocket"],
-				"visibility_rules": ["$noVanillaClair, full_item"],
+				"visibility_rules": ["$noVanillaClair, full_item", "$noVanillaClair, tms"],
 				"chest_unopened_img": "images/chests/tm_hm_unopened.png",
 				"chest_opened_img": "images/chests/tm_hm_opened.png",
 				"item_count": 1

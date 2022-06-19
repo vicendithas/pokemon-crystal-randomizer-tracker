@@ -6,7 +6,7 @@
 		"access_rules": ["@Ecruteak City, $canFightTeamRocket"],
 		"sections": [
 			{
-				"name": "Entrance (HM07 - Waterfall)",
+				"name": "HM07 - Waterfall (Entrance)",
 				"chest_unopened_img": "images/chests/tm_hm_unopened.png",
 				"chest_opened_img": "images/chests/tm_hm_opened.png",
 				"item_count": 1
@@ -37,9 +37,9 @@
 				"item_count": 1
 			},
 			{
-				"name": "TM44 - Rest",
+				"name": "TM44 - Rest (Fifth Room)",
 				"access_rules": ["@canUseStrength"],
-				"visibility_rules": ["full_item"],
+				"visibility_rules": ["full_item", "tms"],
 				"chest_unopened_img": "images/chests/tm_hm_unopened.png",
 				"chest_opened_img": "images/chests/tm_hm_opened.png",
 				"item_count": 1
