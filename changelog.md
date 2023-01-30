@@ -1,4 +1,8 @@
 # Changelog
+## 5.5
+Added Shopsanity support (thanks to 461weavile for putting that together for me)\
+Split Goldenrod Department Store into a separate location (Goldenrod too OP)\
+Fixed a spelling mistake (why is it so hard to spell Fuchsia?)
 
 ## 5.1
 Fixed an error with Elite Four access logic (yet another issue introduced with the Snorlax change)\

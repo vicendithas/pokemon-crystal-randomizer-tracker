@@ -1,6 +1,6 @@
 [
 	{
-		"name": "Fuschia City",
+		"name": "Fuchsia City",
 		"chest_unopened_img": "images/chests/default_unopened.png",
         "chest_opened_img": "images/chests/default_opened.png",
 		"access_rules": ["@Saffron City"],
@@ -23,6 +23,14 @@
 				"clear_as_group": false,
 				"chest_unopened_img": "images/chests/tree_unopened.png",
 				"chest_opened_img": "images/chests/tree_opened.png",
+				"item_count": 1
+			},
+			{
+				"name": "Fuchsia Mart",
+				"access_rules": ["@canUseCut"],
+				"visibility_rules": ["shopsanity"],
+				"chest_unopened_img": "images/chests/mart_unopened.png",
+				"chest_opened_img": "images/chests/mart_opened.png",
 				"item_count": 1
 			}
 		],

@@ -30,3 +30,7 @@ end
 function noCutTree()
 	return not Tracker:FindObjectForCode("cut_tree").Active
 end
+
+function noShopsanity()
+	return not Tracker:FindObjectForCode("shopsanity").Active
+end

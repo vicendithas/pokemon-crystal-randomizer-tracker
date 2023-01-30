@@ -53,6 +53,20 @@
 				"chest_unopened_img": "images/chests/tm_hm_unopened.png",
 				"chest_opened_img": "images/chests/tm_hm_opened.png",
 				"item_count": 1
+			},
+			{
+				"name": "Mahogany Shop Pre-Rockets",
+				"visibility_rules": ["shopsanity"],
+				"chest_unopened_img": "images/chests/mart_unopened.png",
+				"chest_opened_img": "images/chests/mart_opened.png",
+				"item_count": 1
+			},
+			{
+				"name": "Mahogany Shop Post-Rockets",
+				"visibility_rules": ["shopsanity"],
+				"chest_unopened_img": "images/chests/mart_unopened.png",
+				"chest_opened_img": "images/chests/mart_opened.png",
+				"item_count": 1
 			}
 		],
 		"map_locations": [

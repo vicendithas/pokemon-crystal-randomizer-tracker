@@ -1,83 +1,74 @@
 [
 	{
-		"name": "Celadon City",
+		"name": "Goldenrod Dept. Store",
 		"chest_unopened_img": "images/chests/default_unopened.png",
         "chest_opened_img": "images/chests/default_opened.png",
-		"access_rules": ["@Saffron City"],
+		"access_rules": ["squirt_bottle", "@canUseCut", "$noCutTree"],
 		"sections": [
 			{
-				"name": "TM03 - Curse (Mansion NPC)",
+				"name": "Mart Basement Behind Containers",
+				"visibility_rules": ["full_item"],
+				"clear_as_group": false,
+				"item_count": 3
+			},
+			{
+				"name": "TM21 - Frustration / TM27 - Return",
 				"access_rules": [],
 				"visibility_rules": ["day_happiness", "tms"],
 				"chest_unopened_img": "images/chests/tm_hm_unopened.png",
 				"chest_opened_img": "images/chests/tm_hm_opened.png",
-				"item_count": 1
+				"item_count": 2
 			},
 			{
-				"name": "Leftovers",
-				"access_rules": [],
-				"visibility_rules": [],
-				"item_count": 1
+				"name": "Buy Water Stone",
+				"visibility_rules": ["full_item, $noShopsanity"],
+				"hosted_item": "water_stone"
 			},
 			{
-				"name": "Hidden Items",
-				"access_rules": [],
-				"visibility_rules": ["hidden_items"],
-				"chest_unopened_img": "images/chests/hidden_unopened.png",
-				"chest_opened_img": "images/chests/hidden_opened.png",
-				"item_count": 1
+				"name": "Buy Rock Smash",
+				"access_rules": ["rocksmashguy"],
+				"visibility_rules": ["full_item"],
+				"hosted_item": "tm08"
 			},
 			{
-				"name": "Badge (Erika)",
-				"access_rules": ["@canUseCut"],
-				"hosted_item": "erika"
-			},
-			{
-				"name": "TM19 - Giga Drain (Erika)",
-				"access_rules": ["@canUseCut"],
-				"visibility_rules": ["full_item", "tms"],
-				"chest_unopened_img": "images/chests/tm_hm_unopened.png",
-				"chest_opened_img": "images/chests/tm_hm_opened.png",
-				"item_count": 1
-			},
-			{
-				"name": "CDS 2F Left",
+				"name": "GDS 2F Upper",
 				"visibility_rules": ["shopsanity"],
 				"chest_unopened_img": "images/chests/mart_unopened.png",
 				"chest_opened_img": "images/chests/mart_opened.png",
 				"item_count": 1
 			},
 			{
-				"name": "CDS 2F Right",
+				"name": "GDS 2F Lower",
 				"visibility_rules": ["shopsanity"],
 				"chest_unopened_img": "images/chests/mart_unopened.png",
 				"chest_opened_img": "images/chests/mart_opened.png",
 				"item_count": 1
 			},
 			{
-				"name": "CDS 3F",
+				"name": "GDS 3F",
 				"visibility_rules": ["shopsanity"],
 				"chest_unopened_img": "images/chests/mart_unopened.png",
 				"chest_opened_img": "images/chests/mart_opened.png",
 				"item_count": 1
 			},
 			{
-				"name": "CDS 4F",
+				"name": "GDS 4F",
 				"visibility_rules": ["shopsanity"],
 				"chest_unopened_img": "images/chests/mart_unopened.png",
 				"chest_opened_img": "images/chests/mart_opened.png",
 				"item_count": 1
 			},
 			{
-				"name": "CDS 5F Left",
+				"name": "GDS 5F",
 				"visibility_rules": ["shopsanity"],
 				"chest_unopened_img": "images/chests/mart_unopened.png",
 				"chest_opened_img": "images/chests/mart_opened.png",
 				"item_count": 1
 			},
 			{
-				"name": "CDS 5F Right",
-				"visibility_rules": ["shopsanity"],
+				"name": "Rooftop Sale",
+				"access_rules": ["pokegear"],
+				"visibility_rules": ["shopsanity,phone_items"],
 				"chest_unopened_img": "images/chests/mart_unopened.png",
 				"chest_opened_img": "images/chests/mart_opened.png",
 				"item_count": 1
@@ -86,8 +77,8 @@
 		"map_locations": [
 			{
 				"map": "johto_kanto",
-				"x": 2202,
-				"y": 536,
+				"x": 494,
+				"y": 788
 			}
 		]
 	}

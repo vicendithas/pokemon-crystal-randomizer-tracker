@@ -6,31 +6,6 @@
 		"access_rules": ["squirt_bottle", "@canUseCut", "$noCutTree"],
 		"sections": [
 			{
-				"name": "Mart Basement Behind Containers",
-				"visibility_rules": ["full_item"],
-				"clear_as_group": false,
-				"item_count": 3
-			},
-			{
-				"name": "TM21 - Frustration / TM27 - Return",
-				"access_rules": [],
-				"visibility_rules": ["day_happiness", "tms"],
-				"chest_unopened_img": "images/chests/tm_hm_unopened.png",
-				"chest_opened_img": "images/chests/tm_hm_opened.png",
-				"item_count": 2
-			},
-			{
-				"name": "Buy Water Stone",
-				"visibility_rules": ["full_item"],
-				"hosted_item": "water_stone"
-			},
-			{
-				"name": "Buy Rock Smash",
-				"access_rules": ["rocksmashguy"],
-				"visibility_rules": ["full_item"],
-				"hosted_item": "tm08"
-			},
-			{
 				"name": "Bike Shop",
 				"item_count": 1
 			},
@@ -54,7 +29,7 @@
 		"map_locations": [
 			{
 				"map": "johto_kanto",
-				"x": 454,
+				"x": 414,
 				"y": 788
 			}
 		]

@@ -36,6 +36,13 @@
 				"access_rules": ["farfetch'd"],
 				"visibility_rules": ["full_item"],
 				"item_count": 1
+			},
+			{
+				"name": "Azalea Mart",
+				"visibility_rules": ["shopsanity"],
+				"chest_unopened_img": "images/chests/mart_unopened.png",
+				"chest_opened_img": "images/chests/mart_opened.png",
+				"item_count": 1
 			}
 		],
 		"map_locations": [

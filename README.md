@@ -41,19 +41,21 @@ If the option is crossed out, it is disabled and not part of the logic of the tr
 1. ![Full Item](images/other/full_item.png "Full Item") All items are randomized, otherwise only Key Items are randomized. This does not include PokeGear, PokeGear Cards, Pokedex, or Rainbow Wing (see the other options below for these).
 2. ![Hidden Items](images/other/hidden_items.png "Hidden Items") Adds hidden items into the pool (only makes sense to use with Full Item). Does not include the Machine Part location, since that is included by default.
 3. ![Day and Happiness Items](images/other/clock.png "Day and Happiness Items") Items locked by day, time, or happiness are added to the randomized item pool (requirements changed to always be available).
-4. ![Tin Tower and Ho-oh Chamber](images/other/tin_tower.png "Tin Tower and Ho-oh Chamber") The Rainbow Wing is added to the randomized item pool. Tin Tower and the Ho-oh Treasure Room are in logic. Access to the base of Tin Tower requires the Clear Bell and access to the upper floors requires the Rainbow Wing. Ho-oh spawns once the Elite Four have been defeated. The Ho-oh Treasure Chamber opens when Ho-oh has been defeated (requires Surf).
-5. ![Nerf Ho-oh](images/other/nerf_ho-oh.png "Nerf Ho-oh") Ho-oh will always be available (even without beating E4), allowing access to the Ho-oh Treasure Chamber earlier.
-6. ![Berry Trees](images/other/berry_tree.png "Berry Trees") Berry and Apricorn trees are added to the randomized item pool.
-7. ![Bug Catching Contest](images/other/bug_catching.png "Bug Catching Contest") Adds the Bug Catching Contest (4 items for 1st, 2nd, 3rd, and consolation places).
-8. ![Phone Call Trainers](images/items/phone_card.png "Phone Call Trainers") Adds the trainers that will give you their phone number and offer items.
-9. ![Pokemon Locked Items](images/other/eevee.png "Pokemon Locked Items") Adds the checks locked by specific Pokemon (Bill's Grandfather, Elm's Everstone, Lake of Rage Biggest Magikarp, and some of the phone call trainers).
-10. ![Ilex Cut Tree](images/other/cut_tree.png "Ilex Cut Tree") The tree in Ilex Forest is present, requiring access to Cut to pass.
-11. ![Vanilla Clair](images/other/vanilla_clair.png "Vanilla Clair") Clair forces you to go to Dragon's Den and pass the test before giving you the badge and item (requires Surf and Whirlpool).
-12. ![Open Mt. Silver](images/other/mountain.png "Open Mt. Silver") Opens Mt. Silver so that the player can access it as soon as the League Gate is reachable.
-13. ![Backward Kanto](images/other/backward_kanto.png "Backward Kanto") Going into Western Kanto via the Victory Road gate is in logic (requires Surf, Waterfall, and waking up Snorlax, which requires the PokeGear, Radio Card, and Expansion Card).
-14. ![Elite Four Required](images/other/trophy.png "Elite Four Required") Fighting the Elite Four is required for Red to appear.
-15. ![Pointless Checks](images/other/question_mark.png "Pointless Checks") Adds a few less than useful checks into the pool.
-16. ![Required Badges for Red](images/badges/boulder_badge.png "Required Badges for Red") Value can be modified to indicate how many badges are required before Professor Oak in Pallet Town will allow access to Mt. Silver.
+4. ![TMs](images/hms/normal.png "TMs") TMs (and the Map Card) will be shown regardless of mode selected. This is primarily for the KIR+TM modes, but can be used in other modes that don't normally show these items.
+5. ![Tin Tower and Ho-oh Chamber](images/other/tin_tower.png "Tin Tower and Ho-oh Chamber") The Rainbow Wing is added to the randomized item pool. Tin Tower and the Ho-oh Treasure Room are in logic. Access to the base of Tin Tower requires the Clear Bell and access to the upper floors requires the Rainbow Wing. Ho-oh spawns once the Elite Four have been defeated. The Ho-oh Treasure Chamber opens when Ho-oh has been defeated (requires Surf).
+6. ![Shopsanity](images/other/mart.png "Shopsanity") Shop inventories are mixed into the pool and shops can contain required items.
+7. ![Berry Trees](images/other/berry_tree.png "Berry Trees") Berry and Apricorn trees are added to the randomized item pool.
+8. ![Bug Catching Contest](images/pokemon/scyther.png "Bug Catching Contest") Adds the Bug Catching Contest (4 items for 1st, 2nd, 3rd, and consolation places).
+9. ![Phone Call Trainers](images/items/phone_card.png "Phone Call Trainers") Adds the trainers that will give you their phone number and offer items.
+10. ![Pokemon Locked Items](images/pokemon/eevee.png "Pokemon Locked Items") Adds the checks locked by specific Pokemon (Bill's Grandfather, Elm's Everstone, Lake of Rage Biggest Magikarp, and some of the phone call trainers).
+11. ![Ilex Cut Tree](images/other/cut_tree.png "Ilex Cut Tree") The tree in Ilex Forest is present, requiring access to Cut to pass.
+12. ![Vanilla Clair](images/other/vanilla_clair.png "Vanilla Clair") Clair forces you to go to Dragon's Den and pass the test before giving you the badge and item (requires Surf and Whirlpool).
+13. ![Open Mt. Silver](images/other/mountain.png "Open Mt. Silver") Opens Mt. Silver so that the player can access it as soon as the League Gate is reachable.
+14. ![Backward Kanto](images/other/backward_kanto.png "Backward Kanto") Going into Western Kanto via the Victory Road gate is in logic (requires Surf, Waterfall, and waking up Snorlax, which requires the PokeGear, Radio Card, and Expansion Card).
+15. ![Elite Four Required](images/other/trophy.png "Elite Four Required") Fighting the Elite Four is required for Red to appear.
+16. ![Nerf Ho-oh](images/other/nerf_ho-oh.png "Nerf Ho-oh") Ho-oh will always be available (even without beating E4), allowing access to the Ho-oh Treasure Chamber earlier.
+17. ![Pointless Checks](images/other/question_mark.png "Pointless Checks") Adds a few less than useful checks into the pool.
+18. ![Required Badges for Red](images/badges/boulder_badge.png "Required Badges for Red") Value can be modified to indicate how many badges are required before Professor Oak in Pallet Town will allow access to Mt. Silver.
 
 Notes:
 1. With the "Hidden Items" modifier and/or the "Day and Happiness Items", the items underneath Wesley (Lake of Rage) and Frieda (Route 32), are moved to be in front of them.
@@ -100,6 +102,7 @@ StormRider for the original tracker\
 ZaidusRecon for the detailed maps\
 ERC for his work on the Crystal Item Randomizer\
 Chaotix on their work adding even more items to the Crystal Item Randomizer\
+461weavile for their work on adding Shopsanity to this pack
 Pret whose combined efforts on Pokemon disassembly have made these kinds of randomizer possible\
 Dabomstew for the Universal Pokemon Randomizer and the Crystal Speedchoice projects that make randomization and speedrunning easier\
 Pokemon Randomizer community

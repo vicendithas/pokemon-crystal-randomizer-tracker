@@ -128,6 +128,14 @@
         "codes": "pokemon_locked"
     },
 	{
+        "name": "Shopsanity",
+        "type": "toggle",
+        "img": "images/other/mart.png",
+        "disabled_img_mods": "overlay|images/mod/no64.png",
+		"initial_active_state": false,
+        "codes": "shopsanity"
+    },
+	{
         "name": "Badges Required for Red",
         "type": "consumable",
         "img": "images/badges/boulder_badge.png",

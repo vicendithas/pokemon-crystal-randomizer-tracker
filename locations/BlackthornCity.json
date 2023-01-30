@@ -23,12 +23,19 @@
 				"access_rules": ["team_rocket"],
 				"hosted_item": "clair"
 			},
-						{
+			{
 				"name": "TM24 - Dragonbreath (Clair)",
 				"access_rules": ["team_rocket"],
 				"visibility_rules": ["$noVanillaClair, full_item", "$noVanillaClair, tms"],
 				"chest_unopened_img": "images/chests/tm_hm_unopened.png",
 				"chest_opened_img": "images/chests/tm_hm_opened.png",
+				"item_count": 1
+			},
+			{
+				"name": "Blackthorn Mart",
+				"visibility_rules": ["shopsanity"],
+				"chest_unopened_img": "images/chests/mart_unopened.png",
+				"chest_opened_img": "images/chests/mart_opened.png",
 				"item_count": 1
 			}
 		],

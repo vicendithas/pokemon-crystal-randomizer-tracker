@@ -30,6 +30,13 @@
 			{
 				"name": "Badge (Sabrina)",
 				"hosted_item": "sabrina"
+			},
+			{
+				"name": "Saffron Mart",
+				"visibility_rules": ["shopsanity"],
+				"chest_unopened_img": "images/chests/mart_unopened.png",
+				"chest_opened_img": "images/chests/mart_opened.png",
+				"item_count": 1
 			}
 		],
 		"map_locations": [
