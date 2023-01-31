@@ -63,6 +63,7 @@
 			},
 			{
 				"name": "Mahogany Shop Post-Rockets",
+				"access_rules": ["team_rocket"],
 				"visibility_rules": ["shopsanity"],
 				"chest_unopened_img": "images/chests/mart_unopened.png",
 				"chest_opened_img": "images/chests/mart_opened.png",
