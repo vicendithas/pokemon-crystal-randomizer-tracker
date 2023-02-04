@@ -67,7 +67,7 @@
 			},
 			{
 				"name": "Rooftop Sale",
-				"access_rules": ["pokegear"],
+				"access_rules": ["pokegear, elite_four"],
 				"visibility_rules": ["shopsanity,phone_items"],
 				"chest_unopened_img": "images/chests/mart_unopened.png",
 				"chest_opened_img": "images/chests/mart_opened.png",
