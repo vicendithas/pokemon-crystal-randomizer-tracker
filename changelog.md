@@ -1,10 +1,13 @@
 # Changelog
-## 5.5
+## 6.0
 Added Shopsanity support (thanks to 461weavile for putting that together for me)\
 Split Goldenrod Department Store into a separate location (Goldenrod too OP)\
 Fixed a spelling mistake (why is it so hard to spell Fuchsia?)
+Added GS Ball modifier (and item)\
+Added Game Corner modifier\
+Added Buena's Password modifier\
 
-## 5.1
+## 5.1 (not published)
 Fixed an error with Elite Four access logic (yet another issue introduced with the Snorlax change)\
 Added more descriptive locations for TMs\
 Modified a few item location descriptions\
