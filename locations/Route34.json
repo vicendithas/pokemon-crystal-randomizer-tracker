@@ -42,7 +42,7 @@
 			},
 			{   
 				"name": "Picknicker Gina",
-				"access_rules": ["pokegear, team_rocket"],
+				"access_rules": ["pokegear, [team_rocket]"],
 				"visibility_rules": ["phone_items"],
 				"hosted_item": "gina"
 			}

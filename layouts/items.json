@@ -17,7 +17,7 @@
                         "card_key",
 						"ss_ticket",
                         "pass",
-						"",
+						"gs_ball",
 						""
                     ],
 					[
@@ -119,6 +119,11 @@
 						"cut_tree",
 						"vanilla_clair"
 					],
+					[
+						"celebi_event",
+						"game_corner",
+						"buena_pass"
+					],
 					[ 
 						"open_silver",
 						"backward_kanto",
@@ -127,11 +132,6 @@
 					[
 						"elite_four_req",
 						"nerf_hooh",
-						""
-					],
-					[
-						"",
-						"",
 						""
 					]
                 ]

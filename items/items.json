@@ -72,6 +72,12 @@
         "codes": "pass"
     },
 	{
+        "name": "GS Ball",
+        "type": "toggle",
+        "img": "images/items/gs_ball.png",
+        "codes": "gs_ball"
+    },
+	{
         "name": "Squirt Bottle",
         "type": "toggle",
         "img": "images/items/squirt_bottle.png",

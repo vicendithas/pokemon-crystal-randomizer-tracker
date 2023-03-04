@@ -24,6 +24,20 @@
 				"name": "Flower Shop",
 				"access_rules": ["plain_badge"],
 				"item_count": 1
+			},
+			{
+				"name": "GS Ball",
+				"visibility_rules": ["celebi_event"],
+				"access_rules": ["elite_four"],
+				"item_count": 1
+			},
+			{
+				"name": "Goldenrod Game Corner",
+				"visibility_rules": ["game_corner"],
+				"access_rules": ["coin_case, [team_rocket]"],
+				"chest_unopened_img": "images/chests/mart_unopened.png",
+				"chest_opened_img": "images/chests/mart_opened.png",
+				"item_count": 1
 			}
 		],
 		"map_locations": [

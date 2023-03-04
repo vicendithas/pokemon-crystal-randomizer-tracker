@@ -136,6 +136,30 @@
         "codes": "shopsanity"
     },
 	{
+        "name": "Celebi Event",
+        "type": "toggle",
+        "img": "images/items/gs_ball.png",
+        "disabled_img_mods": "overlay|images/mod/no64.png",
+		"initial_active_state": false,
+        "codes": "celebi_event"
+    },
+	{
+        "name": "Game Corner",
+        "type": "toggle",
+        "img": "images/other/slot_machine.png",
+        "disabled_img_mods": "overlay|images/mod/no56.png",
+		"initial_active_state": false,
+        "codes": "game_corner"
+    },
+	{
+        "name": "Buena's Password",
+        "type": "toggle",
+        "img": "images/items/blue_card.png",
+        "disabled_img_mods": "overlay|images/mod/no64.png",
+		"initial_active_state": false,
+        "codes": "buena_pass"
+    },
+	{
         "name": "Badges Required for Red",
         "type": "consumable",
         "img": "images/badges/boulder_badge.png",
