@@ -66,7 +66,7 @@
 				"item_count": 1
 			},
 			{
-				"name": "Rooftop Sale",
+				"name": "Rooftop Sale (Camper Todd)",
 				"access_rules": ["pokegear, elite_four"],
 				"visibility_rules": ["shopsanity,phone_items"],
 				"chest_unopened_img": "images/chests/mart_unopened.png",
