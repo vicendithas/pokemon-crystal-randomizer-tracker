@@ -139,7 +139,7 @@
         "name": "Celebi Event",
         "type": "toggle",
         "img": "images/items/gs_ball.png",
-        "disabled_img_mods": "overlay|images/mod/no64.png",
+        "disabled_img_mods": "overlay|images/mod/no48.png",
 		"initial_active_state": false,
         "codes": "celebi_event"
     },
