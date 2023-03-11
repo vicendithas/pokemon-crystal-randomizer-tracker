@@ -26,7 +26,7 @@
 			},
 			{
 				"name": "Buy Rock Smash",
-				"access_rules": ["rocksmashguy"],
+				"access_rules": ["rocksmashguy, $noShopsanity"],
 				"visibility_rules": ["full_item"],
 				"hosted_item": "tm08"
 			},
