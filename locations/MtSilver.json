@@ -51,7 +51,7 @@
 			},
 			{
 				"name": "Red",
-				"access_rules": ["elite_four, oak", "$noEliteFour, oak"],
+				"access_rules": ["elite_four, oak", "$notItem|elite_four_req, oak"],
 				"hosted_item": "red"
 			}
 		],

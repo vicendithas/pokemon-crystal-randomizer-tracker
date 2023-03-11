@@ -5,14 +5,17 @@
 		"allow_disabled": "false",
 		"stages": [
 			{
-				"img": "images/items/phone_card.png"
+				"img": "images/items/phone_card.png",
+				"codes": "no_beverly"
 			},
 			{
-				"img": "images/chests/default_unopened.png"
+				"img": "images/chests/default_unopened.png",
+				"codes": "no_beverly"
 			},
 			{
 				"img": "images/chests/default_unopened.png",
 				"img_mods": "overlay|images/mod/no64.png",
+				"inherit_codes": false,
 				"codes": "beverly"
 			}
 		]
@@ -23,14 +26,17 @@
 		"allow_disabled": "false",
 		"stages": [
 			{
-				"img": "images/items/phone_card.png"
+				"img": "images/items/phone_card.png",
+				"codes": "no_erin"
 			},
 			{
-				"img": "images/chests/default_unopened.png"
+				"img": "images/chests/default_unopened.png",
+				"codes": "no_erin"
 			},
 			{
 				"img": "images/chests/default_unopened.png",
 				"img_mods": "overlay|images/mod/no64.png",
+				"inherit_codes": false,
 				"codes": "erin"
 			}
 		]
@@ -41,14 +47,17 @@
 		"allow_disabled": "false",
 		"stages": [
 			{
-				"img": "images/items/phone_card.png"
+				"img": "images/items/phone_card.png",
+				"codes": "no_kenji"
 			},
 			{
-				"img": "images/chests/default_unopened.png"
+				"img": "images/chests/default_unopened.png",
+				"codes": "no_kenji"
 			},
 			{
 				"img": "images/chests/default_unopened.png",
 				"img_mods": "overlay|images/mod/no64.png",
+				"inherit_codes": false,
 				"codes": "kenji"
 			}
 		]
@@ -59,14 +68,17 @@
 		"allow_disabled": "false",
 		"stages": [
 			{
-				"img": "images/items/phone_card.png"
+				"img": "images/items/phone_card.png",
+				"codes": "no_vance"
 			},
 			{
-				"img": "images/chests/default_unopened.png"
+				"img": "images/chests/default_unopened.png",
+				"codes": "no_vance"
 			},
 			{
 				"img": "images/chests/default_unopened.png",
 				"img_mods": "overlay|images/mod/no64.png",
+				"inherit_codes": false,
 				"codes": "vance"
 			}
 		]
@@ -77,14 +89,17 @@
 		"allow_disabled": "false",
 		"stages": [
 			{
-				"img": "images/items/phone_card.png"
+				"img": "images/items/phone_card.png",
+				"codes": "no_wilton"
 			},
 			{
-				"img": "images/chests/default_unopened.png"
+				"img": "images/chests/default_unopened.png",
+				"codes": "no_wilton"
 			},
 			{
 				"img": "images/chests/default_unopened.png",
 				"img_mods": "overlay|images/mod/no64.png",
+				"inherit_codes": false,
 				"codes": "wilton"
 			}
 		]
@@ -95,14 +110,17 @@
 		"allow_disabled": "false",
 		"stages": [
 			{
-				"img": "images/items/phone_card.png"
+				"img": "images/items/phone_card.png",
+				"codes": "no_tiffany"
 			},
 			{
-				"img": "images/chests/default_unopened.png"
+				"img": "images/chests/default_unopened.png",
+				"codes": "no_tiffany"
 			},
 			{
 				"img": "images/chests/default_unopened.png",
 				"img_mods": "overlay|images/mod/no64.png",
+				"inherit_codes": false,
 				"codes": "tiffany"
 			}
 		]
@@ -113,14 +131,17 @@
 		"allow_disabled": "false",
 		"stages": [
 			{
-				"img": "images/items/phone_card.png"
+				"img": "images/items/phone_card.png",
+				"codes": "no_tully"
 			},
 			{
-				"img": "images/chests/default_unopened.png"
+				"img": "images/chests/default_unopened.png",
+				"codes": "no_tully"
 			},
 			{
 				"img": "images/chests/default_unopened.png",
 				"img_mods": "overlay|images/mod/no64.png",
+				"inherit_codes": false,
 				"codes": "tully"
 			}
 		]
@@ -131,14 +152,17 @@
 		"allow_disabled": "false",
 		"stages": [
 			{
-				"img": "images/items/phone_card.png"
+				"img": "images/items/phone_card.png",
+				"codes": "no_derek"
 			},
 			{
-				"img": "images/chests/default_unopened.png"
+				"img": "images/chests/default_unopened.png",
+				"codes": "no_derek"
 			},
 			{
 				"img": "images/chests/default_unopened.png",
 				"img_mods": "overlay|images/mod/no64.png",
+				"inherit_codes": false,
 				"codes": "derek"
 			}
 		]
@@ -149,14 +173,17 @@
 		"allow_disabled": "false",
 		"stages": [
 			{
-				"img": "images/items/phone_card.png"
+				"img": "images/items/phone_card.png",
+				"codes": "no_dana"
 			},
 			{
-				"img": "images/chests/default_unopened.png"
+				"img": "images/chests/default_unopened.png",
+				"codes": "no_dana"
 			},
 			{
 				"img": "images/chests/default_unopened.png",
 				"img_mods": "overlay|images/mod/no64.png",
+				"inherit_codes": false,
 				"codes": "dana"
 			}
 		]
@@ -167,14 +194,17 @@
 		"allow_disabled": "false",
 		"stages": [
 			{
-				"img": "images/items/phone_card.png"
+				"img": "images/items/phone_card.png",
+				"codes": "no_alan"
 			},
 			{
-				"img": "images/chests/default_unopened.png"
+				"img": "images/chests/default_unopened.png",
+				"codes": "no_alan"
 			},
 			{
 				"img": "images/chests/default_unopened.png",
 				"img_mods": "overlay|images/mod/no64.png",
+				"inherit_codes": false,
 				"codes": "alan"
 			}
 		]
@@ -185,14 +215,17 @@
 		"allow_disabled": "false",
 		"stages": [
 			{
-				"img": "images/items/phone_card.png"
+				"img": "images/items/phone_card.png",
+				"codes": "no_gina"
 			},
 			{
-				"img": "images/chests/default_unopened.png"
+				"img": "images/chests/default_unopened.png",
+				"codes": "no_gina"
 			},
 			{
 				"img": "images/chests/default_unopened.png",
 				"img_mods": "overlay|images/mod/no64.png",
+				"inherit_codes": false,
 				"codes": "gina"
 			}
 		]
@@ -203,14 +236,17 @@
 		"allow_disabled": "false",
 		"stages": [
 			{
-				"img": "images/items/phone_card.png"
+				"img": "images/items/phone_card.png",
+				"codes": "no_wade"
 			},
 			{
-				"img": "images/chests/default_unopened.png"
+				"img": "images/chests/default_unopened.png",
+				"codes": "no_wade"
 			},
 			{
 				"img": "images/chests/default_unopened.png",
 				"img_mods": "overlay|images/mod/no64.png",
+				"inherit_codes": false,
 				"codes": "wade"
 			}
 		]
@@ -221,14 +257,17 @@
 		"allow_disabled": "false",
 		"stages": [
 			{
-				"img": "images/items/phone_card.png"
+				"img": "images/items/phone_card.png",
+				"codes": "no_joey"
 			},
 			{
-				"img": "images/chests/default_unopened.png"
+				"img": "images/chests/default_unopened.png",
+				"codes": "no_joey"
 			},
 			{
 				"img": "images/chests/default_unopened.png",
 				"img_mods": "overlay|images/mod/no64.png",
+				"inherit_codes": false,
 				"codes": "joey"
 			}
 		]
@@ -239,14 +278,17 @@
 		"allow_disabled": "false",
 		"stages": [
 			{
-				"img": "images/items/phone_card.png"
+				"img": "images/items/phone_card.png",
+				"codes": "no_jose"
 			},
 			{
-				"img": "images/chests/default_unopened.png"
+				"img": "images/chests/default_unopened.png",
+				"codes": "no_jose"
 			},
 			{
 				"img": "images/chests/default_unopened.png",
 				"img_mods": "overlay|images/mod/no64.png",
+				"inherit_codes": false,
 				"codes": "jose"
 			}
 		]
@@ -257,14 +299,17 @@
 		"allow_disabled": "false",
 		"stages": [
 			{
-				"img": "images/items/phone_card.png"
+				"img": "images/items/phone_card.png",
+				"codes": "no_huey"
 			},
 			{
-				"img": "images/chests/default_unopened.png"
+				"img": "images/chests/default_unopened.png",
+				"codes": "no_huey"
 			},
 			{
 				"img": "images/chests/default_unopened.png",
 				"img_mods": "overlay|images/mod/no64.png",
+				"inherit_codes": false,
 				"codes": "huey"
 			}
 		]

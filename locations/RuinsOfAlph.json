@@ -31,14 +31,15 @@
 				"name": "Unown Dex",
 				"access_rules": ["unown"],
 				"visibility_rules": ["pokemon_locked"],
-				"item_count": 1
+				"hosted_item": "unowndex_check"
 			}
 		],
 		"map_locations": [
 			{
 				"map": "johto_kanto",
 				"x": 702,
-				"y": 622
+				"y": 622,
+				"force_visibility_rules": ["pokemon_locked, no_unowndex_check"]
 			}
 		]
 	}

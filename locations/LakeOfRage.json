@@ -57,16 +57,17 @@
 			},
 			{   
 				"name": "Biggest Magikarp",
-				"access_rules": ["magikarp, electrode"],
+				"access_rules": ["magikarp, mahogany_rockets"],
 				"visibility_rules": ["pokemon_locked"],
-				"item_count": 1
+				"hosted_item": "biggest_magikarp"
 			}
 		],
 		"map_locations": [
 			{
 				"map": "johto_kanto",
 				"x": 1035,
-				"y": 126
+				"y": 126,
+				"force_visibility_rules": ["@Ecruteak City, pokemon_locked, no_biggest_magikarp"]
 			}
 		]
 	}

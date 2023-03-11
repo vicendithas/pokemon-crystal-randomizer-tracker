@@ -3,7 +3,7 @@
 		"name": "Saffron City",
 		"chest_unopened_img": "images/chests/default_unopened.png",
         "chest_opened_img": "images/chests/default_opened.png",
-		"access_rules": ["squirt_bottle, pass", "@canUseCut, pass", "$noCutTree, pass", "squirt_bottle, ss_ticket"],
+		"access_rules": ["squirt_bottle, pass", "@canUseCut, pass", "$notItem|cut_tree, pass", "squirt_bottle, ss_ticket"],
 		"sections": [
 			{
 				"name": "Fighting Dojo",

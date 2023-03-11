@@ -3,7 +3,7 @@
 		"name": "Goldenrod City",
 		"chest_unopened_img": "images/chests/default_unopened.png",
         "chest_opened_img": "images/chests/default_opened.png",
-		"access_rules": ["squirt_bottle", "@canUseCut", "$noCutTree"],
+		"access_rules": ["squirt_bottle", "@canUseCut", "$notItem|cut_tree"],
 		"sections": [
 			{
 				"name": "Bike Shop",
@@ -34,7 +34,7 @@
 			{
 				"name": "Goldenrod Game Corner",
 				"visibility_rules": ["game_corner"],
-				"access_rules": ["coin_case, [team_rocket]"],
+				"access_rules": ["coin_case, [radio_tower]"],
 				"chest_unopened_img": "images/chests/mart_unopened.png",
 				"chest_opened_img": "images/chests/mart_opened.png",
 				"item_count": 1

@@ -3,7 +3,7 @@
 		"name": "Goldenrod Dept. Store",
 		"chest_unopened_img": "images/chests/default_unopened.png",
         "chest_opened_img": "images/chests/default_opened.png",
-		"access_rules": ["squirt_bottle", "@canUseCut", "$noCutTree"],
+		"access_rules": ["squirt_bottle", "@canUseCut", "$notItem|cut_tree"],
 		"sections": [
 			{
 				"name": "Mart Basement Behind Containers",
@@ -21,12 +21,12 @@
 			},
 			{
 				"name": "Buy Water Stone",
-				"visibility_rules": ["full_item, $noShopsanity"],
+				"visibility_rules": ["full_item, $notItem|shopsanity"],
 				"hosted_item": "water_stone"
 			},
 			{
 				"name": "Buy Rock Smash",
-				"access_rules": ["rocksmashguy, $noShopsanity"],
+				"access_rules": ["rocksmashguy, $notItem|shopsanity"],
 				"visibility_rules": ["full_item"],
 				"hosted_item": "tm08"
 			},

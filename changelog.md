@@ -6,6 +6,9 @@ Fixed a spelling mistake (why is it so hard to spell Fuchsia?)
 Added GS Ball modifier (and item)\
 Added Game Corner modifier\
 Added Buena's Password modifier\
+Refactored some names for clarity\
+Fixed logic of a couple phone call trainers (making Radio Tower an optional requirement since you can do it early)\
+Added logic to force pokemon locked checks to always be visible (to remind the player that the check is available)\
 
 ## 5.1 (not published)
 Fixed an error with Elite Four access logic (yet another issue introduced with the Snorlax change)\

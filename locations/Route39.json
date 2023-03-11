@@ -41,7 +41,8 @@
 			{
 				"map": "johto_kanto",
 				"x": 285,
-				"y": 371
+				"y": 371,
+				"force_visibility_rules": ["@Ecruteak City, phone_items, pokemon_locked, no_derek"]
 			}
 		]
 	}

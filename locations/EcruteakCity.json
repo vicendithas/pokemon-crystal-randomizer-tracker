@@ -3,7 +3,7 @@
 		"name": "Ecruteak City",
 		"chest_unopened_img": "images/chests/default_unopened.png",
         "chest_opened_img": "images/chests/default_opened.png",
-		"access_rules": ["squirt_bottle", "pass,ss_ticket,@canUseCut", "pass,ss_ticket,$noCutTree"],
+		"access_rules": ["squirt_bottle", "pass,ss_ticket,@canUseCut", "pass,ss_ticket,$notItem|cut_tree"],
 		"sections": [
 			{
 				"name": "House",

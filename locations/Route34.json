@@ -3,7 +3,7 @@
 		"name": "Route 34",
 		"chest_unopened_img": "images/chests/default_unopened.png",
         "chest_opened_img": "images/chests/default_opened.png",
-		"access_rules": ["squirt_bottle", "@canUseCut", "$noCutTree"],
+		"access_rules": ["squirt_bottle", "@canUseCut", "$notItem|cut_tree"],
 		"sections": [
 			{   
 				"name": "TM12 - Sweet Scent (Ilex Gate)",
@@ -42,7 +42,7 @@
 			},
 			{   
 				"name": "Picknicker Gina",
-				"access_rules": ["pokegear, [team_rocket]"],
+				"access_rules": ["pokegear, [radio_tower]"],
 				"visibility_rules": ["phone_items"],
 				"hosted_item": "gina"
 			}

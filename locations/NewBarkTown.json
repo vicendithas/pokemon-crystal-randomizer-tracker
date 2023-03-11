@@ -29,7 +29,7 @@
 				"name": "Show Elm Togepi/Togetic",
 				"access_rules": ["togepi"],
 				"visibility_rules": ["pokemon_locked"],
-				"item_count": 1
+				"hosted_item": "elm_togepi"
 			},
 			{
 				"name": "Defeat Elite Four",
@@ -41,7 +41,8 @@
 			{
 				"map": "johto_kanto",
 				"x": 1365,
-				"y": 868
+				"y": 868,
+				"force_visibility_rules": ["pokemon_locked, no_elm_togepi"]
 			}
         ]
 	}

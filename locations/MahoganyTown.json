@@ -39,16 +39,16 @@
 			{
 				"name": "HM06 - Whirlpool (Lance)",
 				"access_rules": ["red_gyarados"],
-				"hosted_item": "electrode"
+				"hosted_item": "mahogany_rockets"
 			},
 			{
 				"name": "Badge (Pryce)",
-				"access_rules": ["electrode"],
+				"access_rules": ["mahogany_rockets"],
 				"hosted_item": "pryce"
 			},
 			{
 				"name": "TM16 - Icy Wind (Pryce)",
-				"access_rules": ["electrode"],
+				"access_rules": ["mahogany_rockets"],
 				"visibility_rules": ["full_item", "tms"],
 				"chest_unopened_img": "images/chests/tm_hm_unopened.png",
 				"chest_opened_img": "images/chests/tm_hm_opened.png",
@@ -63,7 +63,7 @@
 			},
 			{
 				"name": "Mahogany Shop Post-Rockets",
-				"access_rules": ["team_rocket"],
+				"access_rules": ["radio_tower"],
 				"visibility_rules": ["shopsanity"],
 				"chest_unopened_img": "images/chests/mart_unopened.png",
 				"chest_opened_img": "images/chests/mart_opened.png",

@@ -12,7 +12,7 @@
 			},
 			{   
 				"name": "TM36 - Sludge Bomb (Post Rockets)",
-				"access_rules": ["electrode"],
+				"access_rules": ["mahogany_rockets"],
 				"visibility_rules": ["full_item", "tms"],
 				"chest_unopened_img": "images/chests/tm_hm_unopened.png",
 				"chest_opened_img": "images/chests/tm_hm_opened.png",
@@ -38,7 +38,8 @@
 			{
 				"map": "johto_kanto",
 				"x": 1035,
-				"y": 206
+				"y": 206,
+				"force_visibility_rules": ["@Ecruteak City, phone_items, pokemon_locked, no_tiffany"]
 			}
 		]
 	}

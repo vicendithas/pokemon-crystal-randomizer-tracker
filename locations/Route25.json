@@ -64,7 +64,14 @@
 			{
 				"map": "johto_kanto",
 				"x": 2452,
-				"y": 204
+				"y": 204,
+				"force_visibility_rules": [
+					"@Saffron City, pokemon_locked, no_bill_gpa_1",
+					"@Saffron City, pokemon_locked, no_bill_gpa_2",
+					"@Saffron City, pokemon_locked, no_bill_gpa_3",
+					"@Saffron City, pokemon_locked, no_bill_gpa_4",
+					"@Saffron City, pokemon_locked, no_bill_gpa_5"
+				]
 			}
 		]
 	}

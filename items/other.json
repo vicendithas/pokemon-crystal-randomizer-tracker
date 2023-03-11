@@ -5,12 +5,14 @@
 		"allow_disabled": "false",
 		"stages": [
 			{
-				"img": "images/other/team_rocket.png"
+				"img": "images/other/team_rocket.png",
+				"codes": "no_radio_tower"
 			},
 			{
 				"img": "images/other/team_rocket.png",
 				"img_mods": "overlay|images/mod/no64.png",
-				"codes": "team_rocket"
+				"inherit_codes": false,
+				"codes": "radio_tower"
 			}
 		]
     },
@@ -38,10 +40,12 @@
 		"allow_disabled": "false",
 		"stages": [
 			{
-				"img": "images/chests/tm_hm_unopened.png"
+				"img": "images/chests/tm_hm_unopened.png",
+				"codes": "no_rocksmashguy"
 			},
 			{
 				"img": "images/chests/tm_hm_opened.png",
+				"inherit_codes": false,
 				"codes": "rocksmashguy"
 			}
         ]
@@ -52,11 +56,13 @@
 		"allow_disabled": "false",
 		"stages": [
 			{
-				"img": "images/pokemon/spearow.png"
+				"img": "images/pokemon/spearow.png",
+				"codes": "no_kenya"
 			},
 			{
 				"img": "images/pokemon/spearow.png",
 				"img_mods": "overlay|images/mod/no40.png",
+				"inherit_codes": false,
 				"codes": "kenya"
 			}
 		]
@@ -67,10 +73,12 @@
 		"allow_disabled": "false",
 		"stages": [
 			{
-				"img": "images/chests/tm_hm_unopened.png"
+				"img": "images/chests/tm_hm_unopened.png",
+				"codes": "no_deliver_mail"
 			},
 			{
 				"img": "images/chests/tm_hm_opened.png",
+				"inherit_codes": false,
 				"codes": "deliver_mail"
 			}
         ]
@@ -81,11 +89,13 @@
 		"allow_disabled": "false",
 		"stages": [
 			{
-				"img": "images/other/team_rocket.png"
+				"img": "images/other/team_rocket.png",
+				"codes": "no_slowpoke_well"
 			},
 			{
 				"img": "images/other/team_rocket.png",
 				"img_mods": "overlay|images/mod/no64.png",
+				"inherit_codes": false,
 				"codes": "slowpoke_well"
 			}
         ]
@@ -96,10 +106,12 @@
 		"allow_disabled": "false",
 		"stages": [
 			{
-				"img": "images/chests/tm_hm_unopened.png"
+				"img": "images/chests/tm_hm_unopened.png",
+				"codes": "no_farfetch'd"
 			},
 			{
 				"img": "images/chests/tm_hm_opened.png",
+				"inherit_codes": false,
 				"codes": "farfetch'd"
 			}
         ]
@@ -110,11 +122,13 @@
 		"allow_disabled": "false",
 		"stages": [
 			{
-				"img": "images/chests/tm_hm_unopened.png"
+				"img": "images/chests/tm_hm_unopened.png",
+				"codes": "no_mahogany_rockets"
 			},
 			{
 				"img": "images/chests/tm_hm_opened.png",
-				"codes": "electrode"
+				"inherit_codes": false,
+				"codes": "mahogany_rockets"
 			}
         ]
     },
@@ -124,11 +138,13 @@
 		"allow_disabled": "false",
 		"stages": [
 			{
-				"img": "images/other/oak.png"
+				"img": "images/other/oak.png",
+				"codes": "no_oak"
 			},
 			{
 				"img": "images/other/oak.png",
 				"img_mods": "overlay|images/mod/no64.png",
+				"inherit_codes": false,
 				"codes": "oak"
 			}
 		]
@@ -139,11 +155,13 @@
 		"allow_disabled": "false",
 		"stages": [
 			{
-				"img": "images/gyms/jasmine.png"
+				"img": "images/gyms/jasmine.png",
+				"codes": "no_talk_jasmine"
 			},
 			{
 				"img": "images/gyms/jasmine.png",
 				"img_mods": "overlay|images/mod/no56.png",
+				"inherit_codes": false,
 				"codes": "talk_jasmine"
 			}
 		]
@@ -154,11 +172,13 @@
 		"allow_disabled": "false",
 		"stages": [
 			{
-				"img": "images/items/secret_potion.png"
+				"img": "images/items/secret_potion.png",
+				"codes": "no_return_potion"
 			},
 			{
 				"img": "images/items/secret_potion.png",
 				"img_mods": "overlay|images/mod/no64.png",
+				"inherit_codes": false,
 				"codes": "return_potion"
 			}
 		]
@@ -169,11 +189,13 @@
 		"allow_disabled": "false",
 		"stages": [
 			{
-				"img": "images/gyms/clair.png"
+				"img": "images/gyms/clair.png",
+				"codes": "no_clair_test"
 			},
 			{
 				"img": "images/gyms/clair.png",
 				"img_mods": "overlay|images/mod/no56.png",
+				"inherit_codes": false,
 				"codes": "clair_test"
 			}
 		]
@@ -184,11 +206,13 @@
 		"allow_disabled": "false",
 		"stages": [
 			{
-				"img": "images/gyms/blue.png"
+				"img": "images/gyms/blue.png",
+				"codes": "no_talk_blue"
 			},
 			{
 				"img": "images/gyms/blue.png",
 				"img_mods": "overlay|images/mod/no56.png",
+				"inherit_codes": false,
 				"codes": "talk_blue"
 			}
 		]
@@ -199,11 +223,13 @@
 		"allow_disabled": "false",
 		"stages": [
 			{
-				"img": "images/gyms/misty.png"
+				"img": "images/gyms/misty.png",
+				"codes": "no_talk_misty"
 			},
 			{
 				"img": "images/gyms/misty.png",
 				"img_mods": "overlay|images/mod/no56.png",
+				"inherit_codes": false,
 				"codes": "talk_misty"
 			}
 		]
@@ -214,11 +240,13 @@
 		"allow_disabled": "false",
 		"stages": [
 			{
-				"img": "images/other/power_plant_manager.png"
+				"img": "images/other/power_plant_manager.png",
+				"codes": "no_power_plant_manager"
 			},
 			{
 				"img": "images/other/power_plant_manager.png",
 				"img_mods": "overlay|images/mod/no64.png",
+				"inherit_codes": false,
 				"codes": "power_plant_manager"
 			}
 		]
@@ -229,10 +257,12 @@
 		"allow_disabled": "false",
 		"stages": [
 			{
-				"img": "images/chests/tm_hm_unopened.png"
+				"img": "images/chests/tm_hm_unopened.png",
+				"codes": "no_fix_power_plant"
 			},
 			{
 				"img": "images/chests/tm_hm_opened.png",
+				"inherit_codes": false,
 				"codes": "fix_power_plant"
 			}
         ]
@@ -243,11 +273,13 @@
 		"allow_disabled": "false",
 		"stages": [
 			{
-				"img": "images/pokemon/red_gyarados.png"
+				"img": "images/pokemon/red_gyarados.png",
+				"codes": "no_red_gyarados"
 			},
 			{
 				"img": "images/pokemon/red_gyarados.png",
 				"img_mods": "overlay|images/mod/no56.png",
+				"inherit_codes": false,
 				"codes": "red_gyarados"
 			}
 		]
@@ -258,11 +290,13 @@
 		"allow_disabled": "false",
 		"stages": [
 			{
-				"img": "images/pokemon/ho-oh.png"
+				"img": "images/pokemon/ho-oh.png",
+				"codes": "no_ho-oh"
 			},
 			{
 				"img": "images/pokemon/ho-oh.png",
 				"img_mods": "overlay|images/mod/no56.png",
+				"inherit_codes": false,
 				"codes": "ho-oh"
 			}
 		]
@@ -273,11 +307,13 @@
 		"allow_disabled": "false",
 		"stages": [
 			{
-				"img": "images/other/ss_aqua.png"
+				"img": "images/other/ss_aqua.png",
+				"codes": "no_boat_quest"
 			},
 			{
 				"img": "images/other/ss_aqua.png",
 				"img_mods": "overlay|images/mod/no120.png",
+				"inherit_codes": false,
 				"codes": "boat_quest"
 			}
 		]
@@ -288,11 +324,13 @@
 		"allow_disabled": "false",
 		"stages": [
 			{
-				"img": "images/pokemon/scyther.png"
+				"img": "images/pokemon/scyther.png",
+				"codes": "no_bcg_first"
 			},
 			{
 				"img": "images/pokemon/scyther.png",
 				"img_mods": "overlay|images/mod/no56.png",
+				"inherit_codes": false,
 				"codes": "bcg_first"
 			}
 		]
@@ -303,11 +341,13 @@
 		"allow_disabled": "false",
 		"stages": [
 			{
-				"img": "images/pokemon/beedrill.png"
+				"img": "images/pokemon/beedrill.png",
+				"codes": "no_bcg_second"
 			},
 			{
 				"img": "images/pokemon/beedrill.png",
 				"img_mods": "overlay|images/mod/no56.png",
+				"inherit_codes": false,
 				"codes": "bcg_second"
 			}
 		]
@@ -318,11 +358,13 @@
 		"allow_disabled": "false",
 		"stages": [
 			{
-				"img": "images/pokemon/venonat.png"
+				"img": "images/pokemon/venonat.png",
+				"codes": "no_bcg_third"
 			},
 			{
 				"img": "images/pokemon/venonat.png",
 				"img_mods": "overlay|images/mod/no40.png",
+				"inherit_codes": false,
 				"codes": "bcg_third"
 			}
 		]
@@ -333,11 +375,13 @@
 		"allow_disabled": "false",
 		"stages": [
 			{
-				"img": "images/pokemon/caterpie.png"
+				"img": "images/pokemon/caterpie.png",
+				"codes": "no_bcg_consolation"
 			},
 			{
 				"img": "images/pokemon/caterpie.png",
 				"img_mods": "overlay|images/mod/no40.png",
+				"inherit_codes": false,
 				"codes": "bcg_consolation"
 			}
 		]
@@ -348,11 +392,13 @@
 		"allow_disabled": "false",
 		"stages": [
 			{
-				"img": "images/pokemon/lickitung.png"
+				"img": "images/pokemon/lickitung.png",
+				"codes": "no_bill_gpa_1"
 			},
 			{
 				"img": "images/pokemon/lickitung.png",
 				"img_mods": "overlay|images/mod/no56.png",
+				"inherit_codes": false,
 				"codes": "bill_gpa_1"
 			}
 		]
@@ -363,11 +409,13 @@
 		"allow_disabled": "false",
 		"stages": [
 			{
-				"img": "images/pokemon/oddish.png"
+				"img": "images/pokemon/oddish.png",
+				"codes": "no_bill_gpa_2"
 			},
 			{
 				"img": "images/pokemon/oddish.png",
 				"img_mods": "overlay|images/mod/no32.png",
+				"inherit_codes": false,
 				"codes": "bill_gpa_2"
 			}
 		]
@@ -378,11 +426,13 @@
 		"allow_disabled": "false",
 		"stages": [
 			{
-				"img": "images/pokemon/staryu.png"
+				"img": "images/pokemon/staryu.png",
+				"codes": "no_bill_gpa_3"
 			},
 			{
 				"img": "images/pokemon/staryu.png",
 				"img_mods": "overlay|images/mod/no48.png",
+				"inherit_codes": false,
 				"codes": "bill_gpa_3"
 			}
 		]
@@ -393,11 +443,13 @@
 		"allow_disabled": "false",
 		"stages": [
 			{
-				"img": "images/pokemon/growlithe.png"
+				"img": "images/pokemon/growlithe.png",
+				"codes": "no_bill_gpa_4"
 			},
 			{
 				"img": "images/pokemon/growlithe.png",
 				"img_mods": "overlay|images/mod/no40.png",
+				"inherit_codes": false,
 				"codes": "bill_gpa_4"
 			}
 		]
@@ -408,12 +460,65 @@
 		"allow_disabled": "false",
 		"stages": [
 			{
-				"img": "images/pokemon/pichu.png"
+				"img": "images/pokemon/pichu.png",
+				"codes": "no_bill_gpa_5"
 			},
 			{
 				"img": "images/pokemon/pichu.png",
 				"img_mods": "overlay|images/mod/no40.png",
+				"inherit_codes": false,
 				"codes": "bill_gpa_5"
+			}
+		]
+    },
+	{
+        "name": "Show Elm Togepi/Togetic",
+        "type": "progressive",
+		"allow_disabled": "false",
+		"stages": [
+			{
+				"img": "images/chests/default_unopened.png",
+				"codes": "no_elm_togepi"
+			},
+			{
+				"img": "images/chests/default_unopened.png",
+				"img_mods": "overlay|images/mod/no64.png",
+				"inherit_codes": false,
+				"codes": "elm_togepi"
+			}
+		]
+    },
+	{
+        "name": "Biggest Magikarp",
+        "type": "progressive",
+		"allow_disabled": "false",
+		"stages": [
+			{
+				"img": "images/chests/default_unopened.png",
+				"codes": "no_biggest_magikarp"
+			},
+			{
+				"img": "images/chests/default_unopened.png",
+				"img_mods": "overlay|images/mod/no64.png",
+				"inherit_codes": false,
+				"codes": "biggest_magikarp"
+			}
+		]
+    },
+	{
+        "name": "Unown Dex",
+        "type": "progressive",
+		"allow_disabled": "false",
+		"stages": [
+			{
+				"img": "images/chests/default_unopened.png",
+				"codes": "no_unowndex_check"
+			},
+			{
+				"img": "images/chests/default_unopened.png",
+				"img_mods": "overlay|images/mod/no64.png",
+				"inherit_codes": false,
+				"codes": "unowndex_check"
 			}
 		]
     }

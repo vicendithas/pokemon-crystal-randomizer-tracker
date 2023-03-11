@@ -3,7 +3,7 @@
 		"name": "Goldenrod Radio Tower",
 		"chest_unopened_img": "images/chests/default_unopened.png",
         "chest_opened_img": "images/chests/default_opened.png",
-		"access_rules": ["squirt_bottle", "@canUseCut", "$noCutTree"],
+		"access_rules": ["squirt_bottle", "@canUseCut", "$notItem|cut_tree"],
 		"sections": [
 			{   
 				"name": "Radio Card",
@@ -21,18 +21,18 @@
 			{
 				"name": "Defeat Team Rocket",
 				"access_rules": ["$canFightTeamRocket,card_key"],
-				"hosted_item": "team_rocket"
+				"hosted_item": "radio_tower"
 			},
 			{
 				"name": "After Defeating Team Rocket",
-				"access_rules": ["team_rocket"],
+				"access_rules": ["radio_tower"],
 				"visibility_rules": ["full_item"],
 				"clear_as_group": false,
 				"item_count": 2
 			},
 			{
 				"name": "TM11 - Sunny Day (Post Rocket)",
-				"access_rules": ["team_rocket"],
+				"access_rules": ["radio_tower"],
 				"visibility_rules": ["full_item", "tms"],
 				"chest_unopened_img": "images/chests/tm_hm_unopened.png",
 				"chest_opened_img": "images/chests/tm_hm_opened.png",
@@ -40,7 +40,7 @@
 			},
 			{
 				"name": "Buena's Password",
-				"access_rules": ["blue_card, [team_rocket]"],
+				"access_rules": ["blue_card, [radio_tower]"],
 				"visibility_rules": ["buena_pass"],
 				"chest_unopened_img": "images/chests/mart_unopened.png",
 				"chest_opened_img": "images/chests/mart_opened.png",

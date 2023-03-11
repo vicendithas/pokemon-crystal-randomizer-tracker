@@ -14,19 +14,19 @@
 			{
 				"name": "Defeat Clair",
 				"visibility_rules": ["vanilla_clair"],
-				"access_rules": ["team_rocket"],
+				"access_rules": ["radio_tower"],
 				"hosted_item": "clair"
 			},
 			{
 				"name": "Badge (Clair)",
-				"visibility_rules": ["$noVanillaClair"],
-				"access_rules": ["team_rocket"],
+				"visibility_rules": ["$notItem|vanilla_clair"],
+				"access_rules": ["radio_tower"],
 				"hosted_item": "clair"
 			},
 			{
 				"name": "TM24 - Dragonbreath (Clair)",
-				"access_rules": ["team_rocket"],
-				"visibility_rules": ["$noVanillaClair, full_item", "$noVanillaClair, tms"],
+				"access_rules": ["radio_tower"],
+				"visibility_rules": ["$notItem|vanilla_clair, full_item", "$notItem|vanilla_clair, tms"],
 				"chest_unopened_img": "images/chests/tm_hm_unopened.png",
 				"chest_opened_img": "images/chests/tm_hm_opened.png",
 				"item_count": 1

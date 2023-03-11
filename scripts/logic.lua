@@ -19,18 +19,6 @@ function haveEightBadges()
 	return badges >= 8
 end
 
-function noEliteFour()
-	return not Tracker:FindObjectForCode("elite_four_req").Active
-end
-
-function noVanillaClair()
-	return not Tracker:FindObjectForCode("vanilla_clair").Active
-end
-
-function noCutTree()
-	return not Tracker:FindObjectForCode("cut_tree").Active
-end
-
-function noShopsanity()
-	return not Tracker:FindObjectForCode("shopsanity").Active
+function notItem(code)
+	return not Tracker:FindObjectForCode(code).Active
 end
