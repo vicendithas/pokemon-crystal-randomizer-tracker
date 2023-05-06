@@ -40,7 +40,7 @@
 			},
 			{
 				"name": "Buena's Password",
-				"access_rules": ["blue_card, [radio_tower]"],
+				"access_rules": ["blue_card"],
 				"visibility_rules": ["buena_pass"],
 				"chest_unopened_img": "images/chests/mart_unopened.png",
 				"chest_opened_img": "images/chests/mart_opened.png",
