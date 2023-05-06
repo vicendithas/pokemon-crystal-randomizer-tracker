@@ -33,6 +33,12 @@
 				"access_rules": ["pokegear"],
 				"visibility_rules": ["phone_items"],
 				"hosted_item": "kenji"
+			},
+			{   
+				"name": "Hiker Parry (Rematches)",
+				"access_rules": ["pokegear, fix_power_plant"],
+				"visibility_rules": ["phone_items"],
+				"hosted_item": "parry"
 			}
 		],
 		"map_locations": [
