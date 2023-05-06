@@ -313,5 +313,26 @@
 				"codes": "huey"
 			}
 		]
+    },
+	{
+        "name": "Parry",
+        "type": "progressive",
+		"allow_disabled": "false",
+		"stages": [
+			{
+				"img": "images/items/phone_card.png",
+				"codes": "no_parry"
+			},
+			{
+				"img": "images/chests/default_unopened.png",
+				"codes": "no_parry"
+			},
+			{
+				"img": "images/chests/default_unopened.png",
+				"img_mods": "overlay|images/mod/no64.png",
+				"inherit_codes": false,
+				"codes": "parry"
+			}
+		]
     }
 ]
