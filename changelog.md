@@ -2,7 +2,7 @@
 ## 6.0
 Added Shopsanity support (thanks to 461weavile for putting that together)\
 Split Goldenrod Department Store into a separate location (Goldenrod too OP)\
-Fixed a spelling mistake (why is it so hard to spell Fuchsia?)
+Fixed a spelling mistake (why is it so hard to spell Fuchsia?)\
 Added GS Ball modifier (and item)\
 Added Game Corner modifier\
 Added Buena's Password modifier\
