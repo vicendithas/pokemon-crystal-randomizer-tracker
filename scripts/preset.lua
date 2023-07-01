@@ -36,8 +36,8 @@ function Preset:onLeftClick()
 	if	self.code == "full_vintage"				then	presetSettings = {	true,	false,	true,	true,	true,	false,	false,	false,	false,	false,	false,	false,	false,	false,	false,	false,	false,	false,	false,	false}	end
 	if	self.code == "full_tricky"				then	presetSettings = {	true,	false,	false,	true,	true,	false,	true,	false,	false,	false,	false,	false,	false,	false,	false,	false,	false,	false,	false,	false}	end
 	if	self.code == "full_extreme"				then	presetSettings = {	true,	false,	false,	true,	true,	false,	true,	false,	false,	false,	false,	false,	false,	false,	true,	false,	false,	false,	false,	false}	end
-	if	self.code == "full_crazy"				then	presetSettings = {	true,	false,	false,	true,	true,	false,	true,	true,	true,	false,	false,	false,	false,	false,	false,	false,	false,	false,	false,	false}	end
-	if	self.code == "full_maximum"				then	presetSettings = {	true,	true,	false,	true,	true,	false,	true,	true,	true,	true,	true,	true,	true,	true,	false,	false,	false,	false,	false,	false}	end
+	if	self.code == "full_crazy"				then	presetSettings = {	true,	true,	false,	true,	true,	false,	true,	true,	true,	false,	false,	false,	false,	false,	true,	false,	false,	false,	false,	false}	end
+	if	self.code == "full_maximum"				then	presetSettings = {	true,	true,	false,	true,	true,	false,	true,	true,	true,	true,	true,	true,	true,	true,	true,	false,	true,	true,	true,	true}	end
 	if	self.code == "full_nightmare"			then	presetSettings = {	true,	false,	true,	true,	true,	false,	true,	true,	true,	true,	true,	true,	true,	true,	false,	false,	false,	false,	false,	false}	end
 	if	self.code == "key_easy_classic"			then	presetSettings = {	false,	false,	false,	false,	false,	true,	false,	false,	false,	false,	false,	false,	false,	false,	false,	false,	false,	false,	false,	false}	end
 	if	self.code == "key_tricky_extreme"		then	presetSettings = {	false,	false,	false,	false,	true,	false,	true,	false,	false,	false,	false,	false,	false,	false,	false,	false,	false,	false,	false,	false}	end
