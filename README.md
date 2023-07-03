@@ -106,7 +106,7 @@ ZaidusRecon for the detailed maps\
 ERC for his work on the Crystal Item Randomizer\
 Chaotix on their work adding even more items to the Crystal Item Randomizer\
 461weavile for their work on adding Shopsanity to this pack\
-Snowbear22 for his work in suggesting the original tracker to StormRider and helping keep this tracker up to date and bug free\  
+Snowbear22 for his work in suggesting the original tracker to StormRider and helping keep this tracker up to date and bug free\
 Pret whose combined efforts on Pokemon disassembly have made these kinds of randomizer possible\
 Dabomstew for the Universal Pokemon Randomizer and the Crystal Speedchoice projects that make randomization and speedrunning easier\
 Pokemon Randomizer community

@@ -1,4 +1,8 @@
 # Changelog
+
+## 6.1
+Updated the presets to accurately reflect recent changes and additions of settings
+
 ## 6.0
 Added Shopsanity support (thanks to 461weavile for putting that together)\
 Split Goldenrod Department Store into a separate location (Goldenrod too OP)\
@@ -8,7 +12,7 @@ Added Game Corner modifier\
 Added Buena's Password modifier\
 Refactored some names for clarity\
 Fixed logic of a couple phone call trainers (making Radio Tower an optional requirement since you can do it early)\
-Added logic to force pokemon locked checks to always be visible (to remind the player that the check is available)\
+Added logic to force pokemon locked checks to always be visible (to remind the player that the check is available)
 
 ## 5.1 (not published)
 Fixed an error with Elite Four access logic (yet another issue introduced with the Snorlax change)\
@@ -60,11 +64,11 @@ Added National Park Hidden Item
 
 ## 4.0
 Added a lot of new settings:
-1. Open Mt. Silver (Route 28 and Mt. Silver are accessible as soon as the player can reach the League Gate)
-2. Phone Call Trainers (some trainers will give you their phone number and call to offer items)
-3. Pokemon Locked Checks (Bill's Grandfather, Elm's Everstone, Lake of Rage Biggest Magikarp, and some of the phone call trainers require specific Pokemon)
-4. Pointless Checks (a couple less than useful checks)
-5. Removed E.V.I.L and added Bug Catching Contest as it's own modifier.
+Open Mt. Silver (Route 28 and Mt. Silver are accessible as soon as the player can reach the League Gate)\
+Phone Call Trainers (some trainers will give you their phone number and call to offer items)\
+Pokemon Locked Checks (Bill's Grandfather, Elm's Everstone, Lake of Rage Biggest Magikarp, and some of the phone call trainers require specific Pokemon)\
+Pointless Checks (a couple less than useful checks)\
+Removed E.V.I.L and added Bug Catching Contest as it's own modifier.
 
 ## 3.1.1
 Fixed an error with the logic of the Sandstorm TM location\
@@ -111,7 +115,7 @@ Reworked logic surrounding Kanto Access and Backward Kanto to fix problems with 
 Split Route 2 to separate Viridian Forest Hedge Maze (to better indicate the location of the items)
 
 ## 1.3.1
-Fixed an error with Classic Key Item
+Fixed an error with Classic Key Item\
 
 ## 1.3
 Merged the Full Item and Key Item trackers into a single tracker (added "Full Item" setting)\
