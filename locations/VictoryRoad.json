@@ -3,7 +3,7 @@
 		"name": "Victory Road",
 		"chest_unopened_img": "images/chests/default_unopened.png",
         "chest_opened_img": "images/chests/default_opened.png",
-		"access_rules": ["@canUseSurf, @canUseWaterfall, $haveEightBadges", "@Saffron City, @snorlaxAvailable, @canUseCut"],
+		"access_rules": ["@canUseSurf, @canUseWaterfall, $haveEightBadges", "@Saffron City, @allRadioPieces, @canUseCut"],
 		"sections": [
 			{
 				"name": "1F Ground",

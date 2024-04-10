@@ -114,3 +114,4 @@ Pokemon Randomizer community
 ## TODO (future plans)
 
 1. Update maps to include every route, cave, and building where items are located.
+2. Update Post-Rocket Shop in Mahogany to include beating Clair as a possible unlock

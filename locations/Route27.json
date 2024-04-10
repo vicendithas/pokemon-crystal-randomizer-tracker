@@ -17,7 +17,7 @@
 			},
 			{
 				"name": "TM37 - Sandstorm (House)",
-				"access_rules": ["@canUseWaterfall", "@Saffron City, @snorlaxAvailable, @canUseCut"],
+				"access_rules": ["@canUseWaterfall", "@Saffron City, @allRadioPieces, @canUseCut"],
 				"visibility_rules": ["day_happiness", "tms"],
 				"chest_unopened_img": "images/chests/tm_hm_unopened.png",
 				"chest_opened_img": "images/chests/tm_hm_opened.png",
@@ -25,7 +25,7 @@
 			},
 			{
 				"name": "TM22 - Solar Beam (Whirlpool)",
-				"access_rules": ["@canUseWaterfall, @canUseWhirlpool", "@Saffron City, @snorlaxAvailable, @canUseCut, @canUseWhirlpool"],
+				"access_rules": ["@canUseWaterfall, @canUseWhirlpool", "@Saffron City, @allRadioPieces, @canUseCut, @canUseWhirlpool"],
 				"visibility_rules": ["full_item", "tms"],
 				"chest_unopened_img": "images/chests/tm_hm_unopened.png",
 				"chest_opened_img": "images/chests/tm_hm_opened.png",
@@ -33,7 +33,7 @@
 			},
 			{   
 				"name": "Birdkeeper Jose",
-				"access_rules": ["pokegear, @canUseWaterfall, @canUseWhirlpool", "@Saffron City, pokegear, @snorlaxAvailable, @canUseCut, @canUseWhirlpool"],
+				"access_rules": ["pokegear, @canUseWaterfall, @canUseWhirlpool", "@Saffron City, pokegear, @allRadioPieces, @canUseCut, @canUseWhirlpool"],
 				"visibility_rules": ["phone_items"],
 				"hosted_item": "jose"
 			}

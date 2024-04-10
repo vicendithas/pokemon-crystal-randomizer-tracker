@@ -3,7 +3,7 @@
 		"name": "Route 28",
 		"chest_unopened_img": "images/chests/default_unopened.png",
         "chest_opened_img": "images/chests/default_opened.png",
-		"access_rules": ["oak", "@canUseSurf, @canUseWaterfall, $haveEightBadges, open_silver", "@snorlaxAvailable, @canUseCut, open_silver"],
+		"access_rules": ["oak", "@canUseSurf, @canUseWaterfall, $haveEightBadges, open_silver", "@allRadioPieces, @canUseCut, open_silver"],
 		"sections": [
 			{
 				"name": "TM47 - Steel Wing (House)",

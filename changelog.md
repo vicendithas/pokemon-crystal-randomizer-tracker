@@ -1,5 +1,9 @@
 # Changelog
 
+## 6.2
+Renamed "snorlaxAvailable" to "allRadioPieces" to better reflect what the virtual location actually does\
+Fixed a logic error with Mt. Silver access (did not require Kanto access)
+
 ## 6.1
 Updated the presets to accurately reflect recent changes and additions of settings
 

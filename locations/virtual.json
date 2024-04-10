@@ -24,7 +24,7 @@
         "access_rules": ["hm07,rising_badge"]
     },
 	{
-        "name": "snorlaxAvailable",
+        "name": "allRadioPieces",
         "access_rules": ["pokegear,radio_card,expansion_card"]
     }
 ]
