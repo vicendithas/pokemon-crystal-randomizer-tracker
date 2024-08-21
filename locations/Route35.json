@@ -14,7 +14,7 @@
 			},
 			{
 				"name": "Pick Up Kenya",
-				"visibility_rules": ["full_item"],
+				"visibility_rules": ["full_item", "tms"],
 				"hosted_item": "kenya"
 			},
 			{

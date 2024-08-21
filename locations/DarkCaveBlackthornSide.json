@@ -10,7 +10,15 @@
 				"access_rules": ["@Ecruteak City, @canUseStrength, $canFightTeamRocket, @canUseSurf"],
 				"visibility_rules": ["full_item"],
 				"clear_as_group": false,
-				"item_count": 2
+				"item_count": 1
+			},
+			{
+				"name": "TM13 - Snore",
+				"access_rules": ["@Ecruteak City, @canUseStrength, $canFightTeamRocket, @canUseSurf"],
+				"visibility_rules": ["full_item", "tms"],
+				"chest_unopened_img": "images/chests/tm_hm_unopened.png",
+				"chest_opened_img": "images/chests/tm_hm_opened.png",
+				"item_count": 1
 			},
 			{
 				"name": "Blackglasses Guy",   
